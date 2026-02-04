@@ -9,7 +9,7 @@ import {
   ParallaxCTASection,
   COLORS,
 } from "./components/cari/ParallaxBreathing";
-import Mission from "./components/Mission";
+import MissionSimple from "./components/MissionSimple";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Needs from "./components/Needs";
@@ -309,7 +309,7 @@ function App() {
               translations={translations}
             />
 
-            <Mission
+            <MissionSimple
               currentLanguage={currentLanguage}
               translations={translations}
             />

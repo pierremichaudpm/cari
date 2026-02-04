@@ -89,10 +89,7 @@ const LanguageSelector = ({ onSelectLanguage, onClose }) => {
     overlay: {
       position: "fixed",
       inset: 0,
-      backgroundImage:
-        "linear-gradient(rgba(38, 49, 100, 0.85), rgba(38, 49, 100, 0.85)), url(/images/hero1.webp)",
-      backgroundSize: "cover",
-      backgroundPosition: "center",
+      background: "rgba(38, 49, 100, 0.95)",
       display: "flex",
       alignItems: "center",
       justifyContent: "center",
