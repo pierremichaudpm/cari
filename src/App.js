@@ -7,7 +7,6 @@ import { LanguageSelectorWrapper } from "./components/cari/LanguageSelector";
 import {
   ParallaxStatsSection,
   ParallaxCTASection,
-  COLORS,
 } from "./components/cari/ParallaxBreathing";
 import MissionSimple from "./components/MissionSimple";
 import Header from "./components/Header";
