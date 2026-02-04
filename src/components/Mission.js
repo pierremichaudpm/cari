@@ -50,18 +50,8 @@ const Mission = ({ currentLanguage, translations }) => {
   return (
     <>
       <section id="mission" className="mission-parallax-section">
-        {/* Parallax background with collage */}
-        <div
-          className="mission-parallax-bg"
-        >
-          {images.map((img, index) => (
-            <img
-              key={index}
-              src={img}
-              alt=""
-              className={`mission-collage-image mission-collage-${index + 1}`}
-            />
-          ))}
+        {/* Background with diverse group photo */}
+        <div className="mission-backdrop">
           <div className="mission-overlay"></div>
         </div>
 
@@ -70,13 +60,8 @@ const Mission = ({ currentLanguage, translations }) => {
           <div className="container">
             <div className="mission-content">
               {/* Tagline */}
-              <div className="mission-tagline">
+              <h2 className="mission-tagline">
                 {t.mission?.tagline || "La diversité nous rapproche"}
-              </div>
-
-              {/* Main heading */}
-              <h2 className="mission-title">
-                {t.mission?.title || "Notre mission"}
               </h2>
 
               {/* Mission statement */}
