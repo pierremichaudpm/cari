@@ -79,7 +79,7 @@ const Hero = ({
               <div className="hero-content">
                 <h1
                   className="translatable"
-                  dangerouslySetInnerHTML={{ __html: t.hero.title }}
+                  dangerouslySetInnerHTML={{ __html: "Trouvez votre <span class='highlight'>place</span> au Québec" }}
                 />
                 <p className="hero-subtitle translatable">{t.hero.subtitle}</p>
                 <div className="hero-cta">
