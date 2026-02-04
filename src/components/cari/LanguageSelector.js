@@ -31,7 +31,7 @@ const languages = [
   { code: "ar", name: "Arabic", native: "العربية" },
   { code: "zh", name: "Chinese", native: "中文" },
   { code: "pt", name: "Portuguese", native: "Português" },
-  { code: "hi", name: "Hindi", native: "हिन्दी" },
+  { code: "uk", name: "Ukrainian", native: "Українська" },
   { code: "ur", name: "Urdu", native: "اردو" },
   { code: "ru", name: "Russian", native: "Русский" },
   { code: "vi", name: "Vietnamese", native: "Tiếng Việt" },
