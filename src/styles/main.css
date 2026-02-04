@@ -64,7 +64,6 @@ body {
     padding: calc(0.4rem + 10px) clamp(0.75rem, 2vw, 2rem);
     position: relative;
     box-sizing: border-box;
-    gap: clamp(0.5rem, 1.5vw, 1.5rem);
 }
 
 .logo {
@@ -79,6 +78,12 @@ body {
 .logo img {
     height: 72px;
     width: auto;
+}
+
+.nav-right-group {
+    display: flex;
+    align-items: center;
+    gap: 30px;
 }
 
 @media (max-width: 992px) {
@@ -143,24 +148,20 @@ body {
 }
 
 @media (max-width: 992px) {
+    .nav-right-group {
+        gap: 0.5rem;
+    }
+
     .nav-desktop {
+        display: none;
+    }
+
+    .btn-rdv-header {
         display: none;
     }
 
     .mobile-menu-toggle {
         display: flex;
-        order: 3;
-    }
-
-    .language-switcher {
-        order: 2;
-        margin-left: auto;
-        margin-right: 0.5rem;
-    }
-
-    .logo {
-        order: 1;
-        flex-shrink: 0;
     }
 
     .nav-container {
@@ -282,11 +283,7 @@ body {
     box-shadow: 0 4px 12px rgba(255, 92, 57, 0.3);
 }
 
-@media (max-width: 768px) {
-    .btn-rdv-header {
-        display: none;
-    }
-}
+
 
 .language-switcher {
     position: relative;

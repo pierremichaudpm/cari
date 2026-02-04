@@ -81,59 +81,60 @@ const Header = ({
           <img src="/images/newlogo.webp" alt="CARI St-Laurent" />
         </a>
 
-        <nav className="nav-desktop">
-          <ul className="nav-menu">
-            <li>
-              <a
-                href="#besoins"
-                onClick={(e) => {
-                  e.preventDefault();
-                  scrollToSection("besoins");
-                }}
-                className="nav-link nav-link-bold"
-              >
-                {t.nav.needs}
-              </a>
-            </li>
-            <li>
-              <a
-                href="#activites"
-                onClick={(e) => {
-                  e.preventDefault();
-                  scrollToSection("activites");
-                }}
-                className="nav-link nav-link-bold"
-              >
-                {t.nav.activities}
-              </a>
-            </li>
-            <li>
-              <a
-                href="#nouvelles"
-                onClick={(e) => {
-                  e.preventDefault();
-                  scrollToSection("nouvelles");
-                }}
-                className="nav-link nav-link-bold"
-              >
-                {t.nav.news}
-              </a>
-            </li>
-          </ul>
-        </nav>
+        <div className="nav-right-group">
+          <nav className="nav-desktop">
+            <ul className="nav-menu">
+              <li>
+                <a
+                  href="#besoins"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    scrollToSection("besoins");
+                  }}
+                  className="nav-link nav-link-bold"
+                >
+                  {t.nav.needs}
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#activites"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    scrollToSection("activites");
+                  }}
+                  className="nav-link nav-link-bold"
+                >
+                  {t.nav.activities}
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#nouvelles"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    scrollToSection("nouvelles");
+                  }}
+                  className="nav-link nav-link-bold"
+                >
+                  {t.nav.news}
+                </a>
+              </li>
+            </ul>
+          </nav>
 
-        <a
-          href="#rdv"
-          className="btn-rdv-header"
-          onClick={(e) => {
-            e.preventDefault();
-            scrollToSection("rdv");
-          }}
-        >
-          {t.nav.talkToAdvisor}
-        </a>
+          <a
+            href="#rdv"
+            className="btn-rdv-header"
+            onClick={(e) => {
+              e.preventDefault();
+              scrollToSection("rdv");
+            }}
+          >
+            {t.nav.talkToAdvisor}
+          </a>
 
-        <div className="language-switcher" ref={langDropdownRef}>
+          <div className="language-switcher" ref={langDropdownRef}>
           <div className="language-dropdown">
             <div className="lang-details">
               <button
@@ -162,6 +163,7 @@ const Header = ({
                 </ul>
               )}
             </div>
+          </div>
           </div>
         </div>
 
