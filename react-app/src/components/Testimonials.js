@@ -97,11 +97,8 @@ const Testimonials = ({ currentLanguage, translations }) => {
     <section id="temoignages" className="testimonials-section">
       <div className="container">
         <div className="section-header">
-          <h2 className="section-title">Ils ont réussi avec le CARI</h2>
-          <p className="section-subtitle">
-            Découvrez les histoires inspirantes de ceux qui ont trouvé leur
-            place au Québec
-          </p>
+          <h2 className="section-title">{t.testimonialsSection.title}</h2>
+          <p className="section-subtitle">{t.testimonialsSection.subtitle}</p>
         </div>
 
         <div

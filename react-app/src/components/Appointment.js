@@ -53,12 +53,12 @@ const Appointment = ({
           <div className="appointment-steps">
             <div className="step-indicator">
               <span className="step-number active">1</span>
-              <span className="step-label">Votre besoin</span>
+              <span className="step-label">{t.appointment.steps.yourNeed}</span>
             </div>
             <div className="step-line"></div>
             <div className="step-indicator">
               <span className="step-number">2</span>
-              <span className="step-label">Vos coordonnées</span>
+              <span className="step-label">{t.appointment.steps.yourInfo}</span>
             </div>
             <div className="step-line"></div>
             <div className="step-indicator">
@@ -108,7 +108,9 @@ const Appointment = ({
                 </div>
 
                 <div className="form-group">
-                  <label htmlFor="appointmentPhone">Téléphone *</label>
+                  <label htmlFor="appointmentPhone">
+                    {t.appointment.form.phone} *
+                  </label>
                   <input
                     type="tel"
                     id="appointmentPhone"
@@ -130,7 +132,9 @@ const Appointment = ({
                 </div>
 
                 <div className="form-group">
-                  <label htmlFor="appointmentDate">Date souhaitée *</label>
+                  <label htmlFor="appointmentDate">
+                    {t.appointment.form.date} *
+                  </label>
                   <input
                     type="date"
                     id="appointmentDate"
@@ -183,8 +187,8 @@ const Appointment = ({
                 <Icon name="phone" size={24} />
               </div>
               <div className="contact-info-text">
-                <strong>Téléphone</strong>
-                <p>(514) 748-2007</p>
+                <strong>{t.contact.info.phoneLabel}</strong>
+                <p>{t.contact.info.phone}</p>
               </div>
             </div>
             <div className="contact-item">
@@ -201,7 +205,7 @@ const Appointment = ({
                 <Icon name="map-marker-alt" size={24} />
               </div>
               <div className="contact-info-text">
-                <strong>Adresse</strong>
+                <strong>{t.contact.info.addressLabel}</strong>
                 <p>774 boul. Décarie, Bureau 300</p>
               </div>
             </div>

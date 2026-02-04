@@ -2,7 +2,10 @@
   "nav": {
     "home": "主页",
     "needs": "您的需求？",
+    "activities": "活动",
+    "news": "新闻",
     "talk": "预约咨询",
+    "talkToAdvisor": "与顾问交谈",
     "contact": "联系我们"
   },
   "hero": {
@@ -143,6 +146,11 @@
       "time": "首选时间",
       "message": "留言（可选）",
       "submit": "确认预约"
+    },
+    "steps": {
+      "yourNeed": "您的需求",
+      "yourInfo": "您的信息",
+      "confirmation": "确认"
     }
   },
   "contact": {
@@ -160,7 +168,15 @@
       "phone": "(514) 748-2007",
       "email": "carist@cari.qc.ca",
       "hours": "周一至周五 9:00-12:00, 12:30-16:30",
-      "frenchHours": "法语培训：8:30-22:00"
+      "frenchHours": "法语培训：8:30-22:00",
+      "addressLabel": "地址",
+      "phoneLabel": "电话",
+      "emailLabel": "电子邮件",
+      "hoursLabel": "营业时间",
+      "accessLabel": "交通",
+      "metro": "地铁：Du Collège站（橙线）",
+      "bus": "公交：17、64、121、368路",
+      "parking": "现场免费停车"
     }
   },
   "chatbot": {
@@ -180,5 +196,18 @@
   "success": {
     "contact": "谢谢！您的请求已发送。我们将很快与您联系。",
     "appointment": "✅ 预约已确认！您将在几分钟内收到电子邮件和短信确认。"
+  },
+  "newsSection": {
+    "title": "新闻",
+    "subtitle": "了解我们的项目、活动和成功故事"
+  },
+  "activitiesSection": {
+    "title": "我们即将举办的活动",
+    "subtitle": "加入我们的社区，参加我们的研讨会、课程和活动",
+    "allEvents": "我们所有的活动"
+  },
+  "testimonialsSection": {
+    "title": "他们在CARI取得了成功",
+    "subtitle": "了解那些在魁北克找到自己位置的人的励志故事"
   }
 }

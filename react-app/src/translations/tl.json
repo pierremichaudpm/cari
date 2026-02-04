@@ -2,7 +2,10 @@
   "nav": {
     "home": "Home",
     "needs": "Your needs",
+    "activities": "Mga Aktibidad",
+    "news": "Balita",
     "talk": "Appointment",
+    "talkToAdvisor": "Makipag-usap sa tagapayo",
     "contact": "Contact"
   },
   "hero": {
@@ -78,6 +81,11 @@
       "time": "Preferred time",
       "message": "Message (optional)",
       "submit": "Confirm appointment"
+    },
+    "steps": {
+      "yourNeed": "Iyong pangangailangan",
+      "yourInfo": "Iyong impormasyon",
+      "confirmation": "Kumpirmasyon"
     }
   },
   "contact": {
@@ -95,7 +103,15 @@
       "phone": "(514) 748-2007",
       "email": "carist@cari.qc.ca",
       "hours": "Mon-Fri 9 AM-12 PM, 12:30-4:30 PM",
-      "frenchHours": "French Learning: 8:30 AM-10 PM"
+      "frenchHours": "French Learning: 8:30 AM-10 PM",
+      "addressLabel": "Address",
+      "phoneLabel": "Telepono",
+      "emailLabel": "Email",
+      "hoursLabel": "Oras",
+      "accessLabel": "Access",
+      "metro": "Metro: Du Collège (orange line)",
+      "bus": "Bus: 17, 64, 121, 368",
+      "parking": "Libreng parking sa lugar"
     }
   },
   "chatbot": {
@@ -115,5 +131,18 @@
   "success": {
     "contact": "Thank you! Your request has been sent. We will contact you shortly.",
     "appointment": "✅ Appointment confirmed! You will receive a confirmation by email and SMS in the next few minutes."
+  },
+  "newsSection": {
+    "title": "Balita",
+    "subtitle": "Manatiling may alam tungkol sa aming mga programa, kaganapan at mga kwento ng tagumpay"
+  },
+  "activitiesSection": {
+    "title": "Aming paparating na mga aktibidad",
+    "subtitle": "Sumali sa aming komunidad at lumahok sa aming mga workshop, kurso at kaganapan",
+    "allEvents": "Lahat ng aming mga kaganapan"
+  },
+  "testimonialsSection": {
+    "title": "Nagtagumpay sila sa CARI",
+    "subtitle": "Tuklasin ang mga nakaka-inspire na kwento ng mga nakahanap ng kanilang lugar sa Quebec"
   }
 }

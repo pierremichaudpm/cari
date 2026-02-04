@@ -2,7 +2,10 @@
   "nav": {
     "home": "Accueil",
     "needs": "Vos besoins ?",
+    "activities": "Activités",
+    "news": "Nouvelles",
     "talk": "Rendez-vous",
+    "talkToAdvisor": "Parlez à un conseiller",
     "contact": "Contact"
   },
   "hero": {
@@ -27,6 +30,19 @@
       "women": "Je suis une femme",
       "volunteering": "Je veux m'engager"
     }
+  },
+  "newsSection": {
+    "title": "Nouvelles",
+    "subtitle": "Restez informé sur nos programmes, événements et histoires de réussite"
+  },
+  "activitiesSection": {
+    "title": "Nos prochaines activités",
+    "subtitle": "Rejoignez notre communauté et participez à nos ateliers, cours et événements",
+    "allEvents": "Tous nos événements"
+  },
+  "testimonialsSection": {
+    "title": "Ils ont réussi avec le CARI",
+    "subtitle": "Découvrez les histoires inspirantes de ceux qui ont trouvé leur place au Québec"
   },
   "services": {
     "title": "Nos services",
@@ -126,6 +142,11 @@
   "appointment": {
     "title": "Prenons rendez-vous",
     "subtitle": "Choisissez le service qui vous intéresse",
+    "steps": {
+      "yourNeed": "Votre besoin",
+      "yourInfo": "Vos coordonnées",
+      "confirmation": "Confirmation"
+    },
     "consultationTypes": {
       "welcome": "Consultation Accueil & Intégration",
       "french": "Consultation Francisation",
@@ -156,11 +177,19 @@
       "submit": "Envoyer le message"
     },
     "info": {
+      "addressLabel": "Adresse",
+      "phoneLabel": "Téléphone",
+      "emailLabel": "Courriel",
+      "hoursLabel": "Heures d'ouverture",
+      "accessLabel": "Accès",
       "address": "774 boulevard Décarie, Bureau 300, Saint-Laurent H4L 3L5",
       "phone": "(514) 748-2007",
       "email": "carist@cari.qc.ca",
       "hours": "Lun-Ven 9h-12h, 12h30-16h30",
-      "frenchHours": "Francisation : 8h30-22h"
+      "frenchHours": "Francisation : 8h30-22h",
+      "metro": "Métro : Du Collège (ligne orange)",
+      "bus": "Bus : 17, 64, 121, 368",
+      "parking": "Stationnement gratuit sur place"
     }
   },
   "chatbot": {

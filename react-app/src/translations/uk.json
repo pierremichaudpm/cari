@@ -2,7 +2,10 @@
   "nav": {
     "home": "Home",
     "needs": "Your needs",
+    "activities": "Заходи",
+    "news": "Новини",
     "talk": "Appointment",
+    "talkToAdvisor": "Поговоріть з консультантом",
     "contact": "Contact"
   },
   "hero": {
@@ -78,6 +81,11 @@
       "time": "Preferred time",
       "message": "Message (optional)",
       "submit": "Confirm appointment"
+    },
+    "steps": {
+      "yourNeed": "Ваша потреба",
+      "yourInfo": "Ваші дані",
+      "confirmation": "Підтвердження"
     }
   },
   "contact": {
@@ -95,7 +103,15 @@
       "phone": "(514) 748-2007",
       "email": "carist@cari.qc.ca",
       "hours": "Mon-Fri 9 AM-12 PM, 12:30-4:30 PM",
-      "frenchHours": "French Learning: 8:30 AM-10 PM"
+      "frenchHours": "French Learning: 8:30 AM-10 PM",
+      "addressLabel": "Адреса",
+      "phoneLabel": "Телефон",
+      "emailLabel": "Електронна пошта",
+      "hoursLabel": "Години роботи",
+      "accessLabel": "Доступ",
+      "metro": "Метро: Du Collège (помаранчева лінія)",
+      "bus": "Автобус: 17, 64, 121, 368",
+      "parking": "Безкоштовне паркування на місці"
     }
   },
   "chatbot": {
@@ -115,5 +131,18 @@
   "success": {
     "contact": "Thank you! Your request has been sent. We will contact you shortly.",
     "appointment": "✅ Appointment confirmed! You will receive a confirmation by email and SMS in the next few minutes."
+  },
+  "newsSection": {
+    "title": "Новини",
+    "subtitle": "Будьте в курсі наших програм, подій та історій успіху"
+  },
+  "activitiesSection": {
+    "title": "Наші майбутні заходи",
+    "subtitle": "Приєднуйтесь до нашої спільноти та беріть участь у наших семінарах, курсах та заходах",
+    "allEvents": "Всі наші заходи"
+  },
+  "testimonialsSection": {
+    "title": "Вони досягли успіху з CARI",
+    "subtitle": "Відкрийте для себе надихаючі історії тих, хто знайшов своє місце в Квебеку"
   }
 }

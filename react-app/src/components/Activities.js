@@ -5,6 +5,8 @@ const Activities = ({ currentLanguage, translations }) => {
   const [selectedFilter, setSelectedFilter] = useState("Tout voir");
   const [isModalOpen, setIsModalOpen] = useState(false);
 
+  const t = translations[currentLanguage] || translations.fr;
+
   const activities = [
     {
       id: "1",
@@ -181,11 +183,8 @@ const Activities = ({ currentLanguage, translations }) => {
       <section id="activites" className="activities-section">
         <div className="container">
           <div className="section-header">
-            <h2 className="section-title">Nos prochaines activités</h2>
-            <p className="section-subtitle">
-              Rejoignez notre communauté et participez à nos ateliers, cours et
-              événements
-            </p>
+            <h2 className="section-title">{t.activitiesSection.title}</h2>
+            <p className="section-subtitle">{t.activitiesSection.subtitle}</p>
           </div>
 
           {/* Filter Pills */}
@@ -288,7 +287,7 @@ const Activities = ({ currentLanguage, translations }) => {
             </button>
 
             <div className="modal-header">
-              <h2>Tous nos événements</h2>
+              <h2>{t.activitiesSection.allEvents}</h2>
             </div>
 
             <div className="modal-body">

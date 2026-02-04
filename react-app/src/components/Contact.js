@@ -87,7 +87,7 @@ const Contact = ({ currentLanguage, translations, handleSubmit }) => {
                 <div className="info-icon">
                   <Icon name="map-marker-alt" size={24} />
                 </div>
-                <h3>Adresse</h3>
+                <h3>{t.contact.info.addressLabel}</h3>
               </div>
               <p className="info-text">{t.contact.info.address}</p>
             </div>
@@ -97,7 +97,7 @@ const Contact = ({ currentLanguage, translations, handleSubmit }) => {
                 <div className="info-icon">
                   <Icon name="phone" size={24} />
                 </div>
-                <h3>Téléphone</h3>
+                <h3>{t.contact.info.phoneLabel}</h3>
               </div>
               <p className="info-text">{t.contact.info.phone}</p>
             </div>
@@ -107,7 +107,7 @@ const Contact = ({ currentLanguage, translations, handleSubmit }) => {
                 <div className="info-icon">
                   <Icon name="envelope" size={24} />
                 </div>
-                <h3>Email</h3>
+                <h3>{t.contact.info.emailLabel}</h3>
               </div>
               <p className="info-text">{t.contact.info.email}</p>
             </div>
@@ -117,7 +117,7 @@ const Contact = ({ currentLanguage, translations, handleSubmit }) => {
                 <div className="info-icon">
                   <Icon name="clock" size={24} />
                 </div>
-                <h3>Horaires</h3>
+                <h3>{t.contact.info.hoursLabel}</h3>
               </div>
               <div className="info-text">
                 <p>
@@ -134,12 +134,12 @@ const Contact = ({ currentLanguage, translations, handleSubmit }) => {
                 <div className="info-icon">
                   <Icon name="subway" size={24} />
                 </div>
-                <h3>Accès</h3>
+                <h3>{t.contact.info.accessLabel}</h3>
               </div>
               <div className="info-text">
-                <p>Métro : Du Collège (ligne orange)</p>
-                <p>Bus : 17, 64, 121, 368</p>
-                <p>Stationnement gratuit sur place</p>
+                <p>{t.contact.info.metro}</p>
+                <p>{t.contact.info.bus}</p>
+                <p>{t.contact.info.parking}</p>
               </div>
             </div>
 

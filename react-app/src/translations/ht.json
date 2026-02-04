@@ -2,7 +2,10 @@
   "nav": {
     "home": "Home",
     "needs": "Your needs",
+    "activities": "Aktivite",
+    "news": "Nouvèl",
     "talk": "Appointment",
+    "talkToAdvisor": "Pale ak yon konseye",
     "contact": "Contact"
   },
   "hero": {
@@ -78,6 +81,11 @@
       "time": "Preferred time",
       "message": "Message (optional)",
       "submit": "Confirm appointment"
+    },
+    "steps": {
+      "yourNeed": "Bezwen w",
+      "yourInfo": "Enfòmasyon w",
+      "confirmation": "Konfimasyon"
     }
   },
   "contact": {
@@ -95,7 +103,15 @@
       "phone": "(514) 748-2007",
       "email": "carist@cari.qc.ca",
       "hours": "Mon-Fri 9 AM-12 PM, 12:30-4:30 PM",
-      "frenchHours": "French Learning: 8:30 AM-10 PM"
+      "frenchHours": "French Learning: 8:30 AM-10 PM",
+      "addressLabel": "Adrès",
+      "phoneLabel": "Telefòn",
+      "emailLabel": "Imèl",
+      "hoursLabel": "Èdtan",
+      "accessLabel": "Aksè",
+      "metro": "Metro: Du Collège (liy òranj)",
+      "bus": "Bis: 17, 64, 121, 368",
+      "parking": "Paking gratis sou plas la"
     }
   },
   "chatbot": {
@@ -115,5 +131,18 @@
   "success": {
     "contact": "Thank you! Your request has been sent. We will contact you shortly.",
     "appointment": "✅ Appointment confirmed! You will receive a confirmation by email and SMS in the next few minutes."
+  },
+  "newsSection": {
+    "title": "Nouvèl",
+    "subtitle": "Rete enfòme sou pwogram nou yo, evènman ak istwa siksè"
+  },
+  "activitiesSection": {
+    "title": "Pwochen aktivite nou yo",
+    "subtitle": "Rantre nan kominote nou an epi patisipe nan atelye, kou ak evènman nou yo",
+    "allEvents": "Tout evènman nou yo"
+  },
+  "testimonialsSection": {
+    "title": "Yo reyisi avèk CARI",
+    "subtitle": "Dekouvri istwa enspiran moun ki te jwenn plas yo nan Kebèk"
   }
 }

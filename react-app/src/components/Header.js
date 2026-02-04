@@ -104,7 +104,7 @@ const Header = ({
                 }}
                 className="nav-link nav-link-bold"
               >
-                Activités
+                {t.nav.activities}
               </a>
             </li>
             <li>
@@ -116,7 +116,7 @@ const Header = ({
                 }}
                 className="nav-link nav-link-bold"
               >
-                Nouvelles
+                {t.nav.news}
               </a>
             </li>
           </ul>
@@ -130,7 +130,7 @@ const Header = ({
             scrollToSection("rdv");
           }}
         >
-          Parlez à un conseiller
+          {t.nav.talkToAdvisor}
         </a>
 
         <div className="language-switcher" ref={langDropdownRef}>
@@ -204,7 +204,7 @@ const Header = ({
               }}
               className="nav-link"
             >
-              Activités
+              {t.nav.activities}
             </a>
           </li>
           <li>
@@ -217,7 +217,7 @@ const Header = ({
               }}
               className="nav-link"
             >
-              Nouvelles
+              {t.nav.news}
             </a>
           </li>
           <li>
@@ -234,7 +234,7 @@ const Header = ({
                 fontWeight: "600",
               }}
             >
-              Parlez à un conseiller
+              {t.nav.talkToAdvisor}
             </a>
           </li>
         </ul>

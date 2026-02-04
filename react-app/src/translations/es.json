@@ -2,8 +2,11 @@
   "nav": {
     "home": "Inicio",
     "needs": "Tus necesidades",
+    "activities": "Actividades",
+    "news": "Noticias",
     "services": "Nuestros servicios",
     "talk": "Cita",
+    "talkToAdvisor": "Hablar con un asesor",
     "contact": "Contacto"
   },
   "hero": {
@@ -79,6 +82,11 @@
       "time": "Horario preferido",
       "message": "Mensaje (opcional)",
       "submit": "Confirmar cita"
+    },
+    "steps": {
+      "yourNeed": "Su necesidad",
+      "yourInfo": "Sus datos",
+      "confirmation": "Confirmación"
     }
   },
   "contact": {
@@ -96,7 +104,15 @@
       "phone": "(514) 748-2007",
       "email": "carist@cari.qc.ca",
       "hours": "Lun-Vie 9h-12h, 12:30-16:30",
-      "frenchHours": "Francización: 8:30-22h"
+      "frenchHours": "Francización: 8:30-22h",
+      "addressLabel": "Dirección",
+      "phoneLabel": "Teléfono",
+      "emailLabel": "Correo electrónico",
+      "hoursLabel": "Horario",
+      "accessLabel": "Acceso",
+      "metro": "Metro: Du Collège (línea naranja)",
+      "bus": "Autobús: 17, 64, 121, 368",
+      "parking": "Estacionamiento gratuito en el lugar"
     }
   },
   "chatbot": {
@@ -116,5 +132,18 @@
   "success": {
     "contact": "¡Gracias! Su solicitud ha sido enviada. Nos pondremos en contacto con usted pronto.",
     "appointment": "✅ ¡Cita confirmada! Recibirá una confirmación por correo electrónico y SMS en los próximos minutos."
+  },
+  "newsSection": {
+    "title": "Noticias",
+    "subtitle": "Manténgase informado sobre nuestros programas, eventos e historias de éxito"
+  },
+  "activitiesSection": {
+    "title": "Nuestras próximas actividades",
+    "subtitle": "Únete a nuestra comunidad y participa en nuestros talleres, cursos y eventos",
+    "allEvents": "Todos nuestros eventos"
+  },
+  "testimonialsSection": {
+    "title": "Tuvieron éxito con CARI",
+    "subtitle": "Descubre las historias inspiradoras de quienes encontraron su lugar en Quebec"
   }
 }

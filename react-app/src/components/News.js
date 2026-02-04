@@ -7,6 +7,8 @@ const News = ({ currentLanguage, translations }) => {
   const [selectedNews, setSelectedNews] = useState(null);
   const [isNewsModalOpen, setIsNewsModalOpen] = useState(false);
 
+  const t = translations[currentLanguage] || translations.fr;
+
   // CARI categories with colors
   const categories = {
     francisation: { label: "Francisation", color: "#6CBAC7" },
@@ -539,11 +541,8 @@ N'hésitez pas à nous contacter pour un accompagnement personnalisé!`,
       <section id="nouvelles" className="news-section">
         <div className="container">
           <div className="section-header">
-            <h2 className="section-title">Nouvelles</h2>
-            <p className="section-subtitle">
-              Restez informé sur nos programmes, événements et histoires de
-              réussite
-            </p>
+            <h2 className="section-title">{t.newsSection.title}</h2>
+            <p className="section-subtitle">{t.newsSection.subtitle}</p>
           </div>
 
           {/* News Cards Grid */}

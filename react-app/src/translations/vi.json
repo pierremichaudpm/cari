@@ -2,7 +2,10 @@
   "nav": {
     "home": "Home",
     "needs": "Your needs",
+    "activities": "Hoạt động",
+    "news": "Tin tức",
     "talk": "Appointment",
+    "talkToAdvisor": "Nói chuyện với cố vấn",
     "contact": "Contact"
   },
   "hero": {
@@ -78,6 +81,11 @@
       "time": "Preferred time",
       "message": "Message (optional)",
       "submit": "Confirm appointment"
+    },
+    "steps": {
+      "yourNeed": "Nhu cầu của bạn",
+      "yourInfo": "Thông tin của bạn",
+      "confirmation": "Xác nhận"
     }
   },
   "contact": {
@@ -95,7 +103,15 @@
       "phone": "(514) 748-2007",
       "email": "carist@cari.qc.ca",
       "hours": "Mon-Fri 9 AM-12 PM, 12:30-4:30 PM",
-      "frenchHours": "French Learning: 8:30 AM-10 PM"
+      "frenchHours": "French Learning: 8:30 AM-10 PM",
+      "addressLabel": "Địa chỉ",
+      "phoneLabel": "Điện thoại",
+      "emailLabel": "Email",
+      "hoursLabel": "Giờ làm việc",
+      "accessLabel": "Cách đến",
+      "metro": "Tàu điện ngầm: Du Collège (tuyến cam)",
+      "bus": "Xe buýt: 17, 64, 121, 368",
+      "parking": "Bãi đậu xe miễn phí tại chỗ"
     }
   },
   "chatbot": {
@@ -115,5 +131,18 @@
   "success": {
     "contact": "Thank you! Your request has been sent. We will contact you shortly.",
     "appointment": "✅ Appointment confirmed! You will receive a confirmation by email and SMS in the next few minutes."
+  },
+  "newsSection": {
+    "title": "Tin tức",
+    "subtitle": "Cập nhật thông tin về các chương trình, sự kiện và câu chuyện thành công của chúng tôi"
+  },
+  "activitiesSection": {
+    "title": "Các hoạt động sắp tới của chúng tôi",
+    "subtitle": "Tham gia cộng đồng của chúng tôi và tham gia các hội thảo, khóa học và sự kiện",
+    "allEvents": "Tất cả sự kiện của chúng tôi"
+  },
+  "testimonialsSection": {
+    "title": "Họ đã thành công với CARI",
+    "subtitle": "Khám phá những câu chuyện truyền cảm hứng của những người đã tìm thấy vị trí của mình ở Quebec"
   }
 }
