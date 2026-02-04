@@ -1,119 +1,184 @@
 {
   "nav": {
-    "home": "Home",
-    "needs": "Your needs",
-    "talk": "Appointment",
-    "contact": "Contact"
+    "home": "主页",
+    "needs": "您的需求？",
+    "talk": "预约咨询",
+    "contact": "联系我们"
   },
   "hero": {
-    "title": "Find <span class='highlight'>your place</span> in Quebec",
-    "subtitle": "Employment, French, housing, procedures: free support from A to Z",
-    "discoverServices": "Discover our services",
-    "letsTalk": "Talk to an advisor",
+    "title": "在魁北克<span class='highlight'>找到归属</span>",
+    "subtitle": "就业、法语、住房、手续办理：从头到尾的免费陪伴服务",
+    "discoverServices": "了解我们的服务",
+    "letsTalk": "与顾问交谈",
     "stats": {
-      "peopleHelped": "People helped/year",
-      "satisfaction": "Satisfaction",
-      "findEmployment": "Find employment"
+      "peopleHelped": "每年帮助人数",
+      "satisfaction": "满意度",
+      "findEmployment": "成功就业"
     }
   },
   "needs": {
-    "title": "What are your needs?",
-    "subtitle": "We accompany you at every step of your integration in Quebec",
+    "title": "您有什么需求？",
+    "subtitle": "我们陪伴您融入魁北克的每一步",
     "cards": {
-      "welcome": "I just arrived",
-      "french": "I'm learning French",
-      "employment": "I'm looking for a job",
-      "family": "I have a family",
-      "women": "I am a woman",
-      "volunteering": "I want to get involved"
+      "welcome": "我刚到这里",
+      "french": "我在学法语",
+      "employment": "我在找工作",
+      "family": "我有家庭",
+      "women": "我是女性",
+      "volunteering": "我想做志愿者"
     }
   },
   "services": {
-    "title": "Our services",
-    "subtitle": "Solutions adapted to your situation",
+    "title": "我们的服务",
+    "subtitle": "适合您情况的解决方案",
+    "learnMore": "了解更多",
+    "modal": {
+      "benefits": "您将获得",
+      "details": "服务详情",
+      "close": "关闭"
+    },
     "cards": {
       "welcome": {
-        "title": "Welcome & Integration",
-        "description": "Information, orientation and personalized support to facilitate your settlement."
+        "title": "接待与融入",
+        "description": "信息咨询、指导和个性化陪伴，帮助您顺利安顿。",
+        "fullDescription": "个性化陪伴和小组活动，促进您的安置并帮助您融入新的生活环境。我们帮助您在魁北克实现自主和发展。",
+        "benefits": [
+          "个人信息和指导咨询",
+          "行政手续陪伴",
+          "建立联系的小组活动",
+          "社区资源推荐",
+          "自主独立支持"
+        ],
+        "details": "免费服务，提供法语、英语、西班牙语、阿拉伯语和其他语言。现场或电话预约。"
       },
       "french": {
-        "title": "French Learning",
-        "description": "French courses adapted for immigrants, all levels, flexible schedules (8:30 AM-10 PM)."
+        "title": "法语培训",
+        "description": "适合移民的法语课程，所有水平，时间灵活（8:30-22:00）。免费测试您的水平！",
+        "fullDescription": "提供全日制和非全日制法语培训，根据学员的法语水平进行调整。我们的合格和细心的教师使用现代教学方法。",
+        "benefits": [
+          "全日制和非全日制课程",
+          "8:30至22:00灵活时间",
+          "接受所有水平",
+          "合格有经验的教师",
+          "适合移民的方法",
+          "10分钟免费水平测试"
+        ],
+        "details": "由MIFI资助的免费课程。可能提供参与津贴。滚动招生。"
       },
       "employment": {
-        "title": "Employment Assistance",
-        "description": "CV workshops, interview simulations, professional coaching and meetings with employers."
+        "title": "就业帮助",
+        "description": "简历工作坊、面试模拟、职业辅导和雇主见面会。",
+        "fullDescription": "动态求职方法、社交活动和雇主联系。个性化陪伴，帮助您融入魁北克劳动力市场。",
+        "benefits": [
+          "简历和求职信撰写工作坊",
+          "个性化面试模拟",
+          "一对一职业辅导",
+          "与雇主直接见面",
+          "主动求职陪伴",
+          "85%的人在6个月内找到工作"
+        ],
+        "details": "免费服务，提供个性化跟进。定期举办个人预约和小组工作坊。"
       },
       "family": {
-        "title": "Family Services",
-        "description": "Support for families, activities for children and teenagers, help with schooling."
+        "title": "家庭服务",
+        "description": "家庭支持、儿童和青少年活动、入学帮助。",
+        "fullDescription": "为移民家长提供陪伴，包括托儿服务、学校指导和促进儿童全面发展及家长融入的活动。",
+        "benefits": [
+          "幼儿托儿服务",
+          "学校指导帮助",
+          "教育和娱乐活动",
+          "作业和课程支持",
+          "家长工作坊",
+          "组织家庭出游"
+        ],
+        "details": "免费或低成本服务。名额有限，需要注册。"
       },
       "women": {
-        "title": "Women of the World",
-        "description": "Specific programs for immigrant women: autonomy, health, employment."
+        "title": "世界女性",
+        "description": "专为移民女性设计的项目：自主、健康、就业。",
+        "fullDescription": "专属空间，通过建立跨文化联系、互助网络和为移民女性及居民发展职业技能，打破女性的孤立。",
+        "benefits": [
+          "自主和自尊工作坊",
+          "适应性职业培训",
+          "女性互助网络",
+          "跨文化活动",
+          "女性健康信息",
+          "就业陪伴"
+        ],
+        "details": "免费且保密。热情友好的小组。可按需提供儿童照顾。"
       },
       "volunteering": {
-        "title": "Volunteering & Pairing",
-        "description": "Intercultural meetings, social activities and volunteering opportunities."
+        "title": "志愿服务与配对",
+        "description": "跨文化交流、社交活动和志愿服务机会。",
+        "fullDescription": "跨文化配对项目、技能发展、语言和计算机课程、公民融入路径和志愿服务机会，促进社区归属感。",
+        "benefits": [
+          "与魁北克人配对",
+          "语言和计算机课程",
+          "加拿大公民工作坊",
+          "志愿服务机会",
+          "社交和文化活动",
+          "扩展您的人际网络"
+        ],
+        "details": "免费。根据您的时间灵活参与。提供志愿服务证书。"
       }
     }
   },
   "appointment": {
-    "title": "Let's make an appointment",
-    "subtitle": "Choose the service that interests you",
+    "title": "预约咨询",
+    "subtitle": "选择您感兴趣的服务",
     "consultationTypes": {
-      "welcome": "Welcome & Integration Consultation",
-      "french": "French Learning Consultation",
-      "employment": "Employment Consultation",
-      "family": "Family Services Consultation",
-      "women": "Women of the World Consultation",
-      "volunteering": "Volunteering Consultation"
+      "welcome": "接待与融入咨询",
+      "french": "法语培训咨询",
+      "employment": "就业咨询",
+      "family": "家庭服务咨询",
+      "women": "世界女性咨询",
+      "volunteering": "志愿服务咨询"
     },
     "form": {
-      "name": "Full name",
-      "phone": "Phone number",
-      "email": "Email address",
-      "service": "Desired service",
-      "date": "Preferred date",
-      "time": "Preferred time",
-      "message": "Message (optional)",
-      "submit": "Confirm appointment"
+      "name": "全名",
+      "phone": "电话",
+      "email": "电子邮箱",
+      "service": "所需服务",
+      "date": "首选日期",
+      "time": "首选时间",
+      "message": "留言（可选）",
+      "submit": "确认预约"
     }
   },
   "contact": {
-    "title": "Contact us",
-    "subtitle": "We are here to help you",
+    "title": "联系我们",
+    "subtitle": "我们在这里帮助您",
     "form": {
-      "name": "Full name",
-      "email": "Email address",
-      "subject": "Subject",
-      "message": "Your message",
-      "submit": "Send message"
+      "name": "全名",
+      "email": "电子邮箱",
+      "subject": "主题",
+      "message": "您的留言",
+      "submit": "发送留言"
     },
     "info": {
-      "address": "774 Décarie Blvd, Suite 300, Saint-Laurent H4L 3L5",
+      "address": "774 boulevard Décarie, Bureau 300, Saint-Laurent H4L 3L5",
       "phone": "(514) 748-2007",
       "email": "carist@cari.qc.ca",
-      "hours": "Mon-Fri 9 AM-12 PM, 12:30-4:30 PM",
-      "frenchHours": "French Learning: 8:30 AM-10 PM"
+      "hours": "周一至周五 9:00-12:00, 12:30-16:30",
+      "frenchHours": "法语培训：8:30-22:00"
     }
   },
   "chatbot": {
-    "title": "CARI Assistant",
-    "placeholder": "Ask your question...",
-    "typing": "CARI Assistant is typing...",
+    "title": "CARI 助手",
+    "placeholder": "请提出您的问题...",
+    "typing": "CARI 助手正在输入...",
     "responses": {
-      "greeting": "Hello! I'm delighted to help you. CARI offers 6 main services for your integration in Quebec. Which service interests you most?",
-      "services": "Our 6 services:\n• Welcome & Integration\n• French Learning (8:30 AM-10 PM)\n• Employment Assistance (85% success!)\n• Family Services\n• Women of the World\n• Volunteering & Pairing\n\nWhich one would you like more info about?",
-      "appointment": "To book an appointment:\n• Call (514) 748-2007\n• Fill the form on this page\n• Available Mon-Fri 9 AM-4:30 PM\n\nWhat type of consultation? (welcome/french/employment)",
-      "contact": "(514) 748-2007\ncarist@cari.qc.ca\n774 Décarie Blvd #300, Saint-Laurent\nMon-Fri: 9 AM-12 PM, 12:30-4:30 PM\n\nHow can I help you further?",
-      "french": "Our French courses:\n• 8:30 AM-10 PM (very flexible!)\n• All levels accepted\n• Methods adapted for immigrants\n• Free level assessment\n\nWould you like to schedule an evaluation?",
-      "employment": "Our employment assistance:\n• Resume/cover letter workshops\n• Interview simulations\n• Professional coaching\n• Employer meetings\n• 85% find a job within 6 months!\n\nInterested in employment consultation?",
-      "default": "I can help you with:\n• Information about our services\n• Appointment booking\n• Contact details\n• Personalized advice\n\nWhat would you like to know?"
+      "greeting": "您好！我很高兴为您提供帮助。CARI 提供6项主要服务，帮助您融入魁北克。您对哪项服务最感兴趣？",
+      "services": "我们的6项服务：\n• 接待与融入\n• 法语培训（8:30-22:00）\n• 就业帮助（85%成功率！）\n• 家庭服务\n• 世界女性\n• 志愿服务与配对\n\n您想了解哪一项的更多信息？",
+      "appointment": "预约方式：\n• 致电 (514) 748-2007\n• 填写本页表格\n• 周一至周五 9:00-16:30\n\n您需要哪种咨询？（接待/法语/就业）",
+      "contact": "(514) 748-2007\ncarist@cari.qc.ca\n774 boul. Décarie #300, Saint-Laurent\n周一至周五：9:00-12:00, 12:30-16:30\n\n我还能为您提供什么帮助？",
+      "french": "我们的法语课程：\n• 8:30-22:00（非常灵活！）\n• 接受所有水平\n• 适合移民的方法\n• 免费水平测试\n\n您想安排评估吗？",
+      "employment": "我们的就业帮助：\n• 简历/求职信工作坊\n• 面试模拟\n• 职业辅导\n• 雇主见面会\n• 85%的人在6个月内找到工作！\n\n您对就业咨询感兴趣吗？",
+      "default": "我可以帮助您：\n• 了解我们的服务信息\n• 预约咨询\n• 联系方式\n• 个性化建议\n\n您想了解什么？"
     }
   },
   "success": {
-    "contact": "Thank you! Your request has been sent. We will contact you shortly.",
-    "appointment": "✅ Appointment confirmed! You will receive a confirmation by email and SMS in the next few minutes."
+    "contact": "谢谢！您的请求已发送。我们将很快与您联系。",
+    "appointment": "✅ 预约已确认！您将在几分钟内收到电子邮件和短信确认。"
   }
 }
