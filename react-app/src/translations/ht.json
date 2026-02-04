@@ -1,279 +1,75 @@
 {
   "nav": {
-    "home": "Home",
-    "needs": "Your needs",
+    "home": "Akèy",
+    "needs": "Bezwen ou",
     "activities": "Aktivite",
     "news": "Nouvèl",
-    "talk": "Appointment",
+    "talk": "Randevou",
     "talkToAdvisor": "Pale ak yon konseye",
-    "contact": "Contact"
+    "contact": "Kontakte nou"
   },
   "hero": {
-    "title": "Find <span class='highlight'>your place</span> in Quebec",
-    "subtitle": "Employment, French, housing, procedures: free support from A to Z",
-    "discoverServices": "Discover our services",
-    "letsTalk": "Talk to an advisor",
-    "stats": {
-      "peopleHelped": "People helped/year",
-      "satisfaction": "Satisfaction",
-      "findEmployment": "Find employment"
-    },
+    "title": "Jwenn <span class='highlight'>plas ou</span> nan Kebèk",
+    "subtitle": "Travay, fransè, lojman, demach: akonpayman gratis de A a Z",
+    "discoverServices": "Dekouvri sèvis nou yo",
+    "letsTalk": "Pale ak yon konseye",
     "testFrench": "Teste fransè mwen",
+    "stats": {
+      "peopleHelped": "Moun ede/ane",
+      "satisfaction": "Satisfaksyon",
+      "findEmployment": "Jwenn travay"
+    },
     "slides": {
       "slide1": {
-        "quote": "« Grâce au CARI, j'ai trouvé mon emploi de rêve en 6 mois! »",
+        "quote": "« Gras a CARI, mwen jwenn travay rèv mwen an 6 mwa! »",
         "author": "Asma B.",
-        "role": "Maroc • Arrivée 2020"
+        "role": "Mawòk • Rive 2020"
       },
       "slide2": {
-        "quote": "« De réfugié à entrepreneur, le CARI m'a accompagné »",
+        "quote": "« De refijye a antreprenè, CARI akonpanye mwen »",
         "author": "Jean-Pierre H.",
-        "role": "Haïti • Arrivée 2020"
+        "role": "Ayiti • Rive 2020"
       },
       "slide3": {
-        "quote": "« Le français semblait impossible, maintenant je le parle couramment! »",
+        "quote": "« Fransè te sanble enposib, kounye a mwen pale l byen! »",
         "author": "Jasmine M.",
-        "role": "Haïti • Arrivée 2021"
+        "role": "Ayiti • Rive 2021"
       },
       "slide4": {
-        "quote": "« Mes enfants sont épanouis, nous avons trouvé notre place ici »",
+        "quote": "« Pitit mwen yo kontan, nou jwenn plas nou isit la »",
         "author": "Karla A.",
-        "role": "RDC • Arrivée 2019"
+        "role": "RDK • Rive 2019"
       },
       "slide5": {
-        "quote": "« L'aide pour comprendre le système québécois a tout changé »",
+        "quote": "« Èd pou konprann sistèm kebèkwa a chanje tout bagay »",
         "author": "Wei L.",
-        "role": "Chine • Arrivée 2022"
+        "role": "Lachin • Rive 2022"
       }
     }
   },
   "needs": {
-    "title": "What are your needs?",
-    "subtitle": "We accompany you at every step of your integration in Quebec",
+    "title": "Ki bezwen ou genyen?",
+    "subtitle": "Nou akonpanye ou nan chak etap entegrasyon ou nan Kebèk",
+    "instruction": "Chwazi yon sèvis pou aprann plis",
     "cards": {
-      "welcome": "I just arrived",
-      "french": "I'm learning French",
-      "employment": "I'm looking for a job",
-      "family": "I have a family",
-      "women": "I am a woman",
-      "volunteering": "I want to get involved"
-    },
-    "instruction": "Sélectionnez un service pour en savoir plus"
-  },
-  "services": {
-    "title": "Our services",
-    "subtitle": "Solutions adapted to your situation",
-    "cards": {
-      "welcome": {
-        "title": "Welcome & Integration",
-        "description": "Information, orientation and personalized support to facilitate your settlement.",
-        "fullDescription": "Akonpayman endividyèl ak aktivite an gwoup pou fasilite enstalasyon w epi entegrasyon w nan nouvo kominote w la. Nou ede w vin endepandan epi reyisi nan Kebèk.",
-        "benefits": [
-          "Sesyon enfòmasyon ak oryantasyon endividyèl",
-          "Sipò nan pwosedi administratif yo",
-          "Aktivite an gwoup pou kreye lyen",
-          "Referans nan resous kominotè",
-          "Sipò pou otonomi ak endepandans"
-        ],
-        "details": "Sèvis gratis an fransè, anglè, panyòl, arab ak lòt lang. Randevou an pèsòn oswa pa telefòn."
-      },
-      "french": {
-        "title": "French Learning",
-        "description": "French courses adapted for immigrants, all levels, flexible schedules (8:30 AM-10 PM).",
-        "fullDescription": "Fòmasyon fransè a tan plen ak a tan pasyèl, adapte nan nivo elèv la. Pwofesè kalifye nou yo itilize metòd ansèyman modèn.",
-        "benefits": [
-          "Kou a tan plen ak a tan pasyèl",
-          "Orè fleksib soti 8h30 rive 22h",
-          "Tout nivo aksepte",
-          "Pwofesè kalifye ak eksperyans",
-          "Metòd adapte pou imigran",
-          "Tès nivo gratis 10 minit"
-        ],
-        "details": "Kou gratis finanse pa MIFI. Posibilite alokasyon patisipasyon. Enskripsyon kontini."
-      },
-      "employment": {
-        "title": "Employment Assistance",
-        "description": "CV workshops, interview simulations, professional coaching and meetings with employers.",
-        "fullDescription": "Apwòch dinamik pou chèche travay, aktivite rezo ak koneksyon avèk anplwayè. Akonpayman pèsonalize pou fasilite entegrasyon w nan mache travay kebekwa a.",
-        "benefits": [
-          "Atelye redaksyon CV ak lèt motivasyon",
-          "Similasyon entèvyou pèsonalize",
-          "Coaching pwofesyonèl endividyèl",
-          "Rankontr dirèk avèk anplwayè",
-          "Sipò nan rechèch aktif travay",
-          "85% jwenn yon travay nan 6 mwa"
-        ],
-        "details": "Sèvis gratis ak suivi pèsonalize. Randevou endividyèl ak atelye an gwoup regilyè."
-      },
-      "family": {
-        "title": "Family Services",
-        "description": "Support for families, activities for children and teenagers, help with schooling.",
-        "fullDescription": "Sipò pou paran imigran avèk sèvis gadri, oryantasyon eskolè ak aktivite ki ankouraje devlopman global timoun yo ak entegrasyon paran yo.",
-        "benefits": [
-          "Sèvis gadri pou ti timoun",
-          "Èd nan oryantasyon eskolè",
-          "Aktivite edikasyon ak rekreasyon",
-          "Sipò nan devwa ak leson",
-          "Atelye pou paran",
-          "Sòti familyal òganize"
-        ],
-        "details": "Sèvis gratis oswa a pri ba. Plas limite, enskripsyon obligatwa."
-      },
-      "women": {
-        "title": "Women of the World",
-        "description": "Specific programs for immigrant women: autonomy, health, employment.",
-        "fullDescription": "Yon espas dedye pou kraze izolman fanm yo atravè koneksyon entèkiltirèl, rezo sipò mityèl ak devlopman konpetans pwofesyonèl pou fanm imigran ak rezidan.",
-        "benefits": [
-          "Atelye otonomi ak estim pwòp tèt ou",
-          "Fòmasyon pwofesyonèl adapte",
-          "Rezo sipò ant fanm",
-          "Aktivite entèkiltirèl",
-          "Enfòmasyon sou sante fanm",
-          "Sipò nan travay"
-        ],
-        "details": "Gratis epi konfidansyèl. Gwoup akeyant ak solidè. Sèvis gadri disponib sou demann."
-      },
-      "volunteering": {
-        "title": "Volunteering & Pairing",
-        "description": "Intercultural meetings, social activities and volunteering opportunities.",
-        "fullDescription": "Pwogram jumelaj entèkiltirèl, devlopman konpetans, kou lang ak enfòmatik, pakou entegrasyon sitwayèn ak opòtinite volontarya pou ankouraje apatanans kominote.",
-        "benefits": [
-          "Jumelaj avèk yon Kebekwa",
-          "Kou lang ak enfòmatik",
-          "Atelye sitwayènte kanadyèn",
-          "Opòtinite volontarya",
-          "Aktivite sosyal ak kiltirèl",
-          "Devlope rezo w"
-        ],
-        "details": "Gratis. Angajman fleksib selon disponibilite w. Sètifika volontarya disponib."
-      }
-    },
-    "learnMore": "Aprann plis",
-    "modal": {
-      "benefits": "Kisa w jwenn",
-      "details": "Detay sèvis la",
-      "close": "Fèmen"
+      "welcome": "Mwen fèk rive",
+      "french": "Mwen ap aprann fransè",
+      "employment": "Mwen ap chèche travay",
+      "family": "Mwen gen yon fanmi",
+      "women": "Mwen se yon fanm",
+      "volunteering": "Mwen vle angaje m"
     }
-  },
-  "appointment": {
-    "title": "Let's make an appointment",
-    "subtitle": "Choose the service that interests you",
-    "consultationTypes": {
-      "welcome": "Welcome & Integration Consultation",
-      "french": "French Learning Consultation",
-      "employment": "Employment Consultation",
-      "family": "Family Services Consultation",
-      "women": "Women of the World Consultation",
-      "volunteering": "Volunteering Consultation"
-    },
-    "form": {
-      "name": "Full name",
-      "phone": "Phone number",
-      "email": "Email address",
-      "service": "Desired service",
-      "date": "Preferred date",
-      "time": "Preferred time",
-      "message": "Message (optional)",
-      "submit": "Confirm appointment",
-      "namePlaceholder": "Prénom et nom",
-      "phonePlaceholder": "(514) 123-4567",
-      "emailPlaceholder": "votre@courriel.com",
-      "messagePlaceholder": "Décrivez brièvement votre situation...",
-      "selectTime": "Choisir une heure",
-      "confirmationNote": "Vous recevrez une confirmation par courriel dans les 24h"
-    },
-    "steps": {
-      "yourNeed": "Bezwen w",
-      "yourInfo": "Enfòmasyon w",
-      "confirmation": "Konfimasyon"
-    },
-    "contact": {
-      "hoursLabel": "Horaire",
-      "schedule": "Lun-Ven: 9h - 17h"
-    }
-  },
-  "contact": {
-    "title": "Contact us",
-    "subtitle": "We are here to help you",
-    "form": {
-      "name": "Full name",
-      "email": "Email address",
-      "subject": "Subject",
-      "message": "Your message",
-      "submit": "Send message"
-    },
-    "info": {
-      "address": "774 Décarie Blvd, Suite 300, Saint-Laurent H4L 3L5",
-      "phone": "(514) 748-2007",
-      "email": "carist@cari.qc.ca",
-      "hours": "Mon-Fri 9 AM-12 PM, 12:30-4:30 PM",
-      "frenchHours": "French Learning: 8:30 AM-10 PM",
-      "addressLabel": "Adrès",
-      "phoneLabel": "Telefòn",
-      "emailLabel": "Imèl",
-      "hoursLabel": "Èdtan",
-      "accessLabel": "Aksè",
-      "metro": "Metro: Du Collège (liy òranj)",
-      "bus": "Bis: 17, 64, 121, 368",
-      "parking": "Paking gratis sou plas la"
-    },
-    "mapText": "Carte interactive disponible sur le site",
-    "viewGoogleMaps": "Voir sur Google Maps",
-    "subjects": {
-      "general": "Demande générale",
-      "info": "Demande d'information",
-      "appointment": "Prise de rendez-vous",
-      "french": "Cours de français",
-      "employment": "Aide à l'emploi",
-      "family": "Services familiaux"
-    }
-  },
-  "chatbot": {
-    "title": "CARI Assistant",
-    "placeholder": "Ask your question...",
-    "typing": "CARI Assistant is typing...",
-    "responses": {
-      "greeting": "Hello! I'm delighted to help you. CARI offers 6 main services for your integration in Quebec. Which service interests you most?",
-      "services": "Our 6 services:\n• Welcome & Integration\n• French Learning (8:30 AM-10 PM)\n• Employment Assistance (85% success!)\n• Family Services\n• Women of the World\n• Volunteering & Pairing\n\nWhich one would you like more info about?",
-      "appointment": "To book an appointment:\n• Call (514) 748-2007\n• Fill the form on this page\n• Available Mon-Fri 9 AM-4:30 PM\n\nWhat type of consultation? (welcome/french/employment)",
-      "contact": "(514) 748-2007\ncarist@cari.qc.ca\n774 Décarie Blvd #300, Saint-Laurent\nMon-Fri: 9 AM-12 PM, 12:30-4:30 PM\n\nHow can I help you further?",
-      "french": "Our French courses:\n• 8:30 AM-10 PM (very flexible!)\n• All levels accepted\n• Methods adapted for immigrants\n• Free level assessment\n\nWould you like to schedule an evaluation?",
-      "employment": "Our employment assistance:\n• Resume/cover letter workshops\n• Interview simulations\n• Professional coaching\n• Employer meetings\n• 85% find a job within 6 months!\n\nInterested in employment consultation?",
-      "default": "I can help you with:\n• Information about our services\n• Appointment booking\n• Contact details\n• Personalized advice\n\nWhat would you like to know?"
-    },
-    "status": "Anliy",
-    "error": "Eskize, yon erè fèt. Tanpri eseye ankò.",
-    "suggestions": {
-      "services": "Sèvis",
-      "appointment": "Randevou",
-      "appointmentInput": "Pran yon randevou",
-      "french": "Fransè",
-      "frenchInput": "Kou fransè"
-    }
-  },
-  "success": {
-    "contact": "Thank you! Your request has been sent. We will contact you shortly.",
-    "appointment": "✅ Appointment confirmed! You will receive a confirmation by email and SMS in the next few minutes."
   },
   "newsSection": {
     "title": "Nouvèl",
     "subtitle": "Rete enfòme sou pwogram nou yo, evènman ak istwa siksè"
   },
-  "activitiesSection": {
-    "title": "Pwochen aktivite nou yo",
-    "subtitle": "Rantre nan kominote nou an epi patisipe nan atelye, kou ak evènman nou yo",
-    "allEvents": "Tout evènman nou yo"
-  },
-  "testimonialsSection": {
-    "title": "Yo reyisi avèk CARI",
-    "subtitle": "Dekouvri istwa enspiran moun ki te jwenn plas yo nan Kebèk"
-  },
   "news": {
-    "moreContentButton": "Plus de contenu",
-    "moreNewsTitle": "Plus de nouvelles"
+    "moreContentButton": "Plis kontni",
+    "moreNewsTitle": "Plis nouvèl"
   },
   "newsModal": {
-    "share": "Partager",
+    "share": "Pataje",
     "shareOn": {
       "facebook": "Pataje sou Facebook",
       "twitter": "Pataje sou Twitter",
@@ -281,59 +77,37 @@
       "whatsapp": "Pataje sou WhatsApp"
     }
   },
-  "activities": {
-    "registerButton": "Enskri",
-    "moreEventsButton": "Plis evènman",
-    "filters": {
-      "all": "Tout voir",
-      "welcome": "Accueil",
-      "french": "Français",
-      "employment": "Emploi",
-      "family": "Famille",
-      "women": "Femmes"
-    }
-  },
-  "parallax": {
-    "statsTitle": "Ensemble, nous faisons la différence",
-    "statsSubtitle": "Depuis 1989, le CARI accompagne les nouveaux arrivants vers leur réussite",
-    "stats": {
-      "peopleHelped": "Personnes aidées/an",
-      "satisfaction": "Taux de satisfaction",
-      "findEmployment": "Trouvent un emploi",
-      "languagesSpoken": "Langues parlées"
-    },
-    "ctaTitle": "Prêt à commencer votre nouvelle vie au Québec?",
-    "ctaSubtitle": "Notre équipe multilingue est là pour vous accompagner à chaque étape de votre intégration."
-  },
-  "footer": {
-    "copyright": "© 2024 Tous droits réservés.",
-    "tagline": "Organisme à but non lucratif d'aide aux immigrants"
-  },
-  "aria": {
-    "close": "Fèmen",
-    "carousel": "Carrousel d'en-tête",
-    "carouselNav": "Navigation du carrousel",
-    "previousSlide": "Slide précédente",
-    "nextSlide": "Slide suivante",
-    "goToSlide": "Aller à la diapositive",
-    "carouselSlider": "Slider carrousel",
-    "closeModal": "Fèmen fenèt la",
-    "previousTestimonial": "Temwayaj anvan",
-    "nextTestimonial": "Pwochen temwayaj",
-    "goToTestimonial": "Ale nan temwayaj",
-    "learnMoreAbout": "Aprann plis sou"
-  },
-  "loading": "Chajman...",
   "newsCategories": {
-    "francisation": "Aprann fransè",
+    "francisation": "Aprantisaj fransè",
     "emploi": "Travay",
     "femmes": "Fanm nan mond lan",
     "integration": "Entegrasyon",
     "parents": "Paran ak Jèn"
   },
   "media": {
-    "videoNotSupported": "Navigatè ou a pa sipòte lekti videyo.",
-    "audioNotSupported": "Navigatè ou a pa sipòte lekti odyo."
+    "videoNotSupported": "Navigatè ou pa sipòte lekti videyo.",
+    "audioNotSupported": "Navigatè ou pa sipòte lekti odyo."
+  },
+  "activitiesSection": {
+    "title": "Pwochen aktivite nou yo",
+    "subtitle": "Rantre nan kominote nou an epi patisipe nan atelye, kou ak evènman nou yo",
+    "allEvents": "Tout evènman nou yo"
+  },
+  "activities": {
+    "registerButton": "Enskri",
+    "moreEventsButton": "Plis evènman",
+    "filters": {
+      "all": "Wè tout",
+      "welcome": "Akèy",
+      "french": "Fransè",
+      "employment": "Travay",
+      "family": "Fanmi",
+      "women": "Fanm"
+    }
+  },
+  "testimonialsSection": {
+    "title": "Yo reyisi ak CARI",
+    "subtitle": "Dekouvri istwa enspirasyon moun ki jwenn plas yo nan Kebèk"
   },
   "testimonials": {
     "arrived": "Rive",
@@ -342,35 +116,35 @@
         "name": "Asma B.",
         "country": "Mawòk",
         "year": "2020",
-        "text": "Gras a CARI, mwen jwenn travay rèv mwen an 6 mwa! Sipò pèsonalize ak atelye yo ban mwen konfyans pou reyisi nan entèvyou mwen yo.",
+        "text": "Gras a CARI, mwen jwenn travay rèv mwen an 6 mwa! Akonpayman pèsonalize ak atelye yo ban mwen konfyans pou m reyisi nan entèvyou mwen yo.",
         "service": "Èd pou travay"
       },
       {
         "name": "Jean-Pierre H.",
         "country": "Ayiti",
         "year": "2020",
-        "text": "Soti nan refijye rive nan antreprenè, CARI akonpanye m nan chak etap. Jodi a mwen gen pwòp biznis mwen epi mwen anplwaye 5 moun.",
+        "text": "De refijye a antreprenè, CARI akonpanye m nan chak etap. Jodi a, mwen gen pwòp biznis mwen epi mwen anplwaye 5 moun.",
         "service": "Akonpayman global"
       },
       {
         "name": "Jasmine M.",
         "country": "Ayiti",
         "year": "2021",
-        "text": "Fransè a te sanble enposib, kounye a mwen pale l byen! Kou yo ekselan e pwofesè yo trè pasyan.",
-        "service": "Aprann fransè"
+        "text": "Fransè te sanble enposib, kounye a mwen pale l byen! Kou yo ekselan epi pwofesè yo trè pasyans.",
+        "service": "Aprantisaj fransè"
       },
       {
         "name": "Karla A.",
         "country": "RDK",
         "year": "2019",
-        "text": "Pitit mwen yo kontan, nou jwenn plas nou isit la. Sèvis familyal CARI a fè tout diferans lan.",
+        "text": "Pitit mwen yo kontan, nou jwenn plas nou isit la. Sèvis familyal CARI yo fè tout diferans lan.",
         "service": "Sèvis familyal"
       },
       {
         "name": "Wei L.",
         "country": "Lachin",
         "year": "2022",
-        "text": "Èd pou konprann sistèm kebekwa a chanje tout bagay. Kounye a mwen santi m lakay mwen nan Monreyal.",
+        "text": "Èd pou konprann sistèm kebèkwa a chanje tout bagay. Kounye a mwen santi m lakay mwen nan Monreyal.",
         "service": "Akèy ak Entegrasyon"
       }
     ],
@@ -381,15 +155,241 @@
         "origin": "Mawòk • Rive 2020"
       },
       {
-        "quote": "Kou fransè yo pèmèt mwen vin endepandan rapidman. Mwen rekòmande l pou tout nouvo vini!",
+        "quote": "Kou fransè yo pèmèt mwen vin otonòm rapidman. Mwen rekòmande yo bay tout nouvo rive yo!",
         "name": "Ahmed K.",
         "origin": "Siri • Rive 2021"
       },
       {
-        "quote": "Pwogram Fanm nan mond lan ban mwen konfyans ak yon rezo zanmi ekstraòdinè.",
+        "quote": "Pwogram Fanm nan mond lan ban m konfyans ak yon rezo zanmi ekstraòdinè.",
         "name": "Maria L.",
         "origin": "Kolonbi • Rive 2019"
       }
     ]
-  }
+  },
+  "services": {
+    "title": "Sèvis nou yo",
+    "subtitle": "Solisyon adapte ak sitiyasyon ou",
+    "learnMore": "Aprann plis",
+    "modal": {
+      "benefits": "Sa ou pral jwenn",
+      "details": "Detay sèvis la",
+      "close": "Fèmen"
+    },
+    "cards": {
+      "welcome": {
+        "title": "Akèy ak Entegrasyon",
+        "description": "Enfòmasyon, oryantasyon ak akonpayman pèsonalize pou fasilite enstalasyon ou.",
+        "fullDescription": "Akonpayman endividyèl ak aktivite gwoup pou fasilite etablisman ou ak entegrasyon ou nan nouvo anviwonman ou. Nou ede ou vin otonòm epi pwospere nan Kebèk.",
+        "benefits": [
+          "Sesyon enfòmasyon ak oryantasyon endividyèl",
+          "Akonpayman nan demach administratif",
+          "Aktivite gwoup pou kreye lyen",
+          "Referans vè resous kominotè",
+          "Sipò pou otonomi ak endepandans"
+        ],
+        "details": "Sèvis gratis ofri an fransè, anglè, panyòl, arab ak lòt lang. Randevou sou plas oswa pa telefòn."
+      },
+      "french": {
+        "title": "Aprantisaj fransè",
+        "description": "Kou fransè adapte pou imigran, tout nivo, orè fleksib (8è30-22è). Teste nivo ou gratis!",
+        "fullDescription": "Fòmasyon fransè a tan plen ak a tan pasyèl, adapte ak nivo aprantan an. Pwofesè kalifye nou yo itilize metòd pedagojik modèn.",
+        "benefits": [
+          "Kou a tan plen ak tan pasyèl",
+          "Orè fleksib de 8è30 a 22è",
+          "Tout nivo aksepte",
+          "Pwofesè kalifye ak eksperyans",
+          "Metòd adapte pou imigran",
+          "Tès nivo gratis an 10 minit"
+        ],
+        "details": "Kou gratis finanse pa MIFI. Posibilite alokasyon patisipasyon. Enskripsyon kontinyèl."
+      },
+      "employment": {
+        "title": "Èd pou travay",
+        "description": "Atelye CV, similasyon entèvyou, coaching pwofesyonèl ak rankont ak anplwayè.",
+        "fullDescription": "Apwoch dinamik rechèch travay, aktivite rezo ak koneksyon ak anplwayè. Akonpayman pèsonalize pou fasilite entegrasyon ou nan mache travay kebèkwa a.",
+        "benefits": [
+          "Atelye redaksyon CV ak lèt motivasyon",
+          "Similasyon entèvyou pèsonalize",
+          "Coaching pwofesyonèl endividyèl",
+          "Rankont dirèk ak anplwayè",
+          "Akonpayman nan rechèch aktif",
+          "85% jwenn travay an 6 mwa"
+        ],
+        "details": "Sèvis gratis ak suivi pèsonalize. Randevou endividyèl ak atelye gwoup regilye."
+      },
+      "family": {
+        "title": "Sèvis familyal",
+        "description": "Sipò pou fanmi, aktivite pou timoun ak adolesan, èd pou edikasyon.",
+        "fullDescription": "Akonpayman paran imigran ak sèvis gadri, oryantasyon lekòl ak aktivite ki favorize devlopman global timoun yo ak entegrasyon paran yo.",
+        "benefits": [
+          "Sèvis gadri pou jèn timoun",
+          "Èd pou oryantasyon lekòl",
+          "Aktivite edikativ ak lwazi",
+          "Sipò devwa ak leson",
+          "Atelye pou paran",
+          "Soti familyal òganize"
+        ],
+        "details": "Sèvis gratis oswa a ti pri. Plas limite, enskripsyon obligatwa."
+      },
+      "women": {
+        "title": "Fanm nan mond lan",
+        "description": "Pwogram espesifik pou fanm imigran: otonomi, sante, travay.",
+        "fullDescription": "Espas dedye pou kraze izolman fanm yo atravè kreyasyon lyen entèkiltirèl, rezo antred mityèl ak devlopman konpetans pwofesyonèl.",
+        "benefits": [
+          "Atelye otonomi ak estim de swa",
+          "Fòmasyon pwofesyonèl adapte",
+          "Rezo antred ant fanm",
+          "Aktivite entèkiltirèl",
+          "Enfòmasyon sou sante fanm",
+          "Akonpayman vè travay"
+        ],
+        "details": "Gratis ak konfidansyèl. Gwoup akèyan ak byenveyan. Gadri disponib sou demann."
+      },
+      "volunteering": {
+        "title": "Volontarya ak Jimelaaj",
+        "description": "Rankont entèkiltirèl, aktivite sosyal ak opòtinite volontarya.",
+        "fullDescription": "Pwogram jimelaaj entèkiltirèl, devlopman konpetans, kou lang ak enfòmatik, pakou entegrasyon sivik ak opòtinite volontarya.",
+        "benefits": [
+          "Jimelaaj ak yon moun kebèkwa",
+          "Kou lang ak enfòmatik",
+          "Atelye sitwayènte kanadyen",
+          "Opòtinite volontarya",
+          "Aktivite sosyal ak kiltirèl",
+          "Devlopman rezo ou"
+        ],
+        "details": "Gratis. Angajman fleksib selon disponibilite ou. Sètifika volontarya disponib."
+      }
+    }
+  },
+  "appointment": {
+    "title": "Ann pran yon randevou",
+    "subtitle": "Chwazi sèvis ki enterese ou",
+    "steps": {
+      "yourNeed": "Bezwen ou",
+      "yourInfo": "Enfòmasyon ou",
+      "confirmation": "Konfimasyon"
+    },
+    "consultationTypes": {
+      "welcome": "Konsiltasyon Akèy ak Entegrasyon",
+      "french": "Konsiltasyon Fransè",
+      "employment": "Konsiltasyon Travay",
+      "family": "Konsiltasyon Sèvis familyal",
+      "women": "Konsiltasyon Fanm nan mond lan",
+      "volunteering": "Konsiltasyon Volontarya"
+    },
+    "form": {
+      "name": "Non konplè",
+      "phone": "Telefòn",
+      "email": "Imèl",
+      "service": "Sèvis dezire",
+      "date": "Dat prefere",
+      "time": "Orè prefere",
+      "message": "Mesaj (opsyonèl)",
+      "submit": "Konfime randevou",
+      "namePlaceholder": "Prenon ak non",
+      "phonePlaceholder": "(514) 123-4567",
+      "emailPlaceholder": "ou@imèl.com",
+      "messagePlaceholder": "Dekri sitiyasyon ou an bref...",
+      "selectTime": "Chwazi yon lè",
+      "confirmationNote": "Ou pral resevwa yon konfimasyon pa imèl nan 24è"
+    },
+    "contact": {
+      "hoursLabel": "Orè",
+      "schedule": "Lendi-Vandredi: 9è - 17è"
+    }
+  },
+  "contact": {
+    "title": "Kontakte nou",
+    "subtitle": "Nou la pou ede ou",
+    "mapText": "Kat entèaktif disponib sou sit la",
+    "viewGoogleMaps": "Wè sou Google Maps",
+    "subjects": {
+      "general": "Demann jeneral",
+      "info": "Demann enfòmasyon",
+      "appointment": "Pran randevou",
+      "french": "Kou fransè",
+      "employment": "Èd pou travay",
+      "family": "Sèvis familyal"
+    },
+    "form": {
+      "name": "Non konplè",
+      "email": "Imèl",
+      "subject": "Sijè",
+      "message": "Mesaj ou",
+      "submit": "Voye mesaj la"
+    },
+    "info": {
+      "addressLabel": "Adrès",
+      "phoneLabel": "Telefòn",
+      "emailLabel": "Imèl",
+      "hoursLabel": "Orè louvèti",
+      "accessLabel": "Aksè",
+      "address": "774 boulevard Décarie, Bureau 300, Saint-Laurent H4L 3L5",
+      "phone": "(514) 748-2007",
+      "email": "carist@cari.qc.ca",
+      "hours": "Lendi-Vandredi 9è-12è, 12è30-16è30",
+      "frenchHours": "Aprantisaj fransè: 8è30-22è",
+      "metro": "Metro: Du Collège (liy oranj)",
+      "bus": "Otobis: 17, 64, 121, 368",
+      "parking": "Pakin gratis sou plas"
+    }
+  },
+  "chatbot": {
+    "title": "Asistan CARI",
+    "placeholder": "Poze kesyon ou...",
+    "typing": "Asistan CARI ap tape...",
+    "status": "Anliy",
+    "error": "Eskize, yon erè pase. Tanpri eseye ankò.",
+    "suggestions": {
+      "services": "Sèvis",
+      "appointment": "Randevou",
+      "appointmentInput": "Pran yon randevou",
+      "french": "Fransè",
+      "frenchInput": "Kou fransè"
+    },
+    "responses": {
+      "greeting": "Bonjou! Mwen kontan ede ou. CARI ofri 6 sèvis prensipal pou entegrasyon ou nan Kebèk. Ki sèvis ki enterese ou plis?",
+      "services": "6 sèvis nou yo:\n• Akèy ak Entegrasyon\n• Aprantisaj fransè (8è30-22è)\n• Èd pou travay (85% siksè!)\n• Sèvis familyal\n• Fanm nan mond lan\n• Volontarya ak Jimelaaj\n\nSou kilès ou ta renmen plis enfòmasyon?",
+      "appointment": "Pou pran randevou:\n• Rele (514) 748-2007\n• Ranpli fòmilè sou paj sa a\n• Disponib Lendi-Vandredi 9è-16è30\n\nKi kalite konsiltasyon? (akèy/fransè/travay)",
+      "contact": "(514) 748-2007\ncarist@cari.qc.ca\n774 boul. Décarie #300, Saint-Laurent\nLendi-Vandredi: 9è-12è, 12è30-16è30\n\nKijan mwen ka ede ou plis?",
+      "french": "Kou fransè nou yo:\n• 8è30-22è (trè fleksib!)\n• Tout nivo aksepte\n• Metòd adapte pou imigran\n• Tès nivo gratis\n\nÈske ou ta renmen planifye yon evalyasyon?",
+      "employment": "Èd pou travay nou:\n• Atelye CV/lèt motivasyon\n• Similasyon entèvyou\n• Coaching pwofesyonèl\n• Rankont ak anplwayè\n• 85% jwenn travay an 6 mwa!\n\nEnterese nan yon konsiltasyon travay?",
+      "default": "Mwen ka ede ou ak:\n• Enfòmasyon sou sèvis nou yo\n• Pran randevou\n• Kòdone kontak\n• Konsèy pèsonalize\n\nKisa ou ta renmen konnen?"
+    }
+  },
+  "success": {
+    "contact": "Mèsi! Demann ou an voye. Nou pral kontakte ou byento.",
+    "appointment": "✅ Randevou konfime! Ou pral resevwa yon konfimasyon pa imèl ak SMS nan pwochen minit yo."
+  },
+  "parallax": {
+    "statsTitle": "Ansanm, nou fè yon diferans",
+    "statsSubtitle": "Depi 1989, CARI akonpanye nouvo rive yo vè siksè",
+    "stats": {
+      "peopleHelped": "Moun ede/ane",
+      "satisfaction": "To satisfaksyon",
+      "findEmployment": "Jwenn travay",
+      "languagesSpoken": "Lang pale"
+    },
+    "ctaTitle": "Prè pou kòmanse nouvo lavi ou nan Kebèk?",
+    "ctaSubtitle": "Ekip miltileng nou an la pou akonpanye ou nan chak etap entegrasyon ou."
+  },
+  "footer": {
+    "copyright": "© 2024 Tout dwa rezève.",
+    "tagline": "Òganizasyon san bi likratif pou èd imigran"
+  },
+  "aria": {
+    "close": "Fèmen",
+    "closeModal": "Fèmen fenèt la",
+    "carousel": "Kawousèl antèt",
+    "carouselNav": "Navigasyon kawousèl",
+    "previousSlide": "Slide avan",
+    "nextSlide": "Slide swivan",
+    "goToSlide": "Ale nan slide",
+    "carouselSlider": "Glisè kawousèl",
+    "previousTestimonial": "Temwayaj avan",
+    "nextTestimonial": "Temwayaj swivan",
+    "goToTestimonial": "Ale nan temwayaj",
+    "learnMoreAbout": "Aprann plis sou"
+  },
+  "loading": "Chajman..."
 }

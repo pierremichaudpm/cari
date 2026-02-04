@@ -1,332 +1,85 @@
 {
   "nav": {
-    "home": "Home",
-    "needs": "Your needs",
+    "home": "ہوم",
+    "needs": "آپ کی ضروریات",
     "activities": "سرگرمیاں",
     "news": "خبریں",
-    "talk": "Appointment",
+    "talk": "ملاقات",
     "talkToAdvisor": "مشیر سے بات کریں",
-    "contact": "Contact"
+    "contact": "رابطہ کریں"
   },
   "hero": {
-    "title": "Find <span class='highlight'>your place</span> in Quebec",
-    "subtitle": "Employment, French, housing, procedures: free support from A to Z",
-    "discoverServices": "Discover our services",
-    "letsTalk": "Talk to an advisor",
+    "title": "کیوبیک میں <span class='highlight'>اپنی جگہ</span> تلاش کریں",
+    "subtitle": "ملازمت، فرانسیسی، رہائش، کارروائیاں: A سے Z تک مفت مدد",
+    "discoverServices": "ہماری خدمات دریافت کریں",
+    "letsTalk": "مشیر سے بات کریں",
+    "testFrench": "اپنی فرانسیسی جانچیں",
     "stats": {
-      "peopleHelped": "People helped/year",
-      "satisfaction": "Satisfaction",
-      "findEmployment": "Find employment"
+      "peopleHelped": "سالانہ مدد شدہ افراد",
+      "satisfaction": "اطمینان",
+      "findEmployment": "ملازمت حاصل کی"
     },
-    "testFrench": "میری فرانسیسی کی جانچ کریں",
     "slides": {
       "slide1": {
-        "quote": "« Grâce au CARI, j'ai trouvé mon emploi de rêve en 6 mois! »",
+        "quote": "« CARI کی بدولت، میں نے 6 ماہ میں اپنی خوابوں کی نوکری پائی! »",
         "author": "Asma B.",
-        "role": "Maroc • Arrivée 2020"
+        "role": "مراکش • آمد 2020"
       },
       "slide2": {
-        "quote": "« De réfugié à entrepreneur, le CARI m'a accompagné »",
+        "quote": "« پناہ گزین سے کاروباری تک، CARI نے میرا ساتھ دیا »",
         "author": "Jean-Pierre H.",
-        "role": "Haïti • Arrivée 2020"
+        "role": "ہیٹی • آمد 2020"
       },
       "slide3": {
-        "quote": "« Le français semblait impossible, maintenant je le parle couramment! »",
+        "quote": "« فرانسیسی ناممکن لگتی تھی، اب میں روانی سے بولتی ہوں! »",
         "author": "Jasmine M.",
-        "role": "Haïti • Arrivée 2021"
+        "role": "ہیٹی • آمد 2021"
       },
       "slide4": {
-        "quote": "« Mes enfants sont épanouis, nous avons trouvé notre place ici »",
+        "quote": "« میرے بچے خوش ہیں، ہم نے یہاں اپنی جگہ پائی »",
         "author": "Karla A.",
-        "role": "RDC • Arrivée 2019"
+        "role": "کانگو • آمد 2019"
       },
       "slide5": {
-        "quote": "« L'aide pour comprendre le système québécois a tout changé »",
+        "quote": "« کیوبیک کے نظام کو سمجھنے میں مدد نے سب کچھ بدل دیا »",
         "author": "Wei L.",
-        "role": "Chine • Arrivée 2022"
+        "role": "چین • آمد 2022"
       }
     }
   },
   "needs": {
-    "title": "What are your needs?",
-    "subtitle": "We accompany you at every step of your integration in Quebec",
+    "title": "آپ کی ضروریات کیا ہیں؟",
+    "subtitle": "ہم کیوبیک میں آپ کے انضمام کے ہر قدم پر آپ کے ساتھ ہیں",
+    "instruction": "مزید جاننے کے لیے ایک سروس منتخب کریں",
     "cards": {
-      "welcome": "I just arrived",
-      "french": "I'm learning French",
-      "employment": "I'm looking for a job",
-      "family": "I have a family",
-      "women": "I am a woman",
-      "volunteering": "I want to get involved"
-    },
-    "instruction": "Sélectionnez un service pour en savoir plus"
-  },
-  "services": {
-    "title": "Our services",
-    "subtitle": "Solutions adapted to your situation",
-    "cards": {
-      "welcome": {
-        "title": "Welcome & Integration",
-        "description": "Information, orientation and personalized support to facilitate your settlement.",
-        "fullDescription": "آپ کے استقرار اور نئی کمیونٹی میں انضمام کو فروغ دینے کے لیے انفرادی مدد اور گروپ سرگرمیاں۔ ہم آپ کو کیوبیک میں خود مختار بننے اور کامیاب ہونے میں مدد کرتے ہیں۔",
-        "benefits": [
-          "انفرادی معلومات اور رہنمائی سیشن",
-          "انتظامی طریقہ کار میں مدد",
-          "روابط بنانے کے لیے گروپ سرگرمیاں",
-          "کمیونٹی وسائل کے حوالے",
-          "خود مختاری اور آزادی کے لیے مدد"
-        ],
-        "details": "فرانسیسی، انگریزی، ہسپانوی، عربی اور دیگر زبانوں میں مفت سروس۔ ذاتی یا فون پر ملاقات۔"
-      },
-      "french": {
-        "title": "French Learning",
-        "description": "French courses adapted for immigrants, all levels, flexible schedules (8:30 AM-10 PM).",
-        "fullDescription": "طالب علم کی سطح کے مطابق مکمل اور جزوی وقتی فرانسیسی تربیت۔ ہمارے اہل اساتذہ جدید تعلیمی طریقے استعمال کرتے ہیں۔",
-        "benefits": [
-          "مکمل اور جزوی وقتی کورسز",
-          "صبح 8:30 سے رات 10 بجے تک لچکدار اوقات",
-          "تمام سطحیں قبول",
-          "اہل اور تجربہ کار اساتذہ",
-          "تارکین وطن کے لیے موزوں طریقے",
-          "10 منٹ کا مفت سطح ٹیسٹ"
-        ],
-        "details": "MIFI کی مالی اعانت سے مفت کورسز۔ شرکت الاؤنس کا امکان۔ مسلسل اندراج۔"
-      },
-      "employment": {
-        "title": "Employment Assistance",
-        "description": "CV workshops, interview simulations, professional coaching and meetings with employers.",
-        "fullDescription": "ملازمت کی متحرک تلاش، نیٹ ورکنگ سرگرمیاں اور آجروں سے روابط۔ کیوبیک کی جاب مارکیٹ میں انضمام کے لیے ذاتی مدد۔",
-        "benefits": [
-          "سی وی اور کور لیٹر لکھنے کی ورکشاپس",
-          "ذاتی انٹرویو سمیولیشن",
-          "انفرادی پیشہ ورانہ کوچنگ",
-          "آجروں سے براہ راست ملاقاتیں",
-          "فعال ملازمت کی تلاش میں مدد",
-          "85% 6 ماہ میں ملازمت پاتے ہیں"
-        ],
-        "details": "ذاتی فالو اپ کے ساتھ مفت سروس۔ انفرادی ملاقاتیں اور باقاعدہ گروپ ورکشاپس۔"
-      },
-      "family": {
-        "title": "Family Services",
-        "description": "Support for families, activities for children and teenagers, help with schooling.",
-        "fullDescription": "تارکین وطن والدین کی مدد بچوں کی نگہداشت، اسکول رہنمائی اور بچوں کی مجموعی نشوونما اور والدین کے انضمام کو فروغ دینے والی سرگرمیوں کے ساتھ۔",
-        "benefits": [
-          "چھوٹے بچوں کی نگہداشت کی خدمات",
-          "اسکول رہنمائی میں مدد",
-          "تعلیمی اور تفریحی سرگرمیاں",
-          "ہوم ورک اور اسباق میں مدد",
-          "والدین کے لیے ورکشاپس",
-          "منظم خاندانی سیر"
-        ],
-        "details": "مفت یا کم لاگت خدمات۔ محدود جگہیں، اندراج ضروری۔"
-      },
-      "women": {
-        "title": "Women of the World",
-        "description": "Specific programs for immigrant women: autonomy, health, employment.",
-        "fullDescription": "بین الثقافتی روابط، باہمی مدد کے نیٹ ورکس اور تارکین وطن خواتین کے لیے پیشہ ورانہ مہارتوں کی ترقی کے ذریعے خواتین کی تنہائی ختم کرنے کی مخصوص جگہ۔",
-        "benefits": [
-          "خود مختاری اور خود اعتمادی کی ورکشاپس",
-          "موزوں پیشہ ورانہ تربیت",
-          "خواتین کے درمیان مدد کا نیٹ ورک",
-          "بین الثقافتی سرگرمیاں",
-          "خواتین کی صحت کی معلومات",
-          "روزگار میں مدد"
-        ],
-        "details": "مفت اور خفیہ۔ خوش آئند اور معاون گروپ۔ درخواست پر بچوں کی نگہداشت دستیاب۔"
-      },
-      "volunteering": {
-        "title": "Volunteering & Pairing",
-        "description": "Intercultural meetings, social activities and volunteering opportunities.",
-        "fullDescription": "بین الثقافتی جوڑی بنانے کا پروگرام، مہارت کی ترقی، زبان اور کمپیوٹر کورسز، شہریت کے انضمام کا راستہ اور کمیونٹی تعلق کو فروغ دینے کے لیے رضاکارانہ مواقع۔",
-        "benefits": [
-          "ایک کیوبیکر کے ساتھ جوڑی",
-          "زبان اور کمپیوٹر کورسز",
-          "کینیڈین شہریت ورکشاپس",
-          "رضاکارانہ مواقع",
-          "سماجی اور ثقافتی سرگرمیاں",
-          "اپنا نیٹ ورک بنائیں"
-        ],
-        "details": "مفت۔ اپنی دستیابی کے مطابق لچکدار عزم۔ رضاکارانہ سرٹیفکیٹ دستیاب۔"
-      }
-    },
-    "learnMore": "مزید جانیں",
-    "modal": {
-      "benefits": "آپ کو کیا ملے گا",
-      "details": "سروس کی تفصیلات",
-      "close": "بند کریں"
+      "welcome": "میں ابھی آیا ہوں",
+      "french": "میں فرانسیسی سیکھ رہا ہوں",
+      "employment": "میں نوکری ڈھونڈ رہا ہوں",
+      "family": "میرا خاندان ہے",
+      "women": "میں عورت ہوں",
+      "volunteering": "میں حصہ لینا چاہتا ہوں"
     }
-  },
-  "appointment": {
-    "title": "Let's make an appointment",
-    "subtitle": "Choose the service that interests you",
-    "consultationTypes": {
-      "welcome": "Welcome & Integration Consultation",
-      "french": "French Learning Consultation",
-      "employment": "Employment Consultation",
-      "family": "Family Services Consultation",
-      "women": "Women of the World Consultation",
-      "volunteering": "Volunteering Consultation"
-    },
-    "form": {
-      "name": "Full name",
-      "phone": "Phone number",
-      "email": "Email address",
-      "service": "Desired service",
-      "date": "Preferred date",
-      "time": "Preferred time",
-      "message": "Message (optional)",
-      "submit": "Confirm appointment",
-      "namePlaceholder": "Prénom et nom",
-      "phonePlaceholder": "(514) 123-4567",
-      "emailPlaceholder": "votre@courriel.com",
-      "messagePlaceholder": "Décrivez brièvement votre situation...",
-      "selectTime": "Choisir une heure",
-      "confirmationNote": "Vous recevrez une confirmation par courriel dans les 24h"
-    },
-    "steps": {
-      "yourNeed": "آپ کی ضرورت",
-      "yourInfo": "آپ کی معلومات",
-      "confirmation": "تصدیق"
-    },
-    "contact": {
-      "hoursLabel": "Horaire",
-      "schedule": "Lun-Ven: 9h - 17h"
-    }
-  },
-  "contact": {
-    "title": "Contact us",
-    "subtitle": "We are here to help you",
-    "form": {
-      "name": "Full name",
-      "email": "Email address",
-      "subject": "Subject",
-      "message": "Your message",
-      "submit": "Send message"
-    },
-    "info": {
-      "address": "774 Décarie Blvd, Suite 300, Saint-Laurent H4L 3L5",
-      "phone": "(514) 748-2007",
-      "email": "carist@cari.qc.ca",
-      "hours": "Mon-Fri 9 AM-12 PM, 12:30-4:30 PM",
-      "frenchHours": "French Learning: 8:30 AM-10 PM",
-      "addressLabel": "پتہ",
-      "phoneLabel": "فون",
-      "emailLabel": "ای میل",
-      "hoursLabel": "اوقات",
-      "accessLabel": "رسائی",
-      "metro": "میٹرو: Du Collège (نارنجی لائن)",
-      "bus": "بس: 17، 64، 121، 368",
-      "parking": "جگہ پر مفت پارکنگ"
-    },
-    "mapText": "Carte interactive disponible sur le site",
-    "viewGoogleMaps": "Voir sur Google Maps",
-    "subjects": {
-      "general": "Demande générale",
-      "info": "Demande d'information",
-      "appointment": "Prise de rendez-vous",
-      "french": "Cours de français",
-      "employment": "Aide à l'emploi",
-      "family": "Services familiaux"
-    }
-  },
-  "chatbot": {
-    "title": "CARI Assistant",
-    "placeholder": "Ask your question...",
-    "typing": "CARI Assistant is typing...",
-    "responses": {
-      "greeting": "Hello! I'm delighted to help you. CARI offers 6 main services for your integration in Quebec. Which service interests you most?",
-      "services": "Our 6 services:\n• Welcome & Integration\n• French Learning (8:30 AM-10 PM)\n• Employment Assistance (85% success!)\n• Family Services\n• Women of the World\n• Volunteering & Pairing\n\nWhich one would you like more info about?",
-      "appointment": "To book an appointment:\n• Call (514) 748-2007\n• Fill the form on this page\n• Available Mon-Fri 9 AM-4:30 PM\n\nWhat type of consultation? (welcome/french/employment)",
-      "contact": "(514) 748-2007\ncarist@cari.qc.ca\n774 Décarie Blvd #300, Saint-Laurent\nMon-Fri: 9 AM-12 PM, 12:30-4:30 PM\n\nHow can I help you further?",
-      "french": "Our French courses:\n• 8:30 AM-10 PM (very flexible!)\n• All levels accepted\n• Methods adapted for immigrants\n• Free level assessment\n\nWould you like to schedule an evaluation?",
-      "employment": "Our employment assistance:\n• Resume/cover letter workshops\n• Interview simulations\n• Professional coaching\n• Employer meetings\n• 85% find a job within 6 months!\n\nInterested in employment consultation?",
-      "default": "I can help you with:\n• Information about our services\n• Appointment booking\n• Contact details\n• Personalized advice\n\nWhat would you like to know?"
-    },
-    "status": "آن لائن",
-    "error": "معذرت، ایک خرابی ہوئی۔ براہ کرم دوبارہ کوشش کریں۔",
-    "suggestions": {
-      "services": "خدمات",
-      "appointment": "ملاقات",
-      "appointmentInput": "ملاقات کا وقت لیں",
-      "french": "فرانسیسی",
-      "frenchInput": "فرانسیسی کورسز"
-    }
-  },
-  "success": {
-    "contact": "Thank you! Your request has been sent. We will contact you shortly.",
-    "appointment": "✅ Appointment confirmed! You will receive a confirmation by email and SMS in the next few minutes."
   },
   "newsSection": {
     "title": "خبریں",
     "subtitle": "ہمارے پروگراموں، تقریبات اور کامیابی کی کہانیوں سے باخبر رہیں"
   },
-  "activitiesSection": {
-    "title": "ہماری آنے والی سرگرمیاں",
-    "subtitle": "ہماری کمیونٹی میں شامل ہوں اور ہماری ورکشاپس، کورسز اور تقریبات میں حصہ لیں",
-    "allEvents": "ہماری تمام تقریبات"
-  },
-  "testimonialsSection": {
-    "title": "وہ CARI کے ساتھ کامیاب ہوئے",
-    "subtitle": "ان لوگوں کی متاثر کن کہانیاں دریافت کریں جنہوں نے کیوبیک میں اپنی جگہ تلاش کی"
-  },
   "news": {
-    "moreContentButton": "Plus de contenu",
-    "moreNewsTitle": "Plus de nouvelles"
+    "moreContentButton": "مزید مواد",
+    "moreNewsTitle": "مزید خبریں"
   },
   "newsModal": {
-    "share": "Partager",
+    "share": "شیئر کریں",
     "shareOn": {
-      "facebook": "فیسبک پر شیئر کریں",
-      "twitter": "ٹویٹر پر شیئر کریں",
+      "facebook": "فیس بک پر شیئر کریں",
+      "twitter": "ٹوئٹر پر شیئر کریں",
       "linkedin": "لنکڈان پر شیئر کریں",
       "whatsapp": "واٹس ایپ پر شیئر کریں"
     }
   },
-  "activities": {
-    "registerButton": "رجسٹر کریں",
-    "moreEventsButton": "مزید تقریبات",
-    "filters": {
-      "all": "Tout voir",
-      "welcome": "Accueil",
-      "french": "Français",
-      "employment": "Emploi",
-      "family": "Famille",
-      "women": "Femmes"
-    }
-  },
-  "parallax": {
-    "statsTitle": "Ensemble, nous faisons la différence",
-    "statsSubtitle": "Depuis 1989, le CARI accompagne les nouveaux arrivants vers leur réussite",
-    "stats": {
-      "peopleHelped": "Personnes aidées/an",
-      "satisfaction": "Taux de satisfaction",
-      "findEmployment": "Trouvent un emploi",
-      "languagesSpoken": "Langues parlées"
-    },
-    "ctaTitle": "Prêt à commencer votre nouvelle vie au Québec?",
-    "ctaSubtitle": "Notre équipe multilingue est là pour vous accompagner à chaque étape de votre intégration."
-  },
-  "footer": {
-    "copyright": "© 2024 Tous droits réservés.",
-    "tagline": "Organisme à but non lucratif d'aide aux immigrants"
-  },
-  "aria": {
-    "close": "بند کریں",
-    "carousel": "Carrousel d'en-tête",
-    "carouselNav": "Navigation du carrousel",
-    "previousSlide": "Slide précédente",
-    "nextSlide": "Slide suivante",
-    "goToSlide": "Aller à la diapositive",
-    "carouselSlider": "Slider carrousel",
-    "closeModal": "ونڈو بند کریں",
-    "previousTestimonial": "پچھلی گواہی",
-    "nextTestimonial": "اگلی گواہی",
-    "goToTestimonial": "گواہی پر جائیں",
-    "learnMoreAbout": "مزید جانیں"
-  },
-  "loading": "لوڈ ہو رہا ہے...",
   "newsCategories": {
     "francisation": "فرانسیسی سیکھنا",
-    "emploi": "روزگار",
+    "emploi": "ملازمت",
     "femmes": "دنیا کی خواتین",
     "integration": "انضمام",
     "parents": "والدین اور نوجوان"
@@ -335,61 +88,308 @@
     "videoNotSupported": "آپ کا براؤزر ویڈیو چلانے کی حمایت نہیں کرتا۔",
     "audioNotSupported": "آپ کا براؤزر آڈیو چلانے کی حمایت نہیں کرتا۔"
   },
+  "activitiesSection": {
+    "title": "ہماری آنے والی سرگرمیاں",
+    "subtitle": "ہماری کمیونٹی میں شامل ہوں اور ورکشاپس، کورسز اور تقریبات میں حصہ لیں",
+    "allEvents": "تمام تقریبات"
+  },
+  "activities": {
+    "registerButton": "رجسٹر کریں",
+    "moreEventsButton": "مزید تقریبات",
+    "filters": {
+      "all": "سب دیکھیں",
+      "welcome": "استقبال",
+      "french": "فرانسیسی",
+      "employment": "ملازمت",
+      "family": "خاندان",
+      "women": "خواتین"
+    }
+  },
+  "testimonialsSection": {
+    "title": "انہوں نے CARI کے ساتھ کامیابی حاصل کی",
+    "subtitle": "ان لوگوں کی متاثر کن کہانیاں دریافت کریں جنہوں نے کیوبیک میں اپنی جگہ پائی"
+  },
   "testimonials": {
     "arrived": "آمد",
     "items": [
       {
-        "name": "اسماء ب.",
+        "name": "Asma B.",
         "country": "مراکش",
         "year": "2020",
-        "text": "CARI کی بدولت، میں نے 6 ماہ میں اپنی خوابوں کی نوکری پائی! ذاتی مدد اور ورکشاپس نے مجھے انٹرویوز میں کامیابی کے لیے اعتماد دیا۔",
-        "service": "روزگار میں مدد"
+        "text": "CARI کی بدولت، میں نے 6 ماہ میں اپنی خوابوں کی نوکری پائی! ذاتی مدد اور ورکشاپس نے مجھے انٹرویوز میں کامیابی کا اعتماد دیا۔",
+        "service": "ملازمت میں مدد"
       },
       {
-        "name": "جان پیئر ایچ.",
+        "name": "Jean-Pierre H.",
         "country": "ہیٹی",
         "year": "2020",
-        "text": "پناہ گزین سے کاروباری تک، CARI نے ہر قدم پر میرا ساتھ دیا۔ آج میرا اپنا کاروبار ہے اور 5 لوگ کام کرتے ہیں۔",
-        "service": "مکمل مدد"
+        "text": "پناہ گزین سے کاروباری تک، CARI نے ہر قدم پر میرا ساتھ دیا۔ آج میرا اپنا کاروبار ہے اور 5 ملازمین ہیں۔",
+        "service": "جامع مدد"
       },
       {
-        "name": "جیسمین ایم.",
+        "name": "Jasmine M.",
         "country": "ہیٹی",
         "year": "2021",
         "text": "فرانسیسی ناممکن لگتی تھی، اب میں روانی سے بولتی ہوں! کورسز بہترین ہیں اور اساتذہ بہت صبر والے ہیں۔",
         "service": "فرانسیسی سیکھنا"
       },
       {
-        "name": "کارلا اے.",
-        "country": "ڈی آر سی",
+        "name": "Karla A.",
+        "country": "کانگو",
         "year": "2019",
-        "text": "میرے بچے خوش ہیں، ہم نے یہاں اپنی جگہ پائی۔ CARI کی خاندانی خدمات نے بہت فرق کیا۔",
+        "text": "میرے بچے خوش ہیں، ہم نے یہاں اپنی جگہ پائی۔ CARI کی خاندانی خدمات نے بڑا فرق ڈالا۔",
         "service": "خاندانی خدمات"
       },
       {
-        "name": "وی ایل.",
+        "name": "Wei L.",
         "country": "چین",
         "year": "2022",
-        "text": "کیوبیک کے نظام کو سمجھنے میں مدد نے سب کچھ بدل دیا۔ اب مجھے مونٹریال میں گھر جیسا لگتا ہے۔",
+        "text": "کیوبیک کے نظام کو سمجھنے میں مدد نے سب کچھ بدل دیا۔ اب میں مانٹریال میں گھر جیسا محسوس کرتا ہوں۔",
         "service": "استقبال اور انضمام"
       }
     ],
     "parallaxItems": [
       {
         "quote": "CARI کی بدولت، میں نے 6 ماہ میں اپنی خوابوں کی نوکری پائی! ٹیم نے ہر قدم پر میرا ساتھ دیا۔",
-        "name": "اسماء ب.",
+        "name": "Asma B.",
         "origin": "مراکش • آمد 2020"
       },
       {
-        "quote": "فرانسیسی کے کورسز نے مجھے جلدی خود مختار بنا دیا۔ میں تمام نئے آنے والوں کو تجویز کرتا ہوں!",
-        "name": "احمد ک.",
+        "quote": "فرانسیسی کورسز نے مجھے تیزی سے خودمختار بنایا۔ میں تمام نئے آنے والوں کو تجویز کرتی ہوں!",
+        "name": "Ahmed K.",
         "origin": "شام • آمد 2021"
       },
       {
-        "quote": "دنیا کی خواتین پروگرام نے مجھے اعتماد اور شاندار سہیلیوں کا نیٹ ورک دیا۔",
-        "name": "ماریہ ایل.",
+        "quote": "دنیا کی خواتین پروگرام نے مجھے اعتماد اور سہیلیوں کا شاندار نیٹ ورک دیا۔",
+        "name": "Maria L.",
         "origin": "کولمبیا • آمد 2019"
       }
     ]
-  }
+  },
+  "services": {
+    "title": "ہماری خدمات",
+    "subtitle": "آپ کی صورتحال کے مطابق حل",
+    "learnMore": "مزید جانیں",
+    "modal": {
+      "benefits": "آپ کو کیا ملے گا",
+      "details": "سروس کی تفصیلات",
+      "close": "بند کریں"
+    },
+    "cards": {
+      "welcome": {
+        "title": "استقبال اور انضمام",
+        "description": "معلومات، رہنمائی اور ذاتی مدد تاکہ آپ آسانی سے آباد ہو سکیں۔",
+        "fullDescription": "انفرادی مدد اور گروپ سرگرمیاں آپ کی آبادکاری اور نئے ماحول میں انضمام کے لیے۔ ہم آپ کو کیوبیک میں خودمختار اور خوشحال بننے میں مدد کرتے ہیں۔",
+        "benefits": [
+          "انفرادی معلومات اور رہنمائی سیشنز",
+          "انتظامی امور میں مدد",
+          "روابط بنانے کی گروپ سرگرمیاں",
+          "کمیونٹی وسائل کی طرف رہنمائی",
+          "خودمختاری اور آزادی کی حمایت"
+        ],
+        "details": "مفت سروس فرانسیسی، انگریزی، ہسپانوی، عربی اور دیگر زبانوں میں۔ دفتر میں یا فون پر ملاقات۔"
+      },
+      "french": {
+        "title": "فرانسیسی سیکھنا",
+        "description": "تارکین وطن کے لیے فرانسیسی کورسز، تمام سطحیں، لچکدار اوقات (8:30-22:00)۔ اپنی سطح مفت جانچیں!",
+        "fullDescription": "فل ٹائم اور پارٹ ٹائم فرانسیسی تربیت، سیکھنے والے کی سطح کے مطابق۔ ہمارے اہل اساتذہ جدید تدریسی طریقے استعمال کرتے ہیں۔",
+        "benefits": [
+          "فل ٹائم اور پارٹ ٹائم کورسز",
+          "8:30 سے 22:00 تک لچکدار اوقات",
+          "تمام سطحیں قبول",
+          "اہل اور تجربہ کار اساتذہ",
+          "تارکین وطن کے لیے موزوں طریقے",
+          "10 منٹ میں مفت سطح کا ٹیسٹ"
+        ],
+        "details": "MIFI کی مالی معاونت سے مفت کورسز۔ شرکت الاؤنس کا امکان۔ مسلسل داخلے۔"
+      },
+      "employment": {
+        "title": "ملازمت میں مدد",
+        "description": "سی وی ورکشاپس، انٹرویو سمولیشن، پیشہ ورانہ کوچنگ اور آجروں سے ملاقاتیں۔",
+        "fullDescription": "متحرک نوکری کی تلاش کے طریقے، نیٹ ورکنگ سرگرمیاں اور آجروں سے رابطہ۔ کیوبیک کی ملازمت کی مارکیٹ میں آپ کے انضمام کے لیے ذاتی مدد۔",
+        "benefits": [
+          "سی وی اور کور لیٹر لکھنے کی ورکشاپس",
+          "ذاتی انٹرویو سمولیشن",
+          "انفرادی پیشہ ورانہ کوچنگ",
+          "آجروں سے براہ راست ملاقاتیں",
+          "فعال نوکری تلاش میں مدد",
+          "85% 6 ماہ میں نوکری پاتے ہیں"
+        ],
+        "details": "ذاتی فالو اپ کے ساتھ مفت سروس۔ انفرادی ملاقاتیں اور باقاعدہ گروپ ورکشاپس۔"
+      },
+      "family": {
+        "title": "خاندانی خدمات",
+        "description": "خاندانوں کی مدد، بچوں اور نوجوانوں کی سرگرمیاں، تعلیم میں مدد۔",
+        "fullDescription": "تارکین وطن والدین کی مدد بچوں کی دیکھ بھال، اسکول رہنمائی اور بچوں کی مجموعی ترقی کی سرگرمیوں کے ساتھ۔",
+        "benefits": [
+          "چھوٹے بچوں کی دیکھ بھال",
+          "اسکول رہنمائی میں مدد",
+          "تعلیمی اور تفریحی سرگرمیاں",
+          "ہوم ورک اور سبق میں مدد",
+          "والدین کی ورکشاپس",
+          "منظم خاندانی سیر"
+        ],
+        "details": "مفت یا کم لاگت خدمات۔ محدود جگہیں، رجسٹریشن ضروری۔"
+      },
+      "women": {
+        "title": "دنیا کی خواتین",
+        "description": "خواتین تارکین وطن کے لیے خصوصی پروگرام: خودمختاری، صحت، ملازمت۔",
+        "fullDescription": "خواتین کی تنہائی دور کرنے کے لیے مخصوص جگہ، بین الثقافتی روابط، باہمی مدد کے نیٹ ورک اور پیشہ ورانہ مہارتوں کی ترقی۔",
+        "benefits": [
+          "خودمختاری اور خود اعتمادی ورکشاپس",
+          "موزوں پیشہ ورانہ تربیت",
+          "خواتین کے درمیان مدد کا نیٹ ورک",
+          "بین الثقافتی سرگرمیاں",
+          "خواتین کی صحت کی معلومات",
+          "ملازمت کی طرف مدد"
+        ],
+        "details": "مفت اور خفیہ۔ خوش آمدید اور معاون گروپ۔ درخواست پر بچوں کی دیکھ بھال دستیاب۔"
+      },
+      "volunteering": {
+        "title": "رضاکارانہ اور جوڑی بنانا",
+        "description": "بین الثقافتی ملاقاتیں، سماجی سرگرمیاں اور رضاکارانہ مواقع۔",
+        "fullDescription": "بین الثقافتی جوڑی بنانے کا پروگرام، مہارتوں کی ترقی، زبان اور کمپیوٹر کورسز، شہریت کا راستہ اور رضاکارانہ مواقع۔",
+        "benefits": [
+          "ایک کیوبیک والے سے جوڑی",
+          "زبان اور کمپیوٹر کورسز",
+          "کینیڈین شہریت ورکشاپس",
+          "رضاکارانہ مواقع",
+          "سماجی اور ثقافتی سرگرمیاں",
+          "اپنا نیٹ ورک بنائیں"
+        ],
+        "details": "مفت۔ اپنی دستیابی کے مطابق لچکدار عزم۔ رضاکارانہ سرٹیفکیٹ دستیاب۔"
+      }
+    }
+  },
+  "appointment": {
+    "title": "ملاقات کا وقت مقرر کریں",
+    "subtitle": "اپنی دلچسپی کی سروس منتخب کریں",
+    "steps": {
+      "yourNeed": "آپ کی ضرورت",
+      "yourInfo": "آپ کی معلومات",
+      "confirmation": "تصدیق"
+    },
+    "consultationTypes": {
+      "welcome": "استقبال اور انضمام مشاورت",
+      "french": "فرانسیسی مشاورت",
+      "employment": "ملازمت مشاورت",
+      "family": "خاندانی خدمات مشاورت",
+      "women": "خواتین مشاورت",
+      "volunteering": "رضاکارانہ مشاورت"
+    },
+    "form": {
+      "name": "پورا نام",
+      "phone": "فون",
+      "email": "ای میل",
+      "service": "مطلوبہ سروس",
+      "date": "پسندیدہ تاریخ",
+      "time": "پسندیدہ وقت",
+      "message": "پیغام (اختیاری)",
+      "submit": "ملاقات کی تصدیق کریں",
+      "namePlaceholder": "نام اور کنیت",
+      "phonePlaceholder": "(514) 123-4567",
+      "emailPlaceholder": "آپکا@ایمیل.com",
+      "messagePlaceholder": "اپنی صورتحال مختصراً بیان کریں...",
+      "selectTime": "وقت منتخب کریں",
+      "confirmationNote": "آپ کو 24 گھنٹے میں ای میل تصدیق موصول ہوگی"
+    },
+    "contact": {
+      "hoursLabel": "اوقات",
+      "schedule": "پیر-جمعہ: 9:00 - 17:00"
+    }
+  },
+  "contact": {
+    "title": "ہم سے رابطہ کریں",
+    "subtitle": "ہم آپ کی مدد کے لیے موجود ہیں",
+    "mapText": "ویب سائٹ پر انٹرایکٹو نقشہ دستیاب ہے",
+    "viewGoogleMaps": "گوگل میپس پر دیکھیں",
+    "subjects": {
+      "general": "عمومی استفسار",
+      "info": "معلومات کی درخواست",
+      "appointment": "ملاقات کی بکنگ",
+      "french": "فرانسیسی کورسز",
+      "employment": "ملازمت میں مدد",
+      "family": "خاندانی خدمات"
+    },
+    "form": {
+      "name": "پورا نام",
+      "email": "ای میل",
+      "subject": "موضوع",
+      "message": "آپ کا پیغام",
+      "submit": "پیغام بھیجیں"
+    },
+    "info": {
+      "addressLabel": "پتہ",
+      "phoneLabel": "فون",
+      "emailLabel": "ای میل",
+      "hoursLabel": "کاروباری اوقات",
+      "accessLabel": "رسائی",
+      "address": "774 boulevard Décarie, Bureau 300, Saint-Laurent H4L 3L5",
+      "phone": "(514) 748-2007",
+      "email": "carist@cari.qc.ca",
+      "hours": "پیر-جمعہ 9:00-12:00, 12:30-16:30",
+      "frenchHours": "فرانسیسی: 8:30-22:00",
+      "metro": "میٹرو: Du Collège (نارنجی لائن)",
+      "bus": "بس: 17, 64, 121, 368",
+      "parking": "مقام پر مفت پارکنگ"
+    }
+  },
+  "chatbot": {
+    "title": "CARI معاون",
+    "placeholder": "اپنا سوال پوچھیں...",
+    "typing": "CARI معاون ٹائپ کر رہا ہے...",
+    "status": "آن لائن",
+    "error": "معذرت، ایک خرابی ہوئی۔ براہ کرم دوبارہ کوشش کریں۔",
+    "suggestions": {
+      "services": "خدمات",
+      "appointment": "ملاقات",
+      "appointmentInput": "ملاقات کا وقت لیں",
+      "french": "فرانسیسی",
+      "frenchInput": "فرانسیسی کورسز"
+    },
+    "responses": {
+      "greeting": "السلام علیکم! میں آپ کی مدد کر کے خوش ہوں۔ CARI کیوبیک میں آپ کے انضمام کے لیے 6 اہم خدمات پیش کرتا ہے۔ کون سی سروس آپ کو سب سے زیادہ دلچسپ لگتی ہے؟",
+      "services": "ہماری 6 خدمات:\n• استقبال اور انضمام\n• فرانسیسی (8:30-22:00)\n• ملازمت میں مدد (85% کامیابی!)\n• خاندانی خدمات\n• دنیا کی خواتین\n• رضاکارانہ اور جوڑی بنانا\n\nکس کے بارے میں مزید جاننا چاہتے ہیں؟",
+      "appointment": "ملاقات کے لیے:\n• کال کریں (514) 748-2007\n• اس صفحے پر فارم بھریں\n• پیر-جمعہ 9:00-16:30\n\nکس قسم کی مشاورت؟ (استقبال/فرانسیسی/ملازمت)",
+      "contact": "(514) 748-2007\ncarist@cari.qc.ca\n774 boul. Décarie #300, Saint-Laurent\nپیر-جمعہ: 9:00-12:00, 12:30-16:30\n\nمیں اور کیسے مدد کر سکتا ہوں؟",
+      "french": "ہمارے فرانسیسی کورسز:\n• 8:30-22:00 (بہت لچکدار!)\n• تمام سطحیں قبول\n• تارکین وطن کے لیے موزوں طریقے\n• مفت سطح کا ٹیسٹ\n\nکیا آپ جائزے کا وقت لینا چاہتے ہیں؟",
+      "employment": "ملازمت میں مدد:\n• سی وی/کور لیٹر ورکشاپس\n• انٹرویو سمولیشن\n• پیشہ ورانہ کوچنگ\n• آجروں سے ملاقاتیں\n• 85% 6 ماہ میں نوکری پاتے ہیں!\n\nملازمت مشاورت میں دلچسپی ہے؟",
+      "default": "میں مدد کر سکتا ہوں:\n• ہماری خدمات کی معلومات\n• ملاقات کی بکنگ\n• رابطے کی تفصیلات\n• ذاتی مشورے\n\nآپ کیا جاننا چاہتے ہیں؟"
+    }
+  },
+  "success": {
+    "contact": "شکریہ! آپ کی درخواست بھیج دی گئی۔ ہم جلد رابطہ کریں گے۔",
+    "appointment": "✅ ملاقات کی تصدیق ہوگئی! آپ کو چند منٹوں میں ای میل اور ایس ایم ایس تصدیق موصول ہوگی۔"
+  },
+  "parallax": {
+    "statsTitle": "مل کر، ہم فرق ڈالتے ہیں",
+    "statsSubtitle": "1989 سے، CARI نئے آنے والوں کی کامیابی کی طرف مدد کر رہا ہے",
+    "stats": {
+      "peopleHelped": "سالانہ مدد شدہ افراد",
+      "satisfaction": "اطمینان کی شرح",
+      "findEmployment": "ملازمت حاصل کی",
+      "languagesSpoken": "بولی جانے والی زبانیں"
+    },
+    "ctaTitle": "کیوبیک میں اپنی نئی زندگی شروع کرنے کے لیے تیار ہیں؟",
+    "ctaSubtitle": "ہماری کثیر لسانی ٹیم آپ کے انضمام کے ہر قدم پر آپ کے ساتھ ہے۔"
+  },
+  "footer": {
+    "copyright": "© 2024 جملہ حقوق محفوظ ہیں۔",
+    "tagline": "تارکین وطن کی مدد کرنے والی غیر منافع بخش تنظیم"
+  },
+  "aria": {
+    "close": "بند کریں",
+    "closeModal": "ونڈو بند کریں",
+    "carousel": "ہیڈر کیروسل",
+    "carouselNav": "کیروسل نیویگیشن",
+    "previousSlide": "پچھلی سلائیڈ",
+    "nextSlide": "اگلی سلائیڈ",
+    "goToSlide": "سلائیڈ پر جائیں",
+    "carouselSlider": "کیروسل سلائیڈر",
+    "previousTestimonial": "پچھلی گواہی",
+    "nextTestimonial": "اگلی گواہی",
+    "goToTestimonial": "گواہی پر جائیں",
+    "learnMoreAbout": "مزید جانیں"
+  },
+  "loading": "لوڈ ہو رہا ہے..."
 }

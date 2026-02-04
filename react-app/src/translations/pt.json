@@ -1,24 +1,24 @@
 {
   "nav": {
-    "home": "Home",
-    "needs": "Your needs",
+    "home": "Início",
+    "needs": "Suas necessidades",
     "activities": "Atividades",
     "news": "Notícias",
-    "talk": "Appointment",
+    "talk": "Agendamento",
     "talkToAdvisor": "Fale com um consultor",
-    "contact": "Contact"
+    "contact": "Contato"
   },
   "hero": {
-    "title": "Find <span class='highlight'>your place</span> in Quebec",
-    "subtitle": "Employment, French, housing, procedures: free support from A to Z",
-    "discoverServices": "Discover our services",
-    "letsTalk": "Talk to an advisor",
+    "title": "Encontre <span class='highlight'>o seu lugar</span> no Quebec",
+    "subtitle": "Emprego, francês, moradia, procedimentos: apoio gratuito de A a Z",
+    "discoverServices": "Descubra nossos serviços",
+    "letsTalk": "Fale com um consultor",
+    "testFrench": "Testar meu francês",
     "stats": {
-      "peopleHelped": "People helped/year",
-      "satisfaction": "Satisfaction",
-      "findEmployment": "Find employment"
+      "peopleHelped": "Pessoas ajudadas/ano",
+      "satisfaction": "Satisfação",
+      "findEmployment": "Encontram emprego"
     },
-    "testFrench": "Teste meu francês",
     "slides": {
       "slide1": {
         "quote": "« Graças ao CARI, encontrei meu emprego dos sonhos em 6 meses! »",
@@ -36,7 +36,7 @@
         "role": "Haiti • Chegada 2021"
       },
       "slide4": {
-        "quote": "« Mes enfants sont épanouis, nous avons trouvé notre place ici »",
+        "quote": "« Meus filhos estão felizes, encontramos nosso lugar aqui »",
         "author": "Karla A.",
         "role": "RDC • Chegada 2019"
       },
@@ -48,225 +48,21 @@
     }
   },
   "needs": {
-    "title": "What are your needs?",
-    "subtitle": "We accompany you at every step of your integration in Quebec",
+    "title": "Quais são suas necessidades?",
+    "subtitle": "Acompanhamos você em cada etapa da sua integração no Quebec",
+    "instruction": "Selecione um serviço para saber mais",
     "cards": {
-      "welcome": "I just arrived",
-      "french": "I'm learning French",
-      "employment": "I'm looking for a job",
-      "family": "I have a family",
-      "women": "I am a woman",
-      "volunteering": "I want to get involved"
-    },
-    "instruction": "Selecione um serviço para saber mais"
-  },
-  "services": {
-    "title": "Our services",
-    "subtitle": "Solutions adapted to your situation",
-    "cards": {
-      "welcome": {
-        "title": "Welcome & Integration",
-        "description": "Information, orientation and personalized support to facilitate your settlement.",
-        "fullDescription": "Acompanhamento individualizado e atividades em grupo para promover sua instalação e facilitar sua integração na nova comunidade. Ajudamos você a se tornar autônomo e prosperar no Quebec.",
-        "benefits": [
-          "Sessões individuais de informação e orientação",
-          "Apoio nos procedimentos administrativos",
-          "Atividades em grupo para criar vínculos",
-          "Referências para recursos comunitários",
-          "Apoio para autonomia e independência"
-        ],
-        "details": "Serviço gratuito em francês, inglês, espanhol, árabe e outros idiomas. Consultas presenciais ou por telefone."
-      },
-      "french": {
-        "title": "French Learning",
-        "description": "French courses adapted for immigrants, all levels, flexible schedules (8:30 AM-10 PM).",
-        "fullDescription": "Formação em francês em tempo integral e parcial, adaptada ao nível do aluno. Nossos professores qualificados utilizam métodos de ensino modernos.",
-        "benefits": [
-          "Cursos em tempo integral e parcial",
-          "Horários flexíveis das 8h30 às 22h",
-          "Todos os níveis aceitos",
-          "Professores qualificados e experientes",
-          "Métodos adaptados para imigrantes",
-          "Teste de nível gratuito de 10 minutos"
-        ],
-        "details": "Cursos gratuitos financiados pelo MIFI. Possibilidade de subsídio de participação. Inscrição contínua."
-      },
-      "employment": {
-        "title": "Employment Assistance",
-        "description": "CV workshops, interview simulations, professional coaching and meetings with employers.",
-        "fullDescription": "Abordagens dinâmicas de busca de emprego, atividades de networking e conexões com empregadores. Acompanhamento personalizado para facilitar sua integração no mercado de trabalho quebequense.",
-        "benefits": [
-          "Workshops de elaboração de currículo e carta de apresentação",
-          "Simulações de entrevista personalizadas",
-          "Coaching profissional individual",
-          "Encontros diretos com empregadores",
-          "Apoio na busca ativa de emprego",
-          "85% encontram emprego em 6 meses"
-        ],
-        "details": "Serviço gratuito com acompanhamento personalizado. Consultas individuais e workshops regulares em grupo."
-      },
-      "family": {
-        "title": "Family Services",
-        "description": "Support for families, activities for children and teenagers, help with schooling.",
-        "fullDescription": "Apoio a pais imigrantes com serviços de cuidado infantil, orientação escolar e atividades que promovem o desenvolvimento global das crianças e a integração parental.",
-        "benefits": [
-          "Serviços de cuidado para crianças pequenas",
-          "Ajuda com orientação escolar",
-          "Atividades educativas e recreativas",
-          "Apoio com deveres e lições",
-          "Workshops para pais",
-          "Passeios familiares organizados"
-        ],
-        "details": "Serviços gratuitos ou de baixo custo. Vagas limitadas, inscrição necessária."
-      },
-      "women": {
-        "title": "Women of the World",
-        "description": "Specific programs for immigrant women: autonomy, health, employment.",
-        "fullDescription": "Espaço dedicado para quebrar o isolamento das mulheres através de conexões interculturais, redes de apoio mútuo e desenvolvimento de competências profissionais para mulheres imigrantes e residentes.",
-        "benefits": [
-          "Workshops de autonomia e autoestima",
-          "Formação profissional adaptada",
-          "Rede de apoio entre mulheres",
-          "Atividades interculturais",
-          "Informações sobre saúde feminina",
-          "Apoio ao emprego"
-        ],
-        "details": "Gratuito e confidencial. Grupo acolhedor e solidário. Serviço de creche disponível mediante solicitação."
-      },
-      "volunteering": {
-        "title": "Volunteering & Pairing",
-        "description": "Intercultural meetings, social activities and volunteering opportunities.",
-        "fullDescription": "Programa de pareamento intercultural, desenvolvimento de competências, cursos de idiomas e informática, percurso de integração cidadã e oportunidades de voluntariado para fomentar o pertencimento comunitário.",
-        "benefits": [
-          "Pareamento com um quebequense",
-          "Cursos de idiomas e informática",
-          "Workshops de cidadania canadense",
-          "Oportunidades de voluntariado",
-          "Atividades sociais e culturais",
-          "Desenvolvimento da sua rede de contatos"
-        ],
-        "details": "Gratuito. Compromisso flexível conforme sua disponibilidade. Certificados de voluntariado disponíveis."
-      }
-    },
-    "learnMore": "Saiba mais",
-    "modal": {
-      "benefits": "O que você recebe",
-      "details": "Detalhes do serviço",
-      "close": "Fechar"
+      "welcome": "Acabei de chegar",
+      "french": "Estou aprendendo francês",
+      "employment": "Estou procurando emprego",
+      "family": "Tenho uma família",
+      "women": "Sou mulher",
+      "volunteering": "Quero me envolver"
     }
-  },
-  "appointment": {
-    "title": "Let's make an appointment",
-    "subtitle": "Choose the service that interests you",
-    "consultationTypes": {
-      "welcome": "Welcome & Integration Consultation",
-      "french": "French Learning Consultation",
-      "employment": "Employment Consultation",
-      "family": "Family Services Consultation",
-      "women": "Women of the World Consultation",
-      "volunteering": "Volunteering Consultation"
-    },
-    "form": {
-      "name": "Full name",
-      "phone": "Phone number",
-      "email": "Email address",
-      "service": "Desired service",
-      "date": "Preferred date",
-      "time": "Preferred time",
-      "message": "Message (optional)",
-      "submit": "Confirm appointment",
-      "namePlaceholder": "Nome e sobrenome",
-      "phonePlaceholder": "(514) 123-4567",
-      "emailPlaceholder": "seu@email.com",
-      "messagePlaceholder": "Descreva brevemente sua situação...",
-      "selectTime": "Escolher um horário",
-      "confirmationNote": "Você receberá uma confirmação por e-mail em 24h"
-    },
-    "steps": {
-      "yourNeed": "Sua necessidade",
-      "yourInfo": "Suas informações",
-      "confirmation": "Confirmação"
-    },
-    "contact": {
-      "hoursLabel": "Horário",
-      "schedule": "Seg-Sex: 9h - 17h"
-    }
-  },
-  "contact": {
-    "title": "Contact us",
-    "subtitle": "We are here to help you",
-    "form": {
-      "name": "Full name",
-      "email": "Email address",
-      "subject": "Subject",
-      "message": "Your message",
-      "submit": "Send message"
-    },
-    "info": {
-      "address": "774 Décarie Blvd, Suite 300, Saint-Laurent H4L 3L5",
-      "phone": "(514) 748-2007",
-      "email": "carist@cari.qc.ca",
-      "hours": "Mon-Fri 9 AM-12 PM, 12:30-4:30 PM",
-      "frenchHours": "French Learning: 8:30 AM-10 PM",
-      "addressLabel": "Endereço",
-      "phoneLabel": "Telefone",
-      "emailLabel": "E-mail",
-      "hoursLabel": "Horário",
-      "accessLabel": "Acesso",
-      "metro": "Metrô: Du Collège (linha laranja)",
-      "bus": "Ônibus: 17, 64, 121, 368",
-      "parking": "Estacionamento gratuito no local"
-    },
-    "mapText": "Mapa interativo disponível no site",
-    "viewGoogleMaps": "Ver no Google Maps",
-    "subjects": {
-      "general": "Consulta geral",
-      "info": "Solicitação de informação",
-      "appointment": "Agendamento",
-      "french": "Cursos de francês",
-      "employment": "Ajuda para emprego",
-      "family": "Serviços familiares"
-    }
-  },
-  "chatbot": {
-    "title": "CARI Assistant",
-    "placeholder": "Ask your question...",
-    "typing": "CARI Assistant is typing...",
-    "responses": {
-      "greeting": "Hello! I'm delighted to help you. CARI offers 6 main services for your integration in Quebec. Which service interests you most?",
-      "services": "Our 6 services:\n• Welcome & Integration\n• French Learning (8:30 AM-10 PM)\n• Employment Assistance (85% success!)\n• Family Services\n• Women of the World\n• Volunteering & Pairing\n\nWhich one would you like more info about?",
-      "appointment": "To book an appointment:\n• Call (514) 748-2007\n• Fill the form on this page\n• Available Mon-Fri 9 AM-4:30 PM\n\nWhat type of consultation? (welcome/french/employment)",
-      "contact": "(514) 748-2007\ncarist@cari.qc.ca\n774 Décarie Blvd #300, Saint-Laurent\nMon-Fri: 9 AM-12 PM, 12:30-4:30 PM\n\nHow can I help you further?",
-      "french": "Our French courses:\n• 8:30 AM-10 PM (very flexible!)\n• All levels accepted\n• Methods adapted for immigrants\n• Free level assessment\n\nWould you like to schedule an evaluation?",
-      "employment": "Our employment assistance:\n• Resume/cover letter workshops\n• Interview simulations\n• Professional coaching\n• Employer meetings\n• 85% find a job within 6 months!\n\nInterested in employment consultation?",
-      "default": "I can help you with:\n• Information about our services\n• Appointment booking\n• Contact details\n• Personalized advice\n\nWhat would you like to know?"
-    },
-    "status": "Online",
-    "error": "Desculpe, ocorreu um erro. Por favor, tente novamente.",
-    "suggestions": {
-      "services": "Serviços",
-      "appointment": "Consulta",
-      "appointmentInput": "Marcar uma consulta",
-      "french": "Francês",
-      "frenchInput": "Cursos de francês"
-    }
-  },
-  "success": {
-    "contact": "Thank you! Your request has been sent. We will contact you shortly.",
-    "appointment": "✅ Appointment confirmed! You will receive a confirmation by email and SMS in the next few minutes."
   },
   "newsSection": {
     "title": "Notícias",
     "subtitle": "Mantenha-se informado sobre nossos programas, eventos e histórias de sucesso"
-  },
-  "activitiesSection": {
-    "title": "Nossas próximas atividades",
-    "subtitle": "Junte-se à nossa comunidade e participe de nossos workshops, cursos e eventos",
-    "allEvents": "Todos os nossos eventos"
-  },
-  "testimonialsSection": {
-    "title": "Eles tiveram sucesso com o CARI",
-    "subtitle": "Descubra as histórias inspiradoras daqueles que encontraram seu lugar no Quebec"
   },
   "news": {
     "moreContentButton": "Mais conteúdo",
@@ -281,6 +77,22 @@
       "whatsapp": "Compartilhar no WhatsApp"
     }
   },
+  "newsCategories": {
+    "francisation": "Francização",
+    "emploi": "Emprego",
+    "femmes": "Mulheres do mundo",
+    "integration": "Integração",
+    "parents": "Pais e Juventude"
+  },
+  "media": {
+    "videoNotSupported": "Seu navegador não suporta reprodução de vídeo.",
+    "audioNotSupported": "Seu navegador não suporta reprodução de áudio."
+  },
+  "activitiesSection": {
+    "title": "Nossas próximas atividades",
+    "subtitle": "Junte-se à nossa comunidade e participe de nossos workshops, cursos e eventos",
+    "allEvents": "Todos os nossos eventos"
+  },
   "activities": {
     "registerButton": "Inscrever-se",
     "moreEventsButton": "Mais eventos",
@@ -293,47 +105,9 @@
       "women": "Mulheres"
     }
   },
-  "parallax": {
-    "statsTitle": "Juntos, fazemos a diferença",
-    "statsSubtitle": "Desde 1989, o CARI apoia os recém-chegados rumo ao sucesso",
-    "stats": {
-      "peopleHelped": "Pessoas ajudadas/ano",
-      "satisfaction": "Taxa de satisfação",
-      "findEmployment": "Encontram emprego",
-      "languagesSpoken": "Idiomas falados"
-    },
-    "ctaTitle": "Pronto para começar sua nova vida em Quebec?",
-    "ctaSubtitle": "Nossa equipe multilíngue está aqui para apoiá-lo em cada etapa de sua integração."
-  },
-  "footer": {
-    "copyright": "© 2024 Todos os direitos reservados.",
-    "tagline": "Organização sem fins lucrativos de ajuda a imigrantes"
-  },
-  "aria": {
-    "close": "Fechar",
-    "carousel": "Carrossel de cabeçalho",
-    "carouselNav": "Navegação do carrossel",
-    "previousSlide": "Slide anterior",
-    "nextSlide": "Próximo slide",
-    "goToSlide": "Ir para o slide",
-    "carouselSlider": "Controle do carrossel",
-    "closeModal": "Fechar janela",
-    "previousTestimonial": "Depoimento anterior",
-    "nextTestimonial": "Próximo depoimento",
-    "goToTestimonial": "Ir para depoimento",
-    "learnMoreAbout": "Saiba mais sobre"
-  },
-  "loading": "Carregando...",
-  "newsCategories": {
-    "francisation": "Francização",
-    "emploi": "Emprego",
-    "femmes": "Mulheres do mundo",
-    "integration": "Integração",
-    "parents": "Pais e Juventude"
-  },
-  "media": {
-    "videoNotSupported": "Seu navegador não suporta reprodução de vídeo.",
-    "audioNotSupported": "Seu navegador não suporta reprodução de áudio."
+  "testimonialsSection": {
+    "title": "Eles tiveram sucesso com o CARI",
+    "subtitle": "Descubra as histórias inspiradoras daqueles que encontraram seu lugar no Quebec"
   },
   "testimonials": {
     "arrived": "Chegada",
@@ -391,5 +165,231 @@
         "origin": "Colômbia • Chegada 2019"
       }
     ]
-  }
+  },
+  "services": {
+    "title": "Nossos serviços",
+    "subtitle": "Soluções adaptadas à sua situação",
+    "learnMore": "Saiba mais",
+    "modal": {
+      "benefits": "O que você recebe",
+      "details": "Detalhes do serviço",
+      "close": "Fechar"
+    },
+    "cards": {
+      "welcome": {
+        "title": "Acolhimento e Integração",
+        "description": "Informação, orientação e acompanhamento personalizado para facilitar sua instalação.",
+        "fullDescription": "Acompanhamento individualizado e atividades em grupo para promover sua instalação e facilitar sua integração na nova comunidade. Ajudamos você a se tornar autônomo e prosperar no Quebec.",
+        "benefits": [
+          "Sessões individuais de informação e orientação",
+          "Apoio nos procedimentos administrativos",
+          "Atividades em grupo para criar vínculos",
+          "Referências para recursos comunitários",
+          "Apoio para autonomia e independência"
+        ],
+        "details": "Serviço gratuito em francês, inglês, espanhol, árabe e outros idiomas. Consultas presenciais ou por telefone."
+      },
+      "french": {
+        "title": "Francização",
+        "description": "Cursos de francês adaptados para imigrantes, todos os níveis, horários flexíveis (8h30-22h). Teste seu nível gratuitamente!",
+        "fullDescription": "Formação em francês em tempo integral e parcial, adaptada ao nível do aluno. Nossos professores qualificados utilizam métodos de ensino modernos.",
+        "benefits": [
+          "Cursos em tempo integral e parcial",
+          "Horários flexíveis das 8h30 às 22h",
+          "Todos os níveis aceitos",
+          "Professores qualificados e experientes",
+          "Métodos adaptados para imigrantes",
+          "Teste de nível gratuito de 10 minutos"
+        ],
+        "details": "Cursos gratuitos financiados pelo MIFI. Possibilidade de subsídio de participação. Inscrição contínua."
+      },
+      "employment": {
+        "title": "Ajuda ao emprego",
+        "description": "Oficinas de currículo, simulações de entrevista, coaching profissional e encontros com empregadores.",
+        "fullDescription": "Abordagens dinâmicas de busca de emprego, atividades de networking e conexões com empregadores. Acompanhamento personalizado para facilitar sua integração no mercado de trabalho quebequense.",
+        "benefits": [
+          "Oficinas de elaboração de currículo e carta de apresentação",
+          "Simulações de entrevista personalizadas",
+          "Coaching profissional individual",
+          "Encontros diretos com empregadores",
+          "Apoio na busca ativa de emprego",
+          "85% encontram emprego em 6 meses"
+        ],
+        "details": "Serviço gratuito com acompanhamento personalizado. Consultas individuais e oficinas regulares em grupo."
+      },
+      "family": {
+        "title": "Serviços familiares",
+        "description": "Apoio às famílias, atividades para crianças e adolescentes, ajuda com escolarização.",
+        "fullDescription": "Apoio a pais imigrantes com serviços de cuidado infantil, orientação escolar e atividades que promovem o desenvolvimento global das crianças e a integração parental.",
+        "benefits": [
+          "Serviços de cuidado para crianças pequenas",
+          "Ajuda com orientação escolar",
+          "Atividades educativas e recreativas",
+          "Apoio com deveres e lições",
+          "Oficinas para pais",
+          "Passeios familiares organizados"
+        ],
+        "details": "Serviços gratuitos ou de baixo custo. Vagas limitadas, inscrição necessária."
+      },
+      "women": {
+        "title": "Mulheres do mundo",
+        "description": "Programas específicos para mulheres imigrantes: autonomia, saúde, emprego.",
+        "fullDescription": "Espaço dedicado para quebrar o isolamento das mulheres através de conexões interculturais, redes de apoio mútuo e desenvolvimento de competências profissionais.",
+        "benefits": [
+          "Oficinas de autonomia e autoestima",
+          "Formação profissional adaptada",
+          "Rede de apoio entre mulheres",
+          "Atividades interculturais",
+          "Informações sobre saúde feminina",
+          "Apoio ao emprego"
+        ],
+        "details": "Gratuito e confidencial. Grupo acolhedor e solidário. Serviço de creche disponível mediante solicitação."
+      },
+      "volunteering": {
+        "title": "Voluntariado e Pareamento",
+        "description": "Encontros interculturais, atividades sociais e oportunidades de voluntariado.",
+        "fullDescription": "Programa de pareamento intercultural, desenvolvimento de competências, cursos de idiomas e informática, percurso de integração cidadã e oportunidades de voluntariado.",
+        "benefits": [
+          "Pareamento com um quebequense",
+          "Cursos de idiomas e informática",
+          "Oficinas de cidadania canadense",
+          "Oportunidades de voluntariado",
+          "Atividades sociais e culturais",
+          "Desenvolvimento da sua rede de contatos"
+        ],
+        "details": "Gratuito. Compromisso flexível conforme sua disponibilidade. Certificados de voluntariado disponíveis."
+      }
+    }
+  },
+  "appointment": {
+    "title": "Vamos agendar uma consulta",
+    "subtitle": "Escolha o serviço que lhe interessa",
+    "steps": {
+      "yourNeed": "Sua necessidade",
+      "yourInfo": "Suas informações",
+      "confirmation": "Confirmação"
+    },
+    "consultationTypes": {
+      "welcome": "Consulta Acolhimento e Integração",
+      "french": "Consulta Francização",
+      "employment": "Consulta Emprego",
+      "family": "Consulta Serviços familiares",
+      "women": "Consulta Mulheres do mundo",
+      "volunteering": "Consulta Voluntariado"
+    },
+    "form": {
+      "name": "Nome completo",
+      "phone": "Telefone",
+      "email": "Endereço de e-mail",
+      "service": "Serviço desejado",
+      "date": "Data preferida",
+      "time": "Horário preferido",
+      "message": "Mensagem (opcional)",
+      "submit": "Confirmar agendamento",
+      "namePlaceholder": "Nome e sobrenome",
+      "phonePlaceholder": "(514) 123-4567",
+      "emailPlaceholder": "seu@email.com",
+      "messagePlaceholder": "Descreva brevemente sua situação...",
+      "selectTime": "Escolher um horário",
+      "confirmationNote": "Você receberá uma confirmação por e-mail em 24h"
+    },
+    "contact": {
+      "hoursLabel": "Horário",
+      "schedule": "Seg-Sex: 9h - 17h"
+    }
+  },
+  "contact": {
+    "title": "Entre em contato",
+    "subtitle": "Estamos aqui para ajudar você",
+    "mapText": "Mapa interativo disponível no site",
+    "viewGoogleMaps": "Ver no Google Maps",
+    "subjects": {
+      "general": "Consulta geral",
+      "info": "Solicitação de informação",
+      "appointment": "Agendamento",
+      "french": "Cursos de francês",
+      "employment": "Ajuda para emprego",
+      "family": "Serviços familiares"
+    },
+    "form": {
+      "name": "Nome completo",
+      "email": "Endereço de e-mail",
+      "subject": "Assunto",
+      "message": "Sua mensagem",
+      "submit": "Enviar mensagem"
+    },
+    "info": {
+      "addressLabel": "Endereço",
+      "phoneLabel": "Telefone",
+      "emailLabel": "E-mail",
+      "hoursLabel": "Horário de funcionamento",
+      "accessLabel": "Acesso",
+      "address": "774 boulevard Décarie, Sala 300, Saint-Laurent H4L 3L5",
+      "phone": "(514) 748-2007",
+      "email": "carist@cari.qc.ca",
+      "hours": "Seg-Sex 9h-12h, 12h30-16h30",
+      "frenchHours": "Francização: 8h30-22h",
+      "metro": "Metrô: Du Collège (linha laranja)",
+      "bus": "Ônibus: 17, 64, 121, 368",
+      "parking": "Estacionamento gratuito no local"
+    }
+  },
+  "chatbot": {
+    "title": "Assistente CARI",
+    "placeholder": "Faça sua pergunta...",
+    "typing": "O assistente CARI está digitando...",
+    "status": "Online",
+    "error": "Desculpe, ocorreu um erro. Por favor, tente novamente.",
+    "suggestions": {
+      "services": "Serviços",
+      "appointment": "Agendamento",
+      "appointmentInput": "Marcar uma consulta",
+      "french": "Francês",
+      "frenchInput": "Cursos de francês"
+    },
+    "responses": {
+      "greeting": "Olá! Tenho prazer em ajudar você. O CARI oferece 6 serviços principais para sua integração no Quebec. Qual serviço mais lhe interessa?",
+      "services": "Nossos 6 serviços:\n• Acolhimento e Integração\n• Francização (8h30-22h)\n• Ajuda ao emprego (85% de sucesso!)\n• Serviços familiares\n• Mulheres do mundo\n• Voluntariado e Pareamento\n\nSobre qual deles você gostaria de saber mais?",
+      "appointment": "Para agendar uma consulta:\n• Ligue para (514) 748-2007\n• Preencha o formulário nesta página\n• Disponível Seg-Sex 9h-16h30\n\nQual tipo de consulta? (acolhimento/francês/emprego)",
+      "contact": "(514) 748-2007\ncarist@cari.qc.ca\n774 boul. Décarie #300, Saint-Laurent\nSeg-Sex: 9h-12h, 12h30-16h30\n\nComo posso ajudar você ainda mais?",
+      "french": "Nossos cursos de francês:\n• 8h30-22h (muito flexível!)\n• Todos os níveis aceitos\n• Métodos adaptados para imigrantes\n• Avaliação de nível gratuita\n\nGostaria de agendar uma avaliação?",
+      "employment": "Nossa ajuda ao emprego:\n• Oficinas de currículo/carta de apresentação\n• Simulações de entrevista\n• Coaching profissional\n• Encontros com empregadores\n• 85% encontram emprego em 6 meses!\n\nInteressado em uma consulta de emprego?",
+      "default": "Posso ajudar você com:\n• Informações sobre nossos serviços\n• Agendamento de consultas\n• Dados de contato\n• Orientação personalizada\n\nO que você gostaria de saber?"
+    }
+  },
+  "success": {
+    "contact": "Obrigado! Sua solicitação foi enviada. Entraremos em contato em breve.",
+    "appointment": "✅ Agendamento confirmado! Você receberá uma confirmação por e-mail e SMS nos próximos minutos."
+  },
+  "parallax": {
+    "statsTitle": "Juntos, fazemos a diferença",
+    "statsSubtitle": "Desde 1989, o CARI apoia os recém-chegados rumo ao sucesso",
+    "stats": {
+      "peopleHelped": "Pessoas ajudadas/ano",
+      "satisfaction": "Taxa de satisfação",
+      "findEmployment": "Encontram emprego",
+      "languagesSpoken": "Idiomas falados"
+    },
+    "ctaTitle": "Pronto para começar sua nova vida no Quebec?",
+    "ctaSubtitle": "Nossa equipe multilíngue está aqui para apoiá-lo em cada etapa da sua integração."
+  },
+  "footer": {
+    "copyright": "© 2024 Todos os direitos reservados.",
+    "tagline": "Organização sem fins lucrativos de ajuda a imigrantes"
+  },
+  "aria": {
+    "close": "Fechar",
+    "closeModal": "Fechar janela",
+    "carousel": "Carrossel de cabeçalho",
+    "carouselNav": "Navegação do carrossel",
+    "previousSlide": "Slide anterior",
+    "nextSlide": "Próximo slide",
+    "goToSlide": "Ir para o slide",
+    "carouselSlider": "Controle do carrossel",
+    "previousTestimonial": "Depoimento anterior",
+    "nextTestimonial": "Próximo depoimento",
+    "goToTestimonial": "Ir para depoimento",
+    "learnMoreAbout": "Saiba mais sobre"
+  },
+  "loading": "Carregando..."
 }
