@@ -1,11 +1,5 @@
 import React, { useState } from "react";
-import {
-  Clock,
-  FileText,
-  Target,
-  ClipboardCheck,
-  BookOpen,
-} from "lucide-react";
+import { Clock, FileText, Target, ClipboardCheck } from "lucide-react";
 
 /**
  * CARI Saint-Laurent - Test de niveau de français
