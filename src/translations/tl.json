@@ -365,10 +365,10 @@
     "statsTitle": "Magkasama, gumagawa tayo ng pagbabago",
     "statsSubtitle": "Mula 1989, sinusuportahan ng CARI ang mga bagong dating tungo sa tagumpay",
     "stats": {
-      "peopleHelped": "Taong natulungan/taon",
-      "satisfaction": "Rate ng kasiyahan",
-      "findEmployment": "Nakahanap ng trabaho",
-      "languagesSpoken": "Mga wikang sinasalita"
+      "peopleHelped": "Mga taong natulungan ngayong taon",
+      "languagesSpoken": "Mga wikang ginagamit",
+      "countries": "Mga bansang kinakatawan",
+      "yearsOfService": "Taon ng karanasan"
     },
     "ctaTitle": "Handa ka na bang simulan ang bagong buhay mo sa Quebec?",
     "ctaSubtitle": "Ang aming multilingual na team ay nandito para samahan ka sa bawat hakbang ng iyong integrasyon."

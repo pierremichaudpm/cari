@@ -297,10 +297,10 @@
     "statsTitle": "Ensemble, nous faisons la différence",
     "statsSubtitle": "Depuis 1989, le CARI accompagne les nouveaux arrivants vers leur réussite",
     "stats": {
-      "peopleHelped": "Personnes aidées/an",
-      "satisfaction": "Taux de satisfaction",
-      "findEmployment": "Trouvent un emploi",
-      "languagesSpoken": "Langues parlées"
+      "peopleHelped": "الأشخاص الذين تم مساعدتهم هذا العام",
+      "languagesSpoken": "اللغات المنطوقة",
+      "countries": "الدول الممثلة",
+      "yearsOfService": "سنوات الخبرة"
     },
     "ctaTitle": "Prêt à commencer votre nouvelle vie au Québec?",
     "ctaSubtitle": "Notre équipe multilingue est là pour vous accompagner à chaque étape de votre intégration."

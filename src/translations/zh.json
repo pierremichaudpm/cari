@@ -297,10 +297,10 @@
     "statsTitle": "携手共进，我们创造不同",
     "statsSubtitle": "自1989年以来，CARI一直帮助新移民走向成功",
     "stats": {
-      "peopleHelped": "每年帮助人数",
-      "satisfaction": "满意度",
-      "findEmployment": "找到工作",
-      "languagesSpoken": "使用语言"
+      "peopleHelped": "今年帮助的人数",
+      "languagesSpoken": "使用的语言",
+      "countries": "代表的国家",
+      "yearsOfService": "服务年限"
     },
     "ctaTitle": "准备开始您在魁北克的新生活了吗？",
     "ctaSubtitle": "我们的多语言团队将在您融入的每一步为您提供支持。"

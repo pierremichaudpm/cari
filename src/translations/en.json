@@ -365,10 +365,10 @@
     "statsTitle": "Together, we make a difference",
     "statsSubtitle": "Since 1989, CARI has been supporting newcomers to success",
     "stats": {
-      "peopleHelped": "People helped/year",
-      "satisfaction": "Satisfaction rate",
-      "findEmployment": "Find employment",
-      "languagesSpoken": "Languages spoken"
+      "peopleHelped": "People helped this year",
+      "languagesSpoken": "Languages spoken",
+      "countries": "Countries represented",
+      "yearsOfService": "Years of experience"
     },
     "ctaTitle": "Ready to start your new life in Quebec?",
     "ctaSubtitle": "Our multilingual team is here to support you every step of your integration."

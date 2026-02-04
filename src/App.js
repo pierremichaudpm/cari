@@ -280,24 +280,24 @@ function App() {
             }
             stats={[
               {
-                value: "5,000+",
+                value: "7,343",
                 label: (translations[currentLanguage] || translations.fr)
                   .parallax.stats.peopleHelped,
               },
               {
-                value: "92%",
-                label: (translations[currentLanguage] || translations.fr)
-                  .parallax.stats.satisfaction,
-              },
-              {
-                value: "85%",
-                label: (translations[currentLanguage] || translations.fr)
-                  .parallax.stats.findEmployment,
-              },
-              {
-                value: "12",
+                value: "95+",
                 label: (translations[currentLanguage] || translations.fr)
                   .parallax.stats.languagesSpoken,
+              },
+              {
+                value: "128",
+                label: (translations[currentLanguage] || translations.fr)
+                  .parallax.stats.countries,
+              },
+              {
+                value: "35+",
+                label: (translations[currentLanguage] || translations.fr)
+                  .parallax.stats.yearsOfService,
               },
             ]}
           />
