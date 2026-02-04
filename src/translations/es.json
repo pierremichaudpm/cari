@@ -14,9 +14,9 @@
     "discoverServices": "Descubra nuestros servicios",
     "letsTalk": "Hable con un asesor",
     "stats": {
-      "peopleHelped": "Personas ayudadas este año",
-      ,
-
+      "peopleHelped": "Personas ayudadas/año",
+      "satisfaction": "Satisfacción",
+      "findEmployment": "Encuentran empleo"
     },
     "testFrench": "Prueba mi francés",
     "slides": {
