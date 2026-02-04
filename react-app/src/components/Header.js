@@ -1,0 +1,232 @@
+import React, { useState, useRef, useEffect } from "react";
+import Icon from "./Icon";
+
+const Header = ({
+  currentLanguage,
+  switchLanguage,
+  isMobileMenuOpen,
+  toggleMobileMenu,
+  closeMobileMenu,
+  scrollToSection,
+  translations,
+}) => {
+  const [langDropdownOpen, setLangDropdownOpen] = useState(false);
+  const langDropdownRef = useRef(null);
+  const langFlags = {
+    fr: "FR",
+    en: "EN",
+    es: "ES",
+    ar: "AR",
+    ru: "RU",
+  };
+
+  const languages = [
+    { code: "fr", name: "Français" },
+    { code: "en", name: "English" },
+    { code: "es", name: "Español" },
+    { code: "ar", name: "العربية" },
+    { code: "ru", name: "Русский" },
+  ];
+
+  const t = translations[currentLanguage] || translations.fr;
+
+  // Close dropdown when clicking outside
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (
+        langDropdownRef.current &&
+        !langDropdownRef.current.contains(event.target)
+      ) {
+        setLangDropdownOpen(false);
+      }
+    };
+
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, []);
+
+  const handleLanguageChange = (langCode) => {
+    switchLanguage(langCode);
+    setLangDropdownOpen(false);
+  };
+
+  return (
+    <header className="header">
+      <div className="nav-container">
+        <a
+          href="#accueil"
+          className="logo"
+          onClick={(e) => {
+            e.preventDefault();
+            scrollToSection("accueil");
+          }}
+          style={{ cursor: "pointer" }}
+        >
+          <img src="/images/newlogo.webp" alt="CARI St-Laurent" />
+        </a>
+
+        <nav className="nav-desktop">
+          <ul className="nav-menu">
+            <li>
+              <a
+                href="#besoins"
+                onClick={(e) => {
+                  e.preventDefault();
+                  scrollToSection("besoins");
+                }}
+                className="nav-link nav-link-bold"
+              >
+                {t.nav.needs}
+              </a>
+            </li>
+            <li>
+              <a
+                href="#activites"
+                onClick={(e) => {
+                  e.preventDefault();
+                  scrollToSection("activites");
+                }}
+                className="nav-link nav-link-bold"
+              >
+                Activités
+              </a>
+            </li>
+            <li>
+              <a
+                href="#nouvelles"
+                onClick={(e) => {
+                  e.preventDefault();
+                  scrollToSection("nouvelles");
+                }}
+                className="nav-link nav-link-bold"
+              >
+                Nouvelles
+              </a>
+            </li>
+          </ul>
+        </nav>
+
+        <a
+          href="#rdv"
+          className="btn-rdv-header"
+          onClick={(e) => {
+            e.preventDefault();
+            scrollToSection("rdv");
+          }}
+        >
+          Parlez à un conseiller
+        </a>
+
+        <div className="language-switcher" ref={langDropdownRef}>
+          <div className="language-dropdown">
+            <div className="lang-details">
+              <button
+                className="lang-btn"
+                onClick={() => setLangDropdownOpen(!langDropdownOpen)}
+              >
+                <span id="currentLang">{langFlags[currentLanguage]}</span>
+                <Icon
+                  name="globe"
+                  size={18}
+                  style={{ color: "white", marginLeft: "8px" }}
+                />
+              </button>
+              {langDropdownOpen && (
+                <ul className="lang-menu">
+                  {languages.map((lang) => (
+                    <li key={lang.code}>
+                      <button
+                        className={`lang-item ${currentLanguage === lang.code ? "active" : ""}`}
+                        onClick={() => handleLanguageChange(lang.code)}
+                      >
+                        {lang.name}
+                      </button>
+                    </li>
+                  ))}
+                </ul>
+              )}
+            </div>
+          </div>
+        </div>
+
+        <div
+          className={`mobile-menu-toggle ${isMobileMenuOpen ? "active" : ""}`}
+          onClick={toggleMobileMenu}
+          data-testid="mobile-menu-toggle"
+        >
+          <div className="burger-line"></div>
+          <div className="burger-line"></div>
+          <div className="burger-line"></div>
+        </div>
+      </div>
+
+      <div
+        className={`mobile-menu ${isMobileMenuOpen ? "active" : ""}`}
+        id="mobileMenu"
+      >
+        <ul>
+          <li>
+            <a
+              href="#besoins"
+              onClick={(e) => {
+                e.preventDefault();
+                scrollToSection("besoins");
+                closeMobileMenu();
+              }}
+              className="nav-link"
+            >
+              {t.nav.needs}
+            </a>
+          </li>
+          <li>
+            <a
+              href="#activites"
+              onClick={(e) => {
+                e.preventDefault();
+                scrollToSection("activites");
+                closeMobileMenu();
+              }}
+              className="nav-link"
+            >
+              Activités
+            </a>
+          </li>
+          <li>
+            <a
+              href="#nouvelles"
+              onClick={(e) => {
+                e.preventDefault();
+                scrollToSection("nouvelles");
+                closeMobileMenu();
+              }}
+              className="nav-link"
+            >
+              Nouvelles
+            </a>
+          </li>
+          <li>
+            <a
+              href="#rdv"
+              onClick={(e) => {
+                e.preventDefault();
+                scrollToSection("rdv");
+                closeMobileMenu();
+              }}
+              className="nav-link"
+              style={{
+                color: "var(--accent-coral)",
+                fontWeight: "600",
+              }}
+            >
+              Parlez à un conseiller
+            </a>
+          </li>
+        </ul>
+      </div>
+    </header>
+  );
+};
+
+export default Header;

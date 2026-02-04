@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Simple house icon representing "home/welcome" - core concept of CARI -->
+  <rect x="20" y="32" width="24" height="20" rx="2" fill="#6CBAC7"/>
+  <polygon points="32 16 44 28 20 28" fill="#4A8C9A"/>
+  <rect x="28" y="40" width="8" height="12" fill="#FFFFFF"/>
+
+  <!-- Optional: Add a subtle heart shape inside to represent care/support -->
+  <path d="M32 46 C30 44, 28 42, 32 38 C36 42, 34 44, 32 46 Z" fill="#FFFFFF" opacity="0.8"/>
+</svg>
