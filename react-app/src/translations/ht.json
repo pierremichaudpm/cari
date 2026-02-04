@@ -66,28 +66,93 @@
     "cards": {
       "welcome": {
         "title": "Welcome & Integration",
-        "description": "Information, orientation and personalized support to facilitate your settlement."
+        "description": "Information, orientation and personalized support to facilitate your settlement.",
+        "fullDescription": "Akonpayman endividyèl ak aktivite an gwoup pou fasilite enstalasyon w epi entegrasyon w nan nouvo kominote w la. Nou ede w vin endepandan epi reyisi nan Kebèk.",
+        "benefits": [
+          "Sesyon enfòmasyon ak oryantasyon endividyèl",
+          "Sipò nan pwosedi administratif yo",
+          "Aktivite an gwoup pou kreye lyen",
+          "Referans nan resous kominotè",
+          "Sipò pou otonomi ak endepandans"
+        ],
+        "details": "Sèvis gratis an fransè, anglè, panyòl, arab ak lòt lang. Randevou an pèsòn oswa pa telefòn."
       },
       "french": {
         "title": "French Learning",
-        "description": "French courses adapted for immigrants, all levels, flexible schedules (8:30 AM-10 PM)."
+        "description": "French courses adapted for immigrants, all levels, flexible schedules (8:30 AM-10 PM).",
+        "fullDescription": "Fòmasyon fransè a tan plen ak a tan pasyèl, adapte nan nivo elèv la. Pwofesè kalifye nou yo itilize metòd ansèyman modèn.",
+        "benefits": [
+          "Kou a tan plen ak a tan pasyèl",
+          "Orè fleksib soti 8h30 rive 22h",
+          "Tout nivo aksepte",
+          "Pwofesè kalifye ak eksperyans",
+          "Metòd adapte pou imigran",
+          "Tès nivo gratis 10 minit"
+        ],
+        "details": "Kou gratis finanse pa MIFI. Posibilite alokasyon patisipasyon. Enskripsyon kontini."
       },
       "employment": {
         "title": "Employment Assistance",
-        "description": "CV workshops, interview simulations, professional coaching and meetings with employers."
+        "description": "CV workshops, interview simulations, professional coaching and meetings with employers.",
+        "fullDescription": "Apwòch dinamik pou chèche travay, aktivite rezo ak koneksyon avèk anplwayè. Akonpayman pèsonalize pou fasilite entegrasyon w nan mache travay kebekwa a.",
+        "benefits": [
+          "Atelye redaksyon CV ak lèt motivasyon",
+          "Similasyon entèvyou pèsonalize",
+          "Coaching pwofesyonèl endividyèl",
+          "Rankontr dirèk avèk anplwayè",
+          "Sipò nan rechèch aktif travay",
+          "85% jwenn yon travay nan 6 mwa"
+        ],
+        "details": "Sèvis gratis ak suivi pèsonalize. Randevou endividyèl ak atelye an gwoup regilyè."
       },
       "family": {
         "title": "Family Services",
-        "description": "Support for families, activities for children and teenagers, help with schooling."
+        "description": "Support for families, activities for children and teenagers, help with schooling.",
+        "fullDescription": "Sipò pou paran imigran avèk sèvis gadri, oryantasyon eskolè ak aktivite ki ankouraje devlopman global timoun yo ak entegrasyon paran yo.",
+        "benefits": [
+          "Sèvis gadri pou ti timoun",
+          "Èd nan oryantasyon eskolè",
+          "Aktivite edikasyon ak rekreasyon",
+          "Sipò nan devwa ak leson",
+          "Atelye pou paran",
+          "Sòti familyal òganize"
+        ],
+        "details": "Sèvis gratis oswa a pri ba. Plas limite, enskripsyon obligatwa."
       },
       "women": {
         "title": "Women of the World",
-        "description": "Specific programs for immigrant women: autonomy, health, employment."
+        "description": "Specific programs for immigrant women: autonomy, health, employment.",
+        "fullDescription": "Yon espas dedye pou kraze izolman fanm yo atravè koneksyon entèkiltirèl, rezo sipò mityèl ak devlopman konpetans pwofesyonèl pou fanm imigran ak rezidan.",
+        "benefits": [
+          "Atelye otonomi ak estim pwòp tèt ou",
+          "Fòmasyon pwofesyonèl adapte",
+          "Rezo sipò ant fanm",
+          "Aktivite entèkiltirèl",
+          "Enfòmasyon sou sante fanm",
+          "Sipò nan travay"
+        ],
+        "details": "Gratis epi konfidansyèl. Gwoup akeyant ak solidè. Sèvis gadri disponib sou demann."
       },
       "volunteering": {
         "title": "Volunteering & Pairing",
-        "description": "Intercultural meetings, social activities and volunteering opportunities."
+        "description": "Intercultural meetings, social activities and volunteering opportunities.",
+        "fullDescription": "Pwogram jumelaj entèkiltirèl, devlopman konpetans, kou lang ak enfòmatik, pakou entegrasyon sitwayèn ak opòtinite volontarya pou ankouraje apatanans kominote.",
+        "benefits": [
+          "Jumelaj avèk yon Kebekwa",
+          "Kou lang ak enfòmatik",
+          "Atelye sitwayènte kanadyèn",
+          "Opòtinite volontarya",
+          "Aktivite sosyal ak kiltirèl",
+          "Devlope rezo w"
+        ],
+        "details": "Gratis. Angajman fleksib selon disponibilite w. Sètifika volontarya disponib."
       }
+    },
+    "learnMore": "Aprann plis",
+    "modal": {
+      "benefits": "Kisa w jwenn",
+      "details": "Detay sèvis la",
+      "close": "Fèmen"
     }
   },
   "appointment": {
@@ -208,7 +273,13 @@
     "moreNewsTitle": "Plus de nouvelles"
   },
   "newsModal": {
-    "share": "Partager"
+    "share": "Partager",
+    "shareOn": {
+      "facebook": "Pataje sou Facebook",
+      "twitter": "Pataje sou Twitter",
+      "linkedin": "Pataje sou LinkedIn",
+      "whatsapp": "Pataje sou WhatsApp"
+    }
   },
   "activities": {
     "registerButton": "Enskri",

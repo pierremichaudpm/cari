@@ -66,28 +66,93 @@
     "cards": {
       "welcome": {
         "title": "Welcome & Integration",
-        "description": "Information, orientation and personalized support to facilitate your settlement."
+        "description": "Information, orientation and personalized support to facilitate your settlement.",
+        "fullDescription": "Indibidwal na suporta at mga aktibidad panggrupo para itaguyod ang iyong pag-settle at mapadali ang iyong integrasyon sa bagong komunidad. Tinutulungan ka naming maging malaya at umunlad sa Quebec.",
+        "benefits": [
+          "Mga indibidwal na sesyon ng impormasyon at oryentasyon",
+          "Tulong sa mga pamamaraang administratibo",
+          "Mga aktibidad panggrupo para bumuo ng koneksyon",
+          "Mga referral sa mga mapagkukunan ng komunidad",
+          "Suporta para sa pagsasarili at kalayaan"
+        ],
+        "details": "Libreng serbisyo sa Pranses, Ingles, Espanyol, Arabe at iba pang mga wika. Appointment nang personal o sa telepono."
       },
       "french": {
         "title": "French Learning",
-        "description": "French courses adapted for immigrants, all levels, flexible schedules (8:30 AM-10 PM)."
+        "description": "French courses adapted for immigrants, all levels, flexible schedules (8:30 AM-10 PM).",
+        "fullDescription": "Full-time at part-time na pagsasanay sa Pranses, angkop sa antas ng mag-aaral. Gumagamit ang aming mga kwalipikadong guro ng modernong pamamaraan ng pagtuturo.",
+        "benefits": [
+          "Full-time at part-time na mga kurso",
+          "Nababaluktot na iskedyul mula 8:30 AM hanggang 10 PM",
+          "Lahat ng antas ay tinatanggap",
+          "Mga kwalipikado at may karanasang guro",
+          "Mga pamamaraang angkop para sa mga imigrante",
+          "Libreng 10-minutong pagsusulit ng antas"
+        ],
+        "details": "Mga libreng kurso na pinondohan ng MIFI. Posibleng may allowance sa pakikilahok. Tuloy-tuloy na pagpapatala."
       },
       "employment": {
         "title": "Employment Assistance",
-        "description": "CV workshops, interview simulations, professional coaching and meetings with employers."
+        "description": "CV workshops, interview simulations, professional coaching and meetings with employers.",
+        "fullDescription": "Mga dinamikong pamamaraan sa paghahanap ng trabaho, networking at koneksyon sa mga employer. Personalized na suporta para mapadali ang integrasyon sa merkado ng trabaho sa Quebec.",
+        "benefits": [
+          "Mga workshop sa pagsulat ng CV at cover letter",
+          "Personalized na simulation ng panayam",
+          "Indibidwal na propesyonal na coaching",
+          "Direktang pakikipagkita sa mga employer",
+          "Suporta sa aktibong paghahanap ng trabaho",
+          "85% ang nakakahanap ng trabaho sa loob ng 6 na buwan"
+        ],
+        "details": "Libreng serbisyo na may personalized na follow-up. Mga indibidwal na appointment at regular na mga workshop panggrupo."
       },
       "family": {
         "title": "Family Services",
-        "description": "Support for families, activities for children and teenagers, help with schooling."
+        "description": "Support for families, activities for children and teenagers, help with schooling.",
+        "fullDescription": "Suporta para sa mga magulang na imigrante na may serbisyo sa pangangalaga ng bata, oryentasyon sa paaralan at mga aktibidad na nagtataguyod ng kabuuang pag-unlad ng mga bata at integrasyon ng mga magulang.",
+        "benefits": [
+          "Mga serbisyo sa pangangalaga ng maliliit na bata",
+          "Tulong sa oryentasyon sa paaralan",
+          "Mga pang-edukasyon at libangan na aktibidad",
+          "Tulong sa homework at aralin",
+          "Mga workshop para sa mga magulang",
+          "Mga organisadong outing para sa pamilya"
+        ],
+        "details": "Libre o mababang gastos na mga serbisyo. Limitado ang mga puwesto, kailangan ng pagpaparehistro."
       },
       "women": {
         "title": "Women of the World",
-        "description": "Specific programs for immigrant women: autonomy, health, employment."
+        "description": "Specific programs for immigrant women: autonomy, health, employment.",
+        "fullDescription": "Dedikadong espasyo para basagin ang pagkakabukod ng mga kababaihan sa pamamagitan ng intercultural na koneksyon, network ng suportahan at propesyonal na pagpapaunlad ng kasanayan.",
+        "benefits": [
+          "Mga workshop sa pagsasarili at pagpapahalaga sa sarili",
+          "Angkop na propesyonal na pagsasanay",
+          "Network ng suporta para sa kababaihan",
+          "Mga intercultural na aktibidad",
+          "Impormasyon sa kalusugan ng kababaihan",
+          "Suporta sa trabaho"
+        ],
+        "details": "Libre at kumpidensyal. Mainit at suportadong grupo. May serbisyo sa pangangalaga ng bata kapag hiniling."
       },
       "volunteering": {
         "title": "Volunteering & Pairing",
-        "description": "Intercultural meetings, social activities and volunteering opportunities."
+        "description": "Intercultural meetings, social activities and volunteering opportunities.",
+        "fullDescription": "Programa sa intercultural na pagpapares, pagpapaunlad ng kasanayan, mga kurso sa wika at kompyuter, landas ng integrasyon sa pagkamamamayan at mga oportunidad sa pagboboluntaryo.",
+        "benefits": [
+          "Pagpapares sa isang Quebecer",
+          "Mga kurso sa wika at kompyuter",
+          "Mga workshop sa Canadian citizenship",
+          "Mga oportunidad sa pagboboluntaryo",
+          "Mga aktibidad panlipunan at pangkultura",
+          "Pagpapaunlad ng iyong network"
+        ],
+        "details": "Libre. Nababaluktot na commitment batay sa iyong availability. May mga sertipiko sa pagboboluntaryo."
       }
+    },
+    "learnMore": "Matuto pa",
+    "modal": {
+      "benefits": "Ang makukuha mo",
+      "details": "Mga detalye ng serbisyo",
+      "close": "Isara"
     }
   },
   "appointment": {
@@ -208,7 +273,13 @@
     "moreNewsTitle": "Plus de nouvelles"
   },
   "newsModal": {
-    "share": "Partager"
+    "share": "Partager",
+    "shareOn": {
+      "facebook": "Ibahagi sa Facebook",
+      "twitter": "Ibahagi sa Twitter",
+      "linkedin": "Ibahagi sa LinkedIn",
+      "whatsapp": "Ibahagi sa WhatsApp"
+    }
   },
   "activities": {
     "registerButton": "Magparehistro",

@@ -66,28 +66,93 @@
     "cards": {
       "welcome": {
         "title": "Welcome & Integration",
-        "description": "Information, orientation and personalized support to facilitate your settlement."
+        "description": "Information, orientation and personalized support to facilitate your settlement.",
+        "fullDescription": "Індивідуальний супровід та групові заходи для вашого облаштування та інтеграції в нову спільноту. Ми допомагаємо вам стати самостійним та процвітати в Квебеку.",
+        "benefits": [
+          "Індивідуальні інформаційні та орієнтаційні сесії",
+          "Допомога в адміністративних процедурах",
+          "Групові заходи для налагодження зв'язків",
+          "Направлення до громадських ресурсів",
+          "Підтримка автономії та незалежності"
+        ],
+        "details": "Безкоштовна послуга французькою, англійською, іспанською, арабською та іншими мовами. Прийом особисто або по телефону."
       },
       "french": {
         "title": "French Learning",
-        "description": "French courses adapted for immigrants, all levels, flexible schedules (8:30 AM-10 PM)."
+        "description": "French courses adapted for immigrants, all levels, flexible schedules (8:30 AM-10 PM).",
+        "fullDescription": "Навчання французької на повну та часткову зайнятість, адаптоване до рівня учня. Наші кваліфіковані викладачі використовують сучасні методи навчання.",
+        "benefits": [
+          "Курси повного та часткового дня",
+          "Гнучкий графік з 8:30 до 22:00",
+          "Приймаються всі рівні",
+          "Кваліфіковані та досвідчені викладачі",
+          "Методи, адаптовані для іммігрантів",
+          "Безкоштовний 10-хвилинний тест рівня"
+        ],
+        "details": "Безкоштовні курси, фінансовані MIFI. Можливість отримання допомоги. Безперервний запис."
       },
       "employment": {
         "title": "Employment Assistance",
-        "description": "CV workshops, interview simulations, professional coaching and meetings with employers."
+        "description": "CV workshops, interview simulations, professional coaching and meetings with employers.",
+        "fullDescription": "Динамічні підходи до пошуку роботи, нетворкінг та зв'язки з роботодавцями. Персональний супровід для інтеграції на ринку праці Квебеку.",
+        "benefits": [
+          "Майстер-класи з написання резюме та мотиваційних листів",
+          "Персональні симуляції співбесід",
+          "Індивідуальний професійний коучинг",
+          "Прямі зустрічі з роботодавцями",
+          "Підтримка в активному пошуку роботи",
+          "85% знаходять роботу за 6 місяців"
+        ],
+        "details": "Безкоштовна послуга з персональним супроводом. Індивідуальні зустрічі та регулярні групові заняття."
       },
       "family": {
         "title": "Family Services",
-        "description": "Support for families, activities for children and teenagers, help with schooling."
+        "description": "Support for families, activities for children and teenagers, help with schooling.",
+        "fullDescription": "Підтримка батьків-іммігрантів: послуги догляду за дітьми, шкільна орієнтація та заходи для всебічного розвитку дітей та інтеграції батьків.",
+        "benefits": [
+          "Послуги догляду за маленькими дітьми",
+          "Допомога в шкільній орієнтації",
+          "Освітні та розважальні заходи",
+          "Допомога з домашніми завданнями",
+          "Майстер-класи для батьків",
+          "Організовані сімейні прогулянки"
+        ],
+        "details": "Безкоштовні або недорогі послуги. Обмежена кількість місць, потрібна реєстрація."
       },
       "women": {
         "title": "Women of the World",
-        "description": "Specific programs for immigrant women: autonomy, health, employment."
+        "description": "Specific programs for immigrant women: autonomy, health, employment.",
+        "fullDescription": "Простір для подолання ізоляції жінок через міжкультурні зв'язки, мережі взаємної підтримки та розвиток професійних навичок для жінок-іммігранток та резиденток.",
+        "benefits": [
+          "Майстер-класи з автономії та самооцінки",
+          "Адаптоване професійне навчання",
+          "Мережа підтримки серед жінок",
+          "Міжкультурні заходи",
+          "Інформація про жіноче здоров'я",
+          "Допомога в працевлаштуванні"
+        ],
+        "details": "Безкоштовно та конфіденційно. Доброзичлива та підтримуюча група. Догляд за дітьми за запитом."
       },
       "volunteering": {
         "title": "Volunteering & Pairing",
-        "description": "Intercultural meetings, social activities and volunteering opportunities."
+        "description": "Intercultural meetings, social activities and volunteering opportunities.",
+        "fullDescription": "Програма міжкультурного наставництва, розвиток навичок, курси мов та інформатики, шлях громадянської інтеграції та волонтерські можливості для зміцнення почуття приналежності.",
+        "benefits": [
+          "Наставництво з мешканцем Квебеку",
+          "Курси мов та інформатики",
+          "Семінари з канадського громадянства",
+          "Волонтерські можливості",
+          "Соціальні та культурні заходи",
+          "Розвиток вашої мережі контактів"
+        ],
+        "details": "Безкоштовно. Гнучкі зобов'язання за вашим графіком. Сертифікати волонтерства доступні."
       }
+    },
+    "learnMore": "Дізнатися більше",
+    "modal": {
+      "benefits": "Що ви отримаєте",
+      "details": "Деталі послуги",
+      "close": "Закрити"
     }
   },
   "appointment": {
@@ -208,7 +273,13 @@
     "moreNewsTitle": "Plus de nouvelles"
   },
   "newsModal": {
-    "share": "Partager"
+    "share": "Partager",
+    "shareOn": {
+      "facebook": "Поділитися у Facebook",
+      "twitter": "Поділитися у Twitter",
+      "linkedin": "Поділитися у LinkedIn",
+      "whatsapp": "Поділитися у WhatsApp"
+    }
   },
   "activities": {
     "registerButton": "Зареєструватися",

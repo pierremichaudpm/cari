@@ -66,28 +66,93 @@
     "cards": {
       "welcome": {
         "title": "Welcome & Integration",
-        "description": "Information, orientation and personalized support to facilitate your settlement."
+        "description": "Information, orientation and personalized support to facilitate your settlement.",
+        "fullDescription": "Acompanhamento individualizado e atividades em grupo para promover sua instalação e facilitar sua integração na nova comunidade. Ajudamos você a se tornar autônomo e prosperar no Quebec.",
+        "benefits": [
+          "Sessões individuais de informação e orientação",
+          "Apoio nos procedimentos administrativos",
+          "Atividades em grupo para criar vínculos",
+          "Referências para recursos comunitários",
+          "Apoio para autonomia e independência"
+        ],
+        "details": "Serviço gratuito em francês, inglês, espanhol, árabe e outros idiomas. Consultas presenciais ou por telefone."
       },
       "french": {
         "title": "French Learning",
-        "description": "French courses adapted for immigrants, all levels, flexible schedules (8:30 AM-10 PM)."
+        "description": "French courses adapted for immigrants, all levels, flexible schedules (8:30 AM-10 PM).",
+        "fullDescription": "Formação em francês em tempo integral e parcial, adaptada ao nível do aluno. Nossos professores qualificados utilizam métodos de ensino modernos.",
+        "benefits": [
+          "Cursos em tempo integral e parcial",
+          "Horários flexíveis das 8h30 às 22h",
+          "Todos os níveis aceitos",
+          "Professores qualificados e experientes",
+          "Métodos adaptados para imigrantes",
+          "Teste de nível gratuito de 10 minutos"
+        ],
+        "details": "Cursos gratuitos financiados pelo MIFI. Possibilidade de subsídio de participação. Inscrição contínua."
       },
       "employment": {
         "title": "Employment Assistance",
-        "description": "CV workshops, interview simulations, professional coaching and meetings with employers."
+        "description": "CV workshops, interview simulations, professional coaching and meetings with employers.",
+        "fullDescription": "Abordagens dinâmicas de busca de emprego, atividades de networking e conexões com empregadores. Acompanhamento personalizado para facilitar sua integração no mercado de trabalho quebequense.",
+        "benefits": [
+          "Workshops de elaboração de currículo e carta de apresentação",
+          "Simulações de entrevista personalizadas",
+          "Coaching profissional individual",
+          "Encontros diretos com empregadores",
+          "Apoio na busca ativa de emprego",
+          "85% encontram emprego em 6 meses"
+        ],
+        "details": "Serviço gratuito com acompanhamento personalizado. Consultas individuais e workshops regulares em grupo."
       },
       "family": {
         "title": "Family Services",
-        "description": "Support for families, activities for children and teenagers, help with schooling."
+        "description": "Support for families, activities for children and teenagers, help with schooling.",
+        "fullDescription": "Apoio a pais imigrantes com serviços de cuidado infantil, orientação escolar e atividades que promovem o desenvolvimento global das crianças e a integração parental.",
+        "benefits": [
+          "Serviços de cuidado para crianças pequenas",
+          "Ajuda com orientação escolar",
+          "Atividades educativas e recreativas",
+          "Apoio com deveres e lições",
+          "Workshops para pais",
+          "Passeios familiares organizados"
+        ],
+        "details": "Serviços gratuitos ou de baixo custo. Vagas limitadas, inscrição necessária."
       },
       "women": {
         "title": "Women of the World",
-        "description": "Specific programs for immigrant women: autonomy, health, employment."
+        "description": "Specific programs for immigrant women: autonomy, health, employment.",
+        "fullDescription": "Espaço dedicado para quebrar o isolamento das mulheres através de conexões interculturais, redes de apoio mútuo e desenvolvimento de competências profissionais para mulheres imigrantes e residentes.",
+        "benefits": [
+          "Workshops de autonomia e autoestima",
+          "Formação profissional adaptada",
+          "Rede de apoio entre mulheres",
+          "Atividades interculturais",
+          "Informações sobre saúde feminina",
+          "Apoio ao emprego"
+        ],
+        "details": "Gratuito e confidencial. Grupo acolhedor e solidário. Serviço de creche disponível mediante solicitação."
       },
       "volunteering": {
         "title": "Volunteering & Pairing",
-        "description": "Intercultural meetings, social activities and volunteering opportunities."
+        "description": "Intercultural meetings, social activities and volunteering opportunities.",
+        "fullDescription": "Programa de pareamento intercultural, desenvolvimento de competências, cursos de idiomas e informática, percurso de integração cidadã e oportunidades de voluntariado para fomentar o pertencimento comunitário.",
+        "benefits": [
+          "Pareamento com um quebequense",
+          "Cursos de idiomas e informática",
+          "Workshops de cidadania canadense",
+          "Oportunidades de voluntariado",
+          "Atividades sociais e culturais",
+          "Desenvolvimento da sua rede de contatos"
+        ],
+        "details": "Gratuito. Compromisso flexível conforme sua disponibilidade. Certificados de voluntariado disponíveis."
       }
+    },
+    "learnMore": "Saiba mais",
+    "modal": {
+      "benefits": "O que você recebe",
+      "details": "Detalhes do serviço",
+      "close": "Fechar"
     }
   },
   "appointment": {
@@ -208,7 +273,13 @@
     "moreNewsTitle": "Mais notícias"
   },
   "newsModal": {
-    "share": "Compartilhar"
+    "share": "Compartilhar",
+    "shareOn": {
+      "facebook": "Compartilhar no Facebook",
+      "twitter": "Compartilhar no Twitter",
+      "linkedin": "Compartilhar no LinkedIn",
+      "whatsapp": "Compartilhar no WhatsApp"
+    }
   },
   "activities": {
     "registerButton": "Inscrever-se",

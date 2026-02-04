@@ -66,28 +66,93 @@
     "cards": {
       "welcome": {
         "title": "Welcome & Integration",
-        "description": "Information, orientation and personalized support to facilitate your settlement."
+        "description": "Information, orientation and personalized support to facilitate your settlement.",
+        "fullDescription": "Hỗ trợ cá nhân và các hoạt động nhóm để thúc đẩy việc định cư và tạo thuận lợi cho việc hội nhập vào cộng đồng mới. Chúng tôi giúp bạn tự lập và phát triển tại Quebec.",
+        "benefits": [
+          "Các buổi thông tin và định hướng cá nhân",
+          "Hỗ trợ các thủ tục hành chính",
+          "Hoạt động nhóm để xây dựng kết nối",
+          "Giới thiệu đến các nguồn lực cộng đồng",
+          "Hỗ trợ tự lập và độc lập"
+        ],
+        "details": "Dịch vụ miễn phí bằng tiếng Pháp, Anh, Tây Ban Nha, Ả Rập và các ngôn ngữ khác. Hẹn gặp trực tiếp hoặc qua điện thoại."
       },
       "french": {
         "title": "French Learning",
-        "description": "French courses adapted for immigrants, all levels, flexible schedules (8:30 AM-10 PM)."
+        "description": "French courses adapted for immigrants, all levels, flexible schedules (8:30 AM-10 PM).",
+        "fullDescription": "Đào tạo tiếng Pháp toàn thời gian và bán thời gian, phù hợp với trình độ của học viên. Giáo viên có trình độ sử dụng phương pháp giảng dạy hiện đại.",
+        "benefits": [
+          "Khóa học toàn thời gian và bán thời gian",
+          "Lịch học linh hoạt từ 8:30 sáng đến 10 tối",
+          "Chấp nhận mọi trình độ",
+          "Giáo viên có trình độ và kinh nghiệm",
+          "Phương pháp phù hợp cho người nhập cư",
+          "Kiểm tra trình độ miễn phí 10 phút"
+        ],
+        "details": "Khóa học miễn phí do MIFI tài trợ. Có thể nhận trợ cấp tham gia. Đăng ký liên tục."
       },
       "employment": {
         "title": "Employment Assistance",
-        "description": "CV workshops, interview simulations, professional coaching and meetings with employers."
+        "description": "CV workshops, interview simulations, professional coaching and meetings with employers.",
+        "fullDescription": "Phương pháp tìm việc năng động, hoạt động kết nối và liên kết với nhà tuyển dụng. Hỗ trợ cá nhân để tạo thuận lợi cho việc hội nhập vào thị trường lao động Quebec.",
+        "benefits": [
+          "Hội thảo viết CV và thư xin việc",
+          "Mô phỏng phỏng vấn cá nhân",
+          "Tư vấn nghề nghiệp cá nhân",
+          "Gặp gỡ trực tiếp với nhà tuyển dụng",
+          "Hỗ trợ tìm việc chủ động",
+          "85% tìm được việc trong vòng 6 tháng"
+        ],
+        "details": "Dịch vụ miễn phí với theo dõi cá nhân. Hẹn gặp cá nhân và hội thảo nhóm thường xuyên."
       },
       "family": {
         "title": "Family Services",
-        "description": "Support for families, activities for children and teenagers, help with schooling."
+        "description": "Support for families, activities for children and teenagers, help with schooling.",
+        "fullDescription": "Hỗ trợ phụ huynh nhập cư với dịch vụ chăm sóc trẻ, định hướng trường học và các hoạt động thúc đẩy sự phát triển toàn diện của trẻ và sự hội nhập của phụ huynh.",
+        "benefits": [
+          "Dịch vụ chăm sóc trẻ nhỏ",
+          "Giúp đỡ định hướng trường học",
+          "Hoạt động giáo dục và giải trí",
+          "Hỗ trợ bài tập và bài học",
+          "Hội thảo cho phụ huynh",
+          "Các chuyến đi gia đình có tổ chức"
+        ],
+        "details": "Dịch vụ miễn phí hoặc chi phí thấp. Số chỗ có hạn, cần đăng ký trước."
       },
       "women": {
         "title": "Women of the World",
-        "description": "Specific programs for immigrant women: autonomy, health, employment."
+        "description": "Specific programs for immigrant women: autonomy, health, employment.",
+        "fullDescription": "Không gian dành riêng để phá vỡ sự cô lập của phụ nữ thông qua kết nối liên văn hóa, mạng lưới hỗ trợ lẫn nhau và phát triển kỹ năng chuyên môn cho phụ nữ nhập cư và cư dân.",
+        "benefits": [
+          "Hội thảo về tự chủ và lòng tự trọng",
+          "Đào tạo nghề nghiệp phù hợp",
+          "Mạng lưới hỗ trợ phụ nữ",
+          "Hoạt động liên văn hóa",
+          "Thông tin sức khỏe phụ nữ",
+          "Hỗ trợ việc làm"
+        ],
+        "details": "Miễn phí và bảo mật. Nhóm thân thiện và hỗ trợ. Có dịch vụ chăm sóc trẻ theo yêu cầu."
       },
       "volunteering": {
         "title": "Volunteering & Pairing",
-        "description": "Intercultural meetings, social activities and volunteering opportunities."
+        "description": "Intercultural meetings, social activities and volunteering opportunities.",
+        "fullDescription": "Chương trình kết đôi liên văn hóa, phát triển kỹ năng, khóa học ngôn ngữ và tin học, lộ trình hội nhập công dân và cơ hội tình nguyện để thúc đẩy sự gắn kết cộng đồng.",
+        "benefits": [
+          "Kết đôi với người Quebec",
+          "Khóa học ngôn ngữ và tin học",
+          "Hội thảo về quốc tịch Canada",
+          "Cơ hội tình nguyện",
+          "Hoạt động xã hội và văn hóa",
+          "Phát triển mạng lưới của bạn"
+        ],
+        "details": "Miễn phí. Cam kết linh hoạt theo thời gian của bạn. Có chứng nhận tình nguyện."
       }
+    },
+    "learnMore": "Tìm hiểu thêm",
+    "modal": {
+      "benefits": "Những gì bạn nhận được",
+      "details": "Chi tiết dịch vụ",
+      "close": "Đóng"
     }
   },
   "appointment": {
@@ -208,7 +273,13 @@
     "moreNewsTitle": "Plus de nouvelles"
   },
   "newsModal": {
-    "share": "Partager"
+    "share": "Partager",
+    "shareOn": {
+      "facebook": "Chia sẻ trên Facebook",
+      "twitter": "Chia sẻ trên Twitter",
+      "linkedin": "Chia sẻ trên LinkedIn",
+      "whatsapp": "Chia sẻ trên WhatsApp"
+    }
   },
   "activities": {
     "registerButton": "Đăng ký",

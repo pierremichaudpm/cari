@@ -273,7 +273,13 @@
     "moreNewsTitle": "更多新闻"
   },
   "newsModal": {
-    "share": "分享"
+    "share": "分享",
+    "shareOn": {
+      "facebook": "分享到Facebook",
+      "twitter": "分享到Twitter",
+      "linkedin": "分享到LinkedIn",
+      "whatsapp": "分享到WhatsApp"
+    }
   },
   "activities": {
     "registerButton": "注册",

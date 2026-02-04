@@ -66,28 +66,93 @@
     "cards": {
       "welcome": {
         "title": "Welcome & Integration",
-        "description": "Information, orientation and personalized support to facilitate your settlement."
+        "description": "Information, orientation and personalized support to facilitate your settlement.",
+        "fullDescription": "آپ کے استقرار اور نئی کمیونٹی میں انضمام کو فروغ دینے کے لیے انفرادی مدد اور گروپ سرگرمیاں۔ ہم آپ کو کیوبیک میں خود مختار بننے اور کامیاب ہونے میں مدد کرتے ہیں۔",
+        "benefits": [
+          "انفرادی معلومات اور رہنمائی سیشن",
+          "انتظامی طریقہ کار میں مدد",
+          "روابط بنانے کے لیے گروپ سرگرمیاں",
+          "کمیونٹی وسائل کے حوالے",
+          "خود مختاری اور آزادی کے لیے مدد"
+        ],
+        "details": "فرانسیسی، انگریزی، ہسپانوی، عربی اور دیگر زبانوں میں مفت سروس۔ ذاتی یا فون پر ملاقات۔"
       },
       "french": {
         "title": "French Learning",
-        "description": "French courses adapted for immigrants, all levels, flexible schedules (8:30 AM-10 PM)."
+        "description": "French courses adapted for immigrants, all levels, flexible schedules (8:30 AM-10 PM).",
+        "fullDescription": "طالب علم کی سطح کے مطابق مکمل اور جزوی وقتی فرانسیسی تربیت۔ ہمارے اہل اساتذہ جدید تعلیمی طریقے استعمال کرتے ہیں۔",
+        "benefits": [
+          "مکمل اور جزوی وقتی کورسز",
+          "صبح 8:30 سے رات 10 بجے تک لچکدار اوقات",
+          "تمام سطحیں قبول",
+          "اہل اور تجربہ کار اساتذہ",
+          "تارکین وطن کے لیے موزوں طریقے",
+          "10 منٹ کا مفت سطح ٹیسٹ"
+        ],
+        "details": "MIFI کی مالی اعانت سے مفت کورسز۔ شرکت الاؤنس کا امکان۔ مسلسل اندراج۔"
       },
       "employment": {
         "title": "Employment Assistance",
-        "description": "CV workshops, interview simulations, professional coaching and meetings with employers."
+        "description": "CV workshops, interview simulations, professional coaching and meetings with employers.",
+        "fullDescription": "ملازمت کی متحرک تلاش، نیٹ ورکنگ سرگرمیاں اور آجروں سے روابط۔ کیوبیک کی جاب مارکیٹ میں انضمام کے لیے ذاتی مدد۔",
+        "benefits": [
+          "سی وی اور کور لیٹر لکھنے کی ورکشاپس",
+          "ذاتی انٹرویو سمیولیشن",
+          "انفرادی پیشہ ورانہ کوچنگ",
+          "آجروں سے براہ راست ملاقاتیں",
+          "فعال ملازمت کی تلاش میں مدد",
+          "85% 6 ماہ میں ملازمت پاتے ہیں"
+        ],
+        "details": "ذاتی فالو اپ کے ساتھ مفت سروس۔ انفرادی ملاقاتیں اور باقاعدہ گروپ ورکشاپس۔"
       },
       "family": {
         "title": "Family Services",
-        "description": "Support for families, activities for children and teenagers, help with schooling."
+        "description": "Support for families, activities for children and teenagers, help with schooling.",
+        "fullDescription": "تارکین وطن والدین کی مدد بچوں کی نگہداشت، اسکول رہنمائی اور بچوں کی مجموعی نشوونما اور والدین کے انضمام کو فروغ دینے والی سرگرمیوں کے ساتھ۔",
+        "benefits": [
+          "چھوٹے بچوں کی نگہداشت کی خدمات",
+          "اسکول رہنمائی میں مدد",
+          "تعلیمی اور تفریحی سرگرمیاں",
+          "ہوم ورک اور اسباق میں مدد",
+          "والدین کے لیے ورکشاپس",
+          "منظم خاندانی سیر"
+        ],
+        "details": "مفت یا کم لاگت خدمات۔ محدود جگہیں، اندراج ضروری۔"
       },
       "women": {
         "title": "Women of the World",
-        "description": "Specific programs for immigrant women: autonomy, health, employment."
+        "description": "Specific programs for immigrant women: autonomy, health, employment.",
+        "fullDescription": "بین الثقافتی روابط، باہمی مدد کے نیٹ ورکس اور تارکین وطن خواتین کے لیے پیشہ ورانہ مہارتوں کی ترقی کے ذریعے خواتین کی تنہائی ختم کرنے کی مخصوص جگہ۔",
+        "benefits": [
+          "خود مختاری اور خود اعتمادی کی ورکشاپس",
+          "موزوں پیشہ ورانہ تربیت",
+          "خواتین کے درمیان مدد کا نیٹ ورک",
+          "بین الثقافتی سرگرمیاں",
+          "خواتین کی صحت کی معلومات",
+          "روزگار میں مدد"
+        ],
+        "details": "مفت اور خفیہ۔ خوش آئند اور معاون گروپ۔ درخواست پر بچوں کی نگہداشت دستیاب۔"
       },
       "volunteering": {
         "title": "Volunteering & Pairing",
-        "description": "Intercultural meetings, social activities and volunteering opportunities."
+        "description": "Intercultural meetings, social activities and volunteering opportunities.",
+        "fullDescription": "بین الثقافتی جوڑی بنانے کا پروگرام، مہارت کی ترقی، زبان اور کمپیوٹر کورسز، شہریت کے انضمام کا راستہ اور کمیونٹی تعلق کو فروغ دینے کے لیے رضاکارانہ مواقع۔",
+        "benefits": [
+          "ایک کیوبیکر کے ساتھ جوڑی",
+          "زبان اور کمپیوٹر کورسز",
+          "کینیڈین شہریت ورکشاپس",
+          "رضاکارانہ مواقع",
+          "سماجی اور ثقافتی سرگرمیاں",
+          "اپنا نیٹ ورک بنائیں"
+        ],
+        "details": "مفت۔ اپنی دستیابی کے مطابق لچکدار عزم۔ رضاکارانہ سرٹیفکیٹ دستیاب۔"
       }
+    },
+    "learnMore": "مزید جانیں",
+    "modal": {
+      "benefits": "آپ کو کیا ملے گا",
+      "details": "سروس کی تفصیلات",
+      "close": "بند کریں"
     }
   },
   "appointment": {
@@ -208,7 +273,13 @@
     "moreNewsTitle": "Plus de nouvelles"
   },
   "newsModal": {
-    "share": "Partager"
+    "share": "Partager",
+    "shareOn": {
+      "facebook": "فیسبک پر شیئر کریں",
+      "twitter": "ٹویٹر پر شیئر کریں",
+      "linkedin": "لنکڈان پر شیئر کریں",
+      "whatsapp": "واٹس ایپ پر شیئر کریں"
+    }
   },
   "activities": {
     "registerButton": "رجسٹر کریں",
