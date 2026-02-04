@@ -280,7 +280,7 @@ function App() {
             }
             stats={[
               {
-                value: "7,343",
+                value: "7,000+",
                 label: (translations[currentLanguage] || translations.fr)
                   .parallax.stats.peopleHelped,
               },
