@@ -5343,11 +5343,12 @@ section,
 
 .mission-parallax-section {
     position: relative;
-    min-height: 100vh;
+    min-height: 60vh;
     display: flex;
     align-items: center;
     overflow: hidden;
-    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    background: #CCD8DF;
+    padding: 3rem 0;
 }
 
 .mission-parallax-bg {
@@ -5366,8 +5367,8 @@ section,
     background-size: cover;
     background-position: center;
     border-radius: 20px;
-    opacity: 0.15;
-    filter: grayscale(30%);
+    opacity: 0.4;
+    filter: grayscale(0%);
 }
 
 .mission-collage-1 {
@@ -5413,18 +5414,18 @@ section,
 .mission-overlay {
     position: absolute;
     inset: 0;
-    background: linear-gradient(135deg, rgba(248, 249, 250, 0.7) 0%, rgba(233, 236, 239, 0.8) 100%);
+    background: rgba(204, 216, 223, 0.75);
 }
 
 .mission-content-wrapper {
     position: relative;
     z-index: 2;
     width: 100%;
-    padding: 4rem 0;
+    padding: 0;
 }
 
 .mission-content {
-    max-width: 800px;
+    max-width: 900px;
     margin: 0 auto;
     text-align: center;
     padding: 0 2rem;
@@ -5433,68 +5434,68 @@ section,
 .mission-tagline {
     display: inline-flex;
     align-items: center;
-    gap: 0.75rem;
-    font-size: 1rem;
+    gap: 0.5rem;
+    font-size: 0.85rem;
     font-weight: 600;
     color: #6EC1C1;
     text-transform: uppercase;
-    letter-spacing: 2px;
-    margin-bottom: 1.5rem;
+    letter-spacing: 1.5px;
+    margin-bottom: 1rem;
 }
 
 .mission-tagline-icon {
     color: #F7BF3F;
-    font-size: 0.75rem;
+    font-size: 0.6rem;
 }
 
 .mission-title {
     font-family: 'DM Serif Text', serif;
-    font-size: clamp(2.5rem, 5vw, 3.5rem);
+    font-size: clamp(2rem, 4vw, 2.5rem);
     font-weight: 400;
     color: #263B5A;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
     line-height: 1.2;
 }
 
 .mission-statement {
-    font-size: clamp(1.1rem, 2vw, 1.3rem);
-    line-height: 1.7;
+    font-size: clamp(1rem, 1.8vw, 1.15rem);
+    line-height: 1.6;
     color: #495057;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
     font-weight: 400;
 }
 
 .mission-vision {
     background: rgba(255, 255, 255, 0.6);
     backdrop-filter: blur(10px);
-    border-radius: 20px;
-    padding: 2rem;
-    margin-bottom: 2rem;
+    border-radius: 16px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
     border: 2px solid rgba(110, 193, 193, 0.2);
 }
 
 .mission-vision h3 {
     font-family: 'DM Serif Text', serif;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: #263B5A;
-    margin-bottom: 1rem;
+    margin-bottom: 0.75rem;
 }
 
 .mission-vision p {
-    font-size: 1.1rem;
-    line-height: 1.6;
+    font-size: 1rem;
+    line-height: 1.5;
     color: #495057;
 }
 
 .mission-values {
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
 }
 
 .mission-values h3 {
     font-family: 'DM Serif Text', serif;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: #263B5A;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
 }
 
 .mission-values-grid {
@@ -5506,31 +5507,56 @@ section,
 
 .mission-value-badge {
     display: inline-block;
-    padding: 0.75rem 1.5rem;
-    background: rgba(110, 193, 193, 0.15);
-    border: 2px solid rgba(110, 193, 193, 0.4);
-    border-radius: 50px;
-    font-weight: 600;
-    font-size: 0.95rem;
-    color: #263B5A;
+    padding: 0.5rem 1.25rem;
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: 0.85rem;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
     transition: all 0.3s ease;
+    border: none;
+}
+
+.mission-value-badge:nth-child(1) {
+    background: #6EC1C1;
+}
+
+.mission-value-badge:nth-child(2) {
+    background: #F7BF3F;
+}
+
+.mission-value-badge:nth-child(3) {
+    background: #F15C39;
+}
+
+.mission-value-badge:nth-child(4) {
+    background: #263B5A;
+}
+
+.mission-value-badge:nth-child(5) {
+    background: #6EC1C1;
+}
+
+.mission-value-badge:nth-child(6) {
+    background: #F7BF3F;
 }
 
 .mission-value-badge:hover {
-    background: rgba(110, 193, 193, 0.25);
-    transform: translateY(-2px);
+    transform: translateY(-3px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
 .mission-cta-button {
     display: inline-flex;
     align-items: center;
-    gap: 0.75rem;
-    padding: 1rem 2.5rem;
+    gap: 0.5rem;
+    padding: 0.75rem 2rem;
     background: #F15C39;
     color: white;
     border: none;
     border-radius: 50px;
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-weight: 600;
     cursor: pointer;
     transition: all 0.3s ease;
@@ -5688,7 +5714,7 @@ section,
     .mission-collage-image {
         opacity: 0.1;
     }
-    
+
     .mission-collage-1,
     .mission-collage-2,
     .mission-collage-3,
@@ -5703,25 +5729,25 @@ section,
     .mission-content {
         padding: 0 1.5rem;
     }
-    
+
     .mission-vision,
     .mission-values {
         padding: 1.5rem;
     }
-    
+
     .mission-value-badge {
         padding: 0.6rem 1.2rem;
         font-size: 0.85rem;
     }
-    
+
     .history-modal-body {
         padding: 2rem 1.5rem;
     }
-    
+
     .history-modal-text h2 {
         font-size: 2rem;
     }
-    
+
     .history-year-number {
         font-size: 2rem;
     }
