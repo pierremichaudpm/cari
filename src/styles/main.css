@@ -56,14 +56,15 @@ body {
 }
 
 .nav-container {
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: calc(0.4rem + 10px) 1rem;
+    padding: calc(0.4rem + 10px) clamp(0.75rem, 2vw, 2rem);
     position: relative;
     box-sizing: border-box;
+    gap: clamp(0.5rem, 1.5vw, 1.5rem);
 }
 
 .logo {
@@ -72,6 +73,7 @@ body {
     font-size: 1.8rem;
     font-weight: 800;
     color: var(--primary-blue);
+    flex-shrink: 0;
 }
 
 .logo img {
@@ -88,19 +90,21 @@ body {
 .nav-menu {
     display: flex;
     list-style: none;
-    gap: 2rem;
+    gap: clamp(1rem, 2.5vw, 2rem);
     align-items: center;
-    margin-left: 285px;
+    margin: 0;
+    flex: 0 1 auto;
 }
 
 .nav-menu a {
     text-decoration: none;
     color: var(--text-dark);
     font-weight: 500;
-    font-size: 1.09rem;
+    font-size: clamp(0.9rem, 1.1vw, 1.05rem);
     transition: all 0.2s ease;
     position: relative;
     padding: 0.5rem 0;
+    white-space: nowrap;
 }
 
 .nav-menu a.nav-link-bold {
@@ -120,6 +124,22 @@ body {
     gap: 4px;
     z-index: 1001;
     margin-left: 0.5rem;
+}
+
+/* Medium screens - tighter spacing for longer language text */
+@media (max-width: 1200px) {
+    .nav-menu {
+        gap: clamp(0.75rem, 1.8vw, 1.5rem);
+    }
+
+    .nav-menu a {
+        font-size: clamp(0.85rem, 1vw, 0.95rem);
+    }
+
+    .btn-rdv-header {
+        font-size: clamp(0.75rem, 0.95vw, 0.85rem);
+        padding: 0.45rem clamp(0.6rem, 1.2vw, 1rem);
+    }
 }
 
 @media (max-width: 992px) {
@@ -240,21 +260,20 @@ body {
 
 /* Bouton RDV dans le header */
 .btn-rdv-header {
-    padding: 0.5rem 1.25rem;
+    padding: 0.5rem clamp(0.75rem, 1.5vw, 1.25rem);
     background: var(--accent-coral);
     color: white;
     border: none;
     border-radius: 50px;
     cursor: pointer;
     font-weight: 600;
-    font-size: 0.9rem;
+    font-size: clamp(0.8rem, 1vw, 0.9rem);
     text-decoration: none;
     transition: all 0.3s ease;
     display: inline-flex;
     align-items: center;
     white-space: nowrap;
-    margin-left: auto;
-    margin-right: 1rem;
+    flex-shrink: 0;
 }
 
 .btn-rdv-header:hover {
@@ -271,7 +290,7 @@ body {
 
 .language-switcher {
     position: relative;
-    margin-left: 10px;
+    flex-shrink: 0;
 }
 
 .language-dropdown {
