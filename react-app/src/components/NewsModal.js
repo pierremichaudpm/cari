@@ -1,10 +1,18 @@
 import React, { useRef, useEffect } from "react";
 import Icon from "./Icon";
 
-const NewsModal = ({ isOpen, onClose, news }) => {
+const NewsModal = ({
+  isOpen,
+  onClose,
+  news,
+  currentLanguage,
+  translations,
+}) => {
   const videoRef = useRef(null);
   const audioRef = useRef(null);
   const playerRef = useRef(null);
+
+  const t = translations?.[currentLanguage] || translations?.fr || {};
 
   // Initialize Plyr when modal opens with media
   useEffect(() => {

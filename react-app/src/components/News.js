@@ -692,6 +692,8 @@ N'hésitez pas à nous contacter pour un accompagnement personnalisé!`,
         isOpen={isNewsModalOpen}
         onClose={closeNewsModal}
         news={selectedNews}
+        currentLanguage={currentLanguage}
+        translations={translations}
       />
     </>
   );
