@@ -38,6 +38,7 @@ function App() {
 
   // Generate hero slides dynamically based on current language
   const heroSlides = React.useMemo(() => {
+    if (!translations || !translations.fr) return [];
     const t = translations[currentLanguage] || translations.fr;
     return getHeroSlides(t);
   }, [translations, currentLanguage]);
