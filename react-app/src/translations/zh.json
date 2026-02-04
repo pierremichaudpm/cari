@@ -240,6 +240,15 @@
       "french": "我们的法语课程：\n• 8:30-22:00（非常灵活！）\n• 接受所有水平\n• 适合移民的方法\n• 免费水平测试\n\n您想安排评估吗？",
       "employment": "我们的就业帮助：\n• 简历/求职信工作坊\n• 面试模拟\n• 职业辅导\n• 雇主见面会\n• 85%的人在6个月内找到工作！\n\n您对就业咨询感兴趣吗？",
       "default": "我可以帮助您：\n• 了解我们的服务信息\n• 预约咨询\n• 联系方式\n• 个性化建议\n\n您想了解什么？"
+    },
+    "status": "在线",
+    "error": "抱歉，发生了错误。请重试。",
+    "suggestions": {
+      "services": "服务",
+      "appointment": "预约",
+      "appointmentInput": "预约咨询",
+      "french": "法语",
+      "frenchInput": "法语课程"
     }
   },
   "success": {
@@ -301,7 +310,80 @@
     "previousSlide": "上一张幻灯片",
     "nextSlide": "下一张幻灯片",
     "goToSlide": "转到幻灯片",
-    "carouselSlider": "轮播滑块"
+    "carouselSlider": "轮播滑块",
+    "closeModal": "关闭窗口",
+    "previousTestimonial": "上一个见证",
+    "nextTestimonial": "下一个见证",
+    "goToTestimonial": "转到见证",
+    "learnMoreAbout": "了解更多关于"
   },
-  "loading": "加载中..."
+  "loading": "加载中...",
+  "newsCategories": {
+    "francisation": "法语学习",
+    "emploi": "就业",
+    "femmes": "世界女性",
+    "integration": "融入",
+    "parents": "家长与青少年"
+  },
+  "media": {
+    "videoNotSupported": "您的浏览器不支持视频播放。",
+    "audioNotSupported": "您的浏览器不支持音频播放。"
+  },
+  "testimonials": {
+    "arrived": "抵达",
+    "items": [
+      {
+        "name": "Asma B.",
+        "country": "摩洛哥",
+        "year": "2020",
+        "text": "感谢CARI，我在6个月内找到了理想的工作！个性化支持和研讨会给了我在面试中成功所需的信心。",
+        "service": "就业援助"
+      },
+      {
+        "name": "Jean-Pierre H.",
+        "country": "海地",
+        "year": "2020",
+        "text": "从难民到企业家，CARI在每一步都陪伴着我。如今我拥有自己的公司，雇用了5名员工。",
+        "service": "全面支持"
+      },
+      {
+        "name": "Jasmine M.",
+        "country": "海地",
+        "year": "2021",
+        "text": "法语曾经看起来不可能，现在我能流利地说了！课程非常棒，老师们非常有耐心。",
+        "service": "法语学习"
+      },
+      {
+        "name": "Karla A.",
+        "country": "刚果",
+        "year": "2019",
+        "text": "我的孩子们很快乐，我们在这里找到了自己的位置。CARI的家庭服务改变了一切。",
+        "service": "家庭服务"
+      },
+      {
+        "name": "Wei L.",
+        "country": "中国",
+        "year": "2022",
+        "text": "帮助理解魁北克体系改变了一切。我现在在蒙特利尔感觉像在家一样。",
+        "service": "接待与融入"
+      }
+    ],
+    "parallaxItems": [
+      {
+        "quote": "感谢CARI，我在6个月内找到了理想的工作！团队在每一步都陪伴着我。",
+        "name": "Asma B.",
+        "origin": "摩洛哥 • 2020年抵达"
+      },
+      {
+        "quote": "法语课程让我能够迅速独立。我推荐给所有新移民！",
+        "name": "Ahmed K.",
+        "origin": "叙利亚 • 2021年抵达"
+      },
+      {
+        "quote": "世界女性项目给了我信心和一个很棒的朋友圈。",
+        "name": "Maria L.",
+        "origin": "哥伦比亚 • 2019年抵达"
+      }
+    ]
+  }
 }

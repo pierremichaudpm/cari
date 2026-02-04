@@ -175,6 +175,15 @@
       "french": "Our French courses:\n• 8:30 AM-10 PM (very flexible!)\n• All levels accepted\n• Methods adapted for immigrants\n• Free level assessment\n\nWould you like to schedule an evaluation?",
       "employment": "Our employment assistance:\n• Resume/cover letter workshops\n• Interview simulations\n• Professional coaching\n• Employer meetings\n• 85% find a job within 6 months!\n\nInterested in employment consultation?",
       "default": "I can help you with:\n• Information about our services\n• Appointment booking\n• Contact details\n• Personalized advice\n\nWhat would you like to know?"
+    },
+    "status": "Trực tuyến",
+    "error": "Xin lỗi, đã xảy ra lỗi. Vui lòng thử lại.",
+    "suggestions": {
+      "services": "Dịch vụ",
+      "appointment": "Cuộc hẹn",
+      "appointmentInput": "Đặt lịch hẹn",
+      "french": "Tiếng Pháp",
+      "frenchInput": "Khóa học tiếng Pháp"
     }
   },
   "success": {
@@ -236,7 +245,80 @@
     "previousSlide": "Slide précédente",
     "nextSlide": "Slide suivante",
     "goToSlide": "Aller à la diapositive",
-    "carouselSlider": "Slider carrousel"
+    "carouselSlider": "Slider carrousel",
+    "closeModal": "Đóng cửa sổ",
+    "previousTestimonial": "Lời chứng trước",
+    "nextTestimonial": "Lời chứng tiếp theo",
+    "goToTestimonial": "Đến lời chứng",
+    "learnMoreAbout": "Tìm hiểu thêm về"
   },
-  "loading": "Đang tải..."
+  "loading": "Đang tải...",
+  "newsCategories": {
+    "francisation": "Học tiếng Pháp",
+    "emploi": "Việc làm",
+    "femmes": "Phụ nữ thế giới",
+    "integration": "Hội nhập",
+    "parents": "Phụ huynh & Thanh thiếu niên"
+  },
+  "media": {
+    "videoNotSupported": "Trình duyệt của bạn không hỗ trợ phát video.",
+    "audioNotSupported": "Trình duyệt của bạn không hỗ trợ phát âm thanh."
+  },
+  "testimonials": {
+    "arrived": "Đến",
+    "items": [
+      {
+        "name": "Asma B.",
+        "country": "Ma-rốc",
+        "year": "2020",
+        "text": "Nhờ CARI, tôi đã tìm được công việc mơ ước trong 6 tháng! Sự hỗ trợ cá nhân và các hội thảo đã cho tôi sự tự tin cần thiết để thành công trong các cuộc phỏng vấn.",
+        "service": "Hỗ trợ việc làm"
+      },
+      {
+        "name": "Jean-Pierre H.",
+        "country": "Haiti",
+        "year": "2020",
+        "text": "Từ người tị nạn đến doanh nhân, CARI đã đồng hành cùng tôi ở mọi bước. Hôm nay tôi có công ty riêng và tuyển dụng 5 người.",
+        "service": "Hỗ trợ toàn diện"
+      },
+      {
+        "name": "Jasmine M.",
+        "country": "Haiti",
+        "year": "2021",
+        "text": "Tiếng Pháp từng tưởng như không thể, giờ tôi nói trôi chảy! Các khóa học tuyệt vời và giáo viên rất kiên nhẫn.",
+        "service": "Học tiếng Pháp"
+      },
+      {
+        "name": "Karla A.",
+        "country": "CHDC Congo",
+        "year": "2019",
+        "text": "Các con tôi hạnh phúc, chúng tôi đã tìm được chỗ đứng ở đây. Dịch vụ gia đình của CARI đã tạo nên sự khác biệt.",
+        "service": "Dịch vụ gia đình"
+      },
+      {
+        "name": "Wei L.",
+        "country": "Trung Quốc",
+        "year": "2022",
+        "text": "Sự giúp đỡ để hiểu hệ thống Quebec đã thay đổi mọi thứ. Giờ tôi cảm thấy như ở nhà tại Montreal.",
+        "service": "Tiếp đón & Hội nhập"
+      }
+    ],
+    "parallaxItems": [
+      {
+        "quote": "Nhờ CARI, tôi đã tìm được công việc mơ ước trong 6 tháng! Đội ngũ đã đồng hành cùng tôi ở mọi bước.",
+        "name": "Asma B.",
+        "origin": "Ma-rốc • Đến 2020"
+      },
+      {
+        "quote": "Các khóa học tiếng Pháp giúp tôi nhanh chóng tự lập. Tôi giới thiệu cho tất cả người mới đến!",
+        "name": "Ahmed K.",
+        "origin": "Syria • Đến 2021"
+      },
+      {
+        "quote": "Chương trình Phụ nữ thế giới đã cho tôi sự tự tin và mạng lưới bạn bè tuyệt vời.",
+        "name": "Maria L.",
+        "origin": "Colombia • Đến 2019"
+      }
+    ]
+  }
 }

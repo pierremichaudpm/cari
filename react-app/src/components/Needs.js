@@ -69,7 +69,7 @@ const Needs = ({ currentLanguage, translations, scrollToSection }) => {
                 onClick={() => handleCardClick(card)}
                 role="button"
                 tabIndex={0}
-                aria-label={`En savoir plus sur ${card.text}`}
+                aria-label={`${t.aria?.learnMoreAbout || "Learn more about"} ${card.text}`}
                 onKeyPress={(e) => {
                   if (e.key === "Enter" || e.key === " ") {
                     handleCardClick(card);

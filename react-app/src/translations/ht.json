@@ -175,6 +175,15 @@
       "french": "Our French courses:\n• 8:30 AM-10 PM (very flexible!)\n• All levels accepted\n• Methods adapted for immigrants\n• Free level assessment\n\nWould you like to schedule an evaluation?",
       "employment": "Our employment assistance:\n• Resume/cover letter workshops\n• Interview simulations\n• Professional coaching\n• Employer meetings\n• 85% find a job within 6 months!\n\nInterested in employment consultation?",
       "default": "I can help you with:\n• Information about our services\n• Appointment booking\n• Contact details\n• Personalized advice\n\nWhat would you like to know?"
+    },
+    "status": "Anliy",
+    "error": "Eskize, yon erè fèt. Tanpri eseye ankò.",
+    "suggestions": {
+      "services": "Sèvis",
+      "appointment": "Randevou",
+      "appointmentInput": "Pran yon randevou",
+      "french": "Fransè",
+      "frenchInput": "Kou fransè"
     }
   },
   "success": {
@@ -236,7 +245,80 @@
     "previousSlide": "Slide précédente",
     "nextSlide": "Slide suivante",
     "goToSlide": "Aller à la diapositive",
-    "carouselSlider": "Slider carrousel"
+    "carouselSlider": "Slider carrousel",
+    "closeModal": "Fèmen fenèt la",
+    "previousTestimonial": "Temwayaj anvan",
+    "nextTestimonial": "Pwochen temwayaj",
+    "goToTestimonial": "Ale nan temwayaj",
+    "learnMoreAbout": "Aprann plis sou"
   },
-  "loading": "Chajman..."
+  "loading": "Chajman...",
+  "newsCategories": {
+    "francisation": "Aprann fransè",
+    "emploi": "Travay",
+    "femmes": "Fanm nan mond lan",
+    "integration": "Entegrasyon",
+    "parents": "Paran ak Jèn"
+  },
+  "media": {
+    "videoNotSupported": "Navigatè ou a pa sipòte lekti videyo.",
+    "audioNotSupported": "Navigatè ou a pa sipòte lekti odyo."
+  },
+  "testimonials": {
+    "arrived": "Rive",
+    "items": [
+      {
+        "name": "Asma B.",
+        "country": "Mawòk",
+        "year": "2020",
+        "text": "Gras a CARI, mwen jwenn travay rèv mwen an 6 mwa! Sipò pèsonalize ak atelye yo ban mwen konfyans pou reyisi nan entèvyou mwen yo.",
+        "service": "Èd pou travay"
+      },
+      {
+        "name": "Jean-Pierre H.",
+        "country": "Ayiti",
+        "year": "2020",
+        "text": "Soti nan refijye rive nan antreprenè, CARI akonpanye m nan chak etap. Jodi a mwen gen pwòp biznis mwen epi mwen anplwaye 5 moun.",
+        "service": "Akonpayman global"
+      },
+      {
+        "name": "Jasmine M.",
+        "country": "Ayiti",
+        "year": "2021",
+        "text": "Fransè a te sanble enposib, kounye a mwen pale l byen! Kou yo ekselan e pwofesè yo trè pasyan.",
+        "service": "Aprann fransè"
+      },
+      {
+        "name": "Karla A.",
+        "country": "RDK",
+        "year": "2019",
+        "text": "Pitit mwen yo kontan, nou jwenn plas nou isit la. Sèvis familyal CARI a fè tout diferans lan.",
+        "service": "Sèvis familyal"
+      },
+      {
+        "name": "Wei L.",
+        "country": "Lachin",
+        "year": "2022",
+        "text": "Èd pou konprann sistèm kebekwa a chanje tout bagay. Kounye a mwen santi m lakay mwen nan Monreyal.",
+        "service": "Akèy ak Entegrasyon"
+      }
+    ],
+    "parallaxItems": [
+      {
+        "quote": "Gras a CARI, mwen jwenn travay rèv mwen an 6 mwa! Ekip la akonpanye m nan chak etap.",
+        "name": "Asma B.",
+        "origin": "Mawòk • Rive 2020"
+      },
+      {
+        "quote": "Kou fransè yo pèmèt mwen vin endepandan rapidman. Mwen rekòmande l pou tout nouvo vini!",
+        "name": "Ahmed K.",
+        "origin": "Siri • Rive 2021"
+      },
+      {
+        "quote": "Pwogram Fanm nan mond lan ban mwen konfyans ak yon rezo zanmi ekstraòdinè.",
+        "name": "Maria L.",
+        "origin": "Kolonbi • Rive 2019"
+      }
+    ]
+  }
 }

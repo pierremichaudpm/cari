@@ -175,6 +175,15 @@
       "french": "Our French courses:\n• 8:30 AM-10 PM (very flexible!)\n• All levels accepted\n• Methods adapted for immigrants\n• Free level assessment\n\nWould you like to schedule an evaluation?",
       "employment": "Our employment assistance:\n• Resume/cover letter workshops\n• Interview simulations\n• Professional coaching\n• Employer meetings\n• 85% find a job within 6 months!\n\nInterested in employment consultation?",
       "default": "I can help you with:\n• Information about our services\n• Appointment booking\n• Contact details\n• Personalized advice\n\nWhat would you like to know?"
+    },
+    "status": "Online",
+    "error": "Paumanhin, may naganap na error. Pakisubukan muli.",
+    "suggestions": {
+      "services": "Mga Serbisyo",
+      "appointment": "Appointment",
+      "appointmentInput": "Mag-book ng appointment",
+      "french": "Pranses",
+      "frenchInput": "Mga kurso sa Pranses"
     }
   },
   "success": {
@@ -236,7 +245,80 @@
     "previousSlide": "Slide précédente",
     "nextSlide": "Slide suivante",
     "goToSlide": "Aller à la diapositive",
-    "carouselSlider": "Slider carrousel"
+    "carouselSlider": "Slider carrousel",
+    "closeModal": "Isara ang window",
+    "previousTestimonial": "Nakaraang testimonya",
+    "nextTestimonial": "Susunod na testimonya",
+    "goToTestimonial": "Pumunta sa testimonya",
+    "learnMoreAbout": "Matuto pa tungkol sa"
   },
-  "loading": "Naglo-load..."
+  "loading": "Naglo-load...",
+  "newsCategories": {
+    "francisation": "Pag-aaral ng Pranses",
+    "emploi": "Trabaho",
+    "femmes": "Kababaihan ng mundo",
+    "integration": "Integrasyon",
+    "parents": "Mga Magulang at Kabataan"
+  },
+  "media": {
+    "videoNotSupported": "Hindi sinusuportahan ng iyong browser ang pag-play ng video.",
+    "audioNotSupported": "Hindi sinusuportahan ng iyong browser ang pag-play ng audio."
+  },
+  "testimonials": {
+    "arrived": "Dumating",
+    "items": [
+      {
+        "name": "Asma B.",
+        "country": "Morocco",
+        "year": "2020",
+        "text": "Salamat sa CARI, nahanap ko ang pangarap kong trabaho sa loob ng 6 na buwan! Ang personalized na suporta at mga workshop ay nagbigay sa akin ng kumpiyansa para magtagumpay sa mga panayam.",
+        "service": "Tulong sa trabaho"
+      },
+      {
+        "name": "Jean-Pierre H.",
+        "country": "Haiti",
+        "year": "2020",
+        "text": "Mula refugee hanggang entrepreneur, sinamahan ako ng CARI sa bawat hakbang. Ngayon may sarili akong negosyo at may 5 empleyado.",
+        "service": "Pangkalahatang suporta"
+      },
+      {
+        "name": "Jasmine M.",
+        "country": "Haiti",
+        "year": "2021",
+        "text": "Parang imposible ang Pranses, ngayon nagsasalita na ako nang matatas! Mahusay ang mga kurso at napaka-pasensyoso ng mga guro.",
+        "service": "Pag-aaral ng Pranses"
+      },
+      {
+        "name": "Karla A.",
+        "country": "DRC",
+        "year": "2019",
+        "text": "Masaya ang mga anak ko, nahanap namin ang aming lugar dito. Ang family services ng CARI ang gumawa ng pagkakaiba.",
+        "service": "Serbisyong pampamilya"
+      },
+      {
+        "name": "Wei L.",
+        "country": "China",
+        "year": "2022",
+        "text": "Ang tulong para maunawaan ang sistema ng Quebec ay nagbago ng lahat. Ngayon pakiramdam ko nasa bahay ako sa Montreal.",
+        "service": "Pagtanggap at Integrasyon"
+      }
+    ],
+    "parallaxItems": [
+      {
+        "quote": "Salamat sa CARI, nahanap ko ang pangarap kong trabaho sa loob ng 6 na buwan! Sinamahan ako ng team sa bawat hakbang.",
+        "name": "Asma B.",
+        "origin": "Morocco • Dumating 2020"
+      },
+      {
+        "quote": "Ang mga kurso sa Pranses ay nagbigay-daan sa akin na maging malaya agad. Inirerekomenda ko sa lahat ng bagong dating!",
+        "name": "Ahmed K.",
+        "origin": "Syria • Dumating 2021"
+      },
+      {
+        "quote": "Ang programa ng Kababaihan ng mundo ay nagbigay sa akin ng kumpiyansa at isang kamangha-manghang network ng mga kaibigan.",
+        "name": "Maria L.",
+        "origin": "Colombia • Dumating 2019"
+      }
+    ]
+  }
 }

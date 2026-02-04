@@ -200,7 +200,7 @@ const Chat = ({ chatOpen, toggleChat, currentLanguage, translations }) => {
         console.error("Chat error:", error);
       }
       addMessage(
-        "Désolé, une erreur s'est produite. Veuillez réessayer.",
+        t.chatbot?.error || "Sorry, an error occurred. Please try again.",
         "bot",
       );
     } finally {
@@ -243,7 +243,7 @@ const Chat = ({ chatOpen, toggleChat, currentLanguage, translations }) => {
             </div>
             <div>
               <h3>{t.chatbot.title}</h3>
-              <p className="chat-status">En ligne</p>
+              <p className="chat-status">{t.chatbot?.status || "Online"}</p>
             </div>
           </div>
           <button className="chat-close" onClick={toggleChat}>
@@ -288,69 +288,30 @@ const Chat = ({ chatOpen, toggleChat, currentLanguage, translations }) => {
             }}
             disabled={isTyping}
           >
-            {currentLanguage === "fr"
-              ? "Services"
-              : currentLanguage === "en"
-                ? "Services"
-                : currentLanguage === "ar"
-                  ? "الخدمات"
-                  : currentLanguage === "es"
-                    ? "Servicios"
-                    : "Услуги"}
+            {t.chatbot?.suggestions?.services || "Services"}
           </button>
           <button
             className="suggestion-btn"
             onClick={() => {
               setInputValue(
-                currentLanguage === "fr"
-                  ? "Prendre rendez-vous"
-                  : currentLanguage === "en"
-                    ? "Make an appointment"
-                    : currentLanguage === "ar"
-                      ? "حجز موعد"
-                      : currentLanguage === "es"
-                        ? "Hacer una cita"
-                        : "Записаться на прием",
+                t.chatbot?.suggestions?.appointmentInput ||
+                  "Make an appointment",
               );
             }}
             disabled={isTyping}
           >
-            {currentLanguage === "fr"
-              ? "Rendez-vous"
-              : currentLanguage === "en"
-                ? "Appointment"
-                : currentLanguage === "ar"
-                  ? "موعد"
-                  : currentLanguage === "es"
-                    ? "Cita"
-                    : "Встреча"}
+            {t.chatbot?.suggestions?.appointment || "Appointment"}
           </button>
           <button
             className="suggestion-btn"
             onClick={() => {
               setInputValue(
-                currentLanguage === "fr"
-                  ? "Cours de français"
-                  : currentLanguage === "en"
-                    ? "French courses"
-                    : currentLanguage === "ar"
-                      ? "دورات الفرنسية"
-                      : currentLanguage === "es"
-                        ? "Cursos de francés"
-                        : "Курсы французского",
+                t.chatbot?.suggestions?.frenchInput || "French courses",
               );
             }}
             disabled={isTyping}
           >
-            {currentLanguage === "fr"
-              ? "Français"
-              : currentLanguage === "en"
-                ? "French"
-                : currentLanguage === "ar"
-                  ? "الفرنسية"
-                  : currentLanguage === "es"
-                    ? "Francés"
-                    : "Французский"}
+            {t.chatbot?.suggestions?.french || "French"}
           </button>
         </div>
       </div>

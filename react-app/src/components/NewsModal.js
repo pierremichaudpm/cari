@@ -157,7 +157,8 @@ const NewsModal = ({
           <div className="news-modal-media">
             <video ref={videoRef} controls playsInline>
               <source src={news.videoUrl} type="video/mp4" />
-              Votre navigateur ne supporte pas la lecture vidéo.
+              {t.media?.videoNotSupported ||
+                "Your browser does not support video playback."}
             </video>
           </div>
         )}
@@ -178,7 +179,8 @@ const NewsModal = ({
           <div className="news-modal-media news-modal-audio">
             <audio ref={audioRef} controls>
               <source src={news.audioUrl} type="audio/mp3" />
-              Votre navigateur ne supporte pas la lecture audio.
+              {t.media?.audioNotSupported ||
+                "Your browser does not support audio playback."}
             </audio>
           </div>
         )}
@@ -200,15 +202,7 @@ const NewsModal = ({
                         : "#FF5C39",
             }}
           >
-            {news.category === "francisation"
-              ? "Francisation"
-              : news.category === "emploi"
-                ? "Emploi"
-                : news.category === "femmes"
-                  ? "Femmes du monde"
-                  : news.category === "integration"
-                    ? "Intégration"
-                    : "Parents & Jeunesse"}
+            {t.newsCategories?.[news.category] || news.category}
           </span>
 
           <h1 className="news-modal-title">{news.title}</h1>
@@ -218,11 +212,23 @@ const NewsModal = ({
               <strong>{news.author}</strong>
             </span>
             <span>
-              {new Date(news.date).toLocaleDateString("fr-CA", {
-                year: "numeric",
-                month: "long",
-                day: "numeric",
-              })}
+              {new Date(news.date).toLocaleDateString(
+                {
+                  fr: "fr-CA",
+                  en: "en-CA",
+                  es: "es",
+                  ar: "ar",
+                  ru: "ru",
+                  zh: "zh-CN",
+                  pt: "pt-BR",
+                  ht: "fr-HT",
+                  vi: "vi",
+                  tl: "tl",
+                  ur: "ur",
+                  uk: "uk",
+                }[currentLanguage] || "fr-CA",
+                { year: "numeric", month: "long", day: "numeric" },
+              )}
             </span>
           </div>
 
@@ -242,7 +248,7 @@ const NewsModal = ({
                     "width=600,height=400",
                   );
                 }}
-                title="Partager sur Facebook"
+                title={t.newsModal?.shareOn?.facebook || "Share on Facebook"}
               >
                 <Icon name="facebook" size={18} />
               </button>
@@ -255,7 +261,7 @@ const NewsModal = ({
                     "width=600,height=400",
                   );
                 }}
-                title="Partager sur Twitter"
+                title={t.newsModal?.shareOn?.twitter || "Share on Twitter"}
               >
                 <Icon name="twitter" size={18} />
               </button>
@@ -268,7 +274,7 @@ const NewsModal = ({
                     "width=600,height=400",
                   );
                 }}
-                title="Partager sur LinkedIn"
+                title={t.newsModal?.shareOn?.linkedin || "Share on LinkedIn"}
               >
                 <Icon name="linkedin" size={18} />
               </button>
@@ -281,7 +287,7 @@ const NewsModal = ({
                     "width=600,height=400",
                   );
                 }}
-                title="Partager sur WhatsApp"
+                title={t.newsModal?.shareOn?.whatsapp || "Share on WhatsApp"}
               >
                 <Icon name="message-circle" size={18} />
               </button>
