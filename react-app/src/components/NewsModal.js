@@ -86,7 +86,7 @@ const NewsModal = ({ isOpen, onClose, news }) => {
         elements.push(
           <h1 key={key++} className="modal-content-h1">
             {line.substring(2)}
-          </h1>
+          </h1>,
         );
       }
       // H2
@@ -94,7 +94,7 @@ const NewsModal = ({ isOpen, onClose, news }) => {
         elements.push(
           <h2 key={key++} className="modal-content-h2">
             {line.substring(3)}
-          </h2>
+          </h2>,
         );
       }
       // H3
@@ -102,7 +102,7 @@ const NewsModal = ({ isOpen, onClose, news }) => {
         elements.push(
           <h3 key={key++} className="modal-content-h3">
             {line.substring(4)}
-          </h3>
+          </h3>,
         );
       }
       // List item
@@ -110,7 +110,7 @@ const NewsModal = ({ isOpen, onClose, news }) => {
         elements.push(
           <li key={key++} className="modal-content-li">
             {line.substring(2)}
-          </li>
+          </li>,
         );
       }
       // Empty line
@@ -122,7 +122,7 @@ const NewsModal = ({ isOpen, onClose, news }) => {
         elements.push(
           <p key={key++} className="modal-content-p">
             {line}
-          </p>
+          </p>,
         );
       }
     }
@@ -131,9 +131,16 @@ const NewsModal = ({ isOpen, onClose, news }) => {
   };
 
   return (
-    <div className="modal-overlay news-modal-overlay" onClick={handleOverlayClick}>
+    <div
+      className="modal-overlay news-modal-overlay"
+      onClick={handleOverlayClick}
+    >
       <div className="modal-content news-modal-content">
-        <button className="modal-close" onClick={onClose} aria-label="Fermer">
+        <button
+          className="modal-close"
+          onClick={onClose}
+          aria-label={t.aria.close}
+        >
           <Icon name="x" size={24} />
         </button>
 
@@ -215,7 +222,7 @@ const NewsModal = ({ isOpen, onClose, news }) => {
           <div className="news-modal-share">
             <div className="news-modal-share-label">
               <Icon name="share-2" size={16} />
-              <span>Partager:</span>
+              <span>{t.newsModal.share}:</span>
             </div>
             <div className="news-modal-share-buttons">
               <button
@@ -224,7 +231,7 @@ const NewsModal = ({ isOpen, onClose, news }) => {
                   window.open(
                     `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(window.location.href)}`,
                     "_blank",
-                    "width=600,height=400"
+                    "width=600,height=400",
                   );
                 }}
                 title="Partager sur Facebook"
@@ -237,7 +244,7 @@ const NewsModal = ({ isOpen, onClose, news }) => {
                   window.open(
                     `https://twitter.com/intent/tweet?url=${encodeURIComponent(window.location.href)}&text=${encodeURIComponent(news.title)}`,
                     "_blank",
-                    "width=600,height=400"
+                    "width=600,height=400",
                   );
                 }}
                 title="Partager sur Twitter"
@@ -250,7 +257,7 @@ const NewsModal = ({ isOpen, onClose, news }) => {
                   window.open(
                     `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(window.location.href)}`,
                     "_blank",
-                    "width=600,height=400"
+                    "width=600,height=400",
                   );
                 }}
                 title="Partager sur LinkedIn"
@@ -263,7 +270,7 @@ const NewsModal = ({ isOpen, onClose, news }) => {
                   window.open(
                     `https://wa.me/?text=${encodeURIComponent(news.title)}%20${encodeURIComponent(window.location.href)}`,
                     "_blank",
-                    "width=600,height=400"
+                    "width=600,height=400",
                   );
                 }}
                 title="Partager sur WhatsApp"

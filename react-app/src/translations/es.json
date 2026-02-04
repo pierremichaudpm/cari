@@ -18,6 +18,34 @@
       "peopleHelped": "Personas ayudadas/año",
       "satisfaction": "Satisfacción",
       "findEmployment": "Encuentran empleo"
+    },
+    "testFrench": "Prueba mi francés",
+    "slides": {
+      "slide1": {
+        "quote": "« ¡Gracias a CARI, encontré mi trabajo soñado en 6 meses! »",
+        "author": "Asma B.",
+        "role": "Marruecos • Llegada 2020"
+      },
+      "slide2": {
+        "quote": "« De refugiado a empresario, CARI me acompañó »",
+        "author": "Jean-Pierre H.",
+        "role": "Haití • Llegada 2020"
+      },
+      "slide3": {
+        "quote": "« ¡El francés parecía imposible, ahora lo hablo con fluidez! »",
+        "author": "Jasmine M.",
+        "role": "Haití • Llegada 2021"
+      },
+      "slide4": {
+        "quote": "« Mes enfants sont épanouis, nous avons trouvé notre place ici »",
+        "author": "Karla A.",
+        "role": "RDC • Llegada 2019"
+      },
+      "slide5": {
+        "quote": "« La ayuda para entender el sistema quebequense lo cambió todo »",
+        "author": "Wei L.",
+        "role": "China • Llegada 2022"
+      }
     }
   },
   "needs": {
@@ -30,7 +58,8 @@
       "family": "Tengo una familia",
       "women": "Soy mujer",
       "volunteering": "Quiero involucrarme"
-    }
+    },
+    "instruction": "Seleccione un servicio para obtener más información"
   },
   "services": {
     "title": "Nuestros servicios",
@@ -81,12 +110,22 @@
       "date": "Fecha preferida",
       "time": "Horario preferido",
       "message": "Mensaje (opcional)",
-      "submit": "Confirmar cita"
+      "submit": "Confirmar cita",
+      "namePlaceholder": "Nombre y apellido",
+      "phonePlaceholder": "(514) 123-4567",
+      "emailPlaceholder": "su@correo.com",
+      "messagePlaceholder": "Describa brevemente su situación...",
+      "selectTime": "Elegir una hora",
+      "confirmationNote": "Recibirá una confirmación por correo electrónico en 24h"
     },
     "steps": {
       "yourNeed": "Su necesidad",
       "yourInfo": "Sus datos",
       "confirmation": "Confirmación"
+    },
+    "contact": {
+      "hoursLabel": "Horario",
+      "schedule": "Lun-Vie: 9h - 17h"
     }
   },
   "contact": {
@@ -113,6 +152,16 @@
       "metro": "Metro: Du Collège (línea naranja)",
       "bus": "Autobús: 17, 64, 121, 368",
       "parking": "Estacionamiento gratuito en el lugar"
+    },
+    "mapText": "Mapa interactivo disponible en el sitio",
+    "viewGoogleMaps": "Ver en Google Maps",
+    "subjects": {
+      "general": "Consulta general",
+      "info": "Solicitud de información",
+      "appointment": "Reserva de cita",
+      "french": "Cursos de francés",
+      "employment": "Ayuda laboral",
+      "family": "Servicios familiares"
     }
   },
   "chatbot": {
@@ -145,5 +194,50 @@
   "testimonialsSection": {
     "title": "Tuvieron éxito con CARI",
     "subtitle": "Descubre las historias inspiradoras de quienes encontraron su lugar en Quebec"
-  }
+  },
+  "news": {
+    "moreContentButton": "Más contenido",
+    "moreNewsTitle": "Más noticias"
+  },
+  "newsModal": {
+    "share": "Compartir"
+  },
+  "activities": {
+    "registerButton": "Inscribirse",
+    "moreEventsButton": "Más eventos",
+    "filters": {
+      "all": "Ver todo",
+      "welcome": "Bienvenida",
+      "french": "Francés",
+      "employment": "Empleo",
+      "family": "Familia",
+      "women": "Mujeres"
+    }
+  },
+  "parallax": {
+    "statsTitle": "Juntos, marcamos la diferencia",
+    "statsSubtitle": "Desde 1989, CARI apoya a los recién llegados hacia el éxito",
+    "stats": {
+      "peopleHelped": "Personas ayudadas/año",
+      "satisfaction": "Tasa de satisfacción",
+      "findEmployment": "Encuentran empleo",
+      "languagesSpoken": "Idiomas hablados"
+    },
+    "ctaTitle": "¿Listo para comenzar su nueva vida en Quebec?",
+    "ctaSubtitle": "Nuestro equipo multilingüe está aquí para apoyarlo en cada paso de su integración."
+  },
+  "footer": {
+    "copyright": "© 2024 Todos los derechos reservados.",
+    "tagline": "Organización sin fines de lucro de ayuda a inmigrantes"
+  },
+  "aria": {
+    "close": "Cerrar",
+    "carousel": "Carrusel de encabezado",
+    "carouselNav": "Navegación del carrusel",
+    "previousSlide": "Diapositiva anterior",
+    "nextSlide": "Siguiente diapositiva",
+    "goToSlide": "Ir a la diapositiva",
+    "carouselSlider": "Control del carrusel"
+  },
+  "loading": "Cargando..."
 }

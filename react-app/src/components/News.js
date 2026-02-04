@@ -602,7 +602,7 @@ N'hésitez pas à nous contacter pour un accompagnement personnalisé!`,
           {/* More Content CTA */}
           <div className="section-cta">
             <button className="btn-primary" onClick={handleMoreContentClick}>
-              Plus de contenu
+              {t.news.moreContentButton}
             </button>
           </div>
         </div>
@@ -622,13 +622,13 @@ N'hésitez pas à nous contacter pour un accompagnement personnalisé!`,
             <button
               className="modal-close"
               onClick={closeMoreContentModal}
-              aria-label="Fermer"
+              aria-label={t.aria.close}
             >
               <Icon name="x" size={24} />
             </button>
 
             <div className="modal-header">
-              <h2>Plus de nouvelles</h2>
+              <h2>{t.news.moreNewsTitle}</h2>
             </div>
 
             <div className="news-grid">

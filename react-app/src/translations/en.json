@@ -17,6 +17,34 @@
       "peopleHelped": "People helped/year",
       "satisfaction": "Satisfaction",
       "findEmployment": "Find employment"
+    },
+    "testFrench": "Test my French",
+    "slides": {
+      "slide1": {
+        "quote": "« Thanks to CARI, I found my dream job in 6 months! »",
+        "author": "Asma B.",
+        "role": "Morocco • Arrived 2020"
+      },
+      "slide2": {
+        "quote": "« From refugee to entrepreneur, CARI supported me »",
+        "author": "Jean-Pierre H.",
+        "role": "Haiti • Arrived 2020"
+      },
+      "slide3": {
+        "quote": "« French seemed impossible, now I speak it fluently! »",
+        "author": "Jasmine M.",
+        "role": "Haiti • Arrived 2021"
+      },
+      "slide4": {
+        "quote": "« Mes enfants sont épanouis, nous avons trouvé notre place ici »",
+        "author": "Karla A.",
+        "role": "DRC • Arrived 2019"
+      },
+      "slide5": {
+        "quote": "« The help understanding the Quebec system changed everything »",
+        "author": "Wei L.",
+        "role": "China • Arrived 2022"
+      }
     }
   },
   "needs": {
@@ -29,7 +57,8 @@
       "family": "I have a family",
       "women": "I am a woman",
       "volunteering": "I want to get involved"
-    }
+    },
+    "instruction": "Select a service to learn more"
   },
   "services": {
     "title": "Our services",
@@ -80,12 +109,22 @@
       "date": "Preferred date",
       "time": "Preferred time",
       "message": "Message (optional)",
-      "submit": "Confirm appointment"
+      "submit": "Confirm appointment",
+      "namePlaceholder": "First and last name",
+      "phonePlaceholder": "(514) 123-4567",
+      "emailPlaceholder": "your@email.com",
+      "messagePlaceholder": "Briefly describe your situation...",
+      "selectTime": "Choose a time",
+      "confirmationNote": "You will receive a confirmation by email within 24h"
     },
     "steps": {
       "yourNeed": "Your Need",
       "yourInfo": "Your Information",
       "confirmation": "Confirmation"
+    },
+    "contact": {
+      "hoursLabel": "Hours",
+      "schedule": "Mon-Fri: 9am - 5pm"
     }
   },
   "contact": {
@@ -112,6 +151,16 @@
       "metro": "Metro: Du Collège (orange line)",
       "bus": "Bus: 17, 64, 121, 368",
       "parking": "Free parking on site"
+    },
+    "mapText": "Interactive map available on the site",
+    "viewGoogleMaps": "View on Google Maps",
+    "subjects": {
+      "general": "General inquiry",
+      "info": "Information request",
+      "appointment": "Appointment booking",
+      "french": "French courses",
+      "employment": "Employment help",
+      "family": "Family services"
     }
   },
   "chatbot": {
@@ -144,5 +193,50 @@
   "testimonialsSection": {
     "title": "They Succeeded with CARI",
     "subtitle": "Discover the inspiring stories of those who found their place in Quebec"
-  }
+  },
+  "news": {
+    "moreContentButton": "More content",
+    "moreNewsTitle": "More news"
+  },
+  "newsModal": {
+    "share": "Share"
+  },
+  "activities": {
+    "registerButton": "Register",
+    "moreEventsButton": "More events",
+    "filters": {
+      "all": "View all",
+      "welcome": "Welcome",
+      "french": "French",
+      "employment": "Employment",
+      "family": "Family",
+      "women": "Women"
+    }
+  },
+  "parallax": {
+    "statsTitle": "Together, we make a difference",
+    "statsSubtitle": "Since 1989, CARI has been supporting newcomers to success",
+    "stats": {
+      "peopleHelped": "People helped/year",
+      "satisfaction": "Satisfaction rate",
+      "findEmployment": "Find employment",
+      "languagesSpoken": "Languages spoken"
+    },
+    "ctaTitle": "Ready to start your new life in Quebec?",
+    "ctaSubtitle": "Our multilingual team is here to support you every step of your integration."
+  },
+  "footer": {
+    "copyright": "© 2024 All rights reserved.",
+    "tagline": "Non-profit organization helping immigrants"
+  },
+  "aria": {
+    "close": "Close",
+    "carousel": "Header carousel",
+    "carouselNav": "Carousel navigation",
+    "previousSlide": "Previous slide",
+    "nextSlide": "Next slide",
+    "goToSlide": "Go to slide",
+    "carouselSlider": "Carousel slider"
+  },
+  "loading": "Loading..."
 }

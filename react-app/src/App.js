@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef, lazy, Suspense } from "react";
 import "./styles/main.css";
 import { useAppContext } from "./contexts/AppContext";
-import { heroSlides } from "./constants/heroSlides";
+import { getHeroSlides } from "./constants/heroSlides";
 import { services } from "./constants/services";
 import { LanguageSelectorWrapper } from "./components/cari/LanguageSelector";
 import {
@@ -35,6 +35,12 @@ function App() {
   const isPausedRef = useRef(false);
   const touchStartXRef = useRef(0);
   const touchEndXRef = useRef(0);
+
+  // Generate hero slides dynamically based on current language
+  const heroSlides = React.useMemo(() => {
+    const t = translations[currentLanguage] || translations.fr;
+    return getHeroSlides(t);
+  }, [translations, currentLanguage]);
 
   // Language switching
   const switchLanguage = (lang) => {
@@ -218,7 +224,7 @@ function App() {
           justifyContent: "center",
         }}
       >
-        <div>Chargement...</div>
+        <div>{translations.fr?.loading || "Loading..."}</div>
       </div>
     );
   }
@@ -264,13 +270,35 @@ function App() {
 
           <ParallaxStatsSection
             imageUrl="https://images.unsplash.com/photo-1531482615713-2afd69097998?w=1920&q=80"
-            title="Ensemble, nous faisons la différence"
-            subtitle="Depuis 1989, le CARI accompagne les nouveaux arrivants vers leur réussite"
+            title={
+              (translations[currentLanguage] || translations.fr).parallax
+                .statsTitle
+            }
+            subtitle={
+              (translations[currentLanguage] || translations.fr).parallax
+                .statsSubtitle
+            }
             stats={[
-              { value: "5,000+", label: "Personnes aidées/an" },
-              { value: "92%", label: "Taux de satisfaction" },
-              { value: "85%", label: "Trouvent un emploi" },
-              { value: "12", label: "Langues parlées" },
+              {
+                value: "5,000+",
+                label: (translations[currentLanguage] || translations.fr)
+                  .parallax.stats.peopleHelped,
+              },
+              {
+                value: "92%",
+                label: (translations[currentLanguage] || translations.fr)
+                  .parallax.stats.satisfaction,
+              },
+              {
+                value: "85%",
+                label: (translations[currentLanguage] || translations.fr)
+                  .parallax.stats.findEmployment,
+              },
+              {
+                value: "12",
+                label: (translations[currentLanguage] || translations.fr)
+                  .parallax.stats.languagesSpoken,
+              },
             ]}
           />
 
@@ -317,8 +345,14 @@ function App() {
 
             <div style={{ position: "relative" }}>
               <ParallaxCTASection
-                title="Prêt à commencer votre nouvelle vie au Québec?"
-                subtitle="Notre équipe multilingue est là pour vous accompagner à chaque étape de votre intégration."
+                title={
+                  (translations[currentLanguage] || translations.fr).parallax
+                    .ctaTitle
+                }
+                subtitle={
+                  (translations[currentLanguage] || translations.fr).parallax
+                    .ctaSubtitle
+                }
                 imageUrl="https://images.unsplash.com/photo-1543269865-cbf427effbad?w=1920&q=80"
                 hideButtons={true}
               />
@@ -353,8 +387,18 @@ function App() {
               <img src="/images/logo-footer.webp" alt="CARI St-Laurent" />
             </div>
             <div className="footer-info">
-              <p>© 2024 Tous droits réservés.</p>
-              <p>Organisme à but non lucratif d'aide aux immigrants</p>
+              <p>
+                {
+                  (translations[currentLanguage] || translations.fr).footer
+                    .copyright
+                }
+              </p>
+              <p>
+                {
+                  (translations[currentLanguage] || translations.fr).footer
+                    .tagline
+                }
+              </p>
             </div>
           </div>
         </footer>

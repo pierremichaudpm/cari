@@ -61,7 +61,7 @@ const Hero = ({
         ref={heroCarouselRef}
         onTouchStart={handleTouchStart}
         onTouchEnd={handleTouchEnd}
-        aria-label="Carrousel d'en-tête"
+        aria-label={t.aria.carousel}
       >
         {heroSlides.map((slide, index) => (
           <div
@@ -103,7 +103,7 @@ const Hero = ({
                     className="btn btn-secondary translatable"
                     onClick={() => setShowFrenchTest(true)}
                   >
-                    Je teste mon français
+                    {t.hero.testFrench}
                   </button>
                 </div>
               </div>
@@ -117,17 +117,17 @@ const Hero = ({
         ))}
 
         {/* Carousel Navigation */}
-        <div className="carousel-nav" aria-label="Navigation du carrousel">
+        <div className="carousel-nav" aria-label={t.aria.carouselNav}>
           <button
             className="carousel-btn"
-            aria-label="Slide précédente"
+            aria-label={t.aria.previousSlide}
             onClick={prevHeroSlide}
           >
             ‹
           </button>
           <button
             className="carousel-btn"
-            aria-label="Slide suivante"
+            aria-label={t.aria.nextSlide}
             onClick={nextHeroSlide}
           >
             ›
@@ -150,7 +150,7 @@ const Hero = ({
               key={index}
               className={`indicator hero-indicator ${index === currentHero ? "active" : ""}`}
               role="button"
-              aria-label={`Aller à la diapositive ${index + 1}`}
+              aria-label={`${t.aria.goToSlide} ${index + 1}`}
               style={{ width: "28px", height: "4px", borderRadius: "2px" }}
               onClick={() => showHero(index)}
             />
@@ -168,7 +168,7 @@ const Hero = ({
             step="1"
             value={currentHero}
             onChange={handleRangeChange}
-            aria-label="Slider carrousel"
+            aria-label={t.aria.carouselSlider}
           />
         </div>
       </div>

@@ -17,6 +17,34 @@
       "peopleHelped": "People helped/year",
       "satisfaction": "Satisfaction",
       "findEmployment": "Find employment"
+    },
+    "testFrench": "Subukan ang aking Pranses",
+    "slides": {
+      "slide1": {
+        "quote": "« Grâce au CARI, j'ai trouvé mon emploi de rêve en 6 mois! »",
+        "author": "Asma B.",
+        "role": "Maroc • Arrivée 2020"
+      },
+      "slide2": {
+        "quote": "« De réfugié à entrepreneur, le CARI m'a accompagné »",
+        "author": "Jean-Pierre H.",
+        "role": "Haïti • Arrivée 2020"
+      },
+      "slide3": {
+        "quote": "« Le français semblait impossible, maintenant je le parle couramment! »",
+        "author": "Jasmine M.",
+        "role": "Haïti • Arrivée 2021"
+      },
+      "slide4": {
+        "quote": "« Mes enfants sont épanouis, nous avons trouvé notre place ici »",
+        "author": "Karla A.",
+        "role": "RDC • Arrivée 2019"
+      },
+      "slide5": {
+        "quote": "« L'aide pour comprendre le système québécois a tout changé »",
+        "author": "Wei L.",
+        "role": "Chine • Arrivée 2022"
+      }
     }
   },
   "needs": {
@@ -29,7 +57,8 @@
       "family": "I have a family",
       "women": "I am a woman",
       "volunteering": "I want to get involved"
-    }
+    },
+    "instruction": "Sélectionnez un service pour en savoir plus"
   },
   "services": {
     "title": "Our services",
@@ -80,12 +109,22 @@
       "date": "Preferred date",
       "time": "Preferred time",
       "message": "Message (optional)",
-      "submit": "Confirm appointment"
+      "submit": "Confirm appointment",
+      "namePlaceholder": "Prénom et nom",
+      "phonePlaceholder": "(514) 123-4567",
+      "emailPlaceholder": "votre@courriel.com",
+      "messagePlaceholder": "Décrivez brièvement votre situation...",
+      "selectTime": "Choisir une heure",
+      "confirmationNote": "Vous recevrez une confirmation par courriel dans les 24h"
     },
     "steps": {
       "yourNeed": "Iyong pangangailangan",
       "yourInfo": "Iyong impormasyon",
       "confirmation": "Kumpirmasyon"
+    },
+    "contact": {
+      "hoursLabel": "Horaire",
+      "schedule": "Lun-Ven: 9h - 17h"
     }
   },
   "contact": {
@@ -112,6 +151,16 @@
       "metro": "Metro: Du Collège (orange line)",
       "bus": "Bus: 17, 64, 121, 368",
       "parking": "Libreng parking sa lugar"
+    },
+    "mapText": "Carte interactive disponible sur le site",
+    "viewGoogleMaps": "Voir sur Google Maps",
+    "subjects": {
+      "general": "Demande générale",
+      "info": "Demande d'information",
+      "appointment": "Prise de rendez-vous",
+      "french": "Cours de français",
+      "employment": "Aide à l'emploi",
+      "family": "Services familiaux"
     }
   },
   "chatbot": {
@@ -144,5 +193,50 @@
   "testimonialsSection": {
     "title": "Nagtagumpay sila sa CARI",
     "subtitle": "Tuklasin ang mga nakaka-inspire na kwento ng mga nakahanap ng kanilang lugar sa Quebec"
-  }
+  },
+  "news": {
+    "moreContentButton": "Plus de contenu",
+    "moreNewsTitle": "Plus de nouvelles"
+  },
+  "newsModal": {
+    "share": "Partager"
+  },
+  "activities": {
+    "registerButton": "Magparehistro",
+    "moreEventsButton": "Higit pang mga kaganapan",
+    "filters": {
+      "all": "Tout voir",
+      "welcome": "Accueil",
+      "french": "Français",
+      "employment": "Emploi",
+      "family": "Famille",
+      "women": "Femmes"
+    }
+  },
+  "parallax": {
+    "statsTitle": "Ensemble, nous faisons la différence",
+    "statsSubtitle": "Depuis 1989, le CARI accompagne les nouveaux arrivants vers leur réussite",
+    "stats": {
+      "peopleHelped": "Personnes aidées/an",
+      "satisfaction": "Taux de satisfaction",
+      "findEmployment": "Trouvent un emploi",
+      "languagesSpoken": "Langues parlées"
+    },
+    "ctaTitle": "Prêt à commencer votre nouvelle vie au Québec?",
+    "ctaSubtitle": "Notre équipe multilingue est là pour vous accompagner à chaque étape de votre intégration."
+  },
+  "footer": {
+    "copyright": "© 2024 Tous droits réservés.",
+    "tagline": "Organisme à but non lucratif d'aide aux immigrants"
+  },
+  "aria": {
+    "close": "Isara",
+    "carousel": "Carrousel d'en-tête",
+    "carouselNav": "Navigation du carrousel",
+    "previousSlide": "Slide précédente",
+    "nextSlide": "Slide suivante",
+    "goToSlide": "Aller à la diapositive",
+    "carouselSlider": "Slider carrousel"
+  },
+  "loading": "Naglo-load..."
 }

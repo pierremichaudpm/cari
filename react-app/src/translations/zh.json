@@ -17,6 +17,34 @@
       "peopleHelped": "每年帮助人数",
       "satisfaction": "满意度",
       "findEmployment": "成功就业"
+    },
+    "testFrench": "测试我的法语",
+    "slides": {
+      "slide1": {
+        "quote": "「感谢CARI，我在6个月内找到了理想的工作！」",
+        "author": "Asma B.",
+        "role": "摩洛哥 • 2020年抵达"
+      },
+      "slide2": {
+        "quote": "「从难民到企业家，CARI一直陪伴着我」",
+        "author": "Jean-Pierre H.",
+        "role": "海地 • 2020年抵达"
+      },
+      "slide3": {
+        "quote": "「法语似乎不可能学会，现在我说得很流利！」",
+        "author": "Jasmine M.",
+        "role": "海地 • 2021年抵达"
+      },
+      "slide4": {
+        "quote": "« Mes enfants sont épanouis, nous avons trouvé notre place ici »",
+        "author": "Karla A.",
+        "role": "刚果民主共和国 • 2019年抵达"
+      },
+      "slide5": {
+        "quote": "「帮助理解魁北克体系改变了一切」",
+        "author": "Wei L.",
+        "role": "中国 • 2022年抵达"
+      }
     }
   },
   "needs": {
@@ -29,7 +57,8 @@
       "family": "我有家庭",
       "women": "我是女性",
       "volunteering": "我想做志愿者"
-    }
+    },
+    "instruction": "选择服务了解更多"
   },
   "services": {
     "title": "我们的服务",
@@ -145,12 +174,22 @@
       "date": "首选日期",
       "time": "首选时间",
       "message": "留言（可选）",
-      "submit": "确认预约"
+      "submit": "确认预约",
+      "namePlaceholder": "名和姓",
+      "phonePlaceholder": "(514) 123-4567",
+      "emailPlaceholder": "您的@邮箱.com",
+      "messagePlaceholder": "简要描述您的情况...",
+      "selectTime": "选择时间",
+      "confirmationNote": "您将在24小时内收到电子邮件确认"
     },
     "steps": {
       "yourNeed": "您的需求",
       "yourInfo": "您的信息",
       "confirmation": "确认"
+    },
+    "contact": {
+      "hoursLabel": "时间",
+      "schedule": "周一至周五：9:00 - 17:00"
     }
   },
   "contact": {
@@ -177,6 +216,16 @@
       "metro": "地铁：Du Collège站（橙线）",
       "bus": "公交：17、64、121、368路",
       "parking": "现场免费停车"
+    },
+    "mapText": "网站上提供交互式地图",
+    "viewGoogleMaps": "在谷歌地图上查看",
+    "subjects": {
+      "general": "一般咨询",
+      "info": "信息请求",
+      "appointment": "预约",
+      "french": "法语课程",
+      "employment": "就业帮助",
+      "family": "家庭服务"
     }
   },
   "chatbot": {
@@ -209,5 +258,50 @@
   "testimonialsSection": {
     "title": "他们在CARI取得了成功",
     "subtitle": "了解那些在魁北克找到自己位置的人的励志故事"
-  }
+  },
+  "news": {
+    "moreContentButton": "更多内容",
+    "moreNewsTitle": "更多新闻"
+  },
+  "newsModal": {
+    "share": "分享"
+  },
+  "activities": {
+    "registerButton": "注册",
+    "moreEventsButton": "更多活动",
+    "filters": {
+      "all": "查看全部",
+      "welcome": "欢迎",
+      "french": "法语",
+      "employment": "就业",
+      "family": "家庭",
+      "women": "妇女"
+    }
+  },
+  "parallax": {
+    "statsTitle": "携手共进，我们创造不同",
+    "statsSubtitle": "自1989年以来，CARI一直帮助新移民走向成功",
+    "stats": {
+      "peopleHelped": "每年帮助人数",
+      "satisfaction": "满意度",
+      "findEmployment": "找到工作",
+      "languagesSpoken": "使用语言"
+    },
+    "ctaTitle": "准备开始您在魁北克的新生活了吗？",
+    "ctaSubtitle": "我们的多语言团队将在您融入的每一步为您提供支持。"
+  },
+  "footer": {
+    "copyright": "© 2024 版权所有。",
+    "tagline": "帮助移民的非营利组织"
+  },
+  "aria": {
+    "close": "关闭",
+    "carousel": "页眉轮播",
+    "carouselNav": "轮播导航",
+    "previousSlide": "上一张幻灯片",
+    "nextSlide": "下一张幻灯片",
+    "goToSlide": "转到幻灯片",
+    "carouselSlider": "轮播滑块"
+  },
+  "loading": "加载中..."
 }

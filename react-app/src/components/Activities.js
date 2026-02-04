@@ -158,21 +158,21 @@ const Activities = ({ currentLanguage, translations }) => {
   ];
 
   const filters = [
-    "Tout voir",
-    "Accueil",
-    "Français",
-    "Emploi",
-    "Famille",
-    "Femmes",
+    t.activities.filters.all,
+    t.activities.filters.welcome,
+    t.activities.filters.french,
+    t.activities.filters.employment,
+    t.activities.filters.family,
+    t.activities.filters.women,
   ];
 
   const filteredActivities =
-    selectedFilter === "Tout voir"
+    selectedFilter === t.activities.filters.all
       ? activities
       : activities.filter((activity) => activity.category === selectedFilter);
 
   const filteredMoreActivities =
-    selectedFilter === "Tout voir"
+    selectedFilter === t.activities.filters.all
       ? moreActivities
       : moreActivities.filter(
           (activity) => activity.category === selectedFilter,
@@ -252,7 +252,7 @@ const Activities = ({ currentLanguage, translations }) => {
                         : ""
                     }
                   >
-                    S'inscrire
+                    {t.activities.registerButton}
                   </a>
                 </div>
               </div>
@@ -265,7 +265,7 @@ const Activities = ({ currentLanguage, translations }) => {
               className="btn-more-events"
               onClick={() => setIsModalOpen(true)}
             >
-              Plus d'événements
+              {t.activities.moreEventsButton}
             </button>
           </div>
         </div>
@@ -337,7 +337,7 @@ const Activities = ({ currentLanguage, translations }) => {
                               : ""
                           }
                         >
-                          S'inscrire
+                          {t.activities.registerButton}
                           <Icon name="chevron-right" size={16} />
                         </a>
                       </div>

@@ -84,7 +84,7 @@ const ServiceModal = ({
                 }}
                 style={{ marginRight: "1rem" }}
               >
-                Je teste mon français
+                {t.hero.testFrench}
               </button>
               <button
                 className="btn btn-primary modal-cta-button"

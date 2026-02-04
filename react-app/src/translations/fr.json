@@ -13,15 +13,44 @@
     "subtitle": "Emploi, français, logement, démarches : accompagnement gratuit de A à Z",
     "discoverServices": "Découvrez nos services",
     "letsTalk": "Parlez à un conseiller",
+    "testFrench": "Je teste mon français",
     "stats": {
       "peopleHelped": "Personnes aidées/an",
       "satisfaction": "Satisfaction",
       "findEmployment": "Trouvent emploi"
+    },
+    "slides": {
+      "slide1": {
+        "quote": "« Grâce au CARI, j'ai trouvé mon emploi de rêve en 6 mois! »",
+        "author": "Asma B.",
+        "role": "Maroc • Arrivée 2020"
+      },
+      "slide2": {
+        "quote": "« De réfugié à entrepreneur, le CARI m'a accompagné »",
+        "author": "Jean-Pierre H.",
+        "role": "Haïti • Arrivée 2020"
+      },
+      "slide3": {
+        "quote": "« Le français semblait impossible, maintenant je le parle couramment! »",
+        "author": "Jasmine M.",
+        "role": "Haïti • Arrivée 2021"
+      },
+      "slide4": {
+        "quote": "« Mes enfants sont épanouis, nous avons trouvé notre place ici »",
+        "author": "Karla A.",
+        "role": "RDC • Arrivée 2019"
+      },
+      "slide5": {
+        "quote": "« L'aide pour comprendre le système québécois a tout changé »",
+        "author": "Wei L.",
+        "role": "Chine • Arrivée 2022"
+      }
     }
   },
   "needs": {
     "title": "Quels sont vos besoins ?",
     "subtitle": "Nous vous accompagnons à chaque étape de votre intégration au Québec",
+    "instruction": "Sélectionnez un service pour en savoir plus",
     "cards": {
       "welcome": "Je viens d'arriver",
       "french": "J'apprends le français",
@@ -35,10 +64,29 @@
     "title": "Nouvelles",
     "subtitle": "Restez informé sur nos programmes, événements et histoires de réussite"
   },
+  "news": {
+    "moreContentButton": "Plus de contenu",
+    "moreNewsTitle": "Plus de nouvelles"
+  },
+  "newsModal": {
+    "share": "Partager"
+  },
   "activitiesSection": {
     "title": "Nos prochaines activités",
     "subtitle": "Rejoignez notre communauté et participez à nos ateliers, cours et événements",
     "allEvents": "Tous nos événements"
+  },
+  "activities": {
+    "registerButton": "S'inscrire",
+    "moreEventsButton": "Plus d'événements",
+    "filters": {
+      "all": "Tout voir",
+      "welcome": "Accueil",
+      "french": "Français",
+      "employment": "Emploi",
+      "family": "Famille",
+      "women": "Femmes"
+    }
   },
   "testimonialsSection": {
     "title": "Ils ont réussi avec le CARI",
@@ -163,12 +211,32 @@
       "date": "Date souhaitée",
       "time": "Horaire préféré",
       "message": "Message (optionnel)",
-      "submit": "Confirmer le rendez-vous"
+      "submit": "Confirmer le rendez-vous",
+      "namePlaceholder": "Prénom et nom",
+      "phonePlaceholder": "(514) 123-4567",
+      "emailPlaceholder": "votre@courriel.com",
+      "messagePlaceholder": "Décrivez brièvement votre situation...",
+      "selectTime": "Choisir une heure",
+      "confirmationNote": "Vous recevrez une confirmation par courriel dans les 24h"
+    },
+    "contact": {
+      "hoursLabel": "Horaire",
+      "schedule": "Lun-Ven: 9h - 17h"
     }
   },
   "contact": {
     "title": "Contactez-nous",
     "subtitle": "Nous sommes là pour vous aider",
+    "mapText": "Carte interactive disponible sur le site",
+    "viewGoogleMaps": "Voir sur Google Maps",
+    "subjects": {
+      "general": "Demande générale",
+      "info": "Demande d'information",
+      "appointment": "Prise de rendez-vous",
+      "french": "Cours de français",
+      "employment": "Aide à l'emploi",
+      "family": "Services familiaux"
+    },
     "form": {
       "name": "Nom complet",
       "email": "Adresse email",
@@ -209,5 +277,31 @@
   "success": {
     "contact": "Merci! Votre demande a été envoyée. Nous vous contacterons sous peu.",
     "appointment": "✅ Rendez-vous confirmé! Vous recevrez une confirmation par email et SMS dans les prochaines minutes."
-  }
+  },
+  "parallax": {
+    "statsTitle": "Ensemble, nous faisons la différence",
+    "statsSubtitle": "Depuis 1989, le CARI accompagne les nouveaux arrivants vers leur réussite",
+    "stats": {
+      "peopleHelped": "Personnes aidées/an",
+      "satisfaction": "Taux de satisfaction",
+      "findEmployment": "Trouvent un emploi",
+      "languagesSpoken": "Langues parlées"
+    },
+    "ctaTitle": "Prêt à commencer votre nouvelle vie au Québec?",
+    "ctaSubtitle": "Notre équipe multilingue est là pour vous accompagner à chaque étape de votre intégration."
+  },
+  "footer": {
+    "copyright": "© 2024 Tous droits réservés.",
+    "tagline": "Organisme à but non lucratif d'aide aux immigrants"
+  },
+  "aria": {
+    "close": "Fermer",
+    "carousel": "Carrousel d'en-tête",
+    "carouselNav": "Navigation du carrousel",
+    "previousSlide": "Slide précédente",
+    "nextSlide": "Slide suivante",
+    "goToSlide": "Aller à la diapositive",
+    "carouselSlider": "Slider carrousel"
+  },
+  "loading": "Chargement..."
 }

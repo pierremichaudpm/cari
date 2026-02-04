@@ -58,9 +58,7 @@ const Needs = ({ currentLanguage, translations, scrollToSection }) => {
           <div className="section-header">
             <h2 className="section-title">{t.needs.title}</h2>
             <p className="section-subtitle">{t.needs.subtitle}</p>
-            <p className="section-instruction">
-              Sélectionnez un service pour en savoir plus
-            </p>
+            <p className="section-instruction">{t.needs.instruction}</p>
           </div>
 
           <div className="needs-grid">

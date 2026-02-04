@@ -97,13 +97,15 @@ const Appointment = ({
             >
               <div className="form-cols">
                 <div className="form-group">
-                  <label htmlFor="appointmentName">Nom complet *</label>
+                  <label htmlFor="appointmentName">
+                    {t.appointment.form.name} *
+                  </label>
                   <input
                     type="text"
                     id="appointmentName"
                     name="name"
                     required
-                    placeholder="Prénom et nom"
+                    placeholder={t.appointment.form.namePlaceholder}
                   />
                 </div>
 
@@ -116,18 +118,20 @@ const Appointment = ({
                     id="appointmentPhone"
                     name="phone"
                     required
-                    placeholder="(514) 123-4567"
+                    placeholder={t.appointment.form.phonePlaceholder}
                   />
                 </div>
 
                 <div className="form-group">
-                  <label htmlFor="appointmentEmail">Courriel *</label>
+                  <label htmlFor="appointmentEmail">
+                    {t.appointment.form.email} *
+                  </label>
                   <input
                     type="email"
                     id="appointmentEmail"
                     name="email"
                     required
-                    placeholder="votre@courriel.com"
+                    placeholder={t.appointment.form.emailPlaceholder}
                   />
                 </div>
 
@@ -145,9 +149,11 @@ const Appointment = ({
                 </div>
 
                 <div className="form-group">
-                  <label htmlFor="appointmentTime">Heure *</label>
+                  <label htmlFor="appointmentTime">
+                    {t.appointment.form.time} *
+                  </label>
                   <select id="appointmentTime" name="time" required>
-                    <option value="">Choisir une heure</option>
+                    <option value="">{t.appointment.form.selectTime}</option>
                     {timeSlots.map((slot, index) => (
                       <option key={index} value={slot}>
                         {slot}
@@ -158,24 +164,24 @@ const Appointment = ({
 
                 <div className="form-group full-width">
                   <label htmlFor="appointmentMessage">
-                    Message (optionnel)
+                    {t.appointment.form.message}
                   </label>
                   <textarea
                     id="appointmentMessage"
                     name="message"
                     rows="3"
-                    placeholder="Décrivez brièvement votre situation..."
+                    placeholder={t.appointment.form.messagePlaceholder}
                   ></textarea>
                 </div>
               </div>
 
               <div className="form-actions">
                 <button type="submit" className="btn-submit">
-                  Confirmer le rendez-vous
+                  {t.appointment.form.submit}
                 </button>
                 <p className="form-note">
                   <Icon name="info-circle" size={16} />
-                  Vous recevrez une confirmation par courriel dans les 24h
+                  {t.appointment.form.confirmationNote}
                 </p>
               </div>
             </form>
@@ -196,8 +202,8 @@ const Appointment = ({
                 <Icon name="clock" size={24} />
               </div>
               <div className="contact-info-text">
-                <strong>Horaire</strong>
-                <p>Lun-Ven: 9h - 17h</p>
+                <strong>{t.appointment.contact.hoursLabel}</strong>
+                <p>{t.appointment.contact.schedule}</p>
               </div>
             </div>
             <div className="contact-item">

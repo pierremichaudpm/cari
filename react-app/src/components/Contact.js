@@ -148,14 +148,14 @@ const Contact = ({ currentLanguage, translations, handleSubmit }) => {
                 <div className="map-icon">
                   <Icon name="map" size={24} />
                 </div>
-                <p>Carte interactive disponible sur le site</p>
+                <p>{t.contact.mapText}</p>
                 <a
                   href="https://maps.google.com/?q=774+boulevard+Décarie,+Saint-Laurent,+QC+H4L+3L5"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn btn-outline"
                 >
-                  Voir sur Google Maps
+                  {t.contact.viewGoogleMaps}
                 </a>
               </div>
             </div>

@@ -17,6 +17,34 @@
       "peopleHelped": "People helped/year",
       "satisfaction": "Satisfaction",
       "findEmployment": "Find employment"
+    },
+    "testFrench": "Teste meu francês",
+    "slides": {
+      "slide1": {
+        "quote": "« Graças ao CARI, encontrei meu emprego dos sonhos em 6 meses! »",
+        "author": "Asma B.",
+        "role": "Marrocos • Chegada 2020"
+      },
+      "slide2": {
+        "quote": "« De refugiado a empresário, o CARI me apoiou »",
+        "author": "Jean-Pierre H.",
+        "role": "Haiti • Chegada 2020"
+      },
+      "slide3": {
+        "quote": "« O francês parecia impossível, agora eu falo fluentemente! »",
+        "author": "Jasmine M.",
+        "role": "Haiti • Chegada 2021"
+      },
+      "slide4": {
+        "quote": "« Mes enfants sont épanouis, nous avons trouvé notre place ici »",
+        "author": "Karla A.",
+        "role": "RDC • Chegada 2019"
+      },
+      "slide5": {
+        "quote": "« A ajuda para entender o sistema quebequense mudou tudo »",
+        "author": "Wei L.",
+        "role": "China • Chegada 2022"
+      }
     }
   },
   "needs": {
@@ -29,7 +57,8 @@
       "family": "I have a family",
       "women": "I am a woman",
       "volunteering": "I want to get involved"
-    }
+    },
+    "instruction": "Selecione um serviço para saber mais"
   },
   "services": {
     "title": "Our services",
@@ -80,12 +109,22 @@
       "date": "Preferred date",
       "time": "Preferred time",
       "message": "Message (optional)",
-      "submit": "Confirm appointment"
+      "submit": "Confirm appointment",
+      "namePlaceholder": "Nome e sobrenome",
+      "phonePlaceholder": "(514) 123-4567",
+      "emailPlaceholder": "seu@email.com",
+      "messagePlaceholder": "Descreva brevemente sua situação...",
+      "selectTime": "Escolher um horário",
+      "confirmationNote": "Você receberá uma confirmação por e-mail em 24h"
     },
     "steps": {
       "yourNeed": "Sua necessidade",
       "yourInfo": "Suas informações",
       "confirmation": "Confirmação"
+    },
+    "contact": {
+      "hoursLabel": "Horário",
+      "schedule": "Seg-Sex: 9h - 17h"
     }
   },
   "contact": {
@@ -112,6 +151,16 @@
       "metro": "Metrô: Du Collège (linha laranja)",
       "bus": "Ônibus: 17, 64, 121, 368",
       "parking": "Estacionamento gratuito no local"
+    },
+    "mapText": "Mapa interativo disponível no site",
+    "viewGoogleMaps": "Ver no Google Maps",
+    "subjects": {
+      "general": "Consulta geral",
+      "info": "Solicitação de informação",
+      "appointment": "Agendamento",
+      "french": "Cursos de francês",
+      "employment": "Ajuda para emprego",
+      "family": "Serviços familiares"
     }
   },
   "chatbot": {
@@ -144,5 +193,50 @@
   "testimonialsSection": {
     "title": "Eles tiveram sucesso com o CARI",
     "subtitle": "Descubra as histórias inspiradoras daqueles que encontraram seu lugar no Quebec"
-  }
+  },
+  "news": {
+    "moreContentButton": "Mais conteúdo",
+    "moreNewsTitle": "Mais notícias"
+  },
+  "newsModal": {
+    "share": "Compartilhar"
+  },
+  "activities": {
+    "registerButton": "Inscrever-se",
+    "moreEventsButton": "Mais eventos",
+    "filters": {
+      "all": "Ver tudo",
+      "welcome": "Acolhimento",
+      "french": "Francês",
+      "employment": "Emprego",
+      "family": "Família",
+      "women": "Mulheres"
+    }
+  },
+  "parallax": {
+    "statsTitle": "Juntos, fazemos a diferença",
+    "statsSubtitle": "Desde 1989, o CARI apoia os recém-chegados rumo ao sucesso",
+    "stats": {
+      "peopleHelped": "Pessoas ajudadas/ano",
+      "satisfaction": "Taxa de satisfação",
+      "findEmployment": "Encontram emprego",
+      "languagesSpoken": "Idiomas falados"
+    },
+    "ctaTitle": "Pronto para começar sua nova vida em Quebec?",
+    "ctaSubtitle": "Nossa equipe multilíngue está aqui para apoiá-lo em cada etapa de sua integração."
+  },
+  "footer": {
+    "copyright": "© 2024 Todos os direitos reservados.",
+    "tagline": "Organização sem fins lucrativos de ajuda a imigrantes"
+  },
+  "aria": {
+    "close": "Fechar",
+    "carousel": "Carrossel de cabeçalho",
+    "carouselNav": "Navegação do carrossel",
+    "previousSlide": "Slide anterior",
+    "nextSlide": "Próximo slide",
+    "goToSlide": "Ir para o slide",
+    "carouselSlider": "Controle do carrossel"
+  },
+  "loading": "Carregando..."
 }
