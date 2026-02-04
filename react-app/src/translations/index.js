@@ -17,4 +17,17 @@ export const loadTranslation = async (language) => {
 };
 
 // Available languages
-export const availableLanguages = ["fr", "en", "es", "ar", "ru"];
+export const availableLanguages = [
+  "fr",
+  "en",
+  "es",
+  "ar",
+  "ru",
+  "zh",
+  "pt",
+  "ht",
+  "vi",
+  "tl",
+  "ur",
+  "uk",
+];

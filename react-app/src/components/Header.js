@@ -18,6 +18,13 @@ const Header = ({
     es: "ES",
     ar: "AR",
     ru: "RU",
+    zh: "ZH",
+    pt: "PT",
+    ht: "HT",
+    vi: "VI",
+    tl: "TL",
+    ur: "UR",
+    uk: "UK",
   };
 
   const languages = [
@@ -26,6 +33,13 @@ const Header = ({
     { code: "es", name: "Español" },
     { code: "ar", name: "العربية" },
     { code: "ru", name: "Русский" },
+    { code: "zh", name: "中文" },
+    { code: "pt", name: "Português" },
+    { code: "ht", name: "Kreyòl" },
+    { code: "vi", name: "Tiếng Việt" },
+    { code: "tl", name: "Tagalog" },
+    { code: "ur", name: "اردو" },
+    { code: "uk", name: "Українська" },
   ];
 
   const t = translations[currentLanguage] || translations.fr;

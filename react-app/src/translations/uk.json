@@ -1,0 +1,119 @@
+{
+  "nav": {
+    "home": "Home",
+    "needs": "Your needs",
+    "talk": "Appointment",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Find <span class='highlight'>your place</span> in Quebec",
+    "subtitle": "Employment, French, housing, procedures: free support from A to Z",
+    "discoverServices": "Discover our services",
+    "letsTalk": "Talk to an advisor",
+    "stats": {
+      "peopleHelped": "People helped/year",
+      "satisfaction": "Satisfaction",
+      "findEmployment": "Find employment"
+    }
+  },
+  "needs": {
+    "title": "What are your needs?",
+    "subtitle": "We accompany you at every step of your integration in Quebec",
+    "cards": {
+      "welcome": "I just arrived",
+      "french": "I'm learning French",
+      "employment": "I'm looking for a job",
+      "family": "I have a family",
+      "women": "I am a woman",
+      "volunteering": "I want to get involved"
+    }
+  },
+  "services": {
+    "title": "Our services",
+    "subtitle": "Solutions adapted to your situation",
+    "cards": {
+      "welcome": {
+        "title": "Welcome & Integration",
+        "description": "Information, orientation and personalized support to facilitate your settlement."
+      },
+      "french": {
+        "title": "French Learning",
+        "description": "French courses adapted for immigrants, all levels, flexible schedules (8:30 AM-10 PM)."
+      },
+      "employment": {
+        "title": "Employment Assistance",
+        "description": "CV workshops, interview simulations, professional coaching and meetings with employers."
+      },
+      "family": {
+        "title": "Family Services",
+        "description": "Support for families, activities for children and teenagers, help with schooling."
+      },
+      "women": {
+        "title": "Women of the World",
+        "description": "Specific programs for immigrant women: autonomy, health, employment."
+      },
+      "volunteering": {
+        "title": "Volunteering & Pairing",
+        "description": "Intercultural meetings, social activities and volunteering opportunities."
+      }
+    }
+  },
+  "appointment": {
+    "title": "Let's make an appointment",
+    "subtitle": "Choose the service that interests you",
+    "consultationTypes": {
+      "welcome": "Welcome & Integration Consultation",
+      "french": "French Learning Consultation",
+      "employment": "Employment Consultation",
+      "family": "Family Services Consultation",
+      "women": "Women of the World Consultation",
+      "volunteering": "Volunteering Consultation"
+    },
+    "form": {
+      "name": "Full name",
+      "phone": "Phone number",
+      "email": "Email address",
+      "service": "Desired service",
+      "date": "Preferred date",
+      "time": "Preferred time",
+      "message": "Message (optional)",
+      "submit": "Confirm appointment"
+    }
+  },
+  "contact": {
+    "title": "Contact us",
+    "subtitle": "We are here to help you",
+    "form": {
+      "name": "Full name",
+      "email": "Email address",
+      "subject": "Subject",
+      "message": "Your message",
+      "submit": "Send message"
+    },
+    "info": {
+      "address": "774 Décarie Blvd, Suite 300, Saint-Laurent H4L 3L5",
+      "phone": "(514) 748-2007",
+      "email": "carist@cari.qc.ca",
+      "hours": "Mon-Fri 9 AM-12 PM, 12:30-4:30 PM",
+      "frenchHours": "French Learning: 8:30 AM-10 PM"
+    }
+  },
+  "chatbot": {
+    "title": "CARI Assistant",
+    "placeholder": "Ask your question...",
+    "typing": "CARI Assistant is typing...",
+    "responses": {
+      "greeting": "Hello! I'm delighted to help you. CARI offers 6 main services for your integration in Quebec. Which service interests you most?",
+      "services": "Our 6 services:\n• Welcome & Integration\n• French Learning (8:30 AM-10 PM)\n• Employment Assistance (85% success!)\n• Family Services\n• Women of the World\n• Volunteering & Pairing\n\nWhich one would you like more info about?",
+      "appointment": "To book an appointment:\n• Call (514) 748-2007\n• Fill the form on this page\n• Available Mon-Fri 9 AM-4:30 PM\n\nWhat type of consultation? (welcome/french/employment)",
+      "contact": "(514) 748-2007\ncarist@cari.qc.ca\n774 Décarie Blvd #300, Saint-Laurent\nMon-Fri: 9 AM-12 PM, 12:30-4:30 PM\n\nHow can I help you further?",
+      "french": "Our French courses:\n• 8:30 AM-10 PM (very flexible!)\n• All levels accepted\n• Methods adapted for immigrants\n• Free level assessment\n\nWould you like to schedule an evaluation?",
+      "employment": "Our employment assistance:\n• Resume/cover letter workshops\n• Interview simulations\n• Professional coaching\n• Employer meetings\n• 85% find a job within 6 months!\n\nInterested in employment consultation?",
+      "default": "I can help you with:\n• Information about our services\n• Appointment booking\n• Contact details\n• Personalized advice\n\nWhat would you like to know?"
+    }
+  },
+  "success": {
+    "contact": "Thank you! Your request has been sent. We will contact you shortly.",
+    "appointment": "✅ Appointment confirmed! You will receive a confirmation by email and SMS in the next few minutes."
+  }
+}
