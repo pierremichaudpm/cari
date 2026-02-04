@@ -53,15 +53,13 @@ const Mission = ({ currentLanguage, translations }) => {
         {/* Parallax background with collage */}
         <div
           className="mission-parallax-bg"
-          style={{
-            transform: `translateY(${scrollY * 0.5}px)`,
-          }}
         >
           {images.map((img, index) => (
-            <div
+            <img
               key={index}
+              src={img}
+              alt=""
               className={`mission-collage-image mission-collage-${index + 1}`}
-              style={{ backgroundImage: `url(${img})` }}
             />
           ))}
           <div className="mission-overlay"></div>
@@ -160,37 +158,12 @@ const Mission = ({ currentLanguage, translations }) => {
               <div className="history-modal-text">
                 <h2>{t.mission?.historyTitle || "Notre histoire"}</h2>
 
-                <div className="history-year">
-                  <span className="history-year-number">1989</span>
-                  <span className="history-year-label">
-                    {t.mission?.founded || "Fondation"}
-                  </span>
-                </div>
-
                 <p className="history-intro">
                   {t.mission?.historyIntro ||
                     "Créé en 1989, le Centre d'Accueil et de Référence sociale et économique pour Immigrants de Saint-Laurent (CARI St-Laurent) est un organisme à but non lucratif, non confessionnel et non partisan."}
                 </p>
 
-                <div className="history-highlights">
-                  <div className="history-highlight">
-                    <h4>
-                      {t.mission?.approachLabel || "Notre approche"}
-                    </h4>
-                    <p>
-                      {t.mission?.approach ||
-                        "Une approche interculturelle fondée sur le respect de la différence, l'ouverture à l'autre et la diversité ethnoculturelle et religieuse."}
-                    </p>
-                  </div>
 
-                  <div className="history-highlight">
-                    <h4>{t.mission?.impactLabel || "Notre impact"}</h4>
-                    <p>
-                      {t.mission?.impact ||
-                        "Plus de 7 000 personnes accompagnées chaque année, issues de 128 pays et parlant 95 langues différentes."}
-                    </p>
-                  </div>
-                </div>
               </div>
             </div>
           </div>

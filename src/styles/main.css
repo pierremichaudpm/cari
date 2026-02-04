@@ -5365,13 +5365,11 @@ section,
 /* Collage of diverse people */
 .mission-collage-image {
     position: absolute;
-    background-size: cover !important;
-    background-position: center !important;
-    background-repeat: no-repeat !important;
     border-radius: 20px;
     opacity: 0.8;
     filter: grayscale(0%);
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+    object-fit: cover;
 }
 
 .mission-collage-1 {
@@ -5423,7 +5421,8 @@ section,
     position: absolute;
     inset: 0;
     background: rgba(204, 216, 223, 0.3);
-    z-index: 2;
+    z-index: 5;
+    pointer-events: none;
 }
 
 .mission-content-wrapper {
@@ -5631,16 +5630,16 @@ section,
 
 .history-modal-image {
     width: 100%;
-    height: 300px;
-    border-radius: 16px;
-    overflow: hidden;
-    margin-bottom: 2rem;
+    max-width: 400px;
+    margin: 0 auto 2rem;
+    display: flex;
+    justify-content: center;
 }
 
 .history-modal-image img {
     width: 100%;
-    height: 100%;
-    object-fit: cover;
+    height: auto;
+    object-fit: contain;
 }
 
 .history-modal-text h2 {
@@ -5654,7 +5653,7 @@ section,
     display: inline-flex;
     align-items: center;
     gap: 1rem;
-    background: linear-gradient(135deg, #6EC1C1 0%, #F7BF3F 100%);
+    background: #6EC1C1;
     padding: 1rem 2rem;
     border-radius: 50px;
     margin-bottom: 2rem;
@@ -5662,13 +5661,13 @@ section,
 
 .history-year-number {
     font-family: 'DM Serif Text', serif;
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: 700;
     color: white;
 }
 
 .history-year-label {
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-weight: 600;
     color: white;
     text-transform: uppercase;
@@ -5676,10 +5675,11 @@ section,
 }
 
 .history-intro {
-    font-size: 1.15rem;
+    font-size: 1rem;
     line-height: 1.7;
     color: #495057;
-    margin-bottom: 2rem;
+    margin-bottom: 0;
+    white-space: pre-line;
 }
 
 .history-highlights {
@@ -5689,12 +5689,7 @@ section,
     margin-top: 2rem;
 }
 
-.history-highlight {
-    background: linear-gradient(135deg, rgba(110, 193, 193, 0.1) 0%, rgba(247, 191, 63, 0.1) 100%);
-    padding: 1.5rem;
-    border-radius: 16px;
-    border-left: 4px solid #6EC1C1;
-}
+
 
 .history-highlight h4 {
     font-family: 'DM Serif Text', serif;
