@@ -5364,10 +5364,11 @@ section,
 /* Collage of diverse people */
 .mission-collage-image {
     position: absolute;
-    background-size: cover;
-    background-position: center;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
     border-radius: 20px;
-    opacity: 0.6;
+    opacity: 0.8;
     filter: grayscale(0%);
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
 }
@@ -5415,7 +5416,7 @@ section,
 .mission-overlay {
     position: absolute;
     inset: 0;
-    background: rgba(204, 216, 223, 0.5);
+    background: rgba(204, 216, 223, 0.3);
 }
 
 .mission-content-wrapper {
