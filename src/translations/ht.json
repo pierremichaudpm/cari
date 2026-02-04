@@ -391,5 +391,30 @@
     "goToTestimonial": "Ale nan temwayaj",
     "learnMoreAbout": "Aprann plis sou"
   },
-  "loading": "Chajman..."
+  "loading": "Chajman...",
+  "mission": {
+    "tagline": "Divèsite fè nou pi pwòch",
+    "title": "Misyon nou",
+    "statement": "Akeyi, ede epi akonpaye imigran yo nan entegrasyon pèsonèl, sosyal ak pwofesyonèl yo.",
+    "visionLabel": "Vizyon nou",
+    "vision": "Sèvi epi rasanble nan konpetans ak pratik inovatè pou yon pi bon lavi ansanm.",
+    "valuesLabel": "Valè nou yo",
+    "values": [
+      "Devosyon",
+      "Konfyans",
+      "Tolerans",
+      "Altruism",
+      "Solidarite",
+      "Ekite"
+    ],
+    "historyCTA": "Istwa nou",
+    "historyTitle": "Istwa nou",
+    "buildingAlt": "Bilding CARI St-Laurent",
+    "founded": "Fondasyon",
+    "historyIntro": "Kreye nan 1989, Sant Akèy ak Referans sosyal ak ekonomik pou Imigran Saint-Laurent (CARI St-Laurent) se yon òganizasyon san bi likratif, san konfeysyon ak san pati.",
+    "approachLabel": "Apwòch nou",
+    "approach": "Yon apwòch entkiltirèl ki baze sou respè pou diferans, ouvèti bay lòt moun ak divèsite etnokiltirèl ak relijye.",
+    "impactLabel": "Enpak nou",
+    "impact": "Plis pase 7,000 moun sipòte chak ane, soti nan 128 peyi ak ki pale 95 lang diferan."
+  }
 }

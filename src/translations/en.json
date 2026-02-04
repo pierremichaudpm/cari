@@ -391,5 +391,30 @@
     "goToTestimonial": "Go to testimonial",
     "learnMoreAbout": "Learn more about"
   },
-  "loading": "Loading..."
+  "loading": "Loading...",
+  "mission": {
+    "tagline": "Diversity brings us together",
+    "title": "Our Mission",
+    "statement": "Welcome, help and accompany immigrants in their personal, social and professional integration.",
+    "visionLabel": "Our Vision",
+    "vision": "Serve and unite through innovative expertise and practices for a better life together.",
+    "valuesLabel": "Our Values",
+    "values": [
+      "Devotion",
+      "Trust",
+      "Tolerance",
+      "Altruism",
+      "Solidarity",
+      "Equity"
+    ],
+    "historyCTA": "Our Story",
+    "historyTitle": "Our Story",
+    "buildingAlt": "CARI St-Laurent Building",
+    "founded": "Founded",
+    "historyIntro": "Created in 1989, the Centre d'Accueil et de Référence sociale et économique pour Immigrants de Saint-Laurent (CARI St-Laurent) is a non-profit, non-denominational and non-partisan organization.",
+    "approachLabel": "Our Approach",
+    "approach": "An intercultural approach based on respect for difference, openness to others and ethnocultural and religious diversity.",
+    "impactLabel": "Our Impact",
+    "impact": "Over 7,000 people supported each year, from 128 countries and speaking 95 different languages."
+  }
 }

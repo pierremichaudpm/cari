@@ -391,5 +391,30 @@
         "origin": "哥伦比亚 • 2019年抵达"
       }
     ]
+  },
+  "mission": {
+    "tagline": "多样性让我们团结",
+    "title": "我们的使命",
+    "statement": "欢迎、帮助和陪伴移民融入个人、社会和职业生活。",
+    "visionLabel": "我们的愿景",
+    "vision": "通过创新的专业知识和实践服务和团结，共创美好生活。",
+    "valuesLabel": "我们的价值观",
+    "values": [
+      "奉献",
+      "信任",
+      "宽容",
+      "利他",
+      "团结",
+      "公平"
+    ],
+    "historyCTA": "我们的故事",
+    "historyTitle": "我们的故事",
+    "buildingAlt": "CARI St-Laurent大楼",
+    "founded": "成立",
+    "historyIntro": "圣洛朗移民社会和经济接待与转介中心（CARI St-Laurent）创建于1989年，是一个非营利、非宗教和无党派组织。",
+    "approachLabel": "我们的方法",
+    "approach": "基于尊重差异、对他人开放以及民族文化和宗教多样性的跨文化方法。",
+    "impactLabel": "我们的影响",
+    "impact": "每年为来自128个国家、说95种不同语言的7000多人提供支持。"
   }
 }

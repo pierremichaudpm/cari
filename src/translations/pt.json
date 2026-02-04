@@ -391,5 +391,30 @@
     "goToTestimonial": "Ir para depoimento",
     "learnMoreAbout": "Saiba mais sobre"
   },
-  "loading": "Carregando..."
+  "loading": "Carregando...",
+  "mission": {
+    "tagline": "A diversidade nos une",
+    "title": "Nossa missão",
+    "statement": "Acolher, ajudar e acompanhar os imigrantes na sua integração pessoal, social e profissional.",
+    "visionLabel": "Nossa visão",
+    "vision": "Servir e reunir em torno de experiência e práticas inovadoras para uma melhor convivência.",
+    "valuesLabel": "Nossos valores",
+    "values": [
+      "Dedicação",
+      "Confiança",
+      "Tolerância",
+      "Altruísmo",
+      "Solidariedade",
+      "Equidade"
+    ],
+    "historyCTA": "Nossa história",
+    "historyTitle": "Nossa história",
+    "buildingAlt": "Edifício CARI St-Laurent",
+    "founded": "Fundação",
+    "historyIntro": "Criado em 1989, o Centro de Acolhimento e Referência social e econômica para Imigrantes de Saint-Laurent (CARI St-Laurent) é uma organização sem fins lucrativos, não confessional e não partidária.",
+    "approachLabel": "Nossa abordagem",
+    "approach": "Uma abordagem intercultural baseada no respeito pela diferença, abertura aos outros e diversidade etnocultural e religiosa.",
+    "impactLabel": "Nosso impacto",
+    "impact": "Mais de 7.000 pessoas apoiadas a cada ano, vindas de 128 países e falando 95 idiomas diferentes."
+  }
 }

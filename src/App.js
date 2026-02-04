@@ -6,10 +6,10 @@ import { services } from "./constants/services";
 import { LanguageSelectorWrapper } from "./components/cari/LanguageSelector";
 import {
   ParallaxStatsSection,
-  ParallaxTestimonialBand,
   ParallaxCTASection,
   COLORS,
 } from "./components/cari/ParallaxBreathing";
+import Mission from "./components/Mission";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Needs from "./components/Needs";
@@ -309,23 +309,9 @@ function App() {
               translations={translations}
             />
 
-            <ParallaxTestimonialBand
-              backgroundColor={COLORS.brume}
-              testimonials={(() => {
-                const t = translations[currentLanguage] || translations.fr;
-                const items = t.testimonials?.parallaxItems || [];
-                const avatars = [
-                  "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=200&h=200&fit=crop&crop=faces",
-                  "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&fit=crop&crop=faces",
-                  "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=200&h=200&fit=crop&crop=faces",
-                ];
-                return items.map((item, i) => ({
-                  quote: item.quote,
-                  name: item.name,
-                  origin: item.origin,
-                  avatar: avatars[i] || avatars[0],
-                }));
-              })()}
+            <Mission
+              currentLanguage={currentLanguage}
+              translations={translations}
             />
 
             <News

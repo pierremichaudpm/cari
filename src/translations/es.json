@@ -391,5 +391,30 @@
         "origin": "Colombia • Llegada 2019"
       }
     ]
+  },
+  "mission": {
+    "tagline": "La diversidad nos une",
+    "title": "Nuestra misión",
+    "statement": "Acoger, ayudar y acompañar a las personas inmigrantes en su integración personal, social y profesional.",
+    "visionLabel": "Nuestra visión",
+    "vision": "Servir y reunir en torno a experiencia y prácticas innovadoras para una mejor convivencia.",
+    "valuesLabel": "Nuestros valores",
+    "values": [
+      "Dedicación",
+      "Confianza",
+      "Tolerancia",
+      "Altruismo",
+      "Solidaridad",
+      "Equidad"
+    ],
+    "historyCTA": "Nuestra historia",
+    "historyTitle": "Nuestra historia",
+    "buildingAlt": "Edificio CARI St-Laurent",
+    "founded": "Fundación",
+    "historyIntro": "Creado en 1989, el Centro de Acogida y Referencia social y económica para Inmigrantes de Saint-Laurent (CARI St-Laurent) es una organización sin fines de lucro, no confesional y no partidista.",
+    "approachLabel": "Nuestro enfoque",
+    "approach": "Un enfoque intercultural basado en el respeto a la diferencia, la apertura a los demás y la diversidad etnocultural y religiosa.",
+    "impactLabel": "Nuestro impacto",
+    "impact": "Más de 7.000 personas apoyadas cada año, procedentes de 128 países y hablando 95 idiomas diferentes."
   }
 }

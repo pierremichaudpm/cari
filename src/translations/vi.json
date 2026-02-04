@@ -391,5 +391,30 @@
     "goToTestimonial": "Đi đến lời chứng",
     "learnMoreAbout": "Tìm hiểu thêm về"
   },
-  "loading": "Đang tải..."
+  "loading": "Đang tải...",
+  "mission": {
+    "tagline": "Sự đa dạng gắn kết chúng ta",
+    "title": "Sứ mệnh của chúng tôi",
+    "statement": "Chào đón, giúp đỡ và đồng hành cùng người nhập cư trong quá trình hòa nhập cá nhân, xã hội và nghề nghiệp.",
+    "visionLabel": "Tầm nhìn của chúng tôi",
+    "vision": "Phục vụ và đoàn kết thông qua chuyên môn và thực tiễn sáng tạo để cùng nhau sống tốt hơn.",
+    "valuesLabel": "Giá trị của chúng tôi",
+    "values": [
+      "Cống hiến",
+      "Tin tưởng",
+      "Khoan dung",
+      "Vị tha",
+      "Đoàn kết",
+      "Công bằng"
+    ],
+    "historyCTA": "Câu chuyện của chúng tôi",
+    "historyTitle": "Câu chuyện của chúng tôi",
+    "buildingAlt": "Tòa nhà CARI St-Laurent",
+    "founded": "Thành lập",
+    "historyIntro": "Được thành lập năm 1989, Trung tâm Tiếp nhận và Giới thiệu xã hội và kinh tế cho Người nhập cư Saint-Laurent (CARI St-Laurent) là một tổ chức phi lợi nhuận, phi giáo phái và phi đảng phái.",
+    "approachLabel": "Phương pháp tiếp cận",
+    "approach": "Một cách tiếp cận liên văn hóa dựa trên sự tôn trọng sự khác biệt, cởi mở với người khác và sự đa dạng dân tộc văn hóa và tôn giáo.",
+    "impactLabel": "Tác động của chúng tôi",
+    "impact": "Hơn 7.000 người được hỗ trợ mỗi năm, đến từ 128 quốc gia và nói 95 ngôn ngữ khác nhau."
+  }
 }

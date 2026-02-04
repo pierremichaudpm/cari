@@ -5336,3 +5336,404 @@ section,
         font-size: 1rem;
     }
 }
+
+/* ===================================
+   MISSION PARALLAX SECTION
+   =================================== */
+
+.mission-parallax-section {
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+}
+
+.mission-parallax-bg {
+    position: absolute;
+    top: -10%;
+    left: 0;
+    width: 100%;
+    height: 120%;
+    z-index: 1;
+    will-change: transform;
+}
+
+/* Collage of diverse people */
+.mission-collage-image {
+    position: absolute;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    opacity: 0.15;
+    filter: grayscale(30%);
+}
+
+.mission-collage-1 {
+    width: 300px;
+    height: 400px;
+    top: 10%;
+    left: 5%;
+    transform: rotate(-5deg);
+}
+
+.mission-collage-2 {
+    width: 250px;
+    height: 350px;
+    top: 20%;
+    right: 8%;
+    transform: rotate(8deg);
+}
+
+.mission-collage-3 {
+    width: 280px;
+    height: 380px;
+    bottom: 15%;
+    left: 10%;
+    transform: rotate(5deg);
+}
+
+.mission-collage-4 {
+    width: 260px;
+    height: 340px;
+    top: 50%;
+    right: 15%;
+    transform: translateY(-50%) rotate(-8deg);
+}
+
+.mission-collage-5 {
+    width: 240px;
+    height: 320px;
+    bottom: 10%;
+    right: 5%;
+    transform: rotate(10deg);
+}
+
+.mission-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(135deg, rgba(248, 249, 250, 0.7) 0%, rgba(233, 236, 239, 0.8) 100%);
+}
+
+.mission-content-wrapper {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    padding: 4rem 0;
+}
+
+.mission-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0 2rem;
+}
+
+.mission-tagline {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.75rem;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #6EC1C1;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 1.5rem;
+}
+
+.mission-tagline-icon {
+    color: #F7BF3F;
+    font-size: 0.75rem;
+}
+
+.mission-title {
+    font-family: 'DM Serif Text', serif;
+    font-size: clamp(2.5rem, 5vw, 3.5rem);
+    font-weight: 400;
+    color: #263B5A;
+    margin-bottom: 1.5rem;
+    line-height: 1.2;
+}
+
+.mission-statement {
+    font-size: clamp(1.1rem, 2vw, 1.3rem);
+    line-height: 1.7;
+    color: #495057;
+    margin-bottom: 3rem;
+    font-weight: 400;
+}
+
+.mission-vision {
+    background: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border: 2px solid rgba(110, 193, 193, 0.2);
+}
+
+.mission-vision h3 {
+    font-family: 'DM Serif Text', serif;
+    font-size: 1.5rem;
+    color: #263B5A;
+    margin-bottom: 1rem;
+}
+
+.mission-vision p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #495057;
+}
+
+.mission-values {
+    margin-bottom: 3rem;
+}
+
+.mission-values h3 {
+    font-family: 'DM Serif Text', serif;
+    font-size: 1.5rem;
+    color: #263B5A;
+    margin-bottom: 1.5rem;
+}
+
+.mission-values-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.mission-value-badge {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background: rgba(110, 193, 193, 0.15);
+    border: 2px solid rgba(110, 193, 193, 0.4);
+    border-radius: 50px;
+    font-weight: 600;
+    font-size: 0.95rem;
+    color: #263B5A;
+    transition: all 0.3s ease;
+}
+
+.mission-value-badge:hover {
+    background: rgba(110, 193, 193, 0.25);
+    transform: translateY(-2px);
+}
+
+.mission-cta-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 1rem 2.5rem;
+    background: #F15C39;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(241, 92, 57, 0.3);
+}
+
+.mission-cta-button:hover {
+    background: #e54d2a;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 25px rgba(241, 92, 57, 0.4);
+}
+
+.mission-cta-arrow {
+    font-size: 1.3rem;
+    transition: transform 0.3s ease;
+}
+
+.mission-cta-button:hover .mission-cta-arrow {
+    transform: translateX(5px);
+}
+
+/* History Modal */
+.history-modal-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(38, 59, 90, 0.9);
+    backdrop-filter: blur(8px);
+    z-index: 10000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    animation: fadeIn 0.3s ease;
+}
+
+.history-modal-content {
+    background: white;
+    border-radius: 24px;
+    max-width: 900px;
+    width: 100%;
+    max-height: 90vh;
+    overflow-y: auto;
+    position: relative;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+    animation: slideUp 0.4s ease;
+}
+
+.history-modal-close {
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+    background: rgba(38, 59, 90, 0.1);
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    color: #263B5A;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    z-index: 10;
+}
+
+.history-modal-close:hover {
+    background: rgba(38, 59, 90, 0.2);
+    transform: rotate(90deg);
+}
+
+.history-modal-body {
+    padding: 3rem;
+}
+
+.history-modal-image {
+    width: 100%;
+    height: 300px;
+    border-radius: 16px;
+    overflow: hidden;
+    margin-bottom: 2rem;
+}
+
+.history-modal-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.history-modal-text h2 {
+    font-family: 'DM Serif Text', serif;
+    font-size: 2.5rem;
+    color: #263B5A;
+    margin-bottom: 2rem;
+}
+
+.history-year {
+    display: inline-flex;
+    align-items: center;
+    gap: 1rem;
+    background: linear-gradient(135deg, #6EC1C1 0%, #F7BF3F 100%);
+    padding: 1rem 2rem;
+    border-radius: 50px;
+    margin-bottom: 2rem;
+}
+
+.history-year-number {
+    font-family: 'DM Serif Text', serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: white;
+}
+
+.history-year-label {
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.history-intro {
+    font-size: 1.15rem;
+    line-height: 1.7;
+    color: #495057;
+    margin-bottom: 2rem;
+}
+
+.history-highlights {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.history-highlight {
+    background: linear-gradient(135deg, rgba(110, 193, 193, 0.1) 0%, rgba(247, 191, 63, 0.1) 100%);
+    padding: 1.5rem;
+    border-radius: 16px;
+    border-left: 4px solid #6EC1C1;
+}
+
+.history-highlight h4 {
+    font-family: 'DM Serif Text', serif;
+    font-size: 1.3rem;
+    color: #263B5A;
+    margin-bottom: 0.75rem;
+}
+
+.history-highlight p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #495057;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+    .mission-collage-image {
+        opacity: 0.1;
+    }
+    
+    .mission-collage-1,
+    .mission-collage-2,
+    .mission-collage-3,
+    .mission-collage-4,
+    .mission-collage-5 {
+        width: 200px;
+        height: 280px;
+    }
+}
+
+@media (max-width: 768px) {
+    .mission-content {
+        padding: 0 1.5rem;
+    }
+    
+    .mission-vision,
+    .mission-values {
+        padding: 1.5rem;
+    }
+    
+    .mission-value-badge {
+        padding: 0.6rem 1.2rem;
+        font-size: 0.85rem;
+    }
+    
+    .history-modal-body {
+        padding: 2rem 1.5rem;
+    }
+    
+    .history-modal-text h2 {
+        font-size: 2rem;
+    }
+    
+    .history-year-number {
+        font-size: 2rem;
+    }
+}
+
+@keyframes slideUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

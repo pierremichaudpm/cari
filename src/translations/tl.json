@@ -391,5 +391,30 @@
     "goToTestimonial": "Pumunta sa testimonya",
     "learnMoreAbout": "Matuto pa tungkol sa"
   },
-  "loading": "Naglo-load..."
+  "loading": "Naglo-load...",
+  "mission": {
+    "tagline": "Ang pagkakaiba-iba ay nagsasama sa atin",
+    "title": "Ang aming misyon",
+    "statement": "Tanggapin, tulungan at samahan ang mga imigrante sa kanilang personal, panlipunan at propesyonal na pagsasama.",
+    "visionLabel": "Ang aming pananaw",
+    "vision": "Maglingkod at magsama-sama sa pamamagitan ng makabagong kadalubhasaan at mga gawain para sa mas magandang pamumuhay.",
+    "valuesLabel": "Ang aming mga pagpapahalaga",
+    "values": [
+      "Dedikasyon",
+      "Tiwala",
+      "Pagpaparaya",
+      "Altruismo",
+      "Pagkakaisa",
+      "Katarungan"
+    ],
+    "historyCTA": "Ang aming kasaysayan",
+    "historyTitle": "Ang aming kasaysayan",
+    "buildingAlt": "Gusali ng CARI St-Laurent",
+    "founded": "Itinatag",
+    "historyIntro": "Nilikha noong 1989, ang Centre d'Accueil et de Référence sociale et économique pour Immigrants de Saint-Laurent (CARI St-Laurent) ay isang organisasyong walang tubo, walang relihiyon at walang partidong pulitikal.",
+    "approachLabel": "Ang aming diskarte",
+    "approach": "Isang intercultural na diskarte batay sa paggalang sa pagkakaiba, pagbubukas sa iba at sa ethnic-cultural at relihiyosong pagkakaiba-iba.",
+    "impactLabel": "Ang aming epekto",
+    "impact": "Mahigit 7,000 tao ang tinutulungan bawat taon, mula sa 128 bansa at nagsasalita ng 95 iba't ibang wika."
+  }
 }

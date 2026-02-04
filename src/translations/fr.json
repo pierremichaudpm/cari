@@ -391,5 +391,30 @@
     "goToTestimonial": "Aller au témoignage",
     "learnMoreAbout": "En savoir plus sur"
   },
-  "loading": "Chargement..."
+  "loading": "Chargement...",
+  "mission": {
+    "tagline": "La diversité nous rapproche",
+    "title": "Notre mission",
+    "statement": "Accueillir, aider et accompagner les personnes immigrantes dans leur intégration personnelle, sociale et professionnelle.",
+    "visionLabel": "Notre vision",
+    "vision": "Servir et rassembler autour d'expertises et de pratiques innovantes pour un meilleur vivre ensemble.",
+    "valuesLabel": "Nos valeurs",
+    "values": [
+      "Dévouement",
+      "Confiance",
+      "Tolérance",
+      "Altruisme",
+      "Solidarité",
+      "Équité"
+    ],
+    "historyCTA": "Notre histoire",
+    "historyTitle": "Notre histoire",
+    "buildingAlt": "Édifice CARI St-Laurent",
+    "founded": "Fondation",
+    "historyIntro": "Créé en 1989, le Centre d'Accueil et de Référence sociale et économique pour Immigrants de Saint-Laurent (CARI St-Laurent) est un organisme à but non lucratif, non confessionnel et non partisan.",
+    "approachLabel": "Notre approche",
+    "approach": "Une approche interculturelle fondée sur le respect de la différence, l'ouverture à l'autre et la diversité ethnoculturelle et religieuse.",
+    "impactLabel": "Notre impact",
+    "impact": "Plus de 7 000 personnes accompagnées chaque année, issues de 128 pays et parlant 95 langues différentes."
+  }
 }
