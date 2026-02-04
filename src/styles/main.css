@@ -5367,8 +5367,9 @@ section,
     background-size: cover;
     background-position: center;
     border-radius: 20px;
-    opacity: 0.4;
+    opacity: 0.6;
     filter: grayscale(0%);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
 }
 
 .mission-collage-1 {
@@ -5414,7 +5415,7 @@ section,
 .mission-overlay {
     position: absolute;
     inset: 0;
-    background: rgba(204, 216, 223, 0.75);
+    background: rgba(204, 216, 223, 0.5);
 }
 
 .mission-content-wrapper {
@@ -5432,20 +5433,11 @@ section,
 }
 
 .mission-tagline {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.5rem;
-    font-size: 0.85rem;
-    font-weight: 600;
-    color: #6EC1C1;
-    text-transform: uppercase;
-    letter-spacing: 1.5px;
-    margin-bottom: 1rem;
-}
-
-.mission-tagline-icon {
-    color: #F7BF3F;
-    font-size: 0.6rem;
+    display: inline-block;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #263B5A;
+    margin-bottom: 1.5rem;
 }
 
 .mission-title {

@@ -73,9 +73,7 @@ const Mission = ({ currentLanguage, translations }) => {
             <div className="mission-content">
               {/* Tagline */}
               <div className="mission-tagline">
-                <span className="mission-tagline-icon">✦</span>
                 {t.mission?.tagline || "La diversité nous rapproche"}
-                <span className="mission-tagline-icon">✦</span>
               </div>
 
               {/* Main heading */}
