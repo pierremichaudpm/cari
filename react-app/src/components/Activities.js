@@ -281,7 +281,7 @@ const Activities = ({ currentLanguage, translations }) => {
             <button
               className="modal-close"
               onClick={() => setIsModalOpen(false)}
-              aria-label="Close modal"
+              aria-label={t.aria?.closeModal || "Close modal"}
             >
               <Icon name="times" size={24} />
             </button>

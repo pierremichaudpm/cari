@@ -175,6 +175,15 @@
       "french": "Our French courses:\n• 8:30 AM-10 PM (very flexible!)\n• All levels accepted\n• Methods adapted for immigrants\n• Free level assessment\n\nWould you like to schedule an evaluation?",
       "employment": "Our employment assistance:\n• Resume/cover letter workshops\n• Interview simulations\n• Professional coaching\n• Employer meetings\n• 85% find a job within 6 months!\n\nInterested in employment consultation?",
       "default": "I can help you with:\n• Information about our services\n• Appointment booking\n• Contact details\n• Personalized advice\n\nWhat would you like to know?"
+    },
+    "status": "آن لائن",
+    "error": "معذرت، ایک خرابی ہوئی۔ براہ کرم دوبارہ کوشش کریں۔",
+    "suggestions": {
+      "services": "خدمات",
+      "appointment": "ملاقات",
+      "appointmentInput": "ملاقات کا وقت لیں",
+      "french": "فرانسیسی",
+      "frenchInput": "فرانسیسی کورسز"
     }
   },
   "success": {
@@ -236,7 +245,80 @@
     "previousSlide": "Slide précédente",
     "nextSlide": "Slide suivante",
     "goToSlide": "Aller à la diapositive",
-    "carouselSlider": "Slider carrousel"
+    "carouselSlider": "Slider carrousel",
+    "closeModal": "ونڈو بند کریں",
+    "previousTestimonial": "پچھلی گواہی",
+    "nextTestimonial": "اگلی گواہی",
+    "goToTestimonial": "گواہی پر جائیں",
+    "learnMoreAbout": "مزید جانیں"
   },
-  "loading": "لوڈ ہو رہا ہے..."
+  "loading": "لوڈ ہو رہا ہے...",
+  "newsCategories": {
+    "francisation": "فرانسیسی سیکھنا",
+    "emploi": "روزگار",
+    "femmes": "دنیا کی خواتین",
+    "integration": "انضمام",
+    "parents": "والدین اور نوجوان"
+  },
+  "media": {
+    "videoNotSupported": "آپ کا براؤزر ویڈیو چلانے کی حمایت نہیں کرتا۔",
+    "audioNotSupported": "آپ کا براؤزر آڈیو چلانے کی حمایت نہیں کرتا۔"
+  },
+  "testimonials": {
+    "arrived": "آمد",
+    "items": [
+      {
+        "name": "اسماء ب.",
+        "country": "مراکش",
+        "year": "2020",
+        "text": "CARI کی بدولت، میں نے 6 ماہ میں اپنی خوابوں کی نوکری پائی! ذاتی مدد اور ورکشاپس نے مجھے انٹرویوز میں کامیابی کے لیے اعتماد دیا۔",
+        "service": "روزگار میں مدد"
+      },
+      {
+        "name": "جان پیئر ایچ.",
+        "country": "ہیٹی",
+        "year": "2020",
+        "text": "پناہ گزین سے کاروباری تک، CARI نے ہر قدم پر میرا ساتھ دیا۔ آج میرا اپنا کاروبار ہے اور 5 لوگ کام کرتے ہیں۔",
+        "service": "مکمل مدد"
+      },
+      {
+        "name": "جیسمین ایم.",
+        "country": "ہیٹی",
+        "year": "2021",
+        "text": "فرانسیسی ناممکن لگتی تھی، اب میں روانی سے بولتی ہوں! کورسز بہترین ہیں اور اساتذہ بہت صبر والے ہیں۔",
+        "service": "فرانسیسی سیکھنا"
+      },
+      {
+        "name": "کارلا اے.",
+        "country": "ڈی آر سی",
+        "year": "2019",
+        "text": "میرے بچے خوش ہیں، ہم نے یہاں اپنی جگہ پائی۔ CARI کی خاندانی خدمات نے بہت فرق کیا۔",
+        "service": "خاندانی خدمات"
+      },
+      {
+        "name": "وی ایل.",
+        "country": "چین",
+        "year": "2022",
+        "text": "کیوبیک کے نظام کو سمجھنے میں مدد نے سب کچھ بدل دیا۔ اب مجھے مونٹریال میں گھر جیسا لگتا ہے۔",
+        "service": "استقبال اور انضمام"
+      }
+    ],
+    "parallaxItems": [
+      {
+        "quote": "CARI کی بدولت، میں نے 6 ماہ میں اپنی خوابوں کی نوکری پائی! ٹیم نے ہر قدم پر میرا ساتھ دیا۔",
+        "name": "اسماء ب.",
+        "origin": "مراکش • آمد 2020"
+      },
+      {
+        "quote": "فرانسیسی کے کورسز نے مجھے جلدی خود مختار بنا دیا۔ میں تمام نئے آنے والوں کو تجویز کرتا ہوں!",
+        "name": "احمد ک.",
+        "origin": "شام • آمد 2021"
+      },
+      {
+        "quote": "دنیا کی خواتین پروگرام نے مجھے اعتماد اور شاندار سہیلیوں کا نیٹ ورک دیا۔",
+        "name": "ماریہ ایل.",
+        "origin": "کولمبیا • آمد 2019"
+      }
+    ]
+  }
 }

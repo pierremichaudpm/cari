@@ -175,6 +175,15 @@
       "french": "Our French courses:\n• 8:30 AM-10 PM (very flexible!)\n• All levels accepted\n• Methods adapted for immigrants\n• Free level assessment\n\nWould you like to schedule an evaluation?",
       "employment": "Our employment assistance:\n• Resume/cover letter workshops\n• Interview simulations\n• Professional coaching\n• Employer meetings\n• 85% find a job within 6 months!\n\nInterested in employment consultation?",
       "default": "I can help you with:\n• Information about our services\n• Appointment booking\n• Contact details\n• Personalized advice\n\nWhat would you like to know?"
+    },
+    "status": "Онлайн",
+    "error": "Вибачте, сталася помилка. Будь ласка, спробуйте знову.",
+    "suggestions": {
+      "services": "Послуги",
+      "appointment": "Зустріч",
+      "appointmentInput": "Записатися на зустріч",
+      "french": "Французька",
+      "frenchInput": "Курси французької"
     }
   },
   "success": {
@@ -236,7 +245,80 @@
     "previousSlide": "Slide précédente",
     "nextSlide": "Slide suivante",
     "goToSlide": "Aller à la diapositive",
-    "carouselSlider": "Slider carrousel"
+    "carouselSlider": "Slider carrousel",
+    "closeModal": "Закрити вікно",
+    "previousTestimonial": "Попередній відгук",
+    "nextTestimonial": "Наступний відгук",
+    "goToTestimonial": "Перейти до відгуку",
+    "learnMoreAbout": "Дізнатися більше про"
   },
-  "loading": "Завантаження..."
+  "loading": "Завантаження...",
+  "newsCategories": {
+    "francisation": "Вивчення французької",
+    "emploi": "Працевлаштування",
+    "femmes": "Жінки світу",
+    "integration": "Інтеграція",
+    "parents": "Батьки та молодь"
+  },
+  "media": {
+    "videoNotSupported": "Ваш браузер не підтримує відтворення відео.",
+    "audioNotSupported": "Ваш браузер не підтримує відтворення аудіо."
+  },
+  "testimonials": {
+    "arrived": "Прибуття",
+    "items": [
+      {
+        "name": "Асма Б.",
+        "country": "Марокко",
+        "year": "2020",
+        "text": "Завдяки CARI я знайшла роботу мрії за 6 місяців! Індивідуальна підтримка та семінари дали мені впевненість для успішних співбесід.",
+        "service": "Допомога з працевлаштуванням"
+      },
+      {
+        "name": "Жан-П'єр Х.",
+        "country": "Гаїті",
+        "year": "2020",
+        "text": "Від біженця до підприємця — CARI супроводжував мене на кожному кроці. Сьогодні я маю власний бізнес і працевлаштовую 5 людей.",
+        "service": "Комплексний супровід"
+      },
+      {
+        "name": "Жасмін М.",
+        "country": "Гаїті",
+        "year": "2021",
+        "text": "Французька здавалася неможливою, тепер я говорю вільно! Курси чудові, викладачі дуже терплячі.",
+        "service": "Вивчення французької"
+      },
+      {
+        "name": "Карла А.",
+        "country": "ДРК",
+        "year": "2019",
+        "text": "Мої діти щасливі, ми знайшли своє місце тут. Сімейні послуги CARI змінили все.",
+        "service": "Сімейні послуги"
+      },
+      {
+        "name": "Вей Л.",
+        "country": "Китай",
+        "year": "2022",
+        "text": "Допомога у розумінні квебекської системи змінила все. Тепер я відчуваю себе вдома в Монреалі.",
+        "service": "Прийом та інтеграція"
+      }
+    ],
+    "parallaxItems": [
+      {
+        "quote": "Завдяки CARI я знайшла роботу мрії за 6 місяців! Команда супроводжувала мене на кожному кроці.",
+        "name": "Асма Б.",
+        "origin": "Марокко • Прибуття 2020"
+      },
+      {
+        "quote": "Курси французької дозволили мені швидко стати самостійним. Рекомендую всім новоприбулим!",
+        "name": "Ахмед К.",
+        "origin": "Сирія • Прибуття 2021"
+      },
+      {
+        "quote": "Програма «Жінки світу» дала мені впевненість і чудове коло подруг.",
+        "name": "Марія Л.",
+        "origin": "Колумбія • Прибуття 2019"
+      }
+    ]
+  }
 }

@@ -176,6 +176,15 @@
       "french": "Nuestros cursos de francés:\n• 8:30-22h (¡muy flexible!)\n• Todos los niveles aceptados\n• Métodos adaptados para inmigrantes\n• Evaluación de nivel gratuita\n\n¿Le gustaría programar una evaluación?",
       "employment": "Nuestra ayuda al empleo:\n• Talleres de CV/carta de presentación\n• Simulaciones de entrevistas\n• Coaching profesional\n• Encuentros con empleadores\n• ¡85% encuentra trabajo en 6 meses!\n\n¿Interesado en consulta de empleo?",
       "default": "Puedo ayudarle con:\n• Información sobre nuestros servicios\n• Reserva de citas\n• Datos de contacto\n• Consejos personalizados\n\n¿Qué le gustaría saber?"
+    },
+    "status": "En línea",
+    "error": "Lo sentimos, ocurrió un error. Por favor, intente de nuevo.",
+    "suggestions": {
+      "services": "Servicios",
+      "appointment": "Cita",
+      "appointmentInput": "Hacer una cita",
+      "french": "Francés",
+      "frenchInput": "Cursos de francés"
     }
   },
   "success": {
@@ -237,7 +246,80 @@
     "previousSlide": "Diapositiva anterior",
     "nextSlide": "Siguiente diapositiva",
     "goToSlide": "Ir a la diapositiva",
-    "carouselSlider": "Control del carrusel"
+    "carouselSlider": "Control del carrusel",
+    "closeModal": "Cerrar ventana",
+    "previousTestimonial": "Testimonio anterior",
+    "nextTestimonial": "Siguiente testimonio",
+    "goToTestimonial": "Ir al testimonio",
+    "learnMoreAbout": "Más información sobre"
   },
-  "loading": "Cargando..."
+  "loading": "Cargando...",
+  "newsCategories": {
+    "francisation": "Francización",
+    "emploi": "Empleo",
+    "femmes": "Mujeres del mundo",
+    "integration": "Integración",
+    "parents": "Padres y Juventud"
+  },
+  "media": {
+    "videoNotSupported": "Su navegador no soporta la reproducción de video.",
+    "audioNotSupported": "Su navegador no soporta la reproducción de audio."
+  },
+  "testimonials": {
+    "arrived": "Llegada",
+    "items": [
+      {
+        "name": "Asma B.",
+        "country": "Marruecos",
+        "year": "2020",
+        "text": "¡Gracias a CARI, encontré mi trabajo soñado en 6 meses! El apoyo personalizado y los talleres me dieron la confianza necesaria para tener éxito en mis entrevistas.",
+        "service": "Ayuda al empleo"
+      },
+      {
+        "name": "Jean-Pierre H.",
+        "country": "Haití",
+        "year": "2020",
+        "text": "De refugiado a emprendedor, CARI me acompañó en cada paso. Hoy tengo mi propia empresa y empleo a 5 personas.",
+        "service": "Acompañamiento global"
+      },
+      {
+        "name": "Jasmine M.",
+        "country": "Haití",
+        "year": "2021",
+        "text": "¡El francés parecía imposible, ahora lo hablo con fluidez! Los cursos son excelentes y los profesores muy pacientes.",
+        "service": "Francización"
+      },
+      {
+        "name": "Karla A.",
+        "country": "RDC",
+        "year": "2019",
+        "text": "Mis hijos están felices, encontramos nuestro lugar aquí. Los servicios familiares de CARI hicieron toda la diferencia.",
+        "service": "Servicios familiares"
+      },
+      {
+        "name": "Wei L.",
+        "country": "China",
+        "year": "2022",
+        "text": "La ayuda para comprender el sistema quebequense lo cambió todo. Ahora me siento en casa en Montreal.",
+        "service": "Acogida e Integración"
+      }
+    ],
+    "parallaxItems": [
+      {
+        "quote": "¡Gracias a CARI, encontré mi trabajo soñado en 6 meses! El equipo me acompañó en cada paso.",
+        "name": "Asma B.",
+        "origin": "Marruecos • Llegada 2020"
+      },
+      {
+        "quote": "¡Los cursos de francés me permitieron ser autónoma rápidamente. Lo recomiendo a todos los recién llegados!",
+        "name": "Ahmed K.",
+        "origin": "Siria • Llegada 2021"
+      },
+      {
+        "quote": "El programa Mujeres del mundo me dio confianza y una red de amigas formidable.",
+        "name": "Maria L.",
+        "origin": "Colombia • Llegada 2019"
+      }
+    ]
+  }
 }

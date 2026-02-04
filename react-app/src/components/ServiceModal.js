@@ -34,7 +34,7 @@ const ServiceModal = ({
         <button
           className="modal-close"
           onClick={onClose}
-          aria-label="Close modal"
+          aria-label={t.aria?.closeModal || "Close modal"}
         >
           <X size={24} />
         </button>

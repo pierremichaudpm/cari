@@ -63,7 +63,9 @@ const Appointment = ({
             <div className="step-line"></div>
             <div className="step-indicator">
               <span className="step-number">3</span>
-              <span className="step-label">Confirmation</span>
+              <span className="step-label">
+                {t.appointment.steps.confirmation}
+              </span>
             </div>
           </div>
 

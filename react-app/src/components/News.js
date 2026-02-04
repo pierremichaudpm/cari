@@ -9,14 +9,35 @@ const News = ({ currentLanguage, translations }) => {
 
   const t = translations[currentLanguage] || translations.fr;
 
-  // CARI categories with colors
+  // CARI categories with colors - labels from translations
+  const nc = t.newsCategories || {};
   const categories = {
-    francisation: { label: "Francisation", color: "#6CBAC7" },
-    emploi: { label: "Emploi", color: "#FF5C39" },
-    femmes: { label: "Femmes du monde", color: "#6CBAC7" },
-    integration: { label: "Intégration", color: "#FFBF3F" },
-    parents: { label: "Parents & Jeunesse", color: "#FF5C39" },
+    francisation: {
+      label: nc.francisation || "Francisation",
+      color: "#6CBAC7",
+    },
+    emploi: { label: nc.emploi || "Emploi", color: "#FF5C39" },
+    femmes: { label: nc.femmes || "Femmes du monde", color: "#6CBAC7" },
+    integration: { label: nc.integration || "Intégration", color: "#FFBF3F" },
+    parents: { label: nc.parents || "Parents & Jeunesse", color: "#FF5C39" },
   };
+
+  // Locale mapping for date formatting
+  const localeMap = {
+    fr: "fr-CA",
+    en: "en-CA",
+    es: "es",
+    ar: "ar",
+    ru: "ru",
+    zh: "zh-CN",
+    pt: "pt-BR",
+    ht: "fr-HT",
+    vi: "vi",
+    tl: "tl",
+    ur: "ur",
+    uk: "uk",
+  };
+  const dateLocale = localeMap[currentLanguage] || "fr-CA";
 
   // 9 fake news items - 3 shown initially, 6 in "more content" modal
   const newsItems = [
@@ -587,7 +608,7 @@ N'hésitez pas à nous contacter pour un accompagnement personnalisé!`,
                   <div className="news-footer">
                     <span className="news-author">{news.author}</span>
                     <span className="news-date">
-                      {new Date(news.date).toLocaleDateString("fr-CA", {
+                      {new Date(news.date).toLocaleDateString(dateLocale, {
                         year: "numeric",
                         month: "long",
                         day: "numeric",
@@ -672,7 +693,7 @@ N'hésitez pas à nous contacter pour un accompagnement personnalisé!`,
                     <div className="news-footer">
                       <span className="news-author">{news.author}</span>
                       <span className="news-date">
-                        {new Date(news.date).toLocaleDateString("fr-CA", {
+                        {new Date(news.date).toLocaleDateString(dateLocale, {
                           year: "numeric",
                           month: "long",
                           day: "numeric",

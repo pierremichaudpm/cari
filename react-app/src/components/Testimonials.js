@@ -6,53 +6,24 @@ const Testimonials = ({ currentLanguage, translations }) => {
   const [currentTestimonial, setCurrentTestimonial] = useState(0);
   const testimonialIntervalRef = useRef(null);
 
-  const testimonials = [
-    {
-      id: 1,
-      name: "Asma B.",
-      country: "Maroc",
-      year: "2020",
-      text: "Grâce au CARI, j'ai trouvé mon emploi de rêve en 6 mois! L'accompagnement personnalisé et les ateliers m'ont donné la confiance nécessaire pour réussir mes entrevues.",
-      service: "Aide à l'emploi",
-      image: "/images/arabwoman.webp",
-    },
-    {
-      id: 2,
-      name: "Jean-Pierre H.",
-      country: "Haïti",
-      year: "2020",
-      text: "De réfugié à entrepreneur, le CARI m'a accompagné à chaque étape. Aujourd'hui, j'ai ma propre entreprise et j'emploie 5 personnes.",
-      service: "Accompagnement global",
-      image: "/images/blackman.webp",
-    },
-    {
-      id: 3,
-      name: "Jasmine M.",
-      country: "Haïti",
-      year: "2021",
-      text: "Le français semblait impossible, maintenant je le parle couramment! Les cours sont excellents et les enseignants très patients.",
-      service: "Francisation",
-      image: "/images/blackwomen.webp",
-    },
-    {
-      id: 4,
-      name: "Karla A.",
-      country: "RDC",
-      year: "2019",
-      text: "Mes enfants sont épanouis, nous avons trouvé notre place ici. Les services familiaux du CARI ont fait toute la différence.",
-      service: "Services familiaux",
-      image: "/images/asianwoman.webp",
-    },
-    {
-      id: 5,
-      name: "Wei L.",
-      country: "Chine",
-      year: "2022",
-      text: "L'aide pour comprendre le système québécois a tout changé. Je me sens maintenant chez moi à Montréal.",
-      service: "Accueil & Intégration",
-      image: "/images/asianman.webp",
-    },
+  const images = [
+    "/images/arabwoman.webp",
+    "/images/blackman.webp",
+    "/images/blackwomen.webp",
+    "/images/asianwoman.webp",
+    "/images/asianman.webp",
   ];
+
+  const testimonialItems = t.testimonials?.items || [];
+  const testimonials = testimonialItems.map((item, index) => ({
+    id: index + 1,
+    name: item.name,
+    country: item.country,
+    year: item.year,
+    text: item.text,
+    service: item.service,
+    image: images[index] || images[0],
+  }));
 
   // Auto-rotation
   useEffect(() => {
@@ -128,7 +99,9 @@ const Testimonials = ({ currentLanguage, translations }) => {
                     <div className="testimonial-author">
                       <h4 className="author-name">{testimonial.name}</h4>
                       <p className="author-info">
-                        {testimonial.country} • Arrivée {testimonial.year}
+                        {testimonial.country} •{" "}
+                        {t.testimonials?.arrived || "Arrivée"}{" "}
+                        {testimonial.year}
                       </p>
                       <span className="service-badge">
                         {testimonial.service}
@@ -144,14 +117,14 @@ const Testimonials = ({ currentLanguage, translations }) => {
           <button
             className="testimonial-nav prev"
             onClick={prevTestimonial}
-            aria-label="Témoignage précédent"
+            aria-label={t.aria?.previousTestimonial || "Previous testimonial"}
           >
             <Icon name="chevron-left" size={24} />
           </button>
           <button
             className="testimonial-nav next"
             onClick={nextTestimonial}
-            aria-label="Témoignage suivant"
+            aria-label={t.aria?.nextTestimonial || "Next testimonial"}
           >
             <Icon name="chevron-right" size={24} />
           </button>
@@ -163,7 +136,7 @@ const Testimonials = ({ currentLanguage, translations }) => {
                 key={index}
                 className={`indicator ${index === currentTestimonial ? "active" : ""}`}
                 onClick={() => goToTestimonial(index)}
-                aria-label={`Aller au témoignage ${index + 1}`}
+                aria-label={`${t.aria?.goToTestimonial || "Go to testimonial"} ${index + 1}`}
               />
             ))}
           </div>

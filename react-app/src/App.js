@@ -311,32 +311,21 @@ function App() {
 
             <ParallaxTestimonialBand
               backgroundColor={COLORS.brume}
-              testimonials={[
-                {
-                  quote:
-                    "Grâce au CARI, j'ai trouvé mon emploi de rêve en 6 mois! L'équipe m'a accompagné à chaque étape.",
-                  name: "Asma B.",
-                  origin: "Maroc • Arrivée 2020",
-                  avatar:
-                    "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=200&h=200&fit=crop&crop=faces",
-                },
-                {
-                  quote:
-                    "Les cours de français m'ont permis d'être autonome rapidement. Je recommande à tous les nouveaux arrivants!",
-                  name: "Ahmed K.",
-                  origin: "Syrie • Arrivé 2021",
-                  avatar:
-                    "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&fit=crop&crop=faces",
-                },
-                {
-                  quote:
-                    "Le programme Femmes du monde m'a donné confiance et un réseau d'amies formidable.",
-                  name: "Maria L.",
-                  origin: "Colombie • Arrivée 2019",
-                  avatar:
-                    "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=200&h=200&fit=crop&crop=faces",
-                },
-              ]}
+              testimonials={(() => {
+                const t = translations[currentLanguage] || translations.fr;
+                const items = t.testimonials?.parallaxItems || [];
+                const avatars = [
+                  "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=200&h=200&fit=crop&crop=faces",
+                  "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&fit=crop&crop=faces",
+                  "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=200&h=200&fit=crop&crop=faces",
+                ];
+                return items.map((item, i) => ({
+                  quote: item.quote,
+                  name: item.name,
+                  origin: item.origin,
+                  avatar: avatars[i] || avatars[0],
+                }));
+              })()}
             />
 
             <News

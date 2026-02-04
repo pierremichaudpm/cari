@@ -69,7 +69,24 @@
     "moreNewsTitle": "Plus de nouvelles"
   },
   "newsModal": {
-    "share": "Partager"
+    "share": "Partager",
+    "shareOn": {
+      "facebook": "Partager sur Facebook",
+      "twitter": "Partager sur Twitter",
+      "linkedin": "Partager sur LinkedIn",
+      "whatsapp": "Partager sur WhatsApp"
+    }
+  },
+  "newsCategories": {
+    "francisation": "Francisation",
+    "emploi": "Emploi",
+    "femmes": "Femmes du monde",
+    "integration": "Intégration",
+    "parents": "Parents & Jeunesse"
+  },
+  "media": {
+    "videoNotSupported": "Votre navigateur ne supporte pas la lecture vidéo.",
+    "audioNotSupported": "Votre navigateur ne supporte pas la lecture audio."
   },
   "activitiesSection": {
     "title": "Nos prochaines activités",
@@ -91,6 +108,63 @@
   "testimonialsSection": {
     "title": "Ils ont réussi avec le CARI",
     "subtitle": "Découvrez les histoires inspirantes de ceux qui ont trouvé leur place au Québec"
+  },
+  "testimonials": {
+    "arrived": "Arrivée",
+    "items": [
+      {
+        "name": "Asma B.",
+        "country": "Maroc",
+        "year": "2020",
+        "text": "Grâce au CARI, j'ai trouvé mon emploi de rêve en 6 mois! L'accompagnement personnalisé et les ateliers m'ont donné la confiance nécessaire pour réussir mes entrevues.",
+        "service": "Aide à l'emploi"
+      },
+      {
+        "name": "Jean-Pierre H.",
+        "country": "Haïti",
+        "year": "2020",
+        "text": "De réfugié à entrepreneur, le CARI m'a accompagné à chaque étape. Aujourd'hui, j'ai ma propre entreprise et j'emploie 5 personnes.",
+        "service": "Accompagnement global"
+      },
+      {
+        "name": "Jasmine M.",
+        "country": "Haïti",
+        "year": "2021",
+        "text": "Le français semblait impossible, maintenant je le parle couramment! Les cours sont excellents et les enseignants très patients.",
+        "service": "Francisation"
+      },
+      {
+        "name": "Karla A.",
+        "country": "RDC",
+        "year": "2019",
+        "text": "Mes enfants sont épanouis, nous avons trouvé notre place ici. Les services familiaux du CARI ont fait toute la différence.",
+        "service": "Services familiaux"
+      },
+      {
+        "name": "Wei L.",
+        "country": "Chine",
+        "year": "2022",
+        "text": "L'aide pour comprendre le système québécois a tout changé. Je me sens maintenant chez moi à Montréal.",
+        "service": "Accueil & Intégration"
+      }
+    ],
+    "parallaxItems": [
+      {
+        "quote": "Grâce au CARI, j'ai trouvé mon emploi de rêve en 6 mois! L'équipe m'a accompagné à chaque étape.",
+        "name": "Asma B.",
+        "origin": "Maroc • Arrivée 2020"
+      },
+      {
+        "quote": "Les cours de français m'ont permis d'être autonome rapidement. Je recommande à tous les nouveaux arrivants!",
+        "name": "Ahmed K.",
+        "origin": "Syrie • Arrivé 2021"
+      },
+      {
+        "quote": "Le programme Femmes du monde m'a donné confiance et un réseau d'amies formidable.",
+        "name": "Maria L.",
+        "origin": "Colombie • Arrivée 2019"
+      }
+    ]
   },
   "services": {
     "title": "Nos services",
@@ -264,6 +338,15 @@
     "title": "Assistant CARI",
     "placeholder": "Posez votre question...",
     "typing": "L'assistant CARI est en train de taper...",
+    "status": "En ligne",
+    "error": "Désolé, une erreur s'est produite. Veuillez réessayer.",
+    "suggestions": {
+      "services": "Services",
+      "appointment": "Rendez-vous",
+      "appointmentInput": "Prendre rendez-vous",
+      "french": "Français",
+      "frenchInput": "Cours de français"
+    },
     "responses": {
       "greeting": "Bonjour ! Je suis ravi de vous aider. Le CARI offre 6 services principaux pour votre intégration au Québec. Quel service vous intéresse le plus ?",
       "services": "Nos 6 services :\n• Accueil & Intégration\n• Francisation (8h30-22h)\n• Aide à l'emploi (85% de réussite!)\n• Services familiaux\n• Femmes du monde\n• Bénévolat & Jumelage\n\nSur lequel voulez-vous plus d'infos ?",
@@ -296,12 +379,17 @@
   },
   "aria": {
     "close": "Fermer",
+    "closeModal": "Fermer la fenêtre",
     "carousel": "Carrousel d'en-tête",
     "carouselNav": "Navigation du carrousel",
     "previousSlide": "Slide précédente",
     "nextSlide": "Slide suivante",
     "goToSlide": "Aller à la diapositive",
-    "carouselSlider": "Slider carrousel"
+    "carouselSlider": "Slider carrousel",
+    "previousTestimonial": "Témoignage précédent",
+    "nextTestimonial": "Témoignage suivant",
+    "goToTestimonial": "Aller au témoignage",
+    "learnMoreAbout": "En savoir plus sur"
   },
   "loading": "Chargement..."
 }
