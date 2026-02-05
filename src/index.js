@@ -16,5 +16,5 @@ root.render(
   </React.StrictMode>,
 );
 
-// Register service worker for PWA
-serviceWorkerRegistration.register();
+// Unregister service worker - was causing stale cache issues
+serviceWorkerRegistration.unregister();
