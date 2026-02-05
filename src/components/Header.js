@@ -160,18 +160,22 @@ const Header = ({
                   />
                 </button>
                 {langDropdownOpen && (
-                  <ul className="lang-menu">
-                    {languages.map((lang) => (
-                      <li key={lang.code}>
+                  <div className="lang-menu">
+                    <div className="lang-grid">
+                      {languages.map((lang) => (
                         <button
-                          className={`lang-item ${currentLanguage === lang.code ? "active" : ""}`}
+                          key={lang.code}
+                          className={`lang-grid-item ${currentLanguage === lang.code ? "active" : ""}`}
                           onClick={() => handleLanguageChange(lang.code)}
                         >
-                          {lang.name}
+                          <span className="lang-grid-code">
+                            {langFlags[lang.code]}
+                          </span>
+                          <span className="lang-grid-name">{lang.name}</span>
                         </button>
-                      </li>
-                    ))}
-                  </ul>
+                      ))}
+                    </div>
+                  </div>
                 )}
               </div>
             </div>

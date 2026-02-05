@@ -88,7 +88,7 @@ body {
 
 @media (max-width: 992px) {
     .logo img {
-        height: 53px;
+        height: 61px;
     }
 }
 
@@ -168,14 +168,14 @@ body {
 
     .btn-rdv-mobile {
         display: inline-flex;
-        padding: 0.45rem 1rem;
+        padding: 0.52rem 1.15rem;
         background: var(--accent-coral);
         color: white;
         border: none;
         border-radius: 50px;
         cursor: pointer;
         font-weight: 600;
-        font-size: 0.8rem;
+        font-size: 0.92rem;
         text-decoration: none;
         align-items: center;
         white-space: nowrap;
@@ -203,8 +203,8 @@ body {
 }
 
 .burger-line {
-    width: 25px;
-    height: 3px;
+    width: 29px;
+    height: 3.5px;
     background: var(--primary-blue);
     transition: all 0.3s ease;
     border-radius: 2px;
@@ -545,9 +545,8 @@ body {
     border-radius: 12px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
     display: block;
-    min-width: 200px;
-    max-width: 250px;
-    padding: 0.5rem;
+    width: 320px;
+    padding: 0.75rem;
     z-index: 1202;
     margin-top: 4px;
     outline: none;
@@ -580,83 +579,61 @@ body {
     box-shadow: none !important;
 }
 
-@media (max-width: 768px) {
-    .lang-menu {
-        right: auto;
-        left: 0;
-        min-width: 180px;
-        max-width: calc(100% - 40px);
-        overflow: hidden;
-    }
+/* Desktop language grid */
+.lang-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 6px;
 }
 
-.lang-item {
-    width: 100%;
-    background: transparent;
-    border: none;
-    text-align: left;
-    padding: 0.6rem 0.75rem 0.6rem 2rem;
+.lang-grid-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3px;
+    padding: 0.5rem 0.25rem;
+    border: 1px solid transparent;
     border-radius: 8px;
+    background: none;
     cursor: pointer;
-    font-size: 0.95rem;
-    position: relative;
-    overflow: hidden;
-    direction: ltr;
-    unicode-bidi: isolate;
+    transition: all 0.2s ease;
+    font-family: inherit;
 }
 
-.lang-item:focus,
-.lang-item:focus-visible,
-.lang-item:focus-within {
-    outline: none !important;
-    box-shadow: none !important;
-    background: var(--light-blue) !important;
-}
-
-/* Completely remove ALL browser focus indicators */
-.lang-item::-moz-focus-inner {
-    border: 0 !important;
-    padding: 0 !important;
-}
-
-.lang-item::-webkit-focus-ring-color {
-    display: none !important;
-}
-
-.lang-item {
-    -webkit-tap-highlight-color: transparent !important;
-    -webkit-touch-callout: none !important;
-    user-select: none !important;
-}
-
-.lang-item:hover {
+.lang-grid-item:hover {
     background: var(--light-blue);
 }
 
-/* RTL language support */
-.lang-item[lang="ar"],
-.lang-item[lang="ur"] {
-    text-align: right;
-    padding: 0.6rem 2rem 0.6rem 0.75rem;
+.lang-grid-item.active {
+    background: var(--primary-blue);
+    border-color: var(--primary-blue);
 }
 
-.lang-item[lang="ar"].active::before,
-.lang-item[lang="ur"].active::before {
-    left: auto;
-    right: 0.75rem;
+.lang-grid-code {
+    font-weight: 700;
+    font-size: 0.85rem;
+    color: var(--primary-blue);
 }
 
-.lang-item.active::before {
-    content: "";
-    position: absolute;
-    left: 0.75rem;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 6px;
-    height: 6px;
-    background: var(--primary-orange);
-    border-radius: 50%;
-    z-index: 1;
+.lang-grid-item.active .lang-grid-code {
+    color: white;
+}
+
+.lang-grid-name {
+    font-size: 0.65rem;
+    color: var(--text-dark);
+    opacity: 0.7;
+}
+
+.lang-grid-item.active .lang-grid-name {
+    color: white;
+    opacity: 0.9;
+}
+
+.lang-grid-item:focus,
+.lang-grid-item:focus-visible {
+    outline: none;
+    box-shadow: none;
 }
 
 /* Hero Section */
@@ -3172,7 +3149,7 @@ body {
     }
 
     .logo img {
-        height: 52px;
+        height: 60px;
     }
 
     /* Global section titles already defined above */
@@ -3308,16 +3285,16 @@ body {
     }
 
     .logo img {
-        height: 46px;
+        height: 53px;
     }
 
     .btn-rdv-mobile {
-        font-size: 0.7rem;
-        padding: 0.4rem 0.75rem;
+        font-size: 0.8rem;
+        padding: 0.46rem 0.86rem;
     }
 
     .mobile-controls {
-        gap: 12px;
+        gap: 14px;
     }
 }
 
