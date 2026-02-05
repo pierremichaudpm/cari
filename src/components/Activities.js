@@ -1,5 +1,9 @@
 import React, { useState } from "react";
 import Icon from "./Icon";
+import {
+  useScrollReveal,
+  useScrollRevealGroup,
+} from "../hooks/useScrollReveal";
 
 const Activities = ({ currentLanguage, translations }) => {
   const [selectedFilter, setSelectedFilter] = useState("Tout voir");
@@ -171,6 +175,11 @@ const Activities = ({ currentLanguage, translations }) => {
       ? activities
       : activities.filter((activity) => activity.category === selectedFilter);
 
+  const headerRef = useScrollReveal();
+  const filtersRef = useScrollReveal();
+  const gridRef = useScrollRevealGroup();
+  const ctaRef = useScrollReveal();
+
   const filteredMoreActivities =
     selectedFilter === t.activities.filters.all
       ? moreActivities
@@ -182,13 +191,16 @@ const Activities = ({ currentLanguage, translations }) => {
     <>
       <section id="activites" className="activities-section">
         <div className="container">
-          <div className="section-header">
+          <div className="section-header scroll-reveal" ref={headerRef}>
             <h2 className="section-title">{t.activitiesSection.title}</h2>
             <p className="section-subtitle">{t.activitiesSection.subtitle}</p>
           </div>
 
           {/* Filter Pills */}
-          <div className="activities-filters-compact">
+          <div
+            className="activities-filters-compact scroll-reveal"
+            ref={filtersRef}
+          >
             {filters.map((filter) => (
               <button
                 key={filter}
@@ -201,9 +213,12 @@ const Activities = ({ currentLanguage, translations }) => {
           </div>
 
           {/* Events Grid - Compact Design */}
-          <div className="events-grid-compact">
+          <div className="events-grid-compact" ref={gridRef}>
             {filteredActivities.map((event) => (
-              <div key={event.id} className="event-card-compact">
+              <div
+                key={event.id}
+                className="event-card-compact scroll-reveal-child"
+              >
                 {/* Card Header */}
                 <div className="event-card-header">
                   {/* Date Badge */}
@@ -260,7 +275,7 @@ const Activities = ({ currentLanguage, translations }) => {
           </div>
 
           {/* More Events Button */}
-          <div className="section-cta">
+          <div className="section-cta scroll-reveal-scale" ref={ctaRef}>
             <button
               className="btn-more-events"
               onClick={() => setIsModalOpen(true)}

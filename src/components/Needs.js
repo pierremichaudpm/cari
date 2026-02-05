@@ -1,6 +1,10 @@
 import React, { useState } from "react";
 import ServiceModal from "./ServiceModal";
 import Icon from "./Icon";
+import {
+  useScrollReveal,
+  useScrollRevealGroup,
+} from "../hooks/useScrollReveal";
 
 const Needs = ({ currentLanguage, translations, scrollToSection }) => {
   const t = translations[currentLanguage] || translations.fr;
@@ -41,6 +45,10 @@ const Needs = ({ currentLanguage, translations, scrollToSection }) => {
     },
   ];
 
+  const headerRef = useScrollReveal();
+  const gridRef = useScrollRevealGroup();
+  const ctaRef = useScrollReveal();
+
   const handleCardClick = (card) => {
     setSelectedService(card);
     setIsModalOpen(true);
@@ -55,17 +63,17 @@ const Needs = ({ currentLanguage, translations, scrollToSection }) => {
     <>
       <section id="besoins" className="needs-section">
         <div className="container">
-          <div className="section-header">
+          <div className="section-header scroll-reveal" ref={headerRef}>
             <h2 className="section-title">{t.needs.title}</h2>
             <p className="section-subtitle">{t.needs.subtitle}</p>
             <p className="section-instruction">{t.needs.instruction}</p>
           </div>
 
-          <div className="needs-grid">
+          <div className="needs-grid" ref={gridRef}>
             {needsCards.map((card) => (
               <div
                 key={card.id}
-                className="need-card need-card-multicolor"
+                className="need-card need-card-multicolor scroll-reveal-child"
                 onClick={() => handleCardClick(card)}
                 role="button"
                 tabIndex={0}
@@ -93,7 +101,7 @@ const Needs = ({ currentLanguage, translations, scrollToSection }) => {
             ))}
           </div>
 
-          <div className="section-cta">
+          <div className="section-cta scroll-reveal-scale" ref={ctaRef}>
             <button
               className="btn btn-primary"
               onClick={() => scrollToSection("rdv")}

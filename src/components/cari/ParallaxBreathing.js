@@ -145,6 +145,99 @@ export const ParallaxImageSection = ({
 };
 
 /**
+ * Hook pour animation de comptage
+ * Parse des valeurs comme "7,000+", "95+", "128", "35+"
+ * et anime de 0 jusqu'à la valeur cible
+ */
+const useCountUp = (targetValue, isVisible, duration = 2000) => {
+  const [displayValue, setDisplayValue] = useState(targetValue);
+  const hasAnimated = useRef(false);
+
+  useEffect(() => {
+    if (!isVisible || hasAnimated.current) return;
+    hasAnimated.current = true;
+
+    // Parse the target: extract number, prefix, suffix, and comma formatting
+    const match = String(targetValue).match(/^([^\d]*)(\d[\d,]*)(.*)$/);
+    if (!match) {
+      setDisplayValue(targetValue);
+      return;
+    }
+
+    const prefix = match[1];
+    const numStr = match[2];
+    const suffix = match[3]; // e.g. "+"
+    const hasCommas = numStr.includes(",");
+    const target = parseInt(numStr.replace(/,/g, ""), 10);
+
+    if (isNaN(target) || target === 0) {
+      setDisplayValue(targetValue);
+      return;
+    }
+
+    const startTime = performance.now();
+
+    const animate = (currentTime) => {
+      const elapsed = currentTime - startTime;
+      const progress = Math.min(elapsed / duration, 1);
+
+      // easeOutQuart for a satisfying deceleration
+      const eased = 1 - Math.pow(1 - progress, 4);
+      const current = Math.round(eased * target);
+
+      // Format with commas if original had them
+      const formatted = hasCommas
+        ? current.toLocaleString("en-US")
+        : String(current);
+
+      setDisplayValue(`${prefix}${formatted}${suffix}`);
+
+      if (progress < 1) {
+        requestAnimationFrame(animate);
+      }
+    };
+
+    requestAnimationFrame(animate);
+  }, [isVisible, targetValue, duration]);
+
+  return displayValue;
+};
+
+/**
+ * Composant individuel pour un stat avec comptage animé
+ */
+const AnimatedStat = ({ value, label, isVisible, delay, styles }) => {
+  const displayValue = useCountUp(value, isVisible, 2000);
+
+  return (
+    <div style={styles.statItem}>
+      <span
+        style={{
+          ...styles.statNumber,
+          transition: "opacity 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94)",
+          transitionDelay: `${delay}ms`,
+          opacity: isVisible ? 1 : 0,
+        }}
+      >
+        {displayValue}
+      </span>
+      <span
+        style={{
+          ...styles.statLabel,
+          transition:
+            "opacity 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94), transform 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94)",
+          transitionDelay: `${delay + 200}ms`,
+          opacity: isVisible ? 0.9 : 0,
+          transform: isVisible ? "translateY(0)" : "translateY(15px)",
+        }}
+      >
+        {label}
+      </span>
+    </div>
+  );
+};
+
+/**
  * Section Stats avec fond parallax - Style CARI
  */
 export const ParallaxStatsSection = ({
@@ -155,6 +248,35 @@ export const ParallaxStatsSection = ({
 }) => {
   const isMobile = useIsMobile();
   const { elementRef, offset } = useParallax(0.25, !isMobile);
+  const [isVisible, setIsVisible] = useState(false);
+  const statsRef = useRef(null);
+
+  // IntersectionObserver to trigger count-up when stats enter viewport
+  useEffect(() => {
+    const node = statsRef.current;
+    if (!node) return;
+
+    const prefersReduced = window.matchMedia(
+      "(prefers-reduced-motion: reduce)",
+    ).matches;
+    if (prefersReduced) {
+      setIsVisible(true);
+      return;
+    }
+
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setIsVisible(true);
+          observer.unobserve(entry.target);
+        }
+      },
+      { threshold: 0.3, rootMargin: "0px 0px -50px 0px" },
+    );
+
+    observer.observe(node);
+    return () => observer.unobserve(node);
+  }, []);
 
   const styles = {
     section: {
@@ -247,12 +369,16 @@ export const ParallaxStatsSection = ({
       <div style={styles.content}>
         {title && <h2 style={styles.title}>{title}</h2>}
         {subtitle && <p style={styles.subtitle}>{subtitle}</p>}
-        <div style={styles.statsGrid}>
+        <div ref={statsRef} style={styles.statsGrid}>
           {stats.map((stat, index) => (
-            <div key={index} style={styles.statItem}>
-              <span style={styles.statNumber}>{stat.value}</span>
-              <span style={styles.statLabel}>{stat.label}</span>
-            </div>
+            <AnimatedStat
+              key={index}
+              value={stat.value}
+              label={stat.label}
+              isVisible={isVisible}
+              delay={index * 150}
+              styles={styles}
+            />
           ))}
         </div>
       </div>

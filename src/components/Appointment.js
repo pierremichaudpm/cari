@@ -1,5 +1,9 @@
 import React from "react";
 import Icon from "./Icon";
+import {
+  useScrollReveal,
+  useScrollRevealGroup,
+} from "../hooks/useScrollReveal";
 
 const Appointment = ({
   currentLanguage,
@@ -29,6 +33,10 @@ const Appointment = ({
     "15:00 - 16:00",
   ];
 
+  const headerRef = useScrollReveal();
+  const cardRef = useScrollReveal();
+  const contactRef = useScrollRevealGroup();
+
   const serviceDetails = {
     welcome: { icon: <Icon name="home" size={24} />, color: "blue" },
     french: { icon: <Icon name="book-open" size={24} />, color: "orange" },
@@ -44,7 +52,7 @@ const Appointment = ({
   return (
     <section id="rdv" className="appointment-section">
       <div className="container">
-        <div className="section-header">
+        <div className="section-header scroll-reveal" ref={headerRef}>
           <h2 className="section-title">{t.appointment.title}</h2>
           <p className="section-subtitle">{t.appointment.subtitle}</p>
         </div>
@@ -69,7 +77,7 @@ const Appointment = ({
             </div>
           </div>
 
-          <div className="appointment-card">
+          <div className="appointment-card scroll-reveal" ref={cardRef}>
             <div className="service-grid">
               {services.map((service) => {
                 const details = serviceDetails[service.id];
@@ -189,8 +197,8 @@ const Appointment = ({
             </form>
           </div>
 
-          <div className="contact-banner">
-            <div className="contact-item">
+          <div className="contact-banner" ref={contactRef}>
+            <div className="contact-item scroll-reveal-child">
               <div className="contact-icon-circle">
                 <Icon name="phone" size={24} />
               </div>
@@ -199,7 +207,7 @@ const Appointment = ({
                 <p>{t.contact.info.phone}</p>
               </div>
             </div>
-            <div className="contact-item">
+            <div className="contact-item scroll-reveal-child">
               <div className="contact-icon-circle">
                 <Icon name="clock" size={24} />
               </div>
@@ -208,7 +216,7 @@ const Appointment = ({
                 <p>{t.appointment.contact.schedule}</p>
               </div>
             </div>
-            <div className="contact-item">
+            <div className="contact-item scroll-reveal-child">
               <div className="contact-icon-circle">
                 <Icon name="map-marker-alt" size={24} />
               </div>

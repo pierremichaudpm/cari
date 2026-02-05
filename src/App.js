@@ -12,7 +12,6 @@ import MissionSimple from "./components/MissionSimple";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Needs from "./components/Needs";
-
 // Lazy load below-the-fold components
 const Activities = lazy(() => import("./components/Activities"));
 const News = lazy(() => import("./components/News"));

@@ -1,6 +1,10 @@
 import React, { useState } from "react";
 import Icon from "./Icon";
 import NewsModal from "./NewsModal";
+import {
+  useScrollReveal,
+  useScrollRevealGroup,
+} from "../hooks/useScrollReveal";
 
 const News = ({ currentLanguage, translations }) => {
   const [isMoreContentModalOpen, setIsMoreContentModalOpen] = useState(false);
@@ -521,6 +525,10 @@ N'hésitez pas à nous contacter pour un accompagnement personnalisé!`,
     },
   ];
 
+  const headerRef = useScrollReveal();
+  const gridRef = useScrollRevealGroup();
+  const ctaRef = useScrollReveal();
+
   // First 3 cards shown by default
   const displayedNews = newsItems.slice(0, 3);
   // Last 6 cards shown in modal
@@ -561,17 +569,17 @@ N'hésitez pas à nous contacter pour un accompagnement personnalisé!`,
     <>
       <section id="nouvelles" className="news-section">
         <div className="container">
-          <div className="section-header">
+          <div className="section-header scroll-reveal" ref={headerRef}>
             <h2 className="section-title">{t.newsSection.title}</h2>
             <p className="section-subtitle">{t.newsSection.subtitle}</p>
           </div>
 
           {/* News Cards Grid */}
-          <div className="news-grid">
+          <div className="news-grid" ref={gridRef}>
             {displayedNews.map((news) => (
               <div
                 key={news.id}
-                className="news-card"
+                className="news-card scroll-reveal-child"
                 onClick={() => handleNewsClick(news)}
               >
                 {/* Content Type Icon - subtle in top right */}
@@ -621,7 +629,7 @@ N'hésitez pas à nous contacter pour un accompagnement personnalisé!`,
           </div>
 
           {/* More Content CTA */}
-          <div className="section-cta">
+          <div className="section-cta scroll-reveal-scale" ref={ctaRef}>
             <button className="btn-primary" onClick={handleMoreContentClick}>
               {t.news.moreContentButton}
             </button>

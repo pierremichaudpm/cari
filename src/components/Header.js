@@ -11,7 +11,18 @@ const Header = ({
   translations,
 }) => {
   const [langDropdownOpen, setLangDropdownOpen] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);
   const langDropdownRef = useRef(null);
+
+  // Header scroll state
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsScrolled(window.scrollY > 50);
+    };
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    handleScroll();
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
   const langFlags = {
     fr: "FR",
     en: "EN",
@@ -67,7 +78,7 @@ const Header = ({
   };
 
   return (
-    <header className="header">
+    <header className={`header ${isScrolled ? "header-scrolled" : ""}`}>
       <div className="nav-container">
         <a
           href="#accueil"
@@ -135,46 +146,58 @@ const Header = ({
           </a>
 
           <div className="language-switcher" ref={langDropdownRef}>
-          <div className="language-dropdown">
-            <div className="lang-details">
-              <button
-                className="lang-btn"
-                onClick={() => setLangDropdownOpen(!langDropdownOpen)}
-              >
-                <span id="currentLang">{langFlags[currentLanguage]}</span>
-                <Icon
-                  name="globe"
-                  size={18}
-                  style={{ color: "white", marginLeft: "8px" }}
-                />
-              </button>
-              {langDropdownOpen && (
-                <ul className="lang-menu">
-                  {languages.map((lang) => (
-                    <li key={lang.code}>
-                      <button
-                        className={`lang-item ${currentLanguage === lang.code ? "active" : ""}`}
-                        onClick={() => handleLanguageChange(lang.code)}
-                      >
-                        {lang.name}
-                      </button>
-                    </li>
-                  ))}
-                </ul>
-              )}
+            <div className="language-dropdown">
+              <div className="lang-details">
+                <button
+                  className="lang-btn"
+                  onClick={() => setLangDropdownOpen(!langDropdownOpen)}
+                >
+                  <span id="currentLang">{langFlags[currentLanguage]}</span>
+                  <Icon
+                    name="globe"
+                    size={18}
+                    style={{ color: "white", marginLeft: "8px" }}
+                  />
+                </button>
+                {langDropdownOpen && (
+                  <ul className="lang-menu">
+                    {languages.map((lang) => (
+                      <li key={lang.code}>
+                        <button
+                          className={`lang-item ${currentLanguage === lang.code ? "active" : ""}`}
+                          onClick={() => handleLanguageChange(lang.code)}
+                        >
+                          {lang.name}
+                        </button>
+                      </li>
+                    ))}
+                  </ul>
+                )}
+              </div>
             </div>
-          </div>
           </div>
         </div>
 
-        <div
-          className={`mobile-menu-toggle ${isMobileMenuOpen ? "active" : ""}`}
-          onClick={toggleMobileMenu}
-          data-testid="mobile-menu-toggle"
-        >
-          <div className="burger-line"></div>
-          <div className="burger-line"></div>
-          <div className="burger-line"></div>
+        <div className="mobile-controls">
+          <a
+            href="#rdv"
+            className="btn-rdv-mobile"
+            onClick={(e) => {
+              e.preventDefault();
+              scrollToSection("rdv");
+            }}
+          >
+            {t.nav.talkToAdvisor}
+          </a>
+          <div
+            className={`mobile-menu-toggle ${isMobileMenuOpen ? "active" : ""}`}
+            onClick={toggleMobileMenu}
+            data-testid="mobile-menu-toggle"
+          >
+            <div className="burger-line"></div>
+            <div className="burger-line"></div>
+            <div className="burger-line"></div>
+          </div>
         </div>
       </div>
 
@@ -222,24 +245,26 @@ const Header = ({
               {t.nav.news}
             </a>
           </li>
-          <li>
-            <a
-              href="#rdv"
-              onClick={(e) => {
-                e.preventDefault();
-                scrollToSection("rdv");
-                closeMobileMenu();
-              }}
-              className="nav-link"
-              style={{
-                color: "var(--accent-coral)",
-                fontWeight: "600",
-              }}
-            >
-              {t.nav.talkToAdvisor}
-            </a>
-          </li>
         </ul>
+
+        {/* Language switcher in mobile menu */}
+        <div className="mobile-lang-section">
+          <div className="mobile-lang-grid">
+            {languages.map((lang) => (
+              <button
+                key={lang.code}
+                className={`mobile-lang-item ${currentLanguage === lang.code ? "active" : ""}`}
+                onClick={() => {
+                  handleLanguageChange(lang.code);
+                  closeMobileMenu();
+                }}
+              >
+                <span className="mobile-lang-code">{langFlags[lang.code]}</span>
+                <span className="mobile-lang-name">{lang.name}</span>
+              </button>
+            ))}
+          </div>
+        </div>
       </div>
     </header>
   );

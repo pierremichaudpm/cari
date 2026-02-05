@@ -333,8 +333,18 @@ export const useLanguageSelector = () => {
   const [showSelector, setShowSelector] = useState(false);
 
   useEffect(() => {
+    // ?reset-lang in URL forces the language selector to show
+    const url = new URL(window.location.href);
+    const forceReset = url.searchParams.has("reset-lang");
+    if (forceReset) {
+      localStorage.removeItem("cari-language-selected");
+      localStorage.removeItem("cari-language");
+      url.searchParams.delete("reset-lang");
+      window.history.replaceState({}, "", url.pathname);
+    }
+
     const hasSelected = localStorage.getItem("cari-language-selected");
-    if (!hasSelected) {
+    if (!hasSelected || forceReset) {
       setTimeout(() => setShowSelector(true), 500);
     }
   }, []);
