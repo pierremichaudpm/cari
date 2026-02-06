@@ -231,7 +231,6 @@ function App() {
   return (
     <LanguageSelectorWrapper
       onLanguageChange={(lang) => {
-        console.log("Langue sélectionnée:", lang);
         switchLanguage(lang);
       }}
     >

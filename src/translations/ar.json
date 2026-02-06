@@ -21,29 +21,29 @@
     "testFrench": "اختبر لغتي الفرنسية",
     "slides": {
       "slide1": {
-        "quote": "« Grâce au CARI, j'ai trouvé mon emploi de rêve en 6 mois! »",
+        "quote": "« بفضل CARI، وجدت وظيفة أحلامي خلال 6 أشهر! »",
         "author": "Asma B.",
-        "role": "Maroc • Arrivée 2020"
+        "role": "المغرب • وصول 2020"
       },
       "slide2": {
-        "quote": "« De réfugié à entrepreneur, le CARI m'a accompagné »",
+        "quote": "« من لاجئ إلى رائد أعمال، CARI رافقني في كل خطوة »",
         "author": "Jean-Pierre H.",
-        "role": "Haïti • Arrivée 2020"
+        "role": "هايتي • وصول 2020"
       },
       "slide3": {
-        "quote": "« Le français semblait impossible, maintenant je le parle couramment! »",
+        "quote": "« بدت الفرنسية مستحيلة، والآن أتحدثها بطلاقة! »",
         "author": "Jasmine M.",
-        "role": "Haïti • Arrivée 2021"
+        "role": "هايتي • وصول 2021"
       },
       "slide4": {
-        "quote": "« Mes enfants sont épanouis, nous avons trouvé notre place ici »",
+        "quote": "« أطفالي سعداء، وجدنا مكاننا هنا »",
         "author": "Karla A.",
-        "role": "RDC • Arrivée 2019"
+        "role": "الكونغو • وصول 2019"
       },
       "slide5": {
-        "quote": "« L'aide pour comprendre le système québécois a tout changé »",
+        "quote": "« المساعدة في فهم النظام الكيبيكي غيّرت كل شيء »",
         "author": "Wei L.",
-        "role": "Chine • Arrivée 2022"
+        "role": "الصين • وصول 2022"
       }
     }
   },
@@ -58,7 +58,7 @@
       "women": "أنا امرأة",
       "volunteering": "أريد المشاركة"
     },
-    "instruction": "Sélectionnez un service pour en savoir plus"
+    "instruction": "اختر خدمة لمعرفة المزيد"
   },
   "services": {
     "title": "خدماتنا",
@@ -175,12 +175,12 @@
       "time": "الوقت المفضل",
       "message": "رسالة (اختياري)",
       "submit": "تأكيد الموعد",
-      "namePlaceholder": "Prénom et nom",
+      "namePlaceholder": "الاسم الأول واللقب",
       "phonePlaceholder": "(514) 123-4567",
-      "emailPlaceholder": "votre@courriel.com",
-      "messagePlaceholder": "Décrivez brièvement votre situation...",
-      "selectTime": "Choisir une heure",
-      "confirmationNote": "Vous recevrez une confirmation par courriel dans les 24h"
+      "emailPlaceholder": "بريدك@الإلكتروني.com",
+      "messagePlaceholder": "صِف وضعك باختصار...",
+      "selectTime": "اختر وقتًا",
+      "confirmationNote": "ستتلقى تأكيدًا عبر البريد الإلكتروني خلال 24 ساعة"
     },
     "steps": {
       "yourNeed": "احتياجك",
@@ -188,8 +188,8 @@
       "confirmation": "التأكيد"
     },
     "contact": {
-      "hoursLabel": "Horaire",
-      "schedule": "Lun-Ven: 9h - 17h"
+      "hoursLabel": "ساعات العمل",
+      "schedule": "الإثنين-الجمعة: 9:00 - 17:00"
     }
   },
   "contact": {
@@ -217,15 +217,15 @@
       "bus": "الحافلة: 17، 64، 121، 368",
       "parking": "موقف سيارات مجاني في الموقع"
     },
-    "mapText": "Carte interactive disponible sur le site",
-    "viewGoogleMaps": "Voir sur Google Maps",
+    "mapText": "خريطة تفاعلية متاحة على الموقع",
+    "viewGoogleMaps": "عرض على خرائط جوجل",
     "subjects": {
-      "general": "Demande générale",
-      "info": "Demande d'information",
-      "appointment": "Prise de rendez-vous",
-      "french": "Cours de français",
-      "employment": "Aide à l'emploi",
-      "family": "Services familiaux"
+      "general": "طلب عام",
+      "info": "طلب معلومات",
+      "appointment": "حجز موعد",
+      "french": "دروس الفرنسية",
+      "employment": "مساعدة في التوظيف",
+      "family": "خدمات عائلية"
     }
   },
   "chatbot": {
@@ -269,11 +269,11 @@
     "subtitle": "اكتشف القصص الملهمة لأولئك الذين وجدوا مكانهم في كيبيك"
   },
   "news": {
-    "moreContentButton": "Plus de contenu",
-    "moreNewsTitle": "Plus de nouvelles"
+    "moreContentButton": "المزيد من المحتوى",
+    "moreNewsTitle": "المزيد من الأخبار"
   },
   "newsModal": {
-    "share": "Partager",
+    "share": "مشاركة",
     "shareOn": {
       "facebook": "مشاركة على فيسبوك",
       "twitter": "مشاركة على تويتر",
@@ -285,38 +285,38 @@
     "registerButton": "سجل",
     "moreEventsButton": "المزيد من الفعاليات",
     "filters": {
-      "all": "Tout voir",
-      "welcome": "Accueil",
-      "french": "Français",
-      "employment": "Emploi",
-      "family": "Famille",
-      "women": "Femmes"
+      "all": "عرض الكل",
+      "welcome": "الاستقبال",
+      "french": "الفرنسية",
+      "employment": "التوظيف",
+      "family": "العائلة",
+      "women": "النساء"
     }
   },
   "parallax": {
-    "statsTitle": "Ensemble, nous faisons la différence",
-    "statsSubtitle": "Depuis 1989, le CARI accompagne les nouveaux arrivants vers leur réussite",
+    "statsTitle": "معًا، نحدث فرقًا",
+    "statsSubtitle": "منذ عام 1989، يرافق CARI القادمين الجدد نحو النجاح",
     "stats": {
       "peopleHelped": "أشخاص مساعدة/سنة",
       "languagesSpoken": "اللغات المنطوقة",
       "countries": "الدول الممثلة",
       "yearsOfService": "سنوات الخبرة"
     },
-    "ctaTitle": "Prêt à commencer votre nouvelle vie au Québec?",
-    "ctaSubtitle": "Notre équipe multilingue est là pour vous accompagner à chaque étape de votre intégration."
+    "ctaTitle": "هل أنت مستعد لبدء حياتك الجديدة في كيبيك؟",
+    "ctaSubtitle": "فريقنا متعدد اللغات موجود لمرافقتك في كل خطوة من خطوات اندماجك."
   },
   "footer": {
-    "copyright": "© 2024 Tous droits réservés.",
-    "tagline": "Organisme à but non lucratif d'aide aux immigrants"
+    "copyright": "© 2024 جميع الحقوق محفوظة.",
+    "tagline": "منظمة غير ربحية لمساعدة المهاجرين"
   },
   "aria": {
     "close": "إغلاق",
-    "carousel": "Carrousel d'en-tête",
-    "carouselNav": "Navigation du carrousel",
-    "previousSlide": "Slide précédente",
-    "nextSlide": "Slide suivante",
-    "goToSlide": "Aller à la diapositive",
-    "carouselSlider": "Slider carrousel",
+    "carousel": "عرض شرائح الرأس",
+    "carouselNav": "التنقل في العرض",
+    "previousSlide": "الشريحة السابقة",
+    "nextSlide": "الشريحة التالية",
+    "goToSlide": "انتقل إلى الشريحة",
+    "carouselSlider": "شريط تمرير العرض",
     "closeModal": "إغلاق النافذة",
     "previousTestimonial": "الشهادة السابقة",
     "nextTestimonial": "الشهادة التالية",
