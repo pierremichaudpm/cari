@@ -365,7 +365,7 @@
     "statsTitle": "Ensemble, nous faisons la différence",
     "statsSubtitle": "Depuis 1989, le CARI accompagne les nouveaux arrivants vers leur réussite",
     "stats": {
-      "peopleHelped": "Personnes aidées cette année",
+      "peopleHelped": "Personnes aidées/année",
       "languagesSpoken": "Langues parlées",
       "countries": "Pays représentés",
       "yearsOfService": "Années d'expérience"

@@ -365,7 +365,7 @@
     "statsTitle": "Разом ми робимо різницю",
     "statsSubtitle": "З 1989 року CARI допомагає новоприбулим досягти успіху",
     "stats": {
-      "peopleHelped": "Людей, яким допомогли цього року",
+      "peopleHelped": "Допомогли людям/рік",
       "languagesSpoken": "Мови спілкування",
       "countries": "Представлені країни",
       "yearsOfService": "Років досвіду"
