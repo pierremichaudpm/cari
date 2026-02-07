@@ -1529,27 +1529,40 @@ body {
 }
 
 /* Responsive symbols — services + rendez-vous */
+@media (max-width: 1400px) {
+    .needs-section::after,
+    .appointment-section::before {
+        left: -20%;
+        width: 800px;
+        height: 800px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .needs-section::after,
+    .appointment-section::before {
+        left: -30%;
+        width: 700px;
+        height: 700px;
+    }
+}
+
 @media (max-width: 1024px) {
-    .needs-section::after {
+    .needs-section::after,
+    .appointment-section::before {
+        left: -40%;
         width: 600px;
         height: 600px;
-    }
-    .appointment-section::before {
-        width: 550px;
-        height: 550px;
     }
 }
 
 @media (max-width: 768px) {
-    .needs-section::after {
-        width: 400px;
-        height: 400px;
-        opacity: 0.1;
-    }
+    .needs-section::after,
     .appointment-section::before {
-        width: 400px;
-        height: 400px;
-        opacity: 0.1;
+        left: -50%;
+        width: 500px;
+        height: 500px;
+        opacity: 0.6;
     }
 }
 
@@ -2611,9 +2624,12 @@ body {
 .appointment-card {
     background: white;
     padding: 50px;
-    border-radius: 12px;
-    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
-    border: 1px solid #e5e7eb;
+    border-radius: 18px;
+    border: none;
+    box-shadow:
+        0 8px 16px rgba(0, 0, 0, 0.25),
+        0 20px 40px rgba(0, 0, 0, 0.2),
+        0 40px 80px rgba(0, 0, 0, 0.15);
 }
 
 /* Service Grid - Need-based */
@@ -5268,7 +5284,7 @@ section,
 }
 
 .mission-simple-value {
-    color: white;
+    color: #ffbf3f;
     font-size: 0.95rem;
     font-weight: 600;
     letter-spacing: 2px;
@@ -5279,10 +5295,6 @@ section,
 
 .mission-simple-value:last-child {
     border-right: none;
-}
-
-.mission-simple-value:nth-child(even) {
-    color: #ffbf3f;
 }
 
 .mission-simple-cta {
