@@ -1507,7 +1507,7 @@ body {
     height: 1000px;
     background: url("../assets/brand/SymboleCARI_couleur_RBG.png") no-repeat
         center / contain;
-    opacity: 0.18;
+    opacity: 0.28;
     transform: rotate(-15deg);
     pointer-events: none;
     z-index: 0;
