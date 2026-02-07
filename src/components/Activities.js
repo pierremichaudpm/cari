@@ -218,6 +218,7 @@ const Activities = ({ currentLanguage, translations }) => {
               <div
                 key={event.id}
                 className="event-card-compact scroll-reveal-child"
+                data-category={event.category}
               >
                 {/* Card Header */}
                 <div className="event-card-header">

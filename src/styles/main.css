@@ -1507,7 +1507,7 @@ body {
     height: 750px;
     background: url("../assets/brand/SymboleCARI_couleur_reverse_RBG.png")
         no-repeat center / contain;
-    opacity: 0.28;
+    opacity: 0.25;
     pointer-events: none;
     z-index: 0;
 }
@@ -2507,7 +2507,7 @@ body {
     height: 750px;
     background: url("../assets/brand/SymboleCARI_couleur_reverse_RBG.png")
         no-repeat center / contain;
-    opacity: 0.28;
+    opacity: 0.25;
     pointer-events: none;
     z-index: 0;
 }
@@ -3942,12 +3942,27 @@ body {
 .event-card-compact {
     background: #ffffff;
     border-radius: 12px;
-    box-shadow:
-        0 2px 8px rgba(38, 49, 100, 0.06),
-        0 4px 16px rgba(38, 49, 100, 0.08);
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
     transition: all 0.3s ease;
     overflow: hidden;
     border: none;
+    border-left: 4px solid #ffbf3f;
+}
+
+.event-card-compact[data-category="Accueil"] {
+    border-left-color: #ffbf3f;
+}
+.event-card-compact[data-category="Français"] {
+    border-left-color: #6cbac7;
+}
+.event-card-compact[data-category="Emploi"] {
+    border-left-color: #ff5c39;
+}
+.event-card-compact[data-category="Famille"] {
+    border-left-color: #ffbf3f;
+}
+.event-card-compact[data-category="Femmes"] {
+    border-left-color: #6cbac7;
 }
 
 .event-card-compact:hover {
@@ -3976,7 +3991,7 @@ body {
 
 /* Date Badge */
 .event-date-badge {
-    background: var(--dark-blue);
+    background: #ff5c39;
     color: white;
     border-radius: 8px;
     width: 56px;
@@ -3986,6 +4001,10 @@ body {
     align-items: center;
     justify-content: center;
     flex-shrink: 0;
+}
+
+.event-card-compact:nth-child(even) .event-date-badge {
+    background: #6cbac7;
 }
 
 .event-day {
