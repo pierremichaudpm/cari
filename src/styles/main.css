@@ -1501,7 +1501,7 @@ body {
 .needs-section::after {
     content: "";
     position: absolute;
-    left: calc(-5% - 60px);
+    left: calc(-5% - 30px);
     top: -8%;
     width: 750px;
     height: 750px;
