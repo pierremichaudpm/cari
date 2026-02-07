@@ -2501,13 +2501,13 @@ body {
 .appointment-section::before {
     content: "";
     position: absolute;
-    left: -10%;
-    top: -12%;
-    width: 900px;
-    height: 900px;
+    left: calc(-5% - 30px);
+    top: -8%;
+    width: 750px;
+    height: 750px;
     background: url("../assets/brand/SymboleCARI_couleur_reverse_RBG.png")
         no-repeat center / contain;
-    opacity: 0.22;
+    opacity: 0.28;
     pointer-events: none;
     z-index: 0;
 }
