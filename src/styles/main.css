@@ -2502,7 +2502,7 @@ body {
     content: "";
     position: absolute;
     left: calc(-5% - 30px);
-    top: -8%;
+    top: calc(-8% + 70px);
     width: 750px;
     height: 750px;
     background: url("../assets/brand/SymboleCARI_couleur_reverse_RBG.png")
