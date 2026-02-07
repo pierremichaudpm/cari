@@ -240,14 +240,9 @@ const AnimatedStat = ({ value, label, isVisible, delay, styles }) => {
 /**
  * Section Stats avec fond parallax - Style CARI
  */
-export const ParallaxStatsSection = ({
-  imageUrl,
-  stats = [],
-  title,
-  subtitle,
-}) => {
+export const ParallaxStatsSection = ({ stats = [], title, subtitle }) => {
   const isMobile = useIsMobile();
-  const { elementRef, offset } = useParallax(0.25, !isMobile);
+  const elementRef = useRef(null);
   const [isVisible, setIsVisible] = useState(false);
   const statsRef = useRef(null);
 
@@ -287,31 +282,7 @@ export const ParallaxStatsSection = ({
       paddingRight: "2rem",
       overflow: "hidden",
       fontFamily: '"DM Sans", sans-serif',
-    },
-    background: {
-      position: "absolute",
-      inset: 0,
-      transform: isMobile ? "none" : `translateY(${offset * 0.5}px)`,
-      willChange: isMobile ? "auto" : "transform",
-    },
-    bgImage: {
-      position: "absolute",
-      top: 0,
-      left: 0,
-      right: 0,
-      bottom: 0,
-      backgroundImage: `url(${imageUrl})`,
-      backgroundSize: "cover",
-      backgroundPosition: "center",
-      filter: "brightness(0.5)",
-    },
-    overlay: {
-      position: "absolute",
-      top: 0,
-      left: 0,
-      right: 0,
-      bottom: 0,
-      backgroundColor: `${COLORS.brume}E6`,
+      backgroundColor: COLORS.blanc,
     },
     content: {
       position: "relative",
@@ -365,10 +336,6 @@ export const ParallaxStatsSection = ({
 
   return (
     <section ref={elementRef} style={styles.section}>
-      <div style={styles.background}>
-        <div style={styles.bgImage}></div>
-        <div style={styles.overlay}></div>
-      </div>
       <div style={styles.content}>
         {title && <h2 style={styles.title}>{title}</h2>}
         {subtitle && <p style={styles.subtitle}>{subtitle}</p>}

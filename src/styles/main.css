@@ -1415,7 +1415,7 @@ body {
     justify-content: space-around;
     align-items: center;
     gap: 60px;
-    background: #cce8e5;
+    background: #ffffff;
     border-radius: 20px;
     padding: 50px 60px;
     opacity: 0;
@@ -1498,40 +1498,49 @@ body {
     z-index: 2;
 }
 
-.needs-deco-svg {
+.needs-section::after {
+    content: "";
     position: absolute;
-    right: -5%;
-    bottom: -15%;
-    width: 900px;
-    height: 900px;
+    right: 5%;
+    bottom: -10%;
+    width: 800px;
+    height: 800px;
+    background: url("../assets/brand/SymboleCARI_couleur_RBG.png") no-repeat
+        center / contain;
     opacity: 0.15;
+    transform: rotate(-15deg);
     pointer-events: none;
     z-index: 0;
-    transform: rotate(-10deg);
 }
 
+/* Responsive symbols — services + rendez-vous */
 @media (max-width: 1024px) {
-    .needs-deco-svg {
-        width: 600px;
-        height: 600px;
-        right: -10%;
-        bottom: -10%;
-        opacity: 0.2;
+    .needs-section::after {
+        width: 500px;
+        height: 500px;
+    }
+    .appointment-section::before {
+        width: 400px;
+        height: 400px;
     }
 }
 
 @media (max-width: 768px) {
-    .needs-deco-svg {
-        width: 400px;
-        height: 400px;
-        right: -15%;
-        bottom: -5%;
-        opacity: 0.15;
+    .needs-section::after {
+        width: 350px;
+        height: 350px;
+        opacity: 0.1;
+    }
+    .appointment-section::before {
+        width: 250px;
+        height: 250px;
+        opacity: 0.1;
     }
 }
 
 @media (max-width: 480px) {
-    .needs-deco-svg {
+    .needs-section::after,
+    .appointment-section::before {
         display: none;
     }
 }
@@ -1863,11 +1872,6 @@ body {
 @media (max-width: 768px) {
     .needs-section {
         padding: 60px 20px;
-    }
-
-    .appointment-section::before {
-        width: 250px;
-        height: 250px;
     }
 
     .section-title {
@@ -2335,7 +2339,7 @@ body {
 .need-card {
     background: white;
     border-radius: 16px;
-    padding: 40px 30px;
+    padding: 28px 30px 20px;
     border: 3px solid #e5e7eb;
     box-shadow: 0 8px 30px rgba(0, 50, 100, 0.08);
     transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
@@ -2488,7 +2492,7 @@ body {
 /* Appointment Section */
 .appointment-section {
     padding: 100px 20px;
-    background: var(--brume);
+    background: #263164;
     position: relative;
     overflow: hidden;
 }
@@ -2496,13 +2500,14 @@ body {
 .appointment-section::before {
     content: "";
     position: absolute;
-    left: -12%;
-    top: -20%;
-    width: 450px;
-    height: 450px;
-    background: url("../assets/brand/SymboleCARI_couleur_reverse_RBG.png")
-        no-repeat center / contain;
-    opacity: 0.04;
+    left: -5%;
+    bottom: -15%;
+    width: 600px;
+    height: 600px;
+    background: url("../assets/brand/SymboleCARI_couleur_RBG.png") no-repeat
+        center / contain;
+    opacity: 0.12;
+    transform: rotate(15deg);
     pointer-events: none;
     z-index: 0;
 }
@@ -2510,6 +2515,14 @@ body {
 .appointment-section .container {
     position: relative;
     z-index: 1;
+}
+
+.appointment-section .section-title {
+    color: #ffffff;
+}
+
+.appointment-section .section-subtitle {
+    color: rgba(255, 255, 255, 0.85);
 }
 
 .appointment-container {
@@ -2538,7 +2551,7 @@ body {
     height: 50px;
     border-radius: 50%;
     background: white;
-    border: 3px solid var(--brume);
+    border: 3px solid rgba(255, 255, 255, 0.3);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -2565,12 +2578,12 @@ body {
 .step-label {
     font-size: 0.95rem;
     font-weight: 600;
-    color: var(--text-medium);
+    color: rgba(255, 255, 255, 0.7);
     transition: all 0.3s ease;
 }
 
 .step-indicator:has(.active) .step-label {
-    color: var(--dark-blue);
+    color: #ffffff;
     font-weight: 700;
 }
 
@@ -2618,7 +2631,7 @@ body {
 }
 
 .service-btn.selected {
-    background: var(--brume);
+    background: rgba(108, 186, 199, 0.1);
     border-color: var(--primary-blue);
     border-width: 3px;
     box-shadow: 0 8px 24px rgba(108, 186, 199, 0.25);
@@ -3787,7 +3800,7 @@ body {
 /* Activities Section - Modern Design */
 .activities-section {
     padding: 80px 20px;
-    background: #f8f9fa;
+    background: #ffffff;
     position: relative;
     overflow: visible;
 }

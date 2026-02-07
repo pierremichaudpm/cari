@@ -4,10 +4,7 @@ import { useAppContext } from "./contexts/AppContext";
 import { getHeroSlides } from "./constants/heroSlides";
 import { services } from "./constants/services";
 import { LanguageSelectorWrapper } from "./components/cari/LanguageSelector";
-import {
-  ParallaxStatsSection,
-  ParallaxCTASection,
-} from "./components/cari/ParallaxBreathing";
+import { ParallaxStatsSection } from "./components/cari/ParallaxBreathing";
 import MissionSimple from "./components/MissionSimple";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
@@ -260,14 +257,7 @@ function App() {
             translations={translations}
           />
 
-          <Needs
-            currentLanguage={currentLanguage}
-            translations={translations}
-            scrollToSection={scrollToSection}
-          />
-
           <ParallaxStatsSection
-            imageUrl="https://images.unsplash.com/photo-1531482615713-2afd69097998?w=1920&q=80"
             title={
               (translations[currentLanguage] || translations.fr).parallax
                 .statsTitle
@@ -300,6 +290,12 @@ function App() {
             ]}
           />
 
+          <Needs
+            currentLanguage={currentLanguage}
+            translations={translations}
+            scrollToSection={scrollToSection}
+          />
+
           <Suspense fallback={<div style={{ minHeight: "400px" }}></div>}>
             <Activities
               currentLanguage={currentLanguage}
@@ -316,32 +312,14 @@ function App() {
               translations={translations}
             />
 
-            <div style={{ position: "relative" }}>
-              <ParallaxCTASection
-                title={
-                  (translations[currentLanguage] || translations.fr).parallax
-                    .ctaTitle
-                }
-                subtitle={
-                  (translations[currentLanguage] || translations.fr).parallax
-                    .ctaSubtitle
-                }
-                imageUrl="https://images.unsplash.com/photo-1543269865-cbf427effbad?w=1920&q=80"
-                hideButtons={true}
-              />
-              <div
-                style={{ marginTop: "-80px", position: "relative", zIndex: 20 }}
-              >
-                <Appointment
-                  currentLanguage={currentLanguage}
-                  translations={translations}
-                  selectedService={selectedService}
-                  handleServiceSelect={handleServiceSelect}
-                  handleSubmit={handleAppointmentSubmit}
-                  services={services}
-                />
-              </div>
-            </div>
+            <Appointment
+              currentLanguage={currentLanguage}
+              translations={translations}
+              selectedService={selectedService}
+              handleServiceSelect={handleServiceSelect}
+              handleSubmit={handleAppointmentSubmit}
+              services={services}
+            />
           </Suspense>
         </main>
 
