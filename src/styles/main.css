@@ -2448,6 +2448,26 @@ body {
     padding: 100px 20px;
     background: var(--brume);
     position: relative;
+    overflow: hidden;
+}
+
+.appointment-section::before {
+    content: "";
+    position: absolute;
+    left: -12%;
+    top: -20%;
+    width: 450px;
+    height: 450px;
+    background: url("../assets/brand/SymboleCARI_couleur_reverse_RBG.png")
+        no-repeat center / contain;
+    opacity: 0.04;
+    pointer-events: none;
+    z-index: 0;
+}
+
+.appointment-section .container {
+    position: relative;
+    z-index: 1;
 }
 
 .appointment-container {
