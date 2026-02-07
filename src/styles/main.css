@@ -61,8 +61,8 @@ body {
     bottom: 0;
     left: 0;
     right: 0;
-    height: 12px;
-    background: linear-gradient(to top, transparent, white);
+    height: 20px;
+    background: linear-gradient(to bottom, transparent, white);
     pointer-events: none;
     z-index: 999;
 }
@@ -73,7 +73,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: calc(0.4rem + 10px) clamp(0.75rem, 2vw, 2rem);
+    padding: calc(0.4rem + 15px) clamp(0.75rem, 2vw, 2rem) calc(0.4rem + 10px);
     position: relative;
     box-sizing: border-box;
 }
@@ -1499,14 +1499,23 @@ body {
 
 .needs-section .section-title {
     color: #ffffff;
+    text-shadow:
+        0 6px 24px rgba(0, 0, 0, 0.8),
+        0 12px 48px rgba(0, 0, 0, 0.5);
 }
 
 .needs-section .section-subtitle {
     color: rgba(255, 255, 255, 0.85);
+    text-shadow:
+        0 5px 20px rgba(0, 0, 0, 0.7),
+        0 10px 40px rgba(0, 0, 0, 0.45);
 }
 
 .needs-section .section-instruction {
     color: rgba(255, 255, 255, 0.7);
+    text-shadow:
+        0 4px 16px rgba(0, 0, 0, 0.6),
+        0 8px 32px rgba(0, 0, 0, 0.4);
 }
 
 .needs-section .container {
@@ -1526,46 +1535,6 @@ body {
     opacity: 0.85;
     pointer-events: none;
     z-index: 0;
-}
-
-/* Responsive symbols — size only, position stays fixed */
-@media (max-width: 1400px) {
-    .needs-section::after,
-    .appointment-section::before {
-        width: 700px !important;
-        height: 700px !important;
-    }
-}
-
-@media (max-width: 1200px) {
-    .needs-section::after,
-    .appointment-section::before {
-        width: 550px !important;
-        height: 550px !important;
-    }
-}
-
-@media (max-width: 1024px) {
-    .needs-section::after,
-    .appointment-section::before {
-        width: 400px !important;
-        height: 400px !important;
-    }
-}
-
-@media (max-width: 768px) {
-    .needs-section::after,
-    .appointment-section::before {
-        width: 300px !important;
-        height: 300px !important;
-    }
-}
-
-@media (max-width: 480px) {
-    .needs-section::after,
-    .appointment-section::before {
-        display: none !important;
-    }
 }
 
 /* Needs section uses global section-title and section-subtitle styles */
@@ -1746,17 +1715,19 @@ body {
     transition: all 0.3s ease;
 }
 
-.need-card-arrow i {
+.need-card-arrow i,
+.need-card-arrow svg {
     font-size: 0.875rem;
     color: #263164;
-    transition: transform 0.3s ease;
+    transition: all 0.3s ease;
 }
 
 .need-card:hover .need-card-arrow {
     background: #263164;
 }
 
-.need-card:hover .need-card-arrow i {
+.need-card:hover .need-card-arrow i,
+.need-card:hover .need-card-arrow svg {
     color: white;
     transform: translateX(5px);
 }
@@ -2536,6 +2507,50 @@ body {
     z-index: 0;
 }
 
+/* Responsive symbols — shrink only (AFTER both base definitions) */
+@media (max-width: 1400px) {
+    .needs-section::after,
+    .appointment-section::before {
+        width: 450px !important;
+        height: 450px !important;
+        top: 0% !important;
+    }
+}
+
+@media (max-width: 1200px) {
+    .needs-section::after,
+    .appointment-section::before {
+        width: 350px !important;
+        height: 350px !important;
+        top: 5% !important;
+    }
+}
+
+@media (max-width: 1024px) {
+    .needs-section::after,
+    .appointment-section::before {
+        width: 250px !important;
+        height: 250px !important;
+        top: 8% !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .needs-section::after,
+    .appointment-section::before {
+        width: 180px !important;
+        height: 180px !important;
+        top: 12% !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .needs-section::after,
+    .appointment-section::before {
+        display: none !important;
+    }
+}
+
 .appointment-section .container {
     position: relative;
     z-index: 1;
@@ -2543,10 +2558,16 @@ body {
 
 .appointment-section .section-title {
     color: #ffffff;
+    text-shadow:
+        0 6px 24px rgba(0, 0, 0, 0.8),
+        0 12px 48px rgba(0, 0, 0, 0.5);
 }
 
 .appointment-section .section-subtitle {
     color: rgba(255, 255, 255, 0.85);
+    text-shadow:
+        0 5px 20px rgba(0, 0, 0, 0.7),
+        0 10px 40px rgba(0, 0, 0, 0.45);
 }
 
 .appointment-container {
@@ -2581,6 +2602,9 @@ body {
     justify-content: center;
     font-weight: 700;
     font-size: 1.3rem;
+    box-shadow:
+        0 8px 24px rgba(0, 0, 0, 0.4),
+        0 20px 48px rgba(0, 0, 0, 0.25);
     color: rgba(255, 255, 255, 0.5);
     transition: all 0.3s ease;
 }
@@ -2589,7 +2613,9 @@ body {
     background: #ffbf3f;
     border-color: #ffbf3f;
     color: #263164;
-    box-shadow: 0 6px 20px rgba(255, 191, 63, 0.35);
+    box-shadow:
+        0 8px 24px rgba(0, 0, 0, 0.4),
+        0 20px 48px rgba(0, 0, 0, 0.25);
     transform: scale(1.1);
 }
 
@@ -3971,9 +3997,9 @@ body {
 }
 
 .filter-pill.active {
-    background: #ff5c39;
+    background: #6cbac7;
     color: white;
-    border-color: #ff5c39;
+    border-color: #6cbac7;
 }
 
 /* Events Grid - 2x3 on desktop */
@@ -4121,7 +4147,7 @@ body {
     display: block;
     width: 100%;
     padding: 10px 16px;
-    background: #ff5c39;
+    background: #6cbac7;
     color: white;
     text-align: center;
     border-radius: 50px;
@@ -4132,7 +4158,7 @@ body {
 }
 
 .event-register-btn:hover {
-    background: #e54d2a;
+    background: #5aa8b5;
     color: white;
 }
 
