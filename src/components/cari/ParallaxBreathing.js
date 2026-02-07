@@ -277,7 +277,7 @@ export const ParallaxStatsSection = ({ stats = [], title, subtitle }) => {
     section: {
       position: "relative",
       paddingTop: "2rem",
-      paddingBottom: "2rem",
+      paddingBottom: "4rem",
       margin: 0,
       paddingLeft: "2rem",
       paddingRight: "2rem",
