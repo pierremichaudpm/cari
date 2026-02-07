@@ -1489,14 +1489,14 @@ body {
 .needs-section::after {
     content: "";
     position: absolute;
-    right: -20%;
-    bottom: -30%;
+    right: -15%;
+    bottom: -25%;
     transform: rotate(-15deg);
-    width: 1400px;
-    height: 1400px;
+    width: 900px;
+    height: 900px;
     background: url("../assets/brand/SymboleCARI_couleur_RBG.png") no-repeat
         center / contain;
-    opacity: 0.85;
+    opacity: 1;
     pointer-events: none;
     z-index: 0;
 }
