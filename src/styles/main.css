@@ -1489,16 +1489,24 @@ body {
 .needs-section::after {
     content: "";
     position: absolute;
-    right: -10%;
-    bottom: -20%;
-    transform: rotate(-15deg);
-    width: 600px;
-    height: 600px;
+    right: 5%;
+    bottom: -10%;
+    transform: translateY(40px) rotate(-15deg);
+    width: 750px;
+    height: 750px;
     background: url("../assets/brand/SymboleCARI_couleur_RBG.png") no-repeat
         center / contain;
-    opacity: 1;
+    opacity: 0;
     pointer-events: none;
     z-index: 0;
+    transition:
+        opacity 1.2s ease-out,
+        transform 1.2s ease-out;
+}
+
+.needs-section.revealed::after {
+    opacity: 1;
+    transform: translateY(0) rotate(-15deg);
 }
 
 /* Needs section uses global section-title and section-subtitle styles */

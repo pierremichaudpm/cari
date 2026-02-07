@@ -45,6 +45,7 @@ const Needs = ({ currentLanguage, translations, scrollToSection }) => {
     },
   ];
 
+  const sectionRef = useScrollReveal({ threshold: 0.1 });
   const headerRef = useScrollReveal();
   const gridRef = useScrollRevealGroup();
   const ctaRef = useScrollReveal();
@@ -61,7 +62,7 @@ const Needs = ({ currentLanguage, translations, scrollToSection }) => {
 
   return (
     <>
-      <section id="besoins" className="needs-section">
+      <section id="besoins" className="needs-section" ref={sectionRef}>
         <div className="container">
           <div className="section-header scroll-reveal" ref={headerRef}>
             <h2 className="section-title">{t.needs.title}</h2>
