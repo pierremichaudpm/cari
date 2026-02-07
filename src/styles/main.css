@@ -1502,7 +1502,7 @@ body {
     content: "";
     position: absolute;
     right: calc(-15% - 120px);
-    bottom: -20%;
+    bottom: calc(-20% + 80px);
     width: 1000px;
     height: 1000px;
     background: url("../assets/brand/SymboleCARI_couleur_RBG.png") no-repeat
