@@ -1415,7 +1415,7 @@ body {
     justify-content: space-around;
     align-items: center;
     gap: 60px;
-    background: var(--dark-blue);
+    background: #cce8e5;
     border-radius: 20px;
     padding: 50px 60px;
     opacity: 0;
@@ -1439,7 +1439,7 @@ body {
 .stat-box .stat-number {
     font-size: 56px;
     font-weight: 700;
-    color: var(--primary-orange);
+    color: #ff5c39;
     margin-bottom: 8px;
     line-height: 1;
     display: block;
@@ -1448,7 +1448,7 @@ body {
 .stat-box .stat-label {
     font-size: 18.75px !important;
     font-weight: 500;
-    color: white;
+    color: #263164;
     line-height: 1.4;
     padding-bottom: 12px;
 }
@@ -1476,9 +1476,21 @@ body {
 /* Needs Section - Clean Modern Design Inspired by Food Banks */
 .needs-section {
     padding: 80px 20px 100px;
-    background: #cce8e5;
+    background: #263164;
     position: relative;
     overflow: hidden;
+}
+
+.needs-section .section-title {
+    color: #ffffff;
+}
+
+.needs-section .section-subtitle {
+    color: rgba(255, 255, 255, 0.85);
+}
+
+.needs-section .section-instruction {
+    color: rgba(255, 255, 255, 0.7);
 }
 
 .needs-section .container {
@@ -1492,7 +1504,7 @@ body {
     bottom: -15%;
     width: 900px;
     height: 900px;
-    opacity: 0.25;
+    opacity: 0.15;
     pointer-events: none;
     z-index: 0;
     transform: rotate(-10deg);
@@ -2308,7 +2320,7 @@ body {
 /* Needs Section - Chicago Food Bank inspired redesign */
 .needs-section {
     padding: 80px 20px 100px 20px;
-    background-color: #cce8e5;
+    background-color: #263164;
     position: relative;
     overflow: hidden;
 }

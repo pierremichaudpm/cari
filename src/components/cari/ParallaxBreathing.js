@@ -311,7 +311,7 @@ export const ParallaxStatsSection = ({
       left: 0,
       right: 0,
       bottom: 0,
-      backgroundColor: `${COLORS.bleuFonce}99`,
+      backgroundColor: `${COLORS.brume}E6`,
     },
     content: {
       position: "relative",
@@ -319,19 +319,21 @@ export const ParallaxStatsSection = ({
       maxWidth: "1200px",
       margin: "0 auto",
       textAlign: "center",
-      color: COLORS.blanc,
+      color: COLORS.bleuFonce,
     },
     title: {
       fontFamily: '"DM Serif Text", serif',
       fontSize: isMobile ? "1.75rem" : "2.5rem",
       fontWeight: "400",
       marginBottom: "0.5rem",
+      color: COLORS.bleuFonce,
     },
     subtitle: {
       fontSize: isMobile ? "1rem" : "1.15rem",
       opacity: 0.9,
       marginBottom: "3rem",
       fontWeight: "400",
+      color: COLORS.bleuFonce,
     },
     statsGrid: {
       display: "grid",
@@ -349,7 +351,7 @@ export const ParallaxStatsSection = ({
       fontFamily: '"DM Sans", sans-serif',
       fontSize: isMobile ? "2.75rem" : "3.75rem",
       fontWeight: "700",
-      color: COLORS.jauneCore,
+      color: COLORS.vermillon,
       lineHeight: 1,
     },
     statLabel: {
@@ -357,6 +359,7 @@ export const ParallaxStatsSection = ({
       marginTop: "0.5rem",
       opacity: 0.9,
       fontWeight: "400",
+      color: COLORS.bleuFonce,
     },
   };
 
