@@ -2334,14 +2334,14 @@ body {
 .needs-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 24px;
+    gap: 40px 36px;
     margin-top: 40px;
 }
 
 .need-card {
     background: white;
     border-radius: 16px;
-    padding: 20px 24px;
+    padding: 16px 18px;
     border: 3px solid #e5e7eb;
     box-shadow: 0 8px 30px rgba(0, 50, 100, 0.08);
     transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
