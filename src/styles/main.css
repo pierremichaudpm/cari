@@ -1496,7 +1496,8 @@ body {
     height: 950px;
     background: url("../assets/brand/SymboleCARI_couleur_reverse_RBG.png")
         no-repeat center / contain;
-    opacity: 0.15;
+    mix-blend-mode: multiply;
+    opacity: 0.5;
     pointer-events: none;
     z-index: 0;
 }
