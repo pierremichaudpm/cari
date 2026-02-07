@@ -1501,7 +1501,7 @@ body {
 .needs-section::after {
     content: "";
     position: absolute;
-    right: -5%;
+    right: -15%;
     bottom: -20%;
     width: 1000px;
     height: 1000px;
@@ -1520,8 +1520,8 @@ body {
         height: 600px;
     }
     .appointment-section::before {
-        width: 500px;
-        height: 500px;
+        width: 550px;
+        height: 550px;
     }
 }
 
@@ -1532,8 +1532,8 @@ body {
         opacity: 0.1;
     }
     .appointment-section::before {
-        width: 350px;
-        height: 350px;
+        width: 400px;
+        height: 400px;
         opacity: 0.1;
     }
 }
@@ -2333,8 +2333,8 @@ body {
 
 .needs-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 16px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
     margin-top: 40px;
 }
 
@@ -2503,9 +2503,9 @@ body {
     content: "";
     position: absolute;
     left: -10%;
-    bottom: 0%;
-    width: 800px;
-    height: 800px;
+    bottom: 10%;
+    width: 900px;
+    height: 900px;
     background: url("../assets/brand/SymboleCARI_couleur_RBG.png") no-repeat
         center / contain;
     opacity: 0.15;
@@ -2552,22 +2552,22 @@ body {
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    background: white;
+    background: rgba(255, 255, 255, 0.1);
     border: 3px solid rgba(255, 255, 255, 0.3);
     display: flex;
     align-items: center;
     justify-content: center;
     font-weight: 700;
     font-size: 1.3rem;
-    color: #9ca3af;
+    color: rgba(255, 255, 255, 0.5);
     transition: all 0.3s ease;
 }
 
 .step-number.active {
-    background: var(--dark-blue);
-    border-color: var(--dark-blue);
-    color: white;
-    box-shadow: 0 6px 20px rgba(38, 49, 100, 0.35);
+    background: #ffbf3f;
+    border-color: #ffbf3f;
+    color: #263164;
+    box-shadow: 0 6px 20px rgba(255, 191, 63, 0.35);
     transform: scale(1.1);
 }
 
