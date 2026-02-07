@@ -3690,7 +3690,7 @@ body {
     background: var(--dark-blue);
     color: white;
     padding: 3rem 2rem;
-    margin-top: 4rem;
+    margin-top: 0;
 }
 
 .footer-content {
