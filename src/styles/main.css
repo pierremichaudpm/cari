@@ -1501,7 +1501,7 @@ body {
 .needs-section::after {
     content: "";
     position: absolute;
-    left: -15%;
+    left: -5%;
     top: -20%;
     width: 1000px;
     height: 1000px;
