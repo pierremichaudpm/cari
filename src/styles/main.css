@@ -1528,11 +1528,10 @@ body {
     z-index: 0;
 }
 
-/* Responsive symbols — services + rendez-vous */
+/* Responsive symbols — size only, position stays fixed */
 @media (max-width: 1400px) {
     .needs-section::after,
     .appointment-section::before {
-        left: -25% !important;
         width: 700px !important;
         height: 700px !important;
     }
@@ -1541,27 +1540,24 @@ body {
 @media (max-width: 1200px) {
     .needs-section::after,
     .appointment-section::before {
-        left: -35% !important;
-        width: 600px !important;
-        height: 600px !important;
+        width: 550px !important;
+        height: 550px !important;
     }
 }
 
 @media (max-width: 1024px) {
     .needs-section::after,
     .appointment-section::before {
-        left: -50% !important;
-        width: 500px !important;
-        height: 500px !important;
+        width: 400px !important;
+        height: 400px !important;
     }
 }
 
 @media (max-width: 768px) {
     .needs-section::after,
     .appointment-section::before {
-        left: -60% !important;
-        width: 400px !important;
-        height: 400px !important;
+        width: 300px !important;
+        height: 300px !important;
     }
 }
 
