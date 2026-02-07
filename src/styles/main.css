@@ -2503,11 +2503,11 @@ body {
     content: "";
     position: absolute;
     left: -10%;
-    top: -35%;
+    bottom: -15%;
     width: 900px;
     height: 900px;
-    background: url("../assets/brand/SymboleCARI_couleur_RBG.png") no-repeat
-        center / contain;
+    background: url("../assets/brand/SymboleCARI_couleur_reverse_RBG.png")
+        no-repeat center / contain;
     opacity: 0.22;
     transform: rotate(15deg);
     pointer-events: none;
