@@ -66,17 +66,7 @@ const Needs = ({ currentLanguage, translations, scrollToSection }) => {
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 57 57"
           fill="none"
-          style={{
-            position: "absolute",
-            right: "0",
-            bottom: "-5%",
-            width: "650px",
-            height: "650px",
-            opacity: 0.12,
-            pointerEvents: "none",
-            zIndex: 0,
-            transform: "rotate(-10deg)",
-          }}
+          className="needs-deco-svg"
           aria-hidden="true"
         >
           <path

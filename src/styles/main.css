@@ -1486,6 +1486,44 @@ body {
     z-index: 2;
 }
 
+.needs-deco-svg {
+    position: absolute;
+    right: -5%;
+    bottom: -15%;
+    width: 900px;
+    height: 900px;
+    opacity: 0.25;
+    pointer-events: none;
+    z-index: 0;
+    transform: rotate(-10deg);
+}
+
+@media (max-width: 1024px) {
+    .needs-deco-svg {
+        width: 600px;
+        height: 600px;
+        right: -10%;
+        bottom: -10%;
+        opacity: 0.2;
+    }
+}
+
+@media (max-width: 768px) {
+    .needs-deco-svg {
+        width: 400px;
+        height: 400px;
+        right: -15%;
+        bottom: -5%;
+        opacity: 0.15;
+    }
+}
+
+@media (max-width: 480px) {
+    .needs-deco-svg {
+        display: none;
+    }
+}
+
 /* Needs section uses global section-title and section-subtitle styles */
 
 .container {
