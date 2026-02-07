@@ -1486,36 +1486,19 @@ body {
     z-index: 2;
 }
 
-.needs-section::before {
-    content: "";
-    position: absolute;
-    right: -10%;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 1000px;
-    height: 1000px;
-    background: radial-gradient(
-        ellipse at center,
-        rgba(255, 255, 255, 0.5) 0%,
-        rgba(255, 255, 255, 0) 70%
-    );
-    pointer-events: none;
-    z-index: 0;
-}
-
 .needs-section::after {
     content: "";
     position: absolute;
-    right: -10%;
+    right: -35%;
     top: 50%;
     transform: translateY(-50%) rotate(-15deg);
-    width: 950px;
-    height: 950px;
+    width: 1200px;
+    height: 1200px;
     background: url("../assets/brand/SymboleCARI_couleur_reverse_RBG.png")
         no-repeat center / contain;
-    opacity: 0.55;
+    opacity: 0.85;
     pointer-events: none;
-    z-index: 1;
+    z-index: 0;
 }
 
 /* Needs section uses global section-title and section-subtitle styles */
@@ -1633,6 +1616,7 @@ body {
     flex-direction: column;
     align-items: center;
     position: relative;
+    z-index: 2;
 }
 
 .need-card:hover {
