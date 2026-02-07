@@ -4535,11 +4535,12 @@ section,
 
 .news-category {
     display: inline-block;
-    padding: 0.35rem 0.9rem;
+    padding: 4px 12px;
     border-radius: 20px;
-    font-size: 0.7rem;
+    font-size: 0.75rem;
     font-weight: 700;
-    color: white;
+    color: white !important;
+    background: #263164 !important;
     text-transform: uppercase;
     letter-spacing: 0.5px;
     margin-bottom: 1rem;
