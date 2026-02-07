@@ -276,8 +276,8 @@ export const ParallaxStatsSection = ({ stats = [], title, subtitle }) => {
   const styles = {
     section: {
       position: "relative",
-      paddingTop: isMobile ? "6rem" : "10rem",
-      paddingBottom: isMobile ? "4rem" : "6rem",
+      paddingTop: isMobile ? "2rem" : "2.5rem",
+      paddingBottom: isMobile ? "2rem" : "2.5rem",
       paddingLeft: "2rem",
       paddingRight: "2rem",
       overflow: "hidden",
@@ -302,7 +302,7 @@ export const ParallaxStatsSection = ({ stats = [], title, subtitle }) => {
     subtitle: {
       fontSize: isMobile ? "1rem" : "1.15rem",
       opacity: 0.9,
-      marginBottom: "3rem",
+      marginBottom: "2rem",
       fontWeight: "400",
       color: COLORS.bleuFonce,
     },

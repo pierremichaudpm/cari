@@ -4,7 +4,10 @@ import { useAppContext } from "./contexts/AppContext";
 import { getHeroSlides } from "./constants/heroSlides";
 import { services } from "./constants/services";
 import { LanguageSelectorWrapper } from "./components/cari/LanguageSelector";
-import { ParallaxStatsSection } from "./components/cari/ParallaxBreathing";
+import {
+  ParallaxStatsSection,
+  ParallaxCTASection,
+} from "./components/cari/ParallaxBreathing";
 import MissionSimple from "./components/MissionSimple";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
@@ -310,6 +313,19 @@ function App() {
             <News
               currentLanguage={currentLanguage}
               translations={translations}
+            />
+
+            <ParallaxCTASection
+              title={
+                (translations[currentLanguage] || translations.fr).parallax
+                  .ctaTitle
+              }
+              subtitle={
+                (translations[currentLanguage] || translations.fr).parallax
+                  .ctaSubtitle
+              }
+              imageUrl="https://images.unsplash.com/photo-1543269865-cbf427effbad?w=1920&q=80"
+              hideButtons={true}
             />
 
             <Appointment
