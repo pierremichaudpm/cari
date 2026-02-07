@@ -1086,7 +1086,7 @@ body {
 }
 
 .hero h1 {
-    font-family: "DM Serif Display", serif;
+    font-family: "DM Serif Text", serif;
     font-size: clamp(2.5rem, 5vw, 5rem);
     font-weight: 400;
     line-height: 1.1;
@@ -1519,7 +1519,7 @@ body {
    UNIFIED SECTION HEADERS - All sections use these
    ======================================== */
 .section-title {
-    font-family: "DM Serif Display", serif;
+    font-family: "DM Serif Text", serif;
     font-size: 3.3rem;
     font-weight: 400;
     color: var(--dark-blue);
@@ -1631,7 +1631,7 @@ body {
 }
 
 .need-title {
-    font-family: "DM Serif Display", serif;
+    font-family: "DM Serif Text", serif;
     font-size: 1.5rem;
     font-weight: 400;
     color: var(--dark-blue);
@@ -1938,7 +1938,7 @@ body {
 }
 
 .modal-header h2 {
-    font-family: "DM Serif Display", serif;
+    font-family: "DM Serif Text", serif;
     font-size: 1.875rem;
     font-weight: 400;
     color: var(--dark-blue);
@@ -1969,7 +1969,7 @@ body {
 }
 
 .modal-section h3 {
-    font-family: "DM Serif Display", serif;
+    font-family: "DM Serif Text", serif;
     font-size: 1.25rem;
     font-weight: 400;
     color: var(--dark-blue);
@@ -2323,7 +2323,7 @@ body {
 }
 
 .service-title {
-    font-family: "DM Serif Display", serif;
+    font-family: "DM Serif Text", serif;
     font-size: 1.5rem;
     font-weight: 400;
     color: var(--dark-blue);
