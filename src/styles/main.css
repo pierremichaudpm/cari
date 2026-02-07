@@ -1507,7 +1507,7 @@ body {
     height: 750px;
     background: url("../assets/brand/SymboleCARI_couleur_reverse_RBG.png")
         no-repeat center / contain;
-    opacity: 0.5;
+    opacity: 0.85;
     pointer-events: none;
     z-index: 0;
 }
@@ -2507,7 +2507,7 @@ body {
     height: 750px;
     background: url("../assets/brand/SymboleCARI_couleur_reverse_RBG.png")
         no-repeat center / contain;
-    opacity: 0.5;
+    opacity: 0.85;
     pointer-events: none;
     z-index: 0;
 }
