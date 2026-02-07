@@ -1483,7 +1483,24 @@ body {
 
 .needs-section .container {
     position: relative;
-    z-index: 1;
+    z-index: 2;
+}
+
+.needs-section::before {
+    content: "";
+    position: absolute;
+    right: -10%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 1000px;
+    height: 1000px;
+    background: radial-gradient(
+        ellipse at center,
+        rgba(255, 255, 255, 0.5) 0%,
+        rgba(255, 255, 255, 0) 70%
+    );
+    pointer-events: none;
+    z-index: 0;
 }
 
 .needs-section::after {
@@ -1496,10 +1513,9 @@ body {
     height: 950px;
     background: url("../assets/brand/SymboleCARI_couleur_reverse_RBG.png")
         no-repeat center / contain;
-    mix-blend-mode: multiply;
-    opacity: 0.5;
+    opacity: 0.55;
     pointer-events: none;
-    z-index: 0;
+    z-index: 1;
 }
 
 /* Needs section uses global section-title and section-subtitle styles */
