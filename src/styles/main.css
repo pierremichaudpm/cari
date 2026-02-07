@@ -1828,6 +1828,16 @@ body {
         padding: 60px 20px;
     }
 
+    .needs-section::after {
+        width: 250px;
+        height: 250px;
+    }
+
+    .appointment-section::before {
+        width: 250px;
+        height: 250px;
+    }
+
     .section-title {
         font-size: 2.4rem;
     }
