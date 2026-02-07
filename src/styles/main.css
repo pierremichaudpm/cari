@@ -374,7 +374,9 @@ body {
 .btn-rdv-header:hover {
     background: #e54d2a;
     transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(255, 92, 57, 0.3);
+    box-shadow:
+        0 4px 12px rgba(0, 0, 0, 0.2),
+        0 12px 32px rgba(0, 0, 0, 0.15);
 }
 
 .language-switcher {
@@ -999,7 +1001,9 @@ body {
     .hero-slide .btn-secondary:hover {
         background: #e54d2a;
         transform: translateY(-2px);
-        box-shadow: 0 8px 20px rgba(255, 92, 57, 0.5);
+        box-shadow:
+            0 8px 20px rgba(0, 0, 0, 0.25),
+            0 16px 40px rgba(0, 0, 0, 0.18);
     }
 
     .hero-slide .hero-quote .author {
@@ -1173,7 +1177,9 @@ body {
 .btn-primary:hover {
     background: #e54d2a;
     transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(255, 92, 57, 0.4);
+    box-shadow:
+        0 8px 20px rgba(0, 0, 0, 0.25),
+        0 16px 40px rgba(0, 0, 0, 0.18);
 }
 
 .btn-secondary {
@@ -1622,13 +1628,17 @@ body {
 .section-cta .btn-primary {
     background: var(--accent-coral);
     color: white;
-    box-shadow: 0 4px 15px rgba(255, 92, 57, 0.3);
+    box-shadow:
+        0 4px 12px rgba(0, 0, 0, 0.2),
+        0 12px 32px rgba(0, 0, 0, 0.15);
 }
 
 .section-cta .btn-primary:hover {
     background: #e54d2a;
     transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(255, 92, 57, 0.4);
+    box-shadow:
+        0 8px 20px rgba(0, 0, 0, 0.25),
+        0 16px 40px rgba(0, 0, 0, 0.18);
 }
 
 .needs-grid {
@@ -2801,7 +2811,9 @@ body {
     border-radius: 50px;
     cursor: pointer;
     transition: all 0.3s ease;
-    box-shadow: 0 4px 15px rgba(255, 92, 57, 0.3);
+    box-shadow:
+        0 4px 12px rgba(0, 0, 0, 0.2),
+        0 12px 32px rgba(0, 0, 0, 0.15);
     width: 100%;
     max-width: 400px;
 }
@@ -2809,7 +2821,9 @@ body {
 .btn-submit:hover {
     background: #e54d2a;
     transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(255, 92, 57, 0.4);
+    box-shadow:
+        0 8px 20px rgba(0, 0, 0, 0.25),
+        0 16px 40px rgba(0, 0, 0, 0.18);
 }
 
 .form-note {
@@ -4176,14 +4190,18 @@ body {
     font-size: 1rem;
     cursor: pointer;
     transition: all 0.3s ease;
-    box-shadow: 0 4px 15px rgba(255, 92, 57, 0.3);
+    box-shadow:
+        0 4px 12px rgba(0, 0, 0, 0.2),
+        0 12px 32px rgba(0, 0, 0, 0.15);
 }
 
 .btn-more-events:hover {
     background: #e54d2a;
     color: white;
     transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(255, 92, 57, 0.4);
+    box-shadow:
+        0 8px 20px rgba(0, 0, 0, 0.25),
+        0 16px 40px rgba(0, 0, 0, 0.18);
 }
 
 /* Modal Events List */
@@ -5328,13 +5346,17 @@ section,
     font-weight: 700;
     cursor: pointer;
     transition: all 0.3s ease;
-    box-shadow: 0 4px 15px rgba(255, 92, 57, 0.3);
+    box-shadow:
+        0 4px 12px rgba(0, 0, 0, 0.2),
+        0 12px 32px rgba(0, 0, 0, 0.15);
 }
 
 .mission-simple-cta:hover {
     background: #e54d2a;
     transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(255, 92, 57, 0.4);
+    box-shadow:
+        0 8px 20px rgba(0, 0, 0, 0.25),
+        0 16px 40px rgba(0, 0, 0, 0.18);
 }
 
 @media (max-width: 768px) {
