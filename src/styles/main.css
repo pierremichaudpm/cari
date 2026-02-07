@@ -1490,12 +1490,13 @@ body {
     content: "";
     position: absolute;
     right: -10%;
-    bottom: -15%;
-    width: 500px;
-    height: 500px;
-    background: url("../assets/brand/SymboleCARI_couleur_RBG.png") no-repeat
-        center / contain;
-    opacity: 0.06;
+    top: 50%;
+    transform: translateY(-50%) rotate(-15deg);
+    width: 950px;
+    height: 950px;
+    background: url("../assets/brand/SymboleCARI_couleur_reverse_RBG.png")
+        no-repeat center / contain;
+    opacity: 0.15;
     pointer-events: none;
     z-index: 0;
 }
@@ -1829,8 +1830,8 @@ body {
     }
 
     .needs-section::after {
-        width: 250px;
-        height: 250px;
+        width: 400px;
+        height: 400px;
     }
 
     .appointment-section::before {
