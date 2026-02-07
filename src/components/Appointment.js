@@ -1,9 +1,6 @@
 import React from "react";
 import Icon from "./Icon";
-import {
-  useScrollReveal,
-  useScrollRevealGroup,
-} from "../hooks/useScrollReveal";
+import { useScrollReveal } from "../hooks/useScrollReveal";
 
 const Appointment = ({
   currentLanguage,
@@ -35,7 +32,6 @@ const Appointment = ({
 
   const headerRef = useScrollReveal();
   const cardRef = useScrollReveal();
-  const contactRef = useScrollRevealGroup();
 
   const serviceDetails = {
     welcome: { icon: <Icon name="home" size={24} />, color: "blue" },
