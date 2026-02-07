@@ -196,36 +196,6 @@ const Appointment = ({
               </div>
             </form>
           </div>
-
-          <div className="contact-banner" ref={contactRef}>
-            <div className="contact-item scroll-reveal-child">
-              <div className="contact-icon-circle">
-                <Icon name="phone" size={24} />
-              </div>
-              <div className="contact-info-text">
-                <strong>{t.contact.info.phoneLabel}</strong>
-                <p>{t.contact.info.phone}</p>
-              </div>
-            </div>
-            <div className="contact-item scroll-reveal-child">
-              <div className="contact-icon-circle">
-                <Icon name="clock" size={24} />
-              </div>
-              <div className="contact-info-text">
-                <strong>{t.appointment.contact.hoursLabel}</strong>
-                <p>{t.appointment.contact.schedule}</p>
-              </div>
-            </div>
-            <div className="contact-item scroll-reveal-child">
-              <div className="contact-icon-circle">
-                <Icon name="map-marker-alt" size={24} />
-              </div>
-              <div className="contact-info-text">
-                <strong>{t.contact.info.addressLabel}</strong>
-                <p>774 boul. Décarie, Bureau 300</p>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     </section>

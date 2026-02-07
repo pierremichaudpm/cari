@@ -12,6 +12,7 @@ import MissionSimple from "./components/MissionSimple";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Needs from "./components/Needs";
+import Icon from "./components/Icon";
 // Lazy load below-the-fold components
 const Activities = lazy(() => import("./components/Activities"));
 const News = lazy(() => import("./components/News"));
@@ -349,6 +350,26 @@ function App() {
         </Suspense>
 
         <footer className="footer">
+          <div className="footer-contact-bar">
+            <div className="footer-contact-item">
+              <Icon name="phone" size={16} />
+              <span>
+                {(translations[currentLanguage] || translations.fr).contact
+                  ?.info?.phone || "(514) 748-2007"}
+              </span>
+            </div>
+            <div className="footer-contact-item">
+              <Icon name="clock" size={16} />
+              <span>
+                {(translations[currentLanguage] || translations.fr).contact
+                  ?.info?.hours || "Lun-Ven 9h-12h, 12h30-16h30"}
+              </span>
+            </div>
+            <div className="footer-contact-item">
+              <Icon name="map-marker-alt" size={16} />
+              <span>774 boul. Décarie, Bureau 300</span>
+            </div>
+          </div>
           <div className="footer-content">
             <div className="footer-logo">
               <img src="/images/logo-footer.webp" alt="CARI St-Laurent" />
