@@ -1532,44 +1532,43 @@ body {
 @media (max-width: 1400px) {
     .needs-section::after,
     .appointment-section::before {
-        left: -20%;
-        width: 800px;
-        height: 800px;
+        left: -25% !important;
+        width: 700px !important;
+        height: 700px !important;
     }
 }
 
 @media (max-width: 1200px) {
     .needs-section::after,
     .appointment-section::before {
-        left: -30%;
-        width: 700px;
-        height: 700px;
+        left: -35% !important;
+        width: 600px !important;
+        height: 600px !important;
     }
 }
 
 @media (max-width: 1024px) {
     .needs-section::after,
     .appointment-section::before {
-        left: -40%;
-        width: 600px;
-        height: 600px;
+        left: -50% !important;
+        width: 500px !important;
+        height: 500px !important;
     }
 }
 
 @media (max-width: 768px) {
     .needs-section::after,
     .appointment-section::before {
-        left: -50%;
-        width: 500px;
-        height: 500px;
-        opacity: 0.6;
+        left: -60% !important;
+        width: 400px !important;
+        height: 400px !important;
     }
 }
 
 @media (max-width: 480px) {
     .needs-section::after,
     .appointment-section::before {
-        display: none;
+        display: none !important;
     }
 }
 
@@ -2627,9 +2626,9 @@ body {
     border-radius: 18px;
     border: none;
     box-shadow:
-        0 8px 16px rgba(0, 0, 0, 0.25),
-        0 20px 40px rgba(0, 0, 0, 0.2),
-        0 40px 80px rgba(0, 0, 0, 0.15);
+        0 14px 28px rgba(0, 0, 0, 0.35),
+        0 36px 64px rgba(0, 0, 0, 0.3),
+        0 60px 120px rgba(0, 0, 0, 0.22);
 }
 
 /* Service Grid - Need-based */
@@ -3695,17 +3694,17 @@ body {
     overflow: hidden;
     text-decoration: none;
     box-shadow:
-        0 8px 16px rgba(0, 0, 0, 0.25),
-        0 20px 40px rgba(0, 0, 0, 0.2),
-        0 40px 80px rgba(0, 0, 0, 0.15);
+        0 14px 28px rgba(0, 0, 0, 0.35),
+        0 36px 64px rgba(0, 0, 0, 0.3),
+        0 60px 120px rgba(0, 0, 0, 0.22);
 }
 
 .need-card:hover {
     transform: translateY(-6px);
     box-shadow:
-        0 12px 24px rgba(0, 0, 0, 0.3),
-        0 28px 56px rgba(0, 0, 0, 0.25),
-        0 48px 96px rgba(0, 0, 0, 0.18);
+        0 20px 40px rgba(0, 0, 0, 0.4),
+        0 44px 80px rgba(0, 0, 0, 0.32),
+        0 72px 140px rgba(0, 0, 0, 0.24);
 }
 
 .need-card .need-icon {
