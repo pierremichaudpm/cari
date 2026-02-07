@@ -1476,13 +1476,28 @@ body {
 /* Needs Section - Clean Modern Design Inspired by Food Banks */
 .needs-section {
     padding: 80px 20px 100px;
-    background: rgba(255, 191, 63, 0.08);
+    background: #cce8e5;
     position: relative;
+    overflow: hidden;
 }
 
 .needs-section .container {
     position: relative;
     z-index: 1;
+}
+
+.needs-section::after {
+    content: "";
+    position: absolute;
+    right: -10%;
+    bottom: -15%;
+    width: 500px;
+    height: 500px;
+    background: url("../assets/brand/SymboleCARI_couleur_RBG.png") no-repeat
+        center / contain;
+    opacity: 0.06;
+    pointer-events: none;
+    z-index: 0;
 }
 
 /* Needs section uses global section-title and section-subtitle styles */
@@ -1679,8 +1694,14 @@ body {
 
 /* Multi-Color Card Design - Balanced Brand Colors (No Gradients) */
 .need-card-multicolor {
-    background: var(--brume) !important;
-    border: 1px solid rgba(204, 232, 229, 0.5) !important;
+    background: #ffffff !important;
+    border: none !important;
+    border-radius: 16px;
+    border-top: 4px solid #ffbf3f !important;
+    box-shadow:
+        0 2px 8px rgba(38, 49, 100, 0.06),
+        0 8px 24px rgba(38, 49, 100, 0.1);
+    transition: all 0.3s ease;
 }
 
 .need-card-multicolor::before {
@@ -1688,8 +1709,45 @@ body {
 }
 
 .need-card-multicolor:hover {
-    background: white !important;
-    border: 3px solid var(--primary-blue) !important;
+    background: #ffffff !important;
+    border: none !important;
+    border-top: 4px solid #ffbf3f !important;
+    transform: translateY(-6px);
+    box-shadow:
+        0 4px 12px rgba(38, 49, 100, 0.08),
+        0 16px 40px rgba(38, 49, 100, 0.16);
+}
+
+/* Alternating border-top colors: 1=jaune, 2=turquoise, 3=vermillon */
+.need-card-multicolor:nth-child(2) {
+    border-top-color: #6cbac7 !important;
+}
+.need-card-multicolor:nth-child(2):hover {
+    border-top-color: #6cbac7 !important;
+}
+.need-card-multicolor:nth-child(3) {
+    border-top-color: #ff5c39 !important;
+}
+.need-card-multicolor:nth-child(3):hover {
+    border-top-color: #ff5c39 !important;
+}
+.need-card-multicolor:nth-child(4) {
+    border-top-color: #ffbf3f !important;
+}
+.need-card-multicolor:nth-child(4):hover {
+    border-top-color: #ffbf3f !important;
+}
+.need-card-multicolor:nth-child(5) {
+    border-top-color: #6cbac7 !important;
+}
+.need-card-multicolor:nth-child(5):hover {
+    border-top-color: #6cbac7 !important;
+}
+.need-card-multicolor:nth-child(6) {
+    border-top-color: #ff5c39 !important;
+}
+.need-card-multicolor:nth-child(6):hover {
+    border-top-color: #ff5c39 !important;
 }
 
 .need-icon-container {
@@ -1711,30 +1769,46 @@ body {
     box-shadow: 0 6px 20px rgba(38, 49, 100, 0.3);
 }
 
+/* Accent bar: same color as card's border-top */
 .need-accent-bar {
     width: 60px;
     height: 3px;
-    background: var(--primary-orange);
+    background: #ffbf3f;
     margin: 16px auto 0;
     border-radius: 2px;
     transition: width 0.3s ease;
 }
 
+.need-card-multicolor:nth-child(2) .need-accent-bar {
+    background: #6cbac7;
+}
+.need-card-multicolor:nth-child(3) .need-accent-bar {
+    background: #ff5c39;
+}
+.need-card-multicolor:nth-child(4) .need-accent-bar {
+    background: #ffbf3f;
+}
+.need-card-multicolor:nth-child(5) .need-accent-bar {
+    background: #6cbac7;
+}
+.need-card-multicolor:nth-child(6) .need-accent-bar {
+    background: #ff5c39;
+}
+
 .need-card-multicolor:hover .need-accent-bar {
     width: 80px;
-    background: var(--accent-coral);
 }
 
 .need-card-multicolor .need-card-arrow {
-    background: rgba(255, 191, 63, 0.15);
+    background: rgba(38, 49, 100, 0.1);
 }
 
 .need-card-multicolor .need-card-arrow i {
-    color: var(--accent-coral);
+    color: var(--dark-blue);
 }
 
 .need-card-multicolor:hover .need-card-arrow {
-    background: var(--accent-coral);
+    background: var(--dark-blue);
 }
 
 .need-card-multicolor:hover .need-card-arrow i {
@@ -2204,8 +2278,9 @@ body {
 /* Needs Section - Chicago Food Bank inspired redesign */
 .needs-section {
     padding: 80px 20px 100px 20px;
-    background-color: #ffffff;
+    background-color: #cce8e5;
     position: relative;
+    overflow: hidden;
 }
 
 .needs-grid {
