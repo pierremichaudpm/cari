@@ -868,6 +868,24 @@ body {
         display: none !important; /* Hide all stats on mobile to reduce clutter */
     }
 
+    .hero-slide.overlay-blue::before {
+        background: linear-gradient(
+            135deg,
+            rgba(108, 186, 199, 0.65) 0%,
+            rgba(38, 49, 100, 0.53) 40%,
+            rgba(0, 0, 0, 0.21) 100%
+        ) !important;
+    }
+
+    .hero-slide.overlay-orange::before {
+        background: linear-gradient(
+            135deg,
+            rgba(232, 93, 74, 0.42) 0%,
+            rgba(232, 97, 74, 0.35) 40%,
+            rgba(0, 0, 0, 0.15) 100%
+        ) !important;
+    }
+
     .hero-quote {
         position: static !important;
         text-align: center !important;
@@ -1610,6 +1628,10 @@ body {
     margin-top: 50px;
 }
 
+.needs-section .section-cta {
+    margin-top: 85px;
+}
+
 .section-cta .btn-primary,
 .section-cta .btn {
     padding: 13px 32px;
@@ -1919,6 +1941,10 @@ body {
 
     .section-cta {
         margin-top: 40px;
+    }
+
+    .needs-section .section-cta {
+        margin-top: 75px;
     }
 
     .section-cta .btn,
@@ -2238,7 +2264,9 @@ body {
 
     .modal-close {
         top: 8px;
-        right: 8px;
+        margin-right: 8px;
+        margin-top: 8px;
+        margin-bottom: -38px;
         width: 30px;
         height: 30px;
         font-size: 1rem;
@@ -2967,6 +2995,7 @@ body {
 
     .step-label {
         font-size: 0.8rem;
+        white-space: nowrap;
     }
 
     .step-line {
@@ -3365,7 +3394,13 @@ body {
     }
 
     .footer-contact-stack {
-        align-items: center;
+        align-items: flex-start;
+        width: fit-content;
+        margin: 0 auto;
+    }
+
+    .footer-contact-row {
+        white-space: nowrap;
     }
 
     .footer-info {
@@ -4804,9 +4839,12 @@ section,
 }
 
 .modal-close {
-    position: absolute;
-    top: 1.5rem;
-    right: 1.5rem;
+    position: sticky;
+    top: 12px;
+    float: right;
+    margin-right: 12px;
+    margin-top: 12px;
+    margin-bottom: -52px;
     background: rgba(0, 0, 0, 0.6);
     border: none;
     width: 40px;
@@ -5116,9 +5154,12 @@ section,
 }
 
 .history-modal-close {
-    position: absolute;
-    top: 1.5rem;
-    right: 1.5rem;
+    position: sticky;
+    top: 12px;
+    float: right;
+    margin-right: 12px;
+    margin-top: 12px;
+    margin-bottom: -52px;
     background: rgba(38, 59, 90, 0.1);
     border: none;
     width: 40px;
