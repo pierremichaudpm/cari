@@ -701,6 +701,8 @@ body {
     z-index: 0;
     will-change: transform;
     transform: scale(1.12);
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: scale(1.12) translateZ(0);
 }
 
 .hero-slide.active .hero-slide-bg {
@@ -709,10 +711,12 @@ body {
 
 @keyframes kenBurnsZoom {
     from {
-        transform: scale(1);
+        transform: scale(1) translateZ(0);
+        -webkit-transform: scale(1) translateZ(0);
     }
     to {
-        transform: scale(1.12);
+        transform: scale(1.12) translateZ(0);
+        -webkit-transform: scale(1.12) translateZ(0);
     }
 }
 
