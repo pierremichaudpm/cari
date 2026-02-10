@@ -47,23 +47,6 @@ const News = ({ currentLanguage, translations }) => {
     actualite: "ACTUALITÉ",
   };
 
-  // Locale mapping for date formatting
-  const localeMap = {
-    fr: "fr-CA",
-    en: "en-CA",
-    es: "es",
-    ar: "ar",
-    ru: "ru",
-    zh: "zh-CN",
-    pt: "pt-BR",
-    ht: "fr-HT",
-    vi: "vi",
-    tl: "tl",
-    ur: "ur",
-    uk: "uk",
-  };
-  const dateLocale = localeMap[currentLanguage] || "fr-CA";
-
   // Items ordered guide/histoire/actualite repeating so mobile :nth-child(n+4) shows 1 of each type
   const newsItems = [
     // ========== HOMEPAGE ROW 1 (visible mobile + desktop) ==========
