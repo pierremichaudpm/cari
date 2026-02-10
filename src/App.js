@@ -403,12 +403,12 @@ function App() {
                 <img
                   src="/images/partners/saint-laurent.png"
                   alt="Arrondissement de Saint-Laurent"
-                  className="footer-partner-logo"
+                  className="footer-partner-logo invert"
                 />
                 <img
                   src="/images/partners/canada.svg"
                   alt="Emploi et Développement social Canada"
-                  className="footer-partner-logo"
+                  className="footer-partner-logo invert"
                 />
               </div>
             </div>
