@@ -399,6 +399,7 @@ function App() {
                   src="/images/partners/montreal.svg"
                   alt="Ville de Montréal"
                   className="footer-partner-logo"
+                  style={{ height: "90px" }}
                 />
                 <img
                   src="/images/partners/saint-laurent.svg"
