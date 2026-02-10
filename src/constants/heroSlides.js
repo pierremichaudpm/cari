@@ -2,7 +2,7 @@
 export const getHeroSlides = (t) => [
   {
     id: 1,
-    background: "url(/images/arabwoman.webp)",
+    background: "/images/arabwoman.webp",
     overlay: "overlay-blue",
     quote: {
       text: t.hero.slides.slide1.quote,
@@ -12,7 +12,7 @@ export const getHeroSlides = (t) => [
   },
   {
     id: 2,
-    background: "url(/images/blackman.webp)",
+    background: "/images/blackman.webp",
     overlay: "overlay-orange",
     quote: {
       text: t.hero.slides.slide2.quote,
@@ -22,7 +22,7 @@ export const getHeroSlides = (t) => [
   },
   {
     id: 3,
-    background: "url(/images/blackwomen.webp)",
+    background: "/images/blackwomen.webp",
     overlay: "overlay-blue",
     quote: {
       text: t.hero.slides.slide3.quote,
@@ -32,7 +32,7 @@ export const getHeroSlides = (t) => [
   },
   {
     id: 4,
-    background: "url(/images/asianwoman.webp)",
+    background: "/images/asianwoman.webp",
     overlay: "overlay-orange",
     quote: {
       text: t.hero.slides.slide4.quote,
@@ -42,7 +42,7 @@ export const getHeroSlides = (t) => [
   },
   {
     id: 5,
-    background: "url(/images/asianman.webp)",
+    background: "/images/asianman.webp",
     overlay: "overlay-blue",
     quote: {
       text: t.hero.slides.slide5.quote,

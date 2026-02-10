@@ -70,16 +70,20 @@ const Hero = ({
             className={`hero-slide ${slide.overlay} ${index === currentHero ? "active" : ""}`}
             data-slide-index={index}
           >
-            <div
+            <img
               className="hero-slide-bg"
-              style={{ backgroundImage: slide.background }}
+              src={slide.background}
+              alt=""
               data-bg-index={index}
             />
             <div className="hero-container">
               <div className="hero-content">
                 <h1
                   className="translatable"
-                  dangerouslySetInnerHTML={{ __html: "Trouvez votre <span class='highlight'>place</span> au Québec" }}
+                  dangerouslySetInnerHTML={{
+                    __html:
+                      "Trouvez votre <span class='highlight'>place</span> au Québec",
+                  }}
                 />
                 <p className="hero-subtitle translatable">{t.hero.subtitle}</p>
                 <div className="hero-cta">

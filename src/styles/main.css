@@ -695,14 +695,13 @@ body {
 .hero-slide-bg {
     position: absolute;
     inset: 0;
-    background-size: cover;
-    background-position: center right;
-    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center right;
     z-index: 0;
     will-change: transform;
     transform: scale(1.12);
-    -webkit-backface-visibility: hidden;
-    -webkit-transform: scale(1.12) translateZ(0);
 }
 
 .hero-slide.active .hero-slide-bg {
@@ -711,12 +710,10 @@ body {
 
 @keyframes kenBurnsZoom {
     from {
-        transform: scale(1) translateZ(0);
-        -webkit-transform: scale(1) translateZ(0);
+        transform: scale(1);
     }
     to {
-        transform: scale(1.12) translateZ(0);
-        -webkit-transform: scale(1.12) translateZ(0);
+        transform: scale(1.12);
     }
 }
 
@@ -751,17 +748,17 @@ body {
     }
 
     .hero-slide[data-slide-index="0"] .hero-slide-bg {
-        background-position: calc(65% - 35px) center !important;
+        object-position: calc(65% - 35px) center !important;
     }
 
     .hero-slide[data-slide-index="1"] .hero-slide-bg {
-        background-position: calc(50% - 190px) center !important;
+        object-position: calc(50% - 190px) center !important;
     }
 
     .hero-slide[data-slide-index="2"] .hero-slide-bg,
     .hero-slide[data-slide-index="3"] .hero-slide-bg,
     .hero-slide[data-slide-index="4"] .hero-slide-bg {
-        background-position: calc(50% - 190px) center !important;
+        object-position: calc(50% - 190px) center !important;
     }
 
     .hero-slide {
