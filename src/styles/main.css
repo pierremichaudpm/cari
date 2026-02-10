@@ -3427,10 +3427,6 @@ body {
     transition: opacity 0.3s ease;
 }
 
-.footer-partner-logo.invert {
-    filter: brightness(0) invert(1);
-}
-
 .footer-partner-logo:hover {
     opacity: 1;
 }
