@@ -93,7 +93,7 @@ const LanguageSelector = ({ onSelectLanguage, onClose }) => {
     overlay: {
       position: "fixed",
       inset: 0,
-      background: "rgba(38, 49, 100, 0.95)",
+      background: "rgba(38, 49, 100, 1)",
       display: "flex",
       alignItems: "center",
       justifyContent: "center",
@@ -124,7 +124,7 @@ const LanguageSelector = ({ onSelectLanguage, onClose }) => {
     subtitle: {
       color: COLORS.blanc,
       fontSize: isMobile ? "0.85rem" : "clamp(1rem, 2.5vw, 1.25rem)",
-      marginBottom: isMobile ? "1.25rem" : "3rem",
+      marginBottom: isMobile ? "1.75rem" : "3rem",
       fontWeight: "400",
       textShadow: "0 2px 8px rgba(0, 0, 0, 0.3)",
     },
@@ -133,9 +133,10 @@ const LanguageSelector = ({ onSelectLanguage, onClose }) => {
           display: "flex",
           flexWrap: "wrap",
           justifyContent: "center",
-          gap: "8px",
+          gap: "12px",
           width: "100%",
-          marginBottom: "1.25rem",
+          padding: "0 0.5rem",
+          marginBottom: "1.5rem",
         }
       : {
           position: "relative",
@@ -146,7 +147,7 @@ const LanguageSelector = ({ onSelectLanguage, onClose }) => {
     languageButton: (pos, index, isSelected, isHovered) => ({
       ...(isMobile
         ? {
-            padding: "0.5rem 1rem",
+            padding: "0.6rem 1.15rem",
             fontSize: "0.9rem",
           }
         : {
