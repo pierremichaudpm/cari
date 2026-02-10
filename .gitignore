@@ -67,6 +67,7 @@ yarn.lock
 # Netlify functions (if used)
 netlify/functions/
 !netlify/functions/.gitkeep
+!netlify/functions/chat.js
 
 # Build artifacts
 .cache/

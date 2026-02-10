@@ -17,7 +17,7 @@ import Icon from "./components/Icon";
 const Activities = lazy(() => import("./components/Activities"));
 const News = lazy(() => import("./components/News"));
 const Appointment = lazy(() => import("./components/Appointment"));
-const Chat = lazy(() => import("./components/Chat"));
+const CARIChatbot = lazy(() => import("./components/cari-chatbot"));
 
 function App() {
   const {
@@ -340,14 +340,24 @@ function App() {
           </Suspense>
         </main>
 
-        <Suspense fallback={null}>
-          <Chat
-            chatOpen={chatOpen}
-            toggleChat={toggleChat}
-            currentLanguage={currentLanguage}
-            translations={translations}
-          />
-        </Suspense>
+        <div
+          className={`chat-toggle ${chatOpen ? "active" : ""}`}
+          onClick={toggleChat}
+        >
+          <div className="chat-icon">
+            <Icon name="comments" size={24} />
+          </div>
+          <div className="chat-text">
+            {(translations[currentLanguage] || translations.fr).chatbot
+              ?.title || "Assistant CARI"}
+          </div>
+        </div>
+
+        {chatOpen && (
+          <Suspense fallback={null}>
+            <CARIChatbot onClose={toggleChat} language={currentLanguage} />
+          </Suspense>
+        )}
 
         <footer className="footer">
           <div className="footer-layout">
