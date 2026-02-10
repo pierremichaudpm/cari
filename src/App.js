@@ -407,7 +407,7 @@ function App() {
                   className="footer-partner-logo"
                 />
                 <img
-                  src="/images/partners/canada.svg"
+                  src="/images/partners/canada.png"
                   alt="Emploi et Développement social Canada"
                   className="footer-partner-logo"
                   style={{ height: "24px" }}
