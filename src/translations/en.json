@@ -3,7 +3,7 @@
     "home": "Home",
     "needs": "Your needs",
     "activities": "Activities",
-    "news": "News",
+    "news": "Resources",
     "talk": "Appointment",
     "talkToAdvisor": "Talk to an advisor",
     "contact": "Contact"
@@ -61,12 +61,23 @@
     }
   },
   "newsSection": {
-    "title": "News",
-    "subtitle": "Stay informed about our programs, events and success stories"
+    "title": "Resources",
+    "subtitle": "Practical guides, testimonials and news to support your integration"
   },
   "news": {
-    "moreContentButton": "More content",
-    "moreNewsTitle": "More news"
+    "moreContentButton": "All resources",
+    "moreNewsTitle": "All resources",
+    "filters": {
+      "all": "View all",
+      "guide": "Practical guides",
+      "histoire": "Stories from here",
+      "actualite": "News"
+    },
+    "contentTypes": {
+      "guide": "GUIDE",
+      "histoire": "STORY",
+      "actualite": "NEWS"
+    }
   },
   "newsModal": {
     "share": "Share",

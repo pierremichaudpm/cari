@@ -3,7 +3,7 @@
     "home": "Início",
     "needs": "Suas necessidades",
     "activities": "Atividades",
-    "news": "Notícias",
+    "news": "Recursos",
     "talk": "Agendamento",
     "talkToAdvisor": "Fale com um consultor",
     "contact": "Contato"
@@ -61,12 +61,23 @@
     }
   },
   "newsSection": {
-    "title": "Notícias",
-    "subtitle": "Mantenha-se informado sobre nossos programas, eventos e histórias de sucesso"
+    "title": "Recursos",
+    "subtitle": "Guias práticos, testemunhos e notícias para apoiar sua integração"
   },
   "news": {
-    "moreContentButton": "Mais conteúdo",
-    "moreNewsTitle": "Mais notícias"
+    "moreContentButton": "Todos os recursos",
+    "moreNewsTitle": "Todos os recursos",
+    "filters": {
+      "all": "Ver tudo",
+      "guide": "Guias práticos",
+      "histoire": "Histórias daqui",
+      "actualite": "Notícias"
+    },
+    "contentTypes": {
+      "guide": "GUIA",
+      "histoire": "HISTÓRIA",
+      "actualite": "NOTÍCIA"
+    }
   },
   "newsModal": {
     "share": "Compartilhar",

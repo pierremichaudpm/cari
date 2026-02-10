@@ -3,7 +3,7 @@
     "home": "Inicio",
     "needs": "Tus necesidades",
     "activities": "Actividades",
-    "news": "Noticias",
+    "news": "Recursos",
     "talk": "Cita",
     "talkToAdvisor": "Hablar con un asesor",
     "contact": "Contacto"
@@ -256,8 +256,8 @@
     "appointment": "✅ ¡Cita confirmada! Recibirá una confirmación por correo electrónico y SMS en los próximos minutos."
   },
   "newsSection": {
-    "title": "Noticias",
-    "subtitle": "Manténgase informado sobre nuestros programas, eventos e historias de éxito"
+    "title": "Recursos",
+    "subtitle": "Guías prácticas, testimonios y noticias para apoyar su integración"
   },
   "activitiesSection": {
     "title": "Nuestras próximas actividades",
@@ -269,8 +269,19 @@
     "subtitle": "Descubre las historias inspiradoras de quienes encontraron su lugar en Quebec"
   },
   "news": {
-    "moreContentButton": "Más contenido",
-    "moreNewsTitle": "Más noticias"
+    "moreContentButton": "Todos los recursos",
+    "moreNewsTitle": "Todos los recursos",
+    "filters": {
+      "all": "Ver todo",
+      "guide": "Guías prácticas",
+      "histoire": "Historias de aquí",
+      "actualite": "Noticias"
+    },
+    "contentTypes": {
+      "guide": "GUÍA",
+      "histoire": "HISTORIA",
+      "actualite": "NOTICIA"
+    }
   },
   "newsModal": {
     "share": "Compartir",

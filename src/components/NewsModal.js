@@ -80,6 +80,17 @@ const NewsModal = ({
     }
   };
 
+  // Render inline bold text (**text**)
+  const renderInlineText = (text) => {
+    const parts = text.split(/(\*\*[^*]+\*\*)/g);
+    return parts.map((part, i) => {
+      if (part.startsWith("**") && part.endsWith("**")) {
+        return <strong key={i}>{part.slice(2, -2)}</strong>;
+      }
+      return part;
+    });
+  };
+
   // Format content (simple markdown-like rendering)
   const renderContent = (content) => {
     const lines = content.split("\n");
@@ -117,7 +128,7 @@ const NewsModal = ({
       else if (line.startsWith("- ")) {
         elements.push(
           <li key={key++} className="modal-content-li">
-            {line.substring(2)}
+            {renderInlineText(line.substring(2))}
           </li>,
         );
       }
@@ -129,13 +140,23 @@ const NewsModal = ({
       else if (line.trim()) {
         elements.push(
           <p key={key++} className="modal-content-p">
-            {line}
+            {renderInlineText(line)}
           </p>,
         );
       }
     }
 
     return elements;
+  };
+
+  const scrollToAppointment = () => {
+    onClose();
+    setTimeout(() => {
+      const section = document.getElementById("rendez-vous");
+      if (section) {
+        section.scrollIntoView({ behavior: "smooth" });
+      }
+    }, 300);
   };
 
   return (
@@ -187,23 +208,29 @@ const NewsModal = ({
 
         {/* Content Body */}
         <div className="news-modal-body">
-          <span
-            className="news-category"
-            style={{
-              backgroundColor:
-                news.category === "francisation"
-                  ? "#6CBAC7"
-                  : news.category === "emploi"
-                    ? "#FF5C39"
-                    : news.category === "femmes"
+          <div className="news-badges">
+            {news.contentType && (
+              <span
+                className="news-content-type-badge"
+                style={{
+                  backgroundColor:
+                    news.contentType === "guide"
                       ? "#6CBAC7"
-                      : news.category === "integration"
+                      : news.contentType === "histoire"
                         ? "#FFBF3F"
                         : "#FF5C39",
-            }}
-          >
-            {t.newsCategories?.[news.category] || news.category}
-          </span>
+                  color:
+                    news.contentType === "histoire" ? "#263164" : "#ffffff",
+                }}
+              >
+                {(t.news?.contentTypes || {})[news.contentType] ||
+                  news.contentType.toUpperCase()}
+              </span>
+            )}
+            <span className="news-category">
+              {t.newsCategories?.[news.category] || news.category}
+            </span>
+          </div>
 
           <h1 className="news-modal-title">{news.title}</h1>
 
@@ -296,6 +323,26 @@ const NewsModal = ({
 
           {/* Article Content */}
           <div className="news-modal-text">{renderContent(news.content)}</div>
+
+          {/* Callout CTA - Besoin d'aide? */}
+          <div className="news-modal-callout">
+            <div className="news-modal-callout-icon">
+              <Icon name="message-circle" size={24} />
+            </div>
+            <div className="news-modal-callout-text">
+              <strong>{t.news?.calloutTitle || "Besoin d'aide?"}</strong>
+              <p>
+                {t.news?.calloutText ||
+                  "Nos conseillers vous accompagnent gratuitement dans toutes vos démarches."}
+              </p>
+            </div>
+            <button
+              className="news-modal-callout-btn"
+              onClick={scrollToAppointment}
+            >
+              {t.news?.calloutCTA || "Parlez à un conseiller"}
+            </button>
+          </div>
         </div>
       </div>
     </div>

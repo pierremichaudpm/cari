@@ -3,7 +3,7 @@
     "home": "Trang chủ",
     "needs": "Nhu cầu của bạn",
     "activities": "Hoạt động",
-    "news": "Tin tức",
+    "news": "Tài nguyên",
     "talk": "Đặt hẹn",
     "talkToAdvisor": "Nói chuyện với tư vấn viên",
     "contact": "Liên hệ"
@@ -61,12 +61,23 @@
     }
   },
   "newsSection": {
-    "title": "Tin tức",
-    "subtitle": "Cập nhật về chương trình, sự kiện và câu chuyện thành công"
+    "title": "Tài nguyên",
+    "subtitle": "Hướng dẫn thực hành, câu chuyện và tin tức hỗ trợ hội nhập"
   },
   "news": {
-    "moreContentButton": "Thêm nội dung",
-    "moreNewsTitle": "Thêm tin tức"
+    "moreContentButton": "Tất cả tài nguyên",
+    "moreNewsTitle": "Tất cả tài nguyên",
+    "filters": {
+      "all": "Xem tất cả",
+      "guide": "Hướng dẫn thực hành",
+      "histoire": "Câu chuyện từ đây",
+      "actualite": "Tin tức"
+    },
+    "contentTypes": {
+      "guide": "HƯỚNG DẪN",
+      "histoire": "CÂU CHUYỆN",
+      "actualite": "TIN TỨC"
+    }
   },
   "newsModal": {
     "share": "Chia sẻ",

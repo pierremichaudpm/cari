@@ -3,7 +3,7 @@
     "home": "Accueil",
     "needs": "Vos besoins ?",
     "activities": "Activités",
-    "news": "Nouvelles",
+    "news": "Ressources",
     "talk": "Rendez-vous",
     "talkToAdvisor": "Parlez à un conseiller",
     "contact": "Contact"
@@ -61,12 +61,23 @@
     }
   },
   "newsSection": {
-    "title": "Nouvelles",
-    "subtitle": "Restez informé sur nos programmes, événements et histoires de réussite"
+    "title": "Ressources",
+    "subtitle": "Guides pratiques, témoignages et actualités pour réussir votre intégration"
   },
   "news": {
-    "moreContentButton": "Plus de contenu",
-    "moreNewsTitle": "Plus de nouvelles"
+    "moreContentButton": "Toutes les ressources",
+    "moreNewsTitle": "Toutes les ressources",
+    "filters": {
+      "all": "Tout voir",
+      "guide": "Guides pratiques",
+      "histoire": "Histoires d'ici",
+      "actualite": "Actualités"
+    },
+    "contentTypes": {
+      "guide": "GUIDE",
+      "histoire": "HISTOIRE",
+      "actualite": "ACTUALITÉ"
+    }
   },
   "newsModal": {
     "share": "Partager",
@@ -411,7 +422,7 @@
     "historyTitle": "Notre histoire",
     "buildingAlt": "Édifice CARI St-Laurent",
     "founded": "Fondation",
-    "historyIntro": "Le CARI St-Laurent est un organisme communautaire à but non lucratif qui a pour mission d'accueillir un(e) immigrant(e), l'aider à s'établir, à s'adapter et à s'intégrer que ce soit personnellement, en famille, socialement et/ou professionnellement à la société québécoise.\n\nDepuis trente ans, le CARI St-Laurent offre quotidiennement et gratuitement ses services aux immigrants venant des quatre coins de la planète.\n\nLa souplesse des services du CARI St-Laurent, ajoutée à l'expérience et l'expertise de son équipe pluridisciplinaire, permettent des interventions innovantes et adaptées non seulement aux différents changements de la société mais aussi au vécu des personnes. L'approche globale de nos interventions considère l'immigrant et son potentiel, la personne et son entourage, son passé et son présent, pour mieux préparer l'avenir.\n\nActeur incontournable dans ses services aux immigrants, le CARI St-Laurent a su développer une expertise reconnue en matière d'insertion sociale, linguistique et professionnelle des personnes immigrantes.",
+    "historyIntro": "Fondé en 1993, le CARI St-Laurent est un organisme communautaire à but non lucratif qui a pour mission d'accueillir les personnes immigrantes, de les aider à s'établir, à s'adapter et à s'intégrer que ce soit personnellement, en famille, socialement et professionnellement à la société québécoise.\n\nDepuis plus de trente ans, le CARI St-Laurent offre quotidiennement et gratuitement ses services aux immigrants venant des quatre coins de la planète. Chaque année, nos équipes accompagnent des milliers de personnes issues de plus de 128 pays dans leurs premières démarches, leur apprentissage du français, leur recherche d'emploi et leur intégration à la vie montréalaise.\n\nNotre approche est unique: nous considérons chaque personne dans sa globalité — son parcours, son potentiel, sa famille, ses aspirations. La souplesse de nos services, ajoutée à l'expérience et l'expertise de notre équipe pluridisciplinaire, permettent des interventions innovantes et adaptées non seulement aux différents changements de la société mais aussi au vécu de chaque individu.\n\nImplanté au cœur de Saint-Laurent, l'un des arrondissements les plus diversifiés de Montréal, le CARI est devenu un acteur incontournable en matière d'insertion sociale, linguistique et professionnelle des personnes immigrantes. Nos programmes couvrent la francisation, l'aide à l'emploi, le soutien aux familles, l'accompagnement des femmes, l'intégration des jeunes et bien plus encore.\n\nQue vous veniez d'arriver ou que vous soyez ici depuis quelques années, le CARI est là pour vous accompagner à chaque étape de votre parcours d'intégration.",
     "approachLabel": "",
     "approach": "",
     "impactLabel": "",

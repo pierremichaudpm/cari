@@ -3,7 +3,7 @@
     "home": "Akèy",
     "needs": "Bezwen ou",
     "activities": "Aktivite",
-    "news": "Nouvèl",
+    "news": "Resous",
     "talk": "Randevou",
     "talkToAdvisor": "Pale ak yon konseye",
     "contact": "Kontakte nou"
@@ -61,12 +61,23 @@
     }
   },
   "newsSection": {
-    "title": "Nouvèl",
-    "subtitle": "Rete enfòme sou pwogram nou yo, evènman ak istwa siksè"
+    "title": "Resous",
+    "subtitle": "Gid pratik, temwayaj ak nouvèl pou ede w reyisi entegrasyon w"
   },
   "news": {
-    "moreContentButton": "Plis kontni",
-    "moreNewsTitle": "Plis nouvèl"
+    "moreContentButton": "Tout resous yo",
+    "moreNewsTitle": "Tout resous yo",
+    "filters": {
+      "all": "Wè tout",
+      "guide": "Gid pratik",
+      "histoire": "Istwa isit la",
+      "actualite": "Nouvèl"
+    },
+    "contentTypes": {
+      "guide": "GID",
+      "histoire": "ISTWA",
+      "actualite": "NOUVÈL"
+    }
   },
   "newsModal": {
     "share": "Pataje",

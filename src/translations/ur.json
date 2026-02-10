@@ -3,7 +3,7 @@
     "home": "ہوم",
     "needs": "آپ کی ضروریات",
     "activities": "سرگرمیاں",
-    "news": "خبریں",
+    "news": "وسائل",
     "talk": "ملاقات",
     "talkToAdvisor": "مشیر سے بات کریں",
     "contact": "رابطہ کریں"
@@ -61,12 +61,23 @@
     }
   },
   "newsSection": {
-    "title": "خبریں",
-    "subtitle": "ہمارے پروگراموں، تقریبات اور کامیابی کی کہانیوں سے باخبر رہیں"
+    "title": "وسائل",
+    "subtitle": "عملی رہنما، تجربات اور خبریں آپ کے انضمام میں مدد کے لیے"
   },
   "news": {
-    "moreContentButton": "مزید مواد",
-    "moreNewsTitle": "مزید خبریں"
+    "moreContentButton": "تمام وسائل",
+    "moreNewsTitle": "تمام وسائل",
+    "filters": {
+      "all": "سب دیکھیں",
+      "guide": "عملی رہنما",
+      "histoire": "یہاں کی کہانیاں",
+      "actualite": "خبریں"
+    },
+    "contentTypes": {
+      "guide": "رہنما",
+      "histoire": "کہانی",
+      "actualite": "خبر"
+    }
   },
   "newsModal": {
     "share": "شیئر کریں",

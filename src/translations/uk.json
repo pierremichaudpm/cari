@@ -3,7 +3,7 @@
     "home": "Головна",
     "needs": "Ваші потреби",
     "activities": "Заходи",
-    "news": "Новини",
+    "news": "Ресурси",
     "talk": "Запис",
     "talkToAdvisor": "Поговорити з консультантом",
     "contact": "Контакти"
@@ -61,12 +61,23 @@
     }
   },
   "newsSection": {
-    "title": "Новини",
-    "subtitle": "Будьте в курсі наших програм, подій та історій успіху"
+    "title": "Ресурси",
+    "subtitle": "Практичні посібники, свідчення та новини для підтримки вашої інтеграції"
   },
   "news": {
-    "moreContentButton": "Більше контенту",
-    "moreNewsTitle": "Більше новин"
+    "moreContentButton": "Усі ресурси",
+    "moreNewsTitle": "Усі ресурси",
+    "filters": {
+      "all": "Переглянути все",
+      "guide": "Практичні посібники",
+      "histoire": "Історії звідси",
+      "actualite": "Новини"
+    },
+    "contentTypes": {
+      "guide": "ПОСІБНИК",
+      "histoire": "ІСТОРІЯ",
+      "actualite": "НОВИНА"
+    }
   },
   "newsModal": {
     "share": "Поділитися",

@@ -3,7 +3,7 @@
     "home": "Tahanan",
     "needs": "Mga Pangangailangan Mo",
     "activities": "Mga Aktibidad",
-    "news": "Balita",
+    "news": "Mga Mapagkukunan",
     "talk": "Appointment",
     "talkToAdvisor": "Makipag-usap sa tagapayo",
     "contact": "Makipag-ugnayan"
@@ -61,12 +61,23 @@
     }
   },
   "newsSection": {
-    "title": "Balita",
-    "subtitle": "Manatiling updated sa aming mga programa, kaganapan at mga kwento ng tagumpay"
+    "title": "Mga Mapagkukunan",
+    "subtitle": "Mga praktikal na gabay, testimonya at balita para sa matagumpay na integrasyon"
   },
   "news": {
-    "moreContentButton": "Higit pang nilalaman",
-    "moreNewsTitle": "Higit pang balita"
+    "moreContentButton": "Lahat ng mapagkukunan",
+    "moreNewsTitle": "Lahat ng mapagkukunan",
+    "filters": {
+      "all": "Tingnan lahat",
+      "guide": "Mga praktikal na gabay",
+      "histoire": "Mga kwento mula dito",
+      "actualite": "Balita"
+    },
+    "contentTypes": {
+      "guide": "GABAY",
+      "histoire": "KWENTO",
+      "actualite": "BALITA"
+    }
   },
   "newsModal": {
     "share": "Ibahagi",

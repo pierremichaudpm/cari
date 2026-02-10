@@ -3,7 +3,7 @@
     "home": "主页",
     "needs": "您的需求？",
     "activities": "活动",
-    "news": "新闻",
+    "news": "资源",
     "talk": "预约咨询",
     "talkToAdvisor": "与顾问交谈",
     "contact": "联系我们"
@@ -256,8 +256,8 @@
     "appointment": "✅ 预约已确认！您将在几分钟内收到电子邮件和短信确认。"
   },
   "newsSection": {
-    "title": "新闻",
-    "subtitle": "了解我们的项目、活动和成功故事"
+    "title": "资源",
+    "subtitle": "实用指南、见证和新闻，助您融入新生活"
   },
   "activitiesSection": {
     "title": "我们即将举办的活动",
@@ -269,8 +269,19 @@
     "subtitle": "了解那些在魁北克找到自己位置的人的励志故事"
   },
   "news": {
-    "moreContentButton": "更多内容",
-    "moreNewsTitle": "更多新闻"
+    "moreContentButton": "所有资源",
+    "moreNewsTitle": "所有资源",
+    "filters": {
+      "all": "查看全部",
+      "guide": "实用指南",
+      "histoire": "在地故事",
+      "actualite": "最新消息"
+    },
+    "contentTypes": {
+      "guide": "指南",
+      "histoire": "故事",
+      "actualite": "新闻"
+    }
   },
   "newsModal": {
     "share": "分享",

@@ -121,10 +121,10 @@ const Header = ({
               </li>
               <li>
                 <a
-                  href="#nouvelles"
+                  href="#ressources"
                   onClick={(e) => {
                     e.preventDefault();
-                    scrollToSection("nouvelles");
+                    scrollToSection("ressources");
                   }}
                   className="nav-link nav-link-bold"
                 >
@@ -238,10 +238,10 @@ const Header = ({
           </li>
           <li>
             <a
-              href="#nouvelles"
+              href="#ressources"
               onClick={(e) => {
                 e.preventDefault();
-                scrollToSection("nouvelles");
+                scrollToSection("ressources");
                 closeMobileMenu();
               }}
               className="nav-link"
