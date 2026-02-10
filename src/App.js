@@ -402,9 +402,10 @@ function App() {
                   style={{ height: "90px" }}
                 />
                 <img
-                  src="/images/partners/saint-laurent.svg"
+                  src="/images/partners/saint-laurent.png"
                   alt="Arrondissement de Saint-Laurent"
                   className="footer-partner-logo"
+                  style={{ filter: "brightness(0) invert(1)" }}
                 />
                 <img
                   src="/images/partners/canada.png"
