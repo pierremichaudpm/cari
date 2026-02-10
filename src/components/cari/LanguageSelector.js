@@ -254,7 +254,7 @@ const LanguageSelector = ({ onSelectLanguage, onClose }) => {
       <div style={styles.container}>
         {/* CARI Logo */}
         <img
-          src="/images/newlogo.png"
+          src="/images/logo-color-reverse.png"
           alt="CARI St-Laurent"
           style={{
             maxWidth: isMobile ? "234px" : "390px",
