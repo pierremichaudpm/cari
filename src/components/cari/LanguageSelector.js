@@ -257,7 +257,7 @@ const LanguageSelector = ({ onSelectLanguage, onClose }) => {
           src="/images/logo-color-reverse.png"
           alt="CARI St-Laurent"
           style={{
-            maxWidth: isMobile ? "234px" : "390px",
+            maxWidth: isMobile ? "280px" : "468px",
             marginTop: isMobile ? "10px" : "60px",
             marginBottom: isMobile ? "2rem" : "1.5rem",
             opacity: isVisible ? 1 : 0,
