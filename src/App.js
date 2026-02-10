@@ -408,7 +408,8 @@ function App() {
                 <img
                   src="/images/partners/canada.svg"
                   alt="Emploi et Développement social Canada"
-                  className="footer-partner-logo invert"
+                  className="footer-partner-logo"
+                  style={{ height: "24px" }}
                 />
               </div>
             </div>
