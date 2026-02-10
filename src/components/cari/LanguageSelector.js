@@ -212,7 +212,7 @@ const LanguageSelector = ({ onSelectLanguage, onClose }) => {
     decorativeCircle: {
       position: "absolute",
       borderRadius: "50%",
-      border: `2px solid ${COLORS.jauneCore}30`,
+      border: `2px solid ${COLORS.jauneCore}50`,
       pointerEvents: "none",
     },
   };
@@ -227,7 +227,7 @@ const LanguageSelector = ({ onSelectLanguage, onClose }) => {
           height: "400px",
           top: "-100px",
           left: "-100px",
-          opacity: 0.3,
+          opacity: 0.5,
         }}
       ></div>
       <div
@@ -237,7 +237,7 @@ const LanguageSelector = ({ onSelectLanguage, onClose }) => {
           height: "300px",
           bottom: "-50px",
           right: "-50px",
-          borderColor: `${COLORS.vermillon}25`,
+          borderColor: `${COLORS.vermillon}45`,
         }}
       ></div>
       <div
@@ -247,7 +247,7 @@ const LanguageSelector = ({ onSelectLanguage, onClose }) => {
           height: "200px",
           top: "20%",
           right: "5%",
-          borderColor: `${COLORS.turquoise}20`,
+          borderColor: `${COLORS.turquoise}40`,
         }}
       ></div>
 
