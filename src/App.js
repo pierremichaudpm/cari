@@ -351,48 +351,51 @@ function App() {
 
         <footer className="footer">
           <div className="footer-layout">
-            <div className="footer-logo">
-              <img src="/images/logo-footer.webp" alt="CARI St-Laurent" />
+            <div className="footer-top-row">
+              <div className="footer-logo">
+                <img src="/images/logo-footer.webp" alt="CARI St-Laurent" />
+              </div>
+              <div className="footer-contact-inline">
+                <div className="footer-contact-row">
+                  <div className="footer-icon-circle">
+                    <Icon name="phone" size={16} />
+                  </div>
+                  <span>
+                    {(translations[currentLanguage] || translations.fr).contact
+                      ?.info?.phone || "(514) 748-2007"}
+                  </span>
+                </div>
+                <div className="footer-contact-row">
+                  <div className="footer-icon-circle">
+                    <Icon name="clock" size={16} />
+                  </div>
+                  <span>
+                    {(translations[currentLanguage] || translations.fr).contact
+                      ?.info?.hours || "Lun-Ven 9h-12h, 12h30-16h30"}
+                  </span>
+                </div>
+                <div className="footer-contact-row">
+                  <div className="footer-icon-circle">
+                    <Icon name="map-marker-alt" size={16} />
+                  </div>
+                  <span>774 boul. Décarie, Bureau 300</span>
+                </div>
+              </div>
             </div>
-            <div className="footer-contact-stack">
-              <div className="footer-contact-row">
-                <div className="footer-icon-circle">
-                  <Icon name="phone" size={16} />
-                </div>
-                <span>
-                  {(translations[currentLanguage] || translations.fr).contact
-                    ?.info?.phone || "(514) 748-2007"}
-                </span>
-              </div>
-              <div className="footer-contact-row">
-                <div className="footer-icon-circle">
-                  <Icon name="clock" size={16} />
-                </div>
-                <span>
-                  {(translations[currentLanguage] || translations.fr).contact
-                    ?.info?.hours || "Lun-Ven 9h-12h, 12h30-16h30"}
-                </span>
-              </div>
-              <div className="footer-contact-row">
-                <div className="footer-icon-circle">
-                  <Icon name="map-marker-alt" size={16} />
-                </div>
-                <span>774 boul. Décarie, Bureau 300</span>
-              </div>
-            </div>
-            <div className="footer-info">
-              <p>
+            <div className="footer-bottom-row">
+              <span>
                 {
                   (translations[currentLanguage] || translations.fr).footer
                     .copyright
                 }
-              </p>
-              <p>
+              </span>
+              <span className="footer-separator">|</span>
+              <span>
                 {
                   (translations[currentLanguage] || translations.fr).footer
                     .tagline
                 }
-              </p>
+              </span>
             </div>
           </div>
         </footer>
