@@ -97,7 +97,7 @@ const LanguageSelector = ({ onSelectLanguage, onClose }) => {
       display: "flex",
       alignItems: "center",
       justifyContent: "center",
-      paddingBottom: "40px",
+      paddingBottom: "80px",
       zIndex: 9999,
       opacity: isVisible && !isExiting ? 1 : 0,
       transition: "opacity 0.4s ease",
