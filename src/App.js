@@ -408,8 +408,8 @@ function App() {
                   style={{ filter: "brightness(0) invert(1)" }}
                 />
                 <img
-                  src="/images/partners/canada.png"
-                  alt="Emploi et Développement social Canada"
+                  src="/images/partners/canada.svg"
+                  alt="Gouvernement du Canada"
                   className="footer-partner-logo"
                   style={{ height: "24px" }}
                 />
