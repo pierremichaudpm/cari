@@ -382,6 +382,36 @@ function App() {
                 </div>
               </div>
             </div>
+            <div className="footer-partners">
+              <span className="footer-partners-title">Nos partenaires</span>
+              <div className="footer-partners-logos">
+                <img
+                  src="/images/partners/quebec.svg"
+                  alt="Gouvernement du Québec"
+                  className="footer-partner-logo"
+                />
+                <img
+                  src="/images/partners/centraide.svg"
+                  alt="Centraide du Grand Montréal"
+                  className="footer-partner-logo"
+                />
+                <img
+                  src="/images/partners/montreal.svg"
+                  alt="Ville de Montréal"
+                  className="footer-partner-logo"
+                />
+                <img
+                  src="/images/partners/saint-laurent.svg"
+                  alt="Arrondissement de Saint-Laurent"
+                  className="footer-partner-logo"
+                />
+                <img
+                  src="/images/partners/canada.svg"
+                  alt="Emploi et Développement social Canada"
+                  className="footer-partner-logo"
+                />
+              </div>
+            </div>
             <div className="footer-bottom-row">
               <span>
                 {

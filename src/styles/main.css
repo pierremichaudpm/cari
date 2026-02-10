@@ -3393,6 +3393,44 @@ body {
     color: #ffbf3f;
 }
 
+.footer-partners {
+    text-align: center;
+    padding: 24px 0;
+    margin-top: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer-partners-title {
+    display: block;
+    font-size: 12px;
+    font-weight: 400;
+    color: white;
+    opacity: 0.6;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-bottom: 16px;
+}
+
+.footer-partners-logos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 45px;
+    flex-wrap: wrap;
+}
+
+.footer-partner-logo {
+    height: 32px;
+    width: auto;
+    opacity: 0.75;
+    transition: opacity 0.3s ease;
+}
+
+.footer-partner-logo:hover {
+    opacity: 1;
+}
+
 .footer-bottom-row {
     text-align: center;
     margin-top: 20px;
@@ -3422,6 +3460,14 @@ body {
 
     .footer-bottom-row {
         margin-top: 20px;
+    }
+
+    .footer-partners-logos {
+        gap: 30px;
+    }
+
+    .footer-partner-logo {
+        height: 25px;
     }
 }
 
