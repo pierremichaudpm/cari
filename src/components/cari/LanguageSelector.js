@@ -117,14 +117,14 @@ const LanguageSelector = ({ onSelectLanguage, onClose }) => {
       color: COLORS.blanc,
       fontSize: isMobile ? "1.4rem" : "clamp(1.75rem, 4vw, 2.75rem)",
       fontWeight: "400",
-      marginBottom: isMobile ? "0.5rem" : "0.5rem",
+      marginBottom: isMobile ? "1.5rem" : "0.5rem",
       letterSpacing: "0.5px",
       textShadow: "0 2px 8px rgba(0, 0, 0, 0.3)",
     },
     subtitle: {
       color: COLORS.blanc,
       fontSize: isMobile ? "0.85rem" : "clamp(1rem, 2.5vw, 1.25rem)",
-      marginBottom: isMobile ? "2rem" : "3rem",
+      marginBottom: isMobile ? "4rem" : "3rem",
       fontWeight: "400",
       textShadow: "0 2px 8px rgba(0, 0, 0, 0.3)",
     },
@@ -133,10 +133,10 @@ const LanguageSelector = ({ onSelectLanguage, onClose }) => {
           display: "flex",
           flexWrap: "wrap",
           justifyContent: "center",
-          gap: "14px 12px",
+          gap: "18px 14px",
           width: "100%",
-          padding: "0 0.5rem",
-          marginBottom: "2.5rem",
+          padding: "0 0.75rem",
+          marginBottom: "3.5rem",
         }
       : {
           position: "relative",
@@ -257,9 +257,9 @@ const LanguageSelector = ({ onSelectLanguage, onClose }) => {
           src="/images/logo-color-white.webp"
           alt="CARI St-Laurent"
           style={{
-            maxWidth: isMobile ? "180px" : "300px",
+            maxWidth: isMobile ? "234px" : "390px",
             marginTop: isMobile ? "10px" : "60px",
-            marginBottom: isMobile ? "1.25rem" : "1rem",
+            marginBottom: isMobile ? "2rem" : "1.5rem",
             opacity: isVisible ? 1 : 0,
             transform: isVisible ? "translateY(0)" : "translateY(-20px)",
             transition: "opacity 0.6s ease, transform 0.6s ease",
