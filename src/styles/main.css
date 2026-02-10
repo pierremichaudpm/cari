@@ -3424,6 +3424,7 @@ body {
     height: 32px;
     width: auto;
     opacity: 0.75;
+    filter: brightness(0) invert(1);
     transition: opacity 0.3s ease;
 }
 

@@ -401,7 +401,7 @@ function App() {
                   className="footer-partner-logo"
                 />
                 <img
-                  src="/images/partners/saint-laurent.svg"
+                  src="/images/partners/saint-laurent.png"
                   alt="Arrondissement de Saint-Laurent"
                   className="footer-partner-logo"
                 />
