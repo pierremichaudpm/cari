@@ -145,19 +145,22 @@ function MessageBubble({ role, content }) {
             width: 32,
             height: 32,
             borderRadius: "50%",
-            background: "linear-gradient(135deg, #263164, #6CBAC7)",
+            background: "#fff",
             display: "flex",
             alignItems: "center",
             justifyContent: "center",
             flexShrink: 0,
             marginRight: 8,
             marginTop: 4,
-            fontSize: 14,
+            overflow: "hidden",
+            border: "1px solid #e8eaf0",
           }}
         >
-          <span style={{ color: "#fff", fontWeight: 700, fontSize: 11 }}>
-            C
-          </span>
+          <img
+            src="/favicon-32x32.png"
+            alt="CARI"
+            style={{ width: 22, height: 22 }}
+          />
         </div>
       )}
       <div
@@ -270,7 +273,7 @@ export default function CARIChatbot({ onClose, language }) {
         fontFamily: "'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif",
         backgroundColor: "#fff",
         position: "fixed",
-        bottom: 90,
+        bottom: 120,
         right: 20,
         zIndex: 1001,
         borderRadius: 16,
@@ -311,23 +314,19 @@ export default function CARIChatbot({ onClose, language }) {
             width: 40,
             height: 40,
             borderRadius: 12,
-            background: "linear-gradient(135deg, #6CBAC7, #4a9da9)",
+            background: "#fff",
             display: "flex",
             alignItems: "center",
             justifyContent: "center",
             flexShrink: 0,
+            overflow: "hidden",
           }}
         >
-          <span
-            style={{
-              color: "#fff",
-              fontWeight: 700,
-              fontSize: 18,
-              fontFamily: "DM Serif Display, serif",
-            }}
-          >
-            C
-          </span>
+          <img
+            src="/favicon-32x32.png"
+            alt="CARI"
+            style={{ width: 28, height: 28 }}
+          />
         </div>
         <div style={{ flex: 1 }}>
           <div
@@ -455,16 +454,20 @@ export default function CARIChatbot({ onClose, language }) {
                 width: 32,
                 height: 32,
                 borderRadius: "50%",
-                background: "linear-gradient(135deg, #263164, #6CBAC7)",
+                background: "#fff",
                 display: "flex",
                 alignItems: "center",
                 justifyContent: "center",
                 flexShrink: 0,
+                overflow: "hidden",
+                border: "1px solid #e8eaf0",
               }}
             >
-              <span style={{ color: "#fff", fontWeight: 700, fontSize: 11 }}>
-                C
-              </span>
+              <img
+                src="/favicon-32x32.png"
+                alt="CARI"
+                style={{ width: 22, height: 22 }}
+              />
             </div>
             <div
               style={{
