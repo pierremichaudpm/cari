@@ -60,9 +60,13 @@ const LanguageSelector = ({ onSelectLanguage, onClose }) => {
   const [hoveredLang, setHoveredLang] = useState(null);
   const [isVisible, setIsVisible] = useState(false);
   const [isExiting, setIsExiting] = useState(false);
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
 
   useEffect(() => {
     setTimeout(() => setIsVisible(true), 50);
+    const handleResize = () => setIsMobile(window.innerWidth <= 768);
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
   }, []);
 
   const handleSelect = (lang) => {
@@ -101,41 +105,63 @@ const LanguageSelector = ({ onSelectLanguage, onClose }) => {
     container: {
       width: "100%",
       maxWidth: "850px",
-      padding: "2rem",
+      padding: isMobile ? "1rem 0.75rem" : "2rem",
       textAlign: "center",
       transform: isVisible && !isExiting ? "scale(1)" : "scale(0.95)",
       transition: "transform 0.4s ease",
+      overflowY: isMobile ? "auto" : "visible",
+      maxHeight: isMobile ? "100vh" : "none",
     },
     title: {
       fontFamily: '"DM Serif Text", serif',
       color: COLORS.blanc,
-      fontSize: "clamp(1.75rem, 4vw, 2.75rem)",
+      fontSize: isMobile ? "1.4rem" : "clamp(1.75rem, 4vw, 2.75rem)",
       fontWeight: "400",
-      marginBottom: "0.5rem",
+      marginBottom: isMobile ? "0.25rem" : "0.5rem",
       letterSpacing: "0.5px",
       textShadow: "0 2px 8px rgba(0, 0, 0, 0.3)",
     },
     subtitle: {
       color: COLORS.blanc,
-      fontSize: "clamp(1rem, 2.5vw, 1.25rem)",
-      marginBottom: "3rem",
+      fontSize: isMobile ? "0.85rem" : "clamp(1rem, 2.5vw, 1.25rem)",
+      marginBottom: isMobile ? "1.25rem" : "3rem",
       fontWeight: "400",
       textShadow: "0 2px 8px rgba(0, 0, 0, 0.3)",
     },
-    cloudContainer: {
-      position: "relative",
-      height: "clamp(320px, 55vh, 480px)",
-      width: "100%",
-      marginBottom: "2rem",
-    },
+    cloudContainer: isMobile
+      ? {
+          display: "flex",
+          flexWrap: "wrap",
+          justifyContent: "center",
+          gap: "8px",
+          width: "100%",
+          marginBottom: "1.25rem",
+        }
+      : {
+          position: "relative",
+          height: "clamp(320px, 55vh, 480px)",
+          width: "100%",
+          marginBottom: "2rem",
+        },
     languageButton: (pos, index, isSelected, isHovered) => ({
-      position: "absolute",
-      left: `${pos.x}%`,
-      top: `${pos.y}%`,
-      transform: `translate(-50%, -50%) scale(${
-        isSelected ? 1.2 : isHovered ? pos.scale * 1.12 : pos.scale
-      })`,
-      padding: "clamp(0.6rem, 2vw, 1rem) clamp(1.25rem, 3.5vw, 1.75rem)",
+      ...(isMobile
+        ? {
+            padding: "0.5rem 1rem",
+            fontSize: "0.9rem",
+          }
+        : {
+            position: "absolute",
+            left: `${pos.x}%`,
+            top: `${pos.y}%`,
+            transform: `translate(-50%, -50%) scale(${
+              isSelected ? 1.2 : isHovered ? pos.scale * 1.12 : pos.scale
+            })`,
+            padding: "clamp(0.6rem, 2vw, 1rem) clamp(1.25rem, 3.5vw, 1.75rem)",
+            fontSize: "clamp(0.9rem, 2vw, 1.15rem)",
+            animation: isVisible
+              ? `floatIn 0.6s ease ${pos.delay}s both`
+              : "none",
+          }),
       backgroundColor: isSelected
         ? COLORS.vermillon
         : isHovered
@@ -150,13 +176,11 @@ const LanguageSelector = ({ onSelectLanguage, onClose }) => {
       }`,
       borderRadius: "50px",
       color: COLORS.blanc,
-      fontSize: "clamp(0.9rem, 2vw, 1.15rem)",
       fontWeight: isSelected || isHovered ? "600" : "400",
       fontFamily: '"DM Sans", sans-serif',
       cursor: "pointer",
       transition: "all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1)",
       opacity: isVisible ? 1 : 0,
-      animation: isVisible ? `floatIn 0.6s ease ${pos.delay}s both` : "none",
       whiteSpace: "nowrap",
       boxShadow: isSelected
         ? `0 10px 40px ${COLORS.vermillon}60`
@@ -168,9 +192,9 @@ const LanguageSelector = ({ onSelectLanguage, onClose }) => {
       backgroundColor: "transparent",
       border: `2px solid rgba(255, 255, 255, 0.8)`,
       color: COLORS.blanc,
-      padding: "0.875rem 1.75rem",
+      padding: isMobile ? "0.65rem 1.25rem" : "0.875rem 1.75rem",
       borderRadius: "50px",
-      fontSize: "1rem",
+      fontSize: isMobile ? "0.85rem" : "1rem",
       fontFamily: '"DM Sans", sans-serif',
       fontWeight: "500",
       cursor: "pointer",
@@ -232,9 +256,9 @@ const LanguageSelector = ({ onSelectLanguage, onClose }) => {
           src="/images/logo-white.webp"
           alt="CARI St-Laurent"
           style={{
-            maxWidth: "300px",
-            marginTop: "60px",
-            marginBottom: "1rem",
+            maxWidth: isMobile ? "180px" : "300px",
+            marginTop: isMobile ? "10px" : "60px",
+            marginBottom: isMobile ? "0.5rem" : "1rem",
             opacity: isVisible ? 1 : 0,
             transform: isVisible ? "translateY(0)" : "translateY(-20px)",
             transition: "opacity 0.6s ease, transform 0.6s ease",
@@ -274,7 +298,7 @@ const LanguageSelector = ({ onSelectLanguage, onClose }) => {
         <button
           style={{
             ...styles.skipButton,
-            transform: "translateY(-70px)",
+            transform: isMobile ? "none" : "translateY(-70px)",
           }}
           onClick={handleSkip}
           onMouseOver={(e) => {
@@ -289,7 +313,12 @@ const LanguageSelector = ({ onSelectLanguage, onClose }) => {
           Continuer en français
         </button>
 
-        <p style={{ ...styles.footer, transform: "translateY(-70px)" }}>
+        <p
+          style={{
+            ...styles.footer,
+            transform: isMobile ? "none" : "translateY(-70px)",
+          }}
+        >
           Vous pourrez changer la langue à tout moment
         </p>
       </div>
