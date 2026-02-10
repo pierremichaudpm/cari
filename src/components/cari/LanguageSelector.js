@@ -263,7 +263,7 @@ const LanguageSelector = ({ onSelectLanguage, onClose }) => {
             opacity: isVisible ? 1 : 0,
             transform: isVisible ? "translateY(0)" : "translateY(-20px)",
             transition: "opacity 0.6s ease, transform 0.6s ease",
-            filter: "drop-shadow(0 2px 10px rgba(0, 0, 0, 0.4))",
+            filter: "none",
           }}
         />
 
